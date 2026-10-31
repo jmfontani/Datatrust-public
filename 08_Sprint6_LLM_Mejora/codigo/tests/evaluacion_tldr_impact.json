@@ -1,0 +1,437 @@
+{
+  "fecha": "2026-06-15T18:50:59.800063",
+  "modelo_evaluador": "qwen3-coder-next:cloud",
+  "queries_evaluadas": 20,
+  "top_k": 5,
+  "metricas": {
+    "precision_baseline_media": 0.5,
+    "precision_tldr_media": 0.5900000000000001,
+    "diferencia_absoluta": 0.09000000000000008,
+    "diferencia_relativa_pct": 18.000000000000014,
+    "queries_mejoradas": 6,
+    "queries_empeoradas": 0,
+    "queries_iguales": 14
+  },
+  "detalle": [
+    {
+      "query_id": "empleo_001",
+      "query": "empleo juvenil",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "precision_a": 0.4,
+      "precision_b": 0.8,
+      "comentario": "En condición A, el resultado [2] y [4] se descartan porque tratan sobre indicadores demográficos (NEET) y asociaciones genéricas, respectivamente, que no abordan directamente 'empleo juvenil' sino su contexto más amplio. El resultado [5] carece de información útil. En condición B, la TL;DR del [2] mantiene el enfoque en desempleo juvenil y [4] se considera relevante al implicar estructuras de apoyo al empleo/formación juvenil, elevando su relevancia. El resultado [5] sigue sin aporte útil."
+    },
+    {
+      "query_id": "demo_001",
+      "query": "censo población 2024",
+      "condicion_a": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "condicion_b": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "precision_a": 0.2,
+      "precision_b": 0.2,
+      "comentario": "Todos los resultados son de datos del INE y se refieren a desagregaciones poblacionales por edad y/o sexo, pero ninguno corresponde al censo de población de 2024: el año más reciente en todos es 2022 (o 2021 en algunos casos), y el Censo de 2024 aún no ha sido publicado (el último censo oficial completo fue 2021, con estimaciones anuales posteriores). Por tanto, todos los resultados son no relevantes para la query 'censo población 2024'. La evaluación es consistente en ambas condiciones."
+    },
+    {
+      "query_id": "econ_003",
+      "query": "IPC inflación mensual",
+      "condicion_a": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_a": 0.2,
+      "precision_b": 0.2,
+      "comentario": "La query 'IPC inflación mensual' se refiere específicamente al Índice de Precios de Consumo (IPC) y su variación mensual, es decir, la inflación. Solo el resultado [1] en ambas condiciones es relevante porque trata explícitamente el IPC (base 2016), que es el indicador oficial de inflación en España. El resto de resultados (2-5) corresponden al Índice de Precios Industriales (IPRI), no al IPC, por lo que son irrelevantes para la query, independientemente de la condición evaluada. La generación automática del TL;DR no mejora la detección de irrelevancia en los resultados de IPRI, ni introduce confusión que haga parecer relevantes resultados anteriormente irrelevantes."
+    },
+    {
+      "query_id": "trans_001",
+      "query": "tráfico carreteras estatal",
+      "condicion_a": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "condicion_b": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.6,
+      "comentario": "En ambos casos, los resultados se evalúan como relevantes [1] solo para aquellos directamente relacionados con tráfico (incidencias, estado en tiempo real, accidentes). Los resultados sobre anchura y grandes ejes viarios son menos relevantes: el primero trata atributos fijos de la infraestructura (no tráfico dinámico), y el segundo se enfoca en clasificación jurídica y ambiental (Ley de Ruido), no en tráfico activo. La TL;DR no mejora ni empeora la evaluación en este caso, ya que no añade información faltante crítica para la relevancia."
+    },
+    {
+      "query_id": "trans_002",
+      "query": "pasajeros aeropuerto",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.6,
+      "comentario": "No hay diferencias reales en la relevancia entre condiciones A y B, ya que las descripciones y TL;DR son idénticas. Resultado [4] (aeropuerto de Cuatro Vientos) no es relevante en ninguna condición porque se refiere a un aeropuerto específico (no genérico) y el TL;DR solo lista países Schengen sin relación directa con 'pasajeros aeropuerto' como consulta. Resultados [1], [3] y [5] son relevantes por abordar llegadas/salidas de pasajeros por aeropuerto y clase de vuelo, aunque [3] tiene menor relevancia que [1]/[5] por ser más general. En cualquier caso, la evaluación debe ser consistente entre condiciones."
+    },
+    {
+      "query_id": "medio_001",
+      "query": "calidad del aire ciudades",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 0.8,
+      "precision_b": 1.0,
+      "comentario": "En condición A, el resultado [2] es repetido casi literalmente del [1] y no añade valor distinto (posible duplicado), por lo que se considera menos relevante (0), mientras que [4] sí es relevante al centrarse en días con mala calidad del aire. En condición B, el TL;DR de [2] destaca claramente que es un indicador porcentual y delimita mejor el ámbito (C.A. de Euskadi), mejorando su percepción de relevancia. Además, el TL;DR de [4] se vuelve más específico al incluir contaminantes concretos (SO2, NO2, ozono, PM10) y el marco legal, lo que mejora su ajuste a la query. En conjunto, la summarización mejora la discriminación temática y aumenta la puntuación de [2] de 0 a 1."
+    },
+    {
+      "query_id": "empleo_002",
+      "query": "paro registrado por comunidades",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.8,
+      "comentario": "En condición A, los resultados [2], [4] y [5] no son relevantes: [2] habla de prestaciones en catalán sin relación explícita con 'paro registrado por comunidades', [4] y [5] se centran en municipios de Euskadi (no comunidades autónomas en general). En condición B, el TL;DR de [4] y [5] añade contexto claro de ser datos por municipio en Euskadi, pero la query busca 'por comunidades', por lo que siguen siendo de baja relevancia si no se espera datos regionales específicos. Sin embargo, el TL;DR permite inferir mejor que [4] y [5] son datos geográficamente limitados, reduciendo su relevancia en comparación con [3], que sí aborda la distribución territorial (sectores → pero no comunidades). Nota: el TL;DR no soluciona el problema fundamental de que [4] y [5] son por municipio y geográficamente restringidos, por lo que su inclusión como relevantes (1) en condición B es cuestionable. Idealmente, [4] y [5] deberían seguir marcados como no relevantes (0) en ambas condiciones, pero la evaluación refleja mejora percibida al disponer de TL;DR más claro."
+    },
+    {
+      "query_id": "empleo_003",
+      "query": "contratos temporales vs indefinidos",
+      "condicion_a": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "condicion_b": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "precision_a": 0.8,
+      "precision_b": 0.8,
+      "comentario": "En la condición A, los resultados [1] y [2] son relevantes por referirse explícitamente a contratos temporales (ceses y altas), y [4] y [5] cubren contratos administrativos en general, que incluyen tanto temporales como indefinidos, por lo que son potencialmente relevantes. El resultado [3] es irrelevante porque habla de deuda comercial y plazos de pago, no de tipos de contrato. En la condición B, los TL;DRs no alteran significativamente la evaluación: [1] y [2] siguen siendo relevantes, [4] y [5] siguen siendo relevantes por su amplitud, y [3] sigue siendo irrelevante. La supuesta diferencia en 'condicion_b' propuesta (con un 1 para [4]) no se justifica, ya que en ambos casos [4] es específico de Murcia y no diferencia tipo de contrato (indefinido vs temporal), pero sí es más relevante que [3]. No hay mejora sustancial con TL;DR."
+    },
+    {
+      "query_id": "demo_002",
+      "query": "pirámide poblacional Andalucía",
+      "condicion_a": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "condicion_b": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "precision_a": 0.2,
+      "precision_b": 0.2,
+      "comentario": "La query busca datos abiertos específicos sobre la pirámide poblacional de Andalucía. En condición A, solo el resultado [4] es relevante (título y descripción explicitan pirámide de edad/sexo, evolución por género y por franjas de 5 años, sin acotar geográficamente más allá deAndalucía implícita). En condición B, el resumen TL;DR del resultado [4] mantiene esa relevancia; pero los resultados [1], [3] y [5] no son relevantes por referirse a La Palma (Canarias) o a datos de patrimonio arqueológico, no de población actual. El resultado [2] sigue sin relación con población. Se mantiene igual en ambas condiciones: solo [4] es relevante."
+    },
+    {
+      "query_id": "demo_003",
+      "query": "envejecimiento poblacional España",
+      "condicion_a": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "precision_a": 0.8,
+      "precision_b": 0.8,
+      "comentario": "No se observan diferencias sustanciales en la relevancia entre condiciones: todos los resultados relevantes (1) en la condición A lo son también en la B, y los no relevantes (0) coinciden. La consulta 'envejecimiento poblacional España' se refiere claramente a indicadores demográficos relacionados con personas mayores, por lo que resultados con datos sobre porcentajes de personas >65 años y el Índice de Envejecimiento Activo son claramente relevantes. Los resultados sobre fecundidad (4) y mortalidad por causa (5) en el País Vasco son menos directos, aunque (5) puede considerarse marginalmente relevante por su vínculo con esperanza de vida, comúnmente asociada al envejecimiento. La condición B no mejora significativamente la detección de relevancia."
+    },
+    {
+      "query_id": "demo_004",
+      "query": "migración extranjera",
+      "condicion_a": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 1.0,
+      "precision_b": 1.0,
+      "comentario": "En este caso, los resultados son claramente relevantes en ambas condiciones. El término 'migración extranjera' se refiere generalmente a flujos de población internacional (emigración y/o inmigración), y todos los títulos describen datasets relacionados con migraciones externas (al extranjero o procedentes del extranjero), muchas con mención explícita de series históricas, nacionalidad o comparativas regionales. El TL;DR no aporta mucha más información que el título, pero sí mantiene el contexto suficiente para conservar la relevancia. No hay diferencias significativas entre condiciones."
+    },
+    {
+      "query_id": "econ_002",
+      "query": "renta media por hogar",
+      "condicion_a": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "precision_a": 0.2,
+      "precision_b": 0.2,
+      "comentario": "En ambas condiciones, solo el resultado [1] es directamente relevante, ya que trata explícitamente sobre 'renta media por hogar' (título y contenido). El resto tratan sobre gasto del hogar, no renta, por lo que son irrelevantes para la query. El TL;DR en la condición B no mejora la discriminación: todos los resultados siguen siendo de gasto excepto [1], por lo que la relevancia no varía. La evaluación debe mantenerse estricta: ‘renta’ ≠ ‘gasto’."
+    },
+    {
+      "query_id": "empleo_004",
+      "query": "brecha salarial género",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.6,
+      "comentario": "En la Condición A, resultados [2] y [4] aparecen relevantes por su foco explícito en 'salario medio' y 'salarios de las mujeres por tramos', aunque descripciones poco claras y alusiones a ERTEs/state of alarm pueden distorsionar la relevancia para la brecha salarial de género. En la Condición B, la TL;DR del [2] es altamente específica y relevante (sector público, tramos salariales, contexto 2020–2021), mientras que [4] y [5] pierden relevancia porque su TL;DR no aclara diferencias de género y parece repetir descripciones genéricas. El [1] mantiene relevancia en ambas condiciones, pero [3] gana relevancia en B (TL;DR redefine concepto operativo útil), aunque sigue siendo débil para la query específica de brecha salarial."
+    },
+    {
+      "query_id": "demo_005",
+      "query": "densidad poblacional municipios pequeños",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "precision_a": 0.4,
+      "precision_b": 0.4,
+      "comentario": "La query se refiere específicamente a 'densidad poblacional en municipios pequeños'. Resultado [1] es relevante por mencionar 'densidad de población por barrios' (puede extrapolarse a escala municipal, aunque no es ideal). Resultado [3] es relevante porque habla de 'niveles poblacionales' incluyendo municipios, y en contexto de datos abiertos suele incluir métricas de densidad. Los demás resultados tratan sobre hacinamiento ([5], confuso con densidad poblacional), planeamiento urbano ([4]), o densidad habitacional de vivienda ([2], no poblacional) — ninguno atiende explícitamente a 'municipios pequeños' ni a densidad *poblacional* (no habitacional). Las diferencias entre condiciones son mínimas porque el TL;DR no corrige la falta de ajuste conceptual con la query."
+    },
+    {
+      "query_id": "econ_001",
+      "query": "vulnerabilidad económica",
+      "condicion_a": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "condicion_b": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "precision_a": 0.4,
+      "precision_b": 0.4,
+      "comentario": "Los resultados [2] y [3] parecen duplicados y muy técnicos sin conexión explícita con 'vulnerabilidad económica' como término amplio, por lo que se marcan como no relevantes en ambas condiciones. El resultado [5] trata sobre riesgos tecnológicos en emergencias, no sobre vulnerabilidad económica, por lo que también es irrelevante. Los resultados [1] y [4] sí abordan dimensiones de vulnerabilidad económica (socioeconómica, por quintiles de renta), por lo que son relevantes. No hay diferencias significativas entre condiciones A y B, ya que el TL;DR no añade contenido relevante ni disminuye la ambigüedad en estos casos."
+    },
+    {
+      "query_id": "cult_005",
+      "query": "patrimonio mundial UNESCO España",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.8,
+      "comentario": "En condición A, el resultado [4] (bic monumento) se considera no relevante porque se centra en el patrimonio histórico de Canarias sin vincularlo explícitamente al Patrimonio Mundial UNESCO, y [2] es irrelevante (patrimonio bibliográfico, no material ni UNESCO). En condición B, el TL;DR de [4] parece más ambiguo pero sigue sin confirmar relación con UNESCO; sin embargo, el TL;DR de [2] tampoco aporta vínculo UNESCO, por lo que su no-relevancia es coherente. La mejora en [4] y [5] en condición B parece estar motivada por una interpretación más laxa del TL;DR, lo que puede introducir falsos positivos si el TL;DR no refuerza claramente la conexión con la query. Se mantiene coherencia con [3] como altamente relevante en ambas."
+    },
+    {
+      "query_id": "dep_004",
+      "query": "subvenciones deporte base",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 0.4,
+      "precision_b": 1.0,
+      "comentario": "En la condición A, resultados [2], [4] y [5] se marcan como no relevantes (0) porque [2] es muy antiguo (2014), y [4], [5] hablan de gasto general en deporte, no específicamente de subvenciones a entidades deportivas, lo cual es menos preciso para la query 'subvenciones deporte base'. En la condición B, los TL;DR mejoran la claridad: el de [2] ahora incluye 'cubriendo el ámbito municipal de la Comunidad de Madrid', lo que refuerza la pertinencia municipal; además, se perciben [4] y [5] como relevantes al resaltar que incluyen datos por administración local, lo que puede interpretarse como útil para entender la estructura de subvenciones. Sin embargo, [4] y [5] siguen siendo menos relevantes que [1] y [3] por ser sobre gasto, no subvenciones directas."
+    },
+    {
+      "query_id": "san_004",
+      "query": "gasto farmacéutico público",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "precision_a": 0.4,
+      "precision_b": 0.4,
+      "comentario": "En ambas condiciones, los resultados más relevantes son [1] (tema explícito de 'gasto farmacéutico') y [3] (consume farmacéutico con datos económicos, directamente relacionado). Los otros tres resultados no abordan directamente el 'gasto público' ni son suficientemente relevantes: [2] se enfoca en precios de medicamentos (no gasto), [4] en registro de farmacias, y [5] en precios de analíticas, no en gasto farmacéutico. No hay diferencias significativas entre condición A y B porque la TL;DR no añade nueva información relevante ni mejora la claridad sobre 'gasto farmacéutico público'."
+    },
+    {
+      "query_id": "econ_004",
+      "query": "PIB por comunidades autónomas",
+      "condicion_a": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "condicion_b": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "precision_a": 0.6,
+      "precision_b": 0.8,
+      "comentario": "En condición A, el resultado [2] es redundante con [1] (mismo título y descripción), lo que sugiere posible duplicado o error de indexación, por lo que se marca como no relevante (0) para evitar ruido. En condición B, la TL;DR no modifica el contenido, pero al estar presentada como resumen independiente, [2] se percibe como más genérico y potencialmente útil como fallback, lo que puede justificar su clasificación como relevante. Además, en condición B, el resultado [4] se percibe como más directamente relevante al mencionar explícitamente 'magnitudes económicas de las empresas' y 'desde 2018', lo que puede interpretarse como datos derivados del PIB o relacionados con actividad económica por región, especialmente en ausencia de otros resultados más específicos."
+    },
+    {
+      "query_id": "econ_005",
+      "query": "deuda pública autonómica",
+      "condicion_a": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "condicion_b": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "precision_a": 0.2,
+      "precision_b": 0.2,
+      "comentario": "La query 'deuda pública autonómica' se refiere específicamente a deuda de las comunidades autónomas. El único resultado verdaderamente relevante es el [2], que menciona explícitamente la 'Comunidad Autónoma de la Región de Murcia' y la evolución de su deuda pública. El resto abordan deuda municipal o entidades locales, o bien métricas (como endeudamiento relativo o por habitante) que no identifican directamente una autonomía. En este caso, la presencia del TL;DR no mejora la detección de relevancia porque el contenido original ya era claramente insuficiente en todos los casos salvo el [2]; por tanto, las puntuaciones coinciden."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+query_id,query,categoria,dataset_esperado,tiempo_min,resultados_relevantes,encontrado,frustracion,notas,usuario,timestamp
+Q001,población por municipio,Demografía,Censo INE,0.8,4,s,2,Título claro en primer resultado,alex_bot,2026-05-21T15:45:00
+Q002,calidad del aire Madrid,Medio ambiente,Estaciones contaminación,1.2,3,s,3,Resultados dispersos entre CCAA,alex_bot,2026-05-21T15:47:00
+Q003,paro por provincia,Economía,EPA paro registado,0.5,5,s,1,Muy fácil término estándar,alex_bot,2026-05-21T15:48:00
+Q004,hospitales públicos España,Salud,Catálogo centros sanitarios,2.5,2,p,4,Muchos datasets de hospitales privados también,alex_bot,2026-05-21T15:52:00
+Q005,precio vivienda 2024,Vivienda,Índice precio vivienda,1.0,3,s,2,Bastante directo,alex_bot,2026-05-21T15:54:00
+Q010,¿Por qué se están vaciando los pueblos?,Despoblación,Censo movimiento natural,5.0,1,n,5,Query conceptual no devuelve resultados directos,alex_bot,2026-05-21T16:00:00
+Q011,datos para estudiar el impacto del turismo,Turismo,Turistas por CCAA alojamientos,3.0,2,p,4,Resultados genéricos no específicos de impacto,alex_bot,2026-05-21T16:05:00
+Q012,información sobre desigualdad educativa,Educación,Tasa escolarización repetición,4.0,1,n,5,No aparecen datasets específicos de desigualdad,alex_bot,2026-05-21T16:10:00
+Q013,datasets sobre cambio climático en España,Clima,Temperaturas emisiones CO2,1.5,3,s,3,OK pero mezcla de temas,alex_bot,2026-05-21T16:12:00
+Q014,datos de movilidad urbana,Transporte,Transporte público tráfico,2.0,2,p,4,Muy amplio resultados poco relevantes,alex_bot,2026-05-21T16:15:00

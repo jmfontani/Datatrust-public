@@ -1,0 +1,26 @@
+{
+ "muestra": 120,
+ "umbral_pasa": 0.99,
+ "modelo_minilm": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+ "modelo_bge": "bge-m3 (ollama)",
+ "motor": {
+  "MiniLM (`embedding`, 384)": {
+   "dim": 384,
+   "coseno_medio": 0.9998191853540134,
+   "coseno_min": 0.9906353950500488,
+   "exactos": 110,
+   "n": 113,
+   "veredicto": "PASA"
+  },
+  "BGE-M3 (`embedding_bge`, 1024)": {
+   "dim": 1024,
+   "coseno_medio": 1.0000000442272563,
+   "coseno_min": 0.9999995060625512,
+   "exactos": 120,
+   "n": 120,
+   "veredicto": "PASA"
+  }
+ },
+ "veredicto_global": "PASA"
+}

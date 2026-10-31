@@ -1,0 +1,1135 @@
+{
+ "fecha": "2026-10-14T16:45:38",
+ "modelo": "deepseek-v4.1-flash",
+ "pares": 158,
+ "consultas": 44,
+ "juicios": {
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-total-por-municipios": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por municipios de Aragón, no por comunidades.",
+   "title": "Paro Registrado. Total. Por municipios",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-segun-grupos-de-edad-y-sexo-por-municipios": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por municipios y edad/sexo, no por comunidades.",
+   "title": "Paro Registrado. Según grupos de edad y sexo. Por municipios",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-segun-grupos-de-edad-y-sexo-por-comarcas": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por comarcas de Aragón, no por comunidades.",
+   "title": "Paro Registrado. Según grupos de edad y sexo. Por comarcas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-total-por-comarcas": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por comarcas de Aragón, no por comunidades.",
+   "title": "Paro Registrado. Total. Por comarcas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-segun-grupos-de-edad-y-sexo-por-provincias": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por provincias de Aragón, no por comunidades.",
+   "title": "Paro Registrado. Según grupos de edad y sexo. Por provincias",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "empleo_002|https://opendata.aragon.es/datos/catalogo/dataset/paro-registrado-segun-nacionalidad-y-sexo-por-municipios": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por municipios y nacionalidad/sexo, no por comunidades.",
+   "title": "Paro Registrado. Según nacionalidad y sexo. Por municipios",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 1
+  },
+  "demo_001|https://opendata.ponferrada.org/dataset/0b59768b-7980-4339-89b1-b6e2fa17bfe1": {
+   "nivel": 0,
+   "razon": "Es sobre Padrón de habitantes, no censo de población 2024.",
+   "title": "Padrón de habitantes",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "demo_001|https://opendata.gijon.es/catalogo/padron_hatitantes_2012_total": {
+   "nivel": 0,
+   "razon": "Padrón de 2012, no censo de población 2024.",
+   "title": "Padrón de Habitantes 2012. Total habitantes por sexo (a fin de año)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "demo_001|https://opendata.gijon.es/catalogo/padron_urbana_rural": {
+   "nivel": 0,
+   "razon": "Padrón actual, no censo de población 2024.",
+   "title": "Padrón de Habitantes actual. Población urbana y rural por sexo",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "demo_001|https://datos.icane.es/dataset/2ce9f199-3929-4d57-8e51-98713d070060": {
+   "nivel": 0,
+   "razon": "Padrón municipal, no censo de población 2024.",
+   "title": "Padrón Municipal de Habitantes",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "demo_001|https://opendata.gijon.es/catalogo/padron_2012_habitantes_nacionalidad_sexo": {
+   "nivel": 0,
+   "razon": "Padrón de 2012, no censo de población 2024.",
+   "title": "Padrón de Habitantes 2012. Habitantes por nacionalidad y sexo (a fin de año)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "demo_001|https://datos.icane.es/dataset/fa1bfcdb-eebd-41b8-b8b0-50a9cb6a6765": {
+   "nivel": 0,
+   "razon": "Padrón municipal, no censo de población 2024.",
+   "title": "Padrón Municipal de Habitantes",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "demo_001|https://datos.comunidad.madrid/catalogo/dataset/201276": {
+   "nivel": 0,
+   "razon": "Edad media poblacional, no censo de población 2024.",
+   "title": "Edad media de la población. Municipios",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "demo_003|https://datos.gob.es/catalogo/ea0042823-c-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-parentesco-o-relacion-del-cuidador-principal-por-sexo-y-edad-de-la-persona-con-discapacidad-identificador-api-51585": {
+   "nivel": 0,
+   "razon": "Trata sobre discapacidad y cuidados, no sobre envejecimiento poblacional.",
+   "title": "Población de 6 y más años con discapacidad que recibe cuidados según el parentesco o relación del cuidador principal por sexo y edad de la persona con discapacidad. (Identificador API: 51585)",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "demo_003|https://datos.gob.es/catalogo/ea0042823-c-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-parentesco-o-relacion-del-cuidador-principal-por-sexo-y-edad-de-la-persona-con-discapacidad-identificador-api-51541": {
+   "nivel": 0,
+   "razon": "Trata sobre discapacidad y cuidados, no sobre envejecimiento poblacional.",
+   "title": "Población de 6 y más años con discapacidad que recibe cuidados según el parentesco o relación del cuidador principal por sexo y edad de la persona con discapacidad. (Identificador API: 51541)",
+   "doble": true,
+   "fuente_meta": "pool_limpias.json",
+   "doble_nivel": 0
+  },
+  "demo_003|https://www.cis.es/es/estudios/la-soledad-en-las-personas-mayores": {
+   "nivel": 0,
+   "razon": "Aborda soledad en mayores, no tendencias de envejecimiento demográfico.",
+   "title": "La soledad en las personas mayores",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "demo_003|https://datos.gob.es/catalogo/ea0042823-c-defunciones-por-anos-cumplidos-y-ano-de-nacimiento-sexo-y-estado-civil-mnpd-identificador-api-60465": {
+   "nivel": 0,
+   "razon": "Mortalidad por edad, no envejecimiento poblacional ni tendencias demográficas.",
+   "title": "Defunciones por años cumplidos y año de nacimiento, sexo y estado civil. MNPD (Identificador API: 60465)",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "demo_004|https://datos.comunidad.madrid/catalogo/dataset/1932345": {
+   "nivel": 0,
+   "razon": "Trata flujos migratorios desde Madrid, no población extranjera residente en España.",
+   "title": "Migraciones con procedencia la Comunidad de Madrid con destino otras Comunidades Autónomas y el extranjero por sexo y grupos de edad",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "econ_004|https://opendata.euskadi.eus/catalogo/-/i-cuenta-de-produccion-de-los-sectores-institucionales-de-la-c-a-de-euskadi-miles-euros/": {
+   "nivel": 0,
+   "razon": "Cuenta de producción, no PIB por CCAA; solo País Vasco.",
+   "title": "I. Cuenta de producción de los sectores institucionales de la C.A. de Euskadi (miles euros).",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 1
+  },
+  "econ_004|https://opendata.euskadi.eus/catalogo/-/ii-1-2-cuenta-de-asignacion-de-la-renta-primaria-de-los-sectores-institucionales-de-la-c-a-de-euskadi-miles-euros/": {
+   "nivel": 0,
+   "razon": "Cuenta de renta primaria, no PIB por CCAA; solo País Vasco.",
+   "title": "II.1.2 Cuenta de asignación de la renta primaria de los sectores institucionales de la CA. de Euskadi (miles euros).",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "econ_004|https://opendata.euskadi.eus/catalogo/-/ii-1-1-cuenta-de-explotacion-de-los-sectores-institucionales-de-la-c-a-de-euskadi-miles-euros/": {
+   "nivel": 0,
+   "razon": "Cuenta de explotación, no PIB por CCAA; solo País Vasco.",
+   "title": "II.1.1 Cuenta de explotación de los sectores institucionales de la C.A. de Euskadi (miles euros).",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "econ_004|https://opendata.euskadi.eus/catalogo/-/personas-empleadas-de-la-c-a-de-euskadi-por-rama-de-actividad-a-4-y-territorio-historico-2014-2016-a/": {
+   "nivel": 0,
+   "razon": "Personas empleadas, no PIB; solo País Vasco.",
+   "title": "Personas empleadas de la C.A. de Euskadi por rama de actividad A-4 y territorio histórico",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "econ_004|https://opendata.aragon.es/datos/catalogo/dataset/producto-interior-bruto-a-precios-de-mercado-por-provincias": {
+   "nivel": 1,
+   "razon": "PIB por provincias de Aragón, no por CCAA de España.",
+   "title": "Producto interior bruto a precios de mercado por provincias",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 1
+  },
+  "medio_004|https://opendata.ponferrada.org/dataset/692d4822-a944-4878-ae7c-572c3f20e83b": {
+   "nivel": 0,
+   "razon": "Solo trata consumo de agua, no estado de embalses ni recursos hídricos.",
+   "title": "Consumo de agua",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "medio_004|https://datos.gob.es/catalogo/ea0043420-masas-de-agua-embalse": {
+   "nivel": 1,
+   "razon": "Trata masas de agua embalse y recursos hídricos, pero en Duero y no estado de embalses.",
+   "title": "Masas de agua embalse",
+   "doble": true,
+   "fuente_meta": "pool_limpias.json",
+   "doble_nivel": 0
+  },
+  "medio_004|https://datos.comunidad.madrid/catalogo/dataset/102013": {
+   "nivel": 1,
+   "razon": "Volumen de agua embalsada en embalses del Canal de Isabel II, ámbito específico, no general.",
+   "title": "Volumen de agua embalsada en los embalses del Canal de Isabel II",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "cult_001|https://datos.gob.es/catalogo/l02000008-bibliotecas-municipales": {
+   "nivel": 2,
+   "razon": "Directorio de la red de bibliotecas municipales de Barcelona; coincide con la intención.",
+   "title": "Bibliotecas municipales",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_001|https://datosabiertos.ayto-arganda.es/dataset/bibliotecas-municipales-prestamos-2016": {
+   "nivel": 1,
+   "razon": "Datos de préstamos de bibliotecas municipales de Madrid; mismo tema, otro alcance.",
+   "title": "Bibliotecas Municipales. Prestamos. 2016",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "cult_001|https://datosabiertos.ayto-arganda.es/dataset/bibliotecas-municipales-visitas-2016": {
+   "nivel": 1,
+   "razon": "Datos de visitas de bibliotecas municipales de Madrid; mismo tema, otro alcance.",
+   "title": "Bibliotecas Municipales.Visitas. 2016",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "cult_001|https://datosabiertos.ayto-arganda.es/dataset/estadistica-bibliotecas-publicas-usuarios-inscritos-1985-2015": {
+   "nivel": 1,
+   "razon": "Datos de usuarios de bibliotecas municipales de Madrid; mismo tema, otro alcance.",
+   "title": "Bibliotecas Municipales. Usuarios: 1985-2015",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "cult_001|https://opendata.euskadi.eus/catalogo/-/catalogo-bibliografico-de-la-red-de-lectura-publica-de-euskadi/": {
+   "nivel": 1,
+   "razon": "Catálogo de la red de bibliotecas públicas de Euskadi; mismo tema, otro alcance.",
+   "title": "Catálogo Bibliográfico de la Red de Lectura Pública de Euskadi",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_001|https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/2641": {
+   "nivel": 1,
+   "razon": "Directorio de bibliotecas de Zaragoza, incluye públicas y municipales; otro alcance.",
+   "title": "Bibliotecas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_001|https://datosabiertos.ayto-arganda.es/dataset/estadistica-bibliotecas-publicas-total-fondos-1985-2015": {
+   "nivel": 1,
+   "razon": "Datos de fondos de bibliotecas municipales de Madrid; mismo tema, otro alcance.",
+   "title": "Bibliotecas Municipales. Fondos: 1985-2015",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_002|https://datos.gob.es/catalogo/l01360577-monumentos-y-esculturas-puntos-de-interes-turistico1": {
+   "nivel": 0,
+   "razon": "Monumentos y esculturas, no afluencia de visitantes a museos.",
+   "title": "Monumentos y Esculturas (Puntos de Interés Turístico)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_002|https://opendata.gijon.es/catalogo/bienes_artisticos_ayuntamiento": {
+   "nivel": 0,
+   "razon": "Inventario de bienes históricos, no visitantes de museos.",
+   "title": "Bienes histórico artísticos Ayuntamiento",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_005|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-total-de-gastos-per-capita-destinados-a-la-preservacion-proteccion-y-conservacion-de-todo-el-patrimonio-cultural-por-parte-del-gobierno-central-identificador-api-235-266": {
+   "nivel": 0,
+   "razon": "Gastos en patrimonio cultural, no lista de bienes UNESCO.",
+   "title": "Agenda 2030 ODS - Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural por parte del gobierno central (Identificador API: 235:266)",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "cult_005|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-total-de-gastos-per-capita-destinados-a-la-preservacion-proteccion-y-conservacion-de-todo-el-patrimonio-cultural-por-parte-de-los-gobiernos-locales-identificador-api-235-268": {
+   "nivel": 0,
+   "razon": "Gastos locales en patrimonio, no bienes declarados Patrimonio Mundial.",
+   "title": "Agenda 2030 ODS - Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural por parte de los gobiernos locales (Identificador API: 235:268)",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "cult_005|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-total-de-gastos-per-capita-destinados-a-la-preservacion-proteccion-y-conservacion-de-todo-el-patrimonio-cultural-por-parte-de-los-gobiernos-regionales-identificador-api-235-267": {
+   "nivel": 0,
+   "razon": "Gastos regionales en patrimonio, no bienes UNESCO.",
+   "title": "Agenda 2030 ODS - Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural por parte de los gobiernos regionales (Identificador API: 235:267)",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "cult_005|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-total-de-gastos-per-capita-de-fuentes-publicas-destinados-a-la-preservacion-proteccion-y-conservacion-de-todo-el-patrimonio-cultural-identificador-api-235-265": {
+   "nivel": 0,
+   "razon": "Gastos públicos en patrimonio, no listado de Patrimonio Mundial.",
+   "title": "Agenda 2030 ODS - Total de gastos per cápita de fuentes públicas destinados a la preservación, protección y conservación de todo el patrimonio cultural (Identificador API: 235:265)",
+   "doble": true,
+   "fuente_meta": "pool_limpias.json",
+   "doble_nivel": 0
+  },
+  "cult_005|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=43ad72e1-0705-4b04-ba3b-fe8d19643df9": {
+   "nivel": 0,
+   "razon": "Mapa de ruido de aglomeraciones, no patrimonio UNESCO.",
+   "title": "Servicio WMS (Web Map Service) Unidades Mapa Estratégico (UME)_Aglomeraciones",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_005|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=de730f91-7976-4917-b863-5639fba20f50": {
+   "nivel": 0,
+   "razon": "Reservas de la Biosfera, otra figura UNESCO, no Patrimonio Mundial.",
+   "title": "Servicio WMS (Web Map Service) Reservas de la Biosfera (MaB_ES)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_005|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=7d8ea5c2-02be-4e49-a22f-a0628f89dba1": {
+   "nivel": 0,
+   "razon": "Mapa de ruido ferroviario, no patrimonio UNESCO.",
+   "title": "Servicio WMS (Web Map Service) Unidades Mapa Estratégico (UME)_Líneas ferroviarias",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "cult_005|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-espana-es-parte-del-protocolo-de-nagoya-del-convenio-sobre-la-diversidad-biologica-identificador-api-235-336": {
+   "nivel": 0,
+   "razon": "Protocolo de Nagoya sobre biodiversidad, no Patrimonio Mundial.",
+   "title": "Agenda 2030 ODS - España es parte del Protocolo de Nagoya del Convenio sobre la Diversidad Biológica (Identificador API: 235:336)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000505006": {
+   "nivel": 1,
+   "razon": "Trata competiciones internacionales, pero de participación federada, no eventos celebrados en España.",
+   "title": "Participación en competiciones estatales e internacionales por federación, periodo y competiciones",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000516010": {
+   "nivel": 0,
+   "razon": "Gasto turístico en espectáculos deportivos, no eventos internacionales celebrados.",
+   "title": "Gasto total de turistas internacionales en las que se asistió a un espectáculo deportivo por entradas, gasto, indicador y periodo",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000516009": {
+   "nivel": 0,
+   "razon": "Gasto turístico en actividades deportivas, no eventos internacionales celebrados.",
+   "title": "Gasto total de turistas internacionales en las que se realizaron actividades deportivas por entradas, gasto, actividad, indicador y periodo",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000503002": {
+   "nivel": 0,
+   "razon": "Comercio exterior de bienes deportivos, no eventos internacionales.",
+   "title": "Comercio exterior de bienes vinculados al deporte y artículos y equipamiento deportivo por áreas geográficas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000516017": {
+   "nivel": 0,
+   "razon": "Entradas de turistas que realizan actividades deportivas, no eventos internacionales.",
+   "title": "Entradas de turistas internacionales que realizan actividades vinculadas al deporte según sexo",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000503001": {
+   "nivel": 0,
+   "razon": "Comercio exterior de bienes deportivos, no eventos internacionales.",
+   "title": "Comercio exterior de bienes vinculados al deporte por tipo de producto",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "san_001|https://datos.comunidad.madrid/catalogo/dataset/1914585": {
+   "nivel": 0,
+   "razon": "Trata gasto hospitalario, no camas UCI ni capacidad hospitalaria; solo menciona cama.",
+   "title": "Indicadores de gasto",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "edu_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30405a_000037": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero solo UNED no presencial en Canarias, no ámbito general.",
+   "title": "Estudiantes matriculados y de nuevo ingreso en universidades públicas no presenciales (UNED) según niveles académicos y sexos. Canarias por años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/HIS_Mat_TotalSUE_Rama_Tot": {
+   "nivel": 2,
+   "razon": "Datos nacionales de matriculados universitarios; coincide fenómeno y ámbito general.",
+   "title": "Matriculados por tipo y modalidad de la universidad, nivel de estudio, sexo y rama de enseñanza",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "edu_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30405a_000026": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero limitado a máster y Canarias; no ámbito general.",
+   "title": "Estudiantes matriculados en máster según ámbitos de estudio, universidades, nacionalidad y sexos. Canarias por años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "edu_005|http://datosabiertos.castillalamancha.es/node/205": {
+   "nivel": 0,
+   "razon": "Registro de centros de formación para el empleo, no oferta ni plazas de FP.",
+   "title": "Registro de centros de formación para el empleo en Castilla-La Mancha",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.gob.es/catalogo/l01281150-desempleo-y-empleo": {
+   "nivel": 2,
+   "razon": "Datos generales de desempleo en España; responde a la consulta 'paro' como desempleo.",
+   "title": "Desempleo y empleo",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 2
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-grandes-comarcas-canarias-2018-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno (paro), pero ámbito Canarias, desglose hombres y año 2018.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Grandes comarcas de Canarias. 2018. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-barrios-canarias-2022-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito barrios de Canarias, hombres y año 2022.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Barrios de Canarias. 2022. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-islas-canarias-2022-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito islas de Canarias, hombres y año 2022.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Islas de Canarias. 2022. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-grandes-comarcas-canarias-2019-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito comarcas de Canarias, hombres y año 2019.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Grandes comarcas de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-barrios-canarias-2018-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito barrios de Canarias, hombres y año 2018.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Barrios de Canarias. 2018. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://opendata.aragon.es/datos/catalogo/dataset/parados-segun-tipo-de-jornada-buscada-y-sexo": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito Aragón y desglose por sexo y jornada.",
+   "title": "Parados según tipo de jornada buscada y sexo.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://www.donostia.eus/datosabiertos/catalogo/eustat_paro": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito Donostia y desglose por edad, género y origen.",
+   "title": "Tasa de paro de Donostia / San Sebastián",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-barrios-canarias-2021-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito barrios de Canarias, hombres y año 2021.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Barrios de Canarias. 2021. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_001|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-islas-canarias-2021-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero ámbito islas de Canarias, hombres y año 2021.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Islas de Canarias. 2021. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_medios_financieros": {
+   "nivel": 0,
+   "razon": "No trata de bancos ni asientos; clasifica medios financieros para compras.",
+   "title": "Clasificación de medios financieros para la realización de compras (ISTAC: CL_ENCUESTAS_MEDIOS_FINANCIEROS)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_002|https://datos.comunidad.madrid/catalogo/dataset/1913440": {
+   "nivel": 2,
+   "razon": "Trata de entidades de crédito, que incluye bancos; responde a la acepción financiera.",
+   "title": "Entidades de créditos por tipología",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_003|https://datos.comunidad.madrid/catalogo/dataset/1924165": {
+   "nivel": 0,
+   "razon": "Trata de materiales recuperados, no de plantas; solo comparte la palabra 'planta'.",
+   "title": "Materiales recuperados en las plantas de clasificación de envases por planta: Fuenlabrada",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "amb_003|https://datos.comunidad.madrid/catalogo/dataset/1924166": {
+   "nivel": 0,
+   "razon": "Trata de materiales recuperados, no de plantas; solo comparte la palabra 'planta'.",
+   "title": "Materiales recuperados en las plantas de clasificación de envases por planta: La Paloma (Ayto. Madrid)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58012a_000101": {
+   "nivel": 2,
+   "razon": "Trata de accidentes laborales en Canarias; tema coincide y no se especifica otro ámbito.",
+   "title": "Accidentes de trabajo con baja en jornada laboral e índice de incidencia según gravedad y situación laboral. Provincias de la Autoridad Laboral de Canarias y meses",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58012a_000041": {
+   "nivel": 2,
+   "razon": "Trata de accidentes laborales en Canarias; tema coincide y no se especifica otro ámbito.",
+   "title": "Accidentes de trabajo en jornada según situación laboral, secciones de actividad (CNAE-09) y sexos. Canarias y años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58012a_000100": {
+   "nivel": 2,
+   "razon": "Trata de accidentes laborales en Canarias; tema coincide y no se especifica otro ámbito.",
+   "title": "Accidentes de trabajo con baja en jornada laboral según secciones de actividad (CNAE-09). Provincias de la Autoridad Laboral de Canarias y meses (2022-2025)",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58012a_000001": {
+   "nivel": 2,
+   "razon": "Trata de accidentes laborales en Canarias; tema coincide y no se especifica otro ámbito.",
+   "title": "Accidentes de trabajo con baja según lugar del accidente, gravedad y sexos. Provincias de la autoridad laboral de Canarias y años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58012a_000038": {
+   "nivel": 2,
+   "razon": "Trata de accidentes laborales en Canarias; tema coincide y no se especifica otro ámbito.",
+   "title": "Accidentes de trabajo en jornada según tipo de contrato laboral, secciones de actividad (CNAE-09) y sexos. Canarias y años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_003|https://datos.gob.es/catalogo/ea0042823-asalariados-por-frecuencia-con-la-que-trabajan-al-final-de-la-tarde-sexo-y-comunidad-autonoma-valores-absolutos-epa-identificador-api-66175": {
+   "nivel": 0,
+   "razon": "Trata de asalariados, no de trabajadores autónomos ni régimen de autónomos.",
+   "title": "Asalariados por frecuencia con la que trabajan al final de la tarde, sexo y comunidad autónoma. Valores absolutos. EPA (Identificador API: 66175)",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_006|https://www.opendatalapalma.es/datasets/b4adfb9188b64c98994c39f3a19ab9be": {
+   "nivel": 0,
+   "razon": "Trata de contratos públicos de mayor cuantía, no de contratación de personas mayores de 45 años.",
+   "title": "contratos mayores 2016",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_008|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_ocupaciones": {
+   "nivel": 0,
+   "razon": "Clasificación de ocupaciones, no contiene vacantes laborales.",
+   "title": "Clasificación de ocupaciones (ISTAC: CL_OCUPACIONES)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_008|https://opendata-ajuntament.barcelona.cat/data/dataset/fitxes-ocupacionals": {
+   "nivel": 0,
+   "razon": "Describe ocupaciones, no vacantes laborales.",
+   "title": "Fichas sobre ocupaciones del mercado laboral en la ciudad de Barcelona",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_008|https://opendata.euskadi.eus/catalogo/-/estadistica/tasa-de-ocupacion-en-el-trabajo-remunerado-cae-1985-2008/": {
+   "nivel": 0,
+   "razon": "Tasa de ocupación, no vacantes laborales.",
+   "title": "Tasa de ocupación en el trabajo remunerado. CAE. 1985-2008",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_008|https://opendata.euskadi.eus/catalogo/-/estadistica/tasa-de-ocupacion-en-el-trabajo-remunerado-cae-espana-y-ue-27-2007/": {
+   "nivel": 0,
+   "razon": "Tasa de ocupación, no vacantes laborales.",
+   "title": "Tasa de ocupación en el trabajo remunerado. CAE, España y UE-27. 2007",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-sol-2023-09": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de solicitudes de Expedientes Regulación temporal de Empleo-2023-09",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-res-2023-09": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de resoluciones de Expedientes Regulación Temporal de Empleo-2023-09",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-sol-2023-04": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de solicitudes de Expedientes Regulación temporal de Empleo-2023-04",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-res-2022-09": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de resoluciones de Expedientes Regulación Temporal de Empleo-2022-09",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 2
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-res-2023-04": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de resoluciones de Expedientes Regulación Temporal de Empleo-2023-04",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-sol-2022-09": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de solicitudes de Expedientes Regulación temporal de Empleo-2022-09",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-res-2024-09": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de resoluciones de Expedientes Regulación Temporal de Empleo-2024-09",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-sol-2023-07": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de solicitudes de Expedientes Regulación temporal de Empleo-2023-07",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_010|https://dadesobertes.gva.es/dataset/tra-erte-res-2023-01": {
+   "nivel": 2,
+   "razon": "Datos de ERTE por sector, coincide con la consulta.",
+   "title": "Datos de resoluciones de Expedientes Regulación Temporal de Empleo-2023-01",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_015|https://datos.gob.es/catalogo/ea0042823-c-nacimientos-segun-residencia-de-la-madre-por-comunidad-autonoma-anos-cumplidos-de-la-madre-ano-de-nacimiento-y-orden-de-nacimiento-mnpn-identificador-api-t20-e301-nacim-a1998-l0-02013-px": {
+   "nivel": 1,
+   "razon": "Nacimientos anuales, no desglosados por mes; mismo tema, otro alcance.",
+   "title": "C* Nacimientos según residencia de la madre por Comunidad Autónoma, años  cumplidos de la madre-año de nacimiento  y orden de nacimiento. MNPN (Identificador API: /t20/e301/nacim/a1998/l0/02013.px)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_015|https://datos.gob.es/catalogo/ea0042823-c-nacimientos-segun-residencia-de-la-madre-por-comunidad-autonoma-anos-cumplidos-de-la-madre-ano-de-nacimiento-y-orden-de-nacimiento-mnpn-identificador-api-t20-e301-nacim-a1999-l0-02013-px": {
+   "nivel": 1,
+   "razon": "Nacimientos anuales, no desglosados por mes; mismo tema, otro alcance.",
+   "title": "C* Nacimientos según residencia de la madre por Comunidad Autónoma, años  cumplidos de la madre-año de nacimiento  y orden de nacimiento. MNPN (Identificador API: /t20/e301/nacim/a1999/l0/02013.px)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_015|https://datos.gob.es/catalogo/ea0042823-c-nacimientos-segun-residencia-de-la-madre-por-comunidad-autonoma-anos-cumplidos-de-la-madre-ano-de-nacimiento-y-orden-de-nacimiento-mnpn-identificador-api-t20-e301-nacim-a2000-l0-02013-px": {
+   "nivel": 1,
+   "razon": "Nacimientos anuales, no desglosados por mes; mismo tema, otro alcance.",
+   "title": "C* Nacimientos según residencia de la madre por Comunidad Autónoma, años  cumplidos de la madre-año de nacimiento  y orden de nacimiento. MNPN (Identificador API: /t20/e301/nacim/a2000/l0/02013.px)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_015|https://datos.gob.es/catalogo/ea0042823-c-nacimientos-segun-residencia-de-la-madre-por-comunidad-autonoma-anos-cumplidos-de-la-madre-ano-de-nacimiento-y-orden-de-nacimiento-mnpn-identificador-api-t20-e301-nacim-a1997-l0-02013-px": {
+   "nivel": 1,
+   "razon": "Nacimientos anuales, no desglosados por mes; mismo tema, otro alcance.",
+   "title": "C* Nacimientos según residencia de la madre por Comunidad Autónoma, años  cumplidos de la madre-año de nacimiento  y orden de nacimiento. MNPN (Identificador API: /t20/e301/nacim/a1997/l0/02013.px)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_022|https://intranet.caib.es/opendatacataleg/dataset/babf7118-51d4-491a-b572-017a6e09287f": {
+   "nivel": 0,
+   "razon": "Solo trata suelo residencial; no aborda emancipación juvenil ni acceso a vivienda de jóvenes.",
+   "title": "Suelo vacante residencial 2015",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_022|https://dadesobertes.gva.es/dataset/ieev-cv-edificaciones-con-mas-de-50-anos-de-antiguedad-y-uso-residencial6": {
+   "nivel": 0,
+   "razon": "Sobre edificios antiguos y evaluación; no trata emancipación juvenil ni acceso a vivienda.",
+   "title": "IEEV.CV. Edificaciones con más de 50 años de antigüedad y uso residencial",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 0
+  },
+  "limp_028|https://datos.gob.es/catalogo/ea0042823-tasa-de-paro-de-las-personas-entre-16-y-74-anos-por-sexo-y-comunidad-autonoma-epa-identificador-api-67565": {
+   "nivel": 1,
+   "razon": "Tasa de paro general 16-74, no específica de jóvenes; mismo fenómeno, otro desglose de edad.",
+   "title": "Tasa de paro de las personas entre 16 y 74 años por sexo y Comunidad Autónoma. EPA (Identificador API: 67565)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_028|urn:ine:es:TABLA:T3:341:67565": {
+   "nivel": 1,
+   "razon": "Misma tasa de paro general 16-74 para Ceuta, no específica de jóvenes; otro territorio y edad.",
+   "title": "Tasa de paro de las personas entre 16 y 74 años por sexo y Comunidad Autónoma. EPA (Identificador API: 67565)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_028|https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_m-grandes-comarcas-canarias-2018-mapa-coropletas-5cuantiles": {
+   "nivel": 1,
+   "razon": "Tasa de paro registrado de hombres en Canarias, no de jóvenes; mismo fenómeno, otro alcance.",
+   "title": "Tasa de paro registrado. Hombres. Media anual. Grandes comarcas de Canarias. 2018. Mapa temático de coropletas de 5 intervalos por cuantiles",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_031|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/04a23dc6-d0d2-448c-8513-8da4a79700f0": {
+   "nivel": 0,
+   "razon": "Endeudamiento de sociedades públicas, no de hogares.",
+   "title": "Endeudamiento autorizado a Bidegi 2018",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_031|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/951ca841-fe17-4777-ac18-aac392d2db86": {
+   "nivel": 0,
+   "razon": "Endeudamiento de sociedades públicas, no de hogares.",
+   "title": "Endeudamiento autorizado a Bidegi 2021",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_031|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/65cd6ef1-ccc1-4761-b2b2-6a817d5c8d67": {
+   "nivel": 0,
+   "razon": "Endeudamiento de sociedades públicas, no de hogares.",
+   "title": "Endeudamiento autorizado a Bidegi 2020",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_032|https://datos.gob.es/catalogo/a03002951-presupuestos-familias-ine-asturias": {
+   "nivel": 0,
+   "razon": "Trata de gasto familiar en Asturias, no de ahorro familiar por edades.",
+   "title": "Encuesta de presupuestos familiares en Asturias según el INE",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_032|https://datos.comunidad.madrid/catalogo/dataset/1905434": {
+   "nivel": 0,
+   "razon": "Trata de discapacidad y esperanza de vida, no de ahorro familiar.",
+   "title": "Esperanza de vida libre de discapacidades para realizar las tareas del hogar de los hombres por grupos de edad.",
+   "doble": true,
+   "fuente_meta": "pool_limpias.json",
+   "doble_nivel": 0
+  },
+  "limp_036|https://datos.gob.es/catalogo/ea0042970-empresas-de-servicios-de-inversion-registradas-en-la-cnmv": {
+   "nivel": 0,
+   "razon": "Trata de empresas de servicios de inversión, no de inversión en startups.",
+   "title": "Empresas de Servicios de Inversión registradas en la CNMV",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_036|https://datos.gob.es/catalogo/ea0042970-instituciones-de-inversion-colectiva-iic-registradas-en-la-cnmv": {
+   "nivel": 0,
+   "razon": "Trata de instituciones de inversión colectiva, no de inversión en startups.",
+   "title": "Instituciones de Inversión Colectiva (IIC) registradas en la CNMV",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_036|https://opendata.euskadi.eus/catalogo/-/indicadores-inversiones-empresa-union-europea-y-c-euskadi-paises/": {
+   "nivel": 0,
+   "razon": "Trata de indicadores de innovación, no específicamente de inversión en startups.",
+   "title": "Indicadores de inversiones de las empresas de la Unión Europea y C.A. de Euskadi, por paises.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_051|https://datos.tenerife.es/datos/conjuntos-de-datos/afluencia-de-acceso-en-vehiculos-a-punta-de-teno-por-horas": {
+   "nivel": 0,
+   "razon": "No trata transporte rural puerta a puerta; es afluencia de vehículos en Punta de Teno.",
+   "title": "Afluencia de acceso en vehículos a Punta de Teno por horas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_051|https://datosabiertos.navarra.es/dataset/spasitnatraurb_lin_tuclineas25-xml": {
+   "nivel": 0,
+   "razon": "Transporte urbano en Pamplona, no rural ni puerta a puerta.",
+   "title": "Transporte Urbano Comarcal. Recorrido de la Línea 25 (en Sanfermines)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_051|https://datos.tenerife.es/datos/conjuntos-de-datos/afluencia-de-acceso-en-vehiculos-a-punta-de-teno-por-dias": {
+   "nivel": 0,
+   "razon": "No trata transporte rural puerta a puerta; es afluencia de vehículos en Punta de Teno.",
+   "title": "Afluencia de acceso en vehículos a Punta de Teno por días",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 0
+  },
+  "limp_065|https://datos.canarias.es/catalogos/estadisticas/dataset/grado-de-urbanizacion-en-canarias-2021-celdas-base-250-m-de-lado": {
+   "nivel": 0,
+   "razon": "Grado de urbanización no es islas de calor urbanas; otro fenómeno.",
+   "title": "Grado de urbanización en Canarias. 2021. (Celdas base 250 m de lado)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_065|https://datos.canarias.es/catalogos/estadisticas/dataset/grado-de-urbanizacion-en-canarias-2021-celdas-base-1-km-de-lado": {
+   "nivel": 0,
+   "razon": "Grado de urbanización no es islas de calor urbanas; otro fenómeno.",
+   "title": "Grado de urbanización en Canarias. 2021. (Celdas base 1 km de lado)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_065|https://datos.canarias.es/catalogos/estadisticas/dataset/grado-de-urbanizacion-en-canarias-2011-celdas-base-250-m-de-lado": {
+   "nivel": 0,
+   "razon": "Grado de urbanización no es islas de calor urbanas; otro fenómeno.",
+   "title": "Grado de urbanización en Canarias. 2011. (Celdas base 250 m de lado)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_065|https://datos.canarias.es/catalogos/estadisticas/dataset/grado-de-urbanizacion-en-canarias-2021-celdas-base-500-m-de-lado": {
+   "nivel": 0,
+   "razon": "Grado de urbanización no es islas de calor urbanas; otro fenómeno.",
+   "title": "Grado de urbanización en Canarias. 2021. (Celdas base 500 m de lado)",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 0
+  },
+  "limp_065|https://datos.canarias.es/catalogos/estadisticas/dataset/grado-de-urbanizacion-en-canarias-2011-celdas-base-500-m-de-lado": {
+   "nivel": 0,
+   "razon": "Grado de urbanización no es islas de calor urbanas; otro fenómeno.",
+   "title": "Grado de urbanización en Canarias. 2011. (Celdas base 500 m de lado)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_068|https://opendata.gijon.es/catalogo/bienes_artisticos_ayuntamiento": {
+   "nivel": 0,
+   "razon": "Inventario de bienes históricos, no museos ni gratuidad.",
+   "title": "Bienes histórico artísticos Ayuntamiento",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_068|https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/2648": {
+   "nivel": 0,
+   "razon": "Directorio de salas de exposiciones, no museos gratuitos.",
+   "title": "Salas de Exposiciones",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_068|https://datosabiertos.malaga.eu/dataset/agenda-exposiciones": {
+   "nivel": 0,
+   "razon": "Agenda de exposiciones, no identifica museos con entrada gratuita.",
+   "title": "Agenda exposiciones",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_074|https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/cultura-ocio/turismo-exposiciones": {
+   "nivel": 0,
+   "razon": "Salas de exposiciones no son museos ni tratan accesibilidad.",
+   "title": "Salas de exposiciones",
+   "doble": false,
+   "fuente_meta": "pool_a_juzgar.json"
+  },
+  "limp_074|https://datos.gob.es/catalogo/l01360577-museos-puntos-de-interes-turistico1": {
+   "nivel": 1,
+   "razon": "Listado de museos, pero sin información sobre accesibilidad o discapacidad.",
+   "title": "Museos (Puntos de Interés Turístico)",
+   "doble": false,
+   "fuente_meta": "pool_a_juzgar.json"
+  },
+  "limp_074|http://datos.santander.es/catalogo/museos": {
+   "nivel": 1,
+   "razon": "Museos de Santander, pero no incluye datos de accesibilidad.",
+   "title": "Museos",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_074|https://www.opendatalapalma.es/datasets/9ccc90cb46334415be706309de50abeb_0": {
+   "nivel": 1,
+   "razon": "Museos de La Palma, sin datos de accesibilidad para discapacidad.",
+   "title": "museos",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_074|https://opendata.gijon.es/catalogo/bienes_artisticos_ayuntamiento": {
+   "nivel": 0,
+   "razon": "Bienes histórico artísticos, no museos ni accesibilidad.",
+   "title": "Bienes histórico artísticos Ayuntamiento",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_074|https://opendata.alcoi.org/data/dataset/museus": {
+   "nivel": 1,
+   "razon": "Museos en Alcoy, pero sin información de accesibilidad.",
+   "title": "Museos",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_074|https://datos.comunidad.madrid/catalogo/dataset/1923960": {
+   "nivel": 1,
+   "razon": "Museos por municipios, sin datos de accesibilidad.",
+   "title": "Museos por municipios. Municipios",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_074|https://datos.gob.es/catalogo/l01360577-monumentos-y-esculturas-puntos-de-interes-turistico1": {
+   "nivel": 0,
+   "razon": "Monumentos y esculturas, no museos ni accesibilidad.",
+   "title": "Monumentos y Esculturas (Puntos de Interés Turístico)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_079|https://datos.comunidad.madrid/catalogo/dataset/1917645": {
+   "nivel": 0,
+   "razon": "Trata del Impuesto sobre el Patrimonio, no de mujeres artistas ni museos.",
+   "title": "Importe consignado en la declaración del Impuesto sobre el Patrimonio por contenido en la partida o grupo de partidas: Mujeres",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_079|https://opendata.gijon.es/catalogo/bienes_artisticos_ayuntamiento": {
+   "nivel": 0,
+   "razon": "Inventario de bienes histórico-artísticos, no de mujeres artistas en exposiciones.",
+   "title": "Bienes histórico artísticos Ayuntamiento",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_079|https://datos.gob.es/catalogo/l02000008-museos": {
+   "nivel": 0,
+   "razon": "Lista museos de Barcelona, sin datos de mujeres artistas ni exposiciones.",
+   "title": "Museos",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905065": {
+   "nivel": 0,
+   "razon": "Trata de mujeres con discapacidad y cuidados, no de enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares que reciben cuidados.",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905073": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad de 65 a 79 años, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares que reciben cuidados. De 65 a 79 años",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905062": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad que trabajan, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares que trabajan o han trabajado.",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 0
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1932985": {
+   "nivel": 0,
+   "razon": "Personal sanitario de un hospital, no ratio de enfermeras por población.",
+   "title": "Personal sanitario del Hospital Central de la Defensa Gómez Ulla por clase y sexo",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_097|https://opendata.euskadi.eus/catalogo/-/estadistica/mujeres-ocupadas-a-tiempo-parcial-que-cuidan-a-personas-dependientes-segun-tramos-de-edad-espana-2007/": {
+   "nivel": 0,
+   "razon": "Mujeres ocupadas que cuidan dependientes; no enfermeras por habitante.",
+   "title": "Mujeres ocupadas a tiempo parcial que cuidan a personas dependientes, según tramos de edad. España. 2007",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905087": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad por actividad, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares por su relación con la actividad.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905074": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad de 80 años y más, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares que reciben cuidados. De 80 años y más",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905059": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad y servicios sanitarios, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares por necesidad de servicio sanitario o social.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905072": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad de 6 a 64 años, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad residentes en hogares que reciben cuidados. De 6 a 64 años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_097|https://datos.comunidad.madrid/catalogo/dataset/1905078": {
+   "nivel": 0,
+   "razon": "Mujeres con discapacidad por edad, no enfermeras por habitante.",
+   "title": "Mujeres con discapacidad para la vida diaria residentes en hogares por edad.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_123|https://datos.comunidad.madrid/catalogo/dataset/1909349": {
+   "nivel": 0,
+   "razon": "Trata de prácticas preventivas, no de mujeres investigadoras por área científica.",
+   "title": "Personas que realizan prácticas preventivas. Mujeres",
+   "doble": true,
+   "fuente_meta": "bd:datasets",
+   "doble_nivel": 0
+  },
+  "limp_124|https://datos.icane.es/dataset/93f464f6-8ae4-4a64-94e1-e14ae0a8c355": {
+   "nivel": 0,
+   "razon": "Trata sobre uso de TIC y comercio electrónico, no sobre gasto en I+D empresarial.",
+   "title": "Encuesta sobre el uso de TIC y comercio electrónico en las empresas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_127|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30061a_000023": {
+   "nivel": 1,
+   "razon": "Mismo fenómeno, pero desglose por ramas de actividad, no por tamaño; ámbito Canarias.",
+   "title": "Empresas con actividad innovadora e intensidad de innovación según ramas de actividad económica (CNAE-2009). Canarias por años",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_134|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Pres_Ingr_Ind_Tot": {
+   "nivel": 0,
+   "razon": "Trata de ejecución presupuestaria, no de indicadores bibliométricos por disciplina.",
+   "title": "Indicadores de ejecución del presupuesto de ingresos.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_134|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-conceptscheme-conceptscheme-istac-csm_c00041a": {
+   "nivel": 0,
+   "razon": "Indicadores farmacéuticos, no bibliométricos ni desglosados por disciplina.",
+   "title": "Esquema de conceptos de medida de Indicadores Farmacéuticos (ISTAC: CSM_C00041A)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_146|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000714": {
+   "nivel": 0,
+   "razon": "Mide seguridad al caminar sola de noche, no soledad no deseada.",
+   "title": "Población de 16 y más años según valoración del nivel de seguridad que siente caminando a solas de noche en la zona en la que vive. Grandes comarcas de Canarias. 2022",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_146|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000297": {
+   "nivel": 0,
+   "razon": "Trata dificultad económica del hogar, no soledad no deseada.",
+   "title": "Población de 25 a 59 años que vivía en un hogar privado según dificultad para llegar a fin de mes del hogar cuando era adolescente. Islas de Canarias. 2018",
+   "doble": false,
+   "fuente_meta": "pool_conjunto.json"
+  },
+  "limp_146|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000299": {
+   "nivel": 0,
+   "razon": "Analiza dificultad para llegar a fin de mes, no soledad no deseada.",
+   "title": "Población de 25 a 59 años que vivía en un hogar privado según dificultad para llegar a fin de mes del hogar cuando era adolescente y dificultad para llegar a fin de mes del hogar. Canarias. 2018",
+   "doble": false,
+   "fuente_meta": "pool_limpias.json"
+  },
+  "limp_152|https://datos.gob.es/catalogo/ea0042823-prestaciones-reconocidas-ejercicio-anterior-inicio-2020-nacimiento-y-cuidado-del-menor-derechos-de-acceso-restringidos": {
+   "nivel": 0,
+   "razon": "No trata trabajo de cuidados no remunerado; son prestaciones por nacimiento y cuidado del menor.",
+   "title": "Prestaciones reconocidas ejercicio anterior (inicio 2020): nacimiento y cuidado del menor. Derechos de acceso restringidos.",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_156|https://www.opendatalapalma.es/datasets/ba2171ed78b3431aa8a95fe055bc1cdf_11": {
+   "nivel": 2,
+   "razon": "Trata sobre red eléctrica, tipo de red de infraestructura.",
+   "title": "reserva infraestructura red general",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_156|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=e831f659-1f4f-4e05-b9d1-f0220fc8bf47": {
+   "nivel": 2,
+   "razon": "Trata sobre red de referencia de masas de agua, tipo de red.",
+   "title": "Servicio WMS (Web Map Service) Control Cambios Condiciones Naturales (Red de Referencia)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_156|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=351d1a5a-ddbb-4fc4-b4df-2d0ed0af49c6": {
+   "nivel": 2,
+   "razon": "Trata sobre red de control de aguas subterráneas, tipo de red.",
+   "title": "Servicio WMS (Web Map Service) Red de control del estado cuantitativo de las aguas subterráneas",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_156|https://datosabiertos.navarra.es/dataset/spasitnainfrae_sym_ffccpaso-xml": {
+   "nivel": 2,
+   "razon": "Trata sobre red ferroviaria, tipo de red de infraestructura.",
+   "title": "Red de ferrocarril. Pasos a nivel de la red ferroviaria",
+   "doble": true,
+   "fuente_meta": "pool_limpias.json",
+   "doble_nivel": 1
+  },
+  "limp_156|https://datos.gob.es/catalogo/ea0043369-sistema-remote-monitoreo-de-la-red-de-parques-nacionales-mediante-teledeteccion": {
+   "nivel": 2,
+   "razon": "Trata sobre red de parques nacionales, tipo de red.",
+   "title": "Sistema REMOTE (monitoreo de la Red de Parques Nacionales mediante teledetección)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_156|https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=6de8aff5-a524-4a81-9121-440e7c64c2fc": {
+   "nivel": 2,
+   "razon": "Trata sobre Red Natura 2000, red de espacios protegidos.",
+   "title": "Servicio WMS (Web Map Service) Red Natura 2000",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_157|https://opendata-ajuntament.barcelona.cat/data/dataset/cataleg-cartes-de-serveis-i-politiques-de-qualitat-bcnroc": {
+   "nivel": 2,
+   "razon": "Catálogo de cartas de servicio, documento que responde a 'carta'.",
+   "title": "Catálogo de cartas de servicio y política de calidad en el Repositorio Abierto de Conocimiento del Ayuntamiento de Barcelona ( BCNROC)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_157|https://datos.madrid.es/dataset/300629-0-cita_previa_encuesta": {
+   "nivel": 0,
+   "razon": "Trata de satisfacción con cita previa, no de cartas; solo menciona carta de servicios.",
+   "title": "Estudio de satisfacción de la ciudadanía con el servicio de cita previa",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_158|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00014a_000002": {
+   "nivel": 0,
+   "razon": "El conjunto trata sobre precios de hortalizas de hoja, no sobre 'hoja' en general.",
+   "title": "Precios de hortalizas de hoja según productos agrícolas y posiciones comerciales. Islas de Canarias y periodos",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_161|https://intranet.caib.es/opendatacataleg/dataset/64568eda-9502-4fe6-a61a-e354f1b87856": {
+   "nivel": 2,
+   "razon": "Clasificación de tipologías de obra de construcción; coincide con el fenómeno 'obra' sin ámbito especificado.",
+   "title": "Classificació de tipologies d'obra (ISTAC: CL_TIPOLOGIAS_OBRA)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_165|https://www.cis.es/es/estudios/valores-y-creencias-de-los-jovenes": {
+   "nivel": 1,
+   "razon": "Trata de valores sociales, pero se centra en jóvenes, un desglose no solicitado.",
+   "title": "Valores y creencias de los jóvenes",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  },
+  "limp_165|https://www.cis.es/es/estudios/evolucion-del-sistema-de-valores-ii-": {
+   "nivel": 1,
+   "razon": "Trata de valores, pero se enfoca en su evolución, un aspecto no solicitado.",
+   "title": "Evolución del sistema de valores (II)",
+   "doble": false,
+   "fuente_meta": "bd:datasets"
+  }
+ },
+ "fallos": [],
+ "acuerdo_doble": {
+  "n": 15,
+  "exacto": 0.8,
+  "con_tolerancia_1": 1.0
+ }
+}

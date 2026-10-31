@@ -1,0 +1,281 @@
+{
+ "n": 29,
+ "reproducen": 12,
+ "efecto_texto": 12,
+ "ruido": 17,
+ "transiciones": {
+  "2-1-2": 11,
+  "2-1-1": 8,
+  "1-0-0": 1,
+  "1-2-2": 1,
+  "0-2-2": 1,
+  "0-1-1": 3,
+  "2-1-0": 1,
+  "1-2-1": 1,
+  "2-0-0": 2
+ },
+ "filas": [
+  {
+   "clave": "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-121571",
+   "query_id": "edu_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-70358",
+   "query_id": "edu_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-109323",
+   "query_id": "edu_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2017/",
+   "query_id": "medio_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "medio_002|https://datosabiertos.navarra.es/dataset/residuos-urbanos",
+   "query_id": "medio_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "medio_002|https://www.donostia.eus/datosabiertos/catalogo/indicadores_residuos",
+   "query_id": "medio_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918112",
+   "query_id": "empleo_002",
+   "historico": 1,
+   "con_espana": 0,
+   "control": 0,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "econ_001|https://intranet.caib.es/opendatacataleg/dataset/d3edc54f-846d-49df-a779-688c64a33fa5",
+   "query_id": "econ_001",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "econ_001|https://intranet.caib.es/opendatacataleg/dataset/2a936328-37ab-4738-a200-6cf016a077aa",
+   "query_id": "econ_001",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2004.-Circunstancias-concurrentes-conductores-implicados/",
+   "query_id": "trans_004",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "trans_003|https://www.vitoria-gasteiz.org/j34-01w/catalogo/personas_usuarias_del_transporte_publico",
+   "query_id": "trans_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1921207",
+   "query_id": "empleo_004",
+   "historico": 1,
+   "con_espana": 2,
+   "control": 2,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "edu_005|http://datosabiertos.castillalamancha.es/node/2065",
+   "query_id": "edu_005",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Master_Tot",
+   "query_id": "edu_001",
+   "historico": 0,
+   "con_espana": 2,
+   "control": 2,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_NoBec_CA",
+   "query_id": "edu_001",
+   "historico": 0,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "san_005|https://datos.gob.es/catalogo/ea0042823-tablas-de-mortalidad-por-ano-provincia-sexo-edad-y-funciones-tm-identificador-api-67235",
+   "query_id": "san_005",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "cult_003|https://datos.comunidad.madrid/catalogo/dataset/1906200",
+   "query_id": "cult_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "cult_003|http://opendata.caceres.es/federator/cines-caceres",
+   "query_id": "cult_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 0,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "san_004|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00041a_000001",
+   "query_id": "san_004",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-titularidad-de-la-biblioteca-identificador-api-33020",
+   "query_id": "cult_001",
+   "historico": 1,
+   "con_espana": 2,
+   "control": 1,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "dep_002|https://www.vitoria-gasteiz.org/j34-01w/catalogo/Uso_de_las_instalaciones_deportivas",
+   "query_id": "dep_002",
+   "historico": 0,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "dep_002|https://datos.madrid.es/dataset/212808-0-espacio-deporte",
+   "query_id": "dep_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "dep_002|https://datosabiertos.navarra.es/dataset/spasitnaidemun_sym_instalacionesdeportivas-xml",
+   "query_id": "dep_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "dep_002|https://intranet.caib.es/opendatacataleg/dataset/d07c1772-2cd2-4053-89bc-54112c07be18",
+   "query_id": "dep_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "medio_001|https://opendata.gijon.es/catalogo/calidad_aire_2006",
+   "query_id": "medio_001",
+   "historico": 0,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "san_002|https://datosabiertos.regiondemurcia.es/carm/catalogo/salud/poblacion-asignada-a-equipos-de-atencion-primaria",
+   "query_id": "san_002",
+   "historico": 2,
+   "con_espana": 0,
+   "control": 0,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "san_003|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00045a_000001",
+   "query_id": "san_003",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 2,
+   "reproduce": true,
+   "efecto_texto": true
+  },
+  {
+   "clave": "demo_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372",
+   "query_id": "demo_001",
+   "historico": 2,
+   "con_espana": 0,
+   "control": 0,
+   "reproduce": false,
+   "efecto_texto": false
+  },
+  {
+   "clave": "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/pasajeros-procedentes-de-aeropuertos-nacionales-segun-comunidad-autonoma-de-residencia-por-isla",
+   "query_id": "trans_002",
+   "historico": 2,
+   "con_espana": 1,
+   "control": 1,
+   "reproduce": false,
+   "efecto_texto": false
+  }
+ ],
+ "fallos": []
+}

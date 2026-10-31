@@ -1,0 +1,437 @@
+{
+ "meta": {
+  "generado": "2026-09-24T21:03:13",
+  "modelo": "deepseek-v4.1-flash",
+  "n_muestra": 70,
+  "nota": "rejuzgado independiente para medir acuerdo (G2)"
+ },
+ "resultados": {
+  "reproducibilidad": {
+   "n": 59,
+   "exacto": 0.559322033898305,
+   "tol1": 0.8813559322033898,
+   "kappa": 0.3444444444444444
+  },
+  "robustez_prompt": {
+   "n": 59,
+   "exacto": 0.4745762711864407,
+   "tol1": 0.9152542372881356,
+   "kappa": 0.27535657686212356
+  }
+ },
+ "detalle": [
+  {
+   "clave": "demo_001|http://www.bilbao.net/opendata/catalogo/dato-extranjeros-pais-edad-2022",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "demo_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000380",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "san_001|https://datos.comunidad.madrid/catalogo/dataset/603018",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "san_001|https://datosabiertos.regiondemurcia.es/carm/catalogo/salud/urgencias-atendidas-en-hospitales",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "san_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-conceptscheme-conceptscheme-istac-cso_e30414a",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "trans_005|https://opendata.gijon.es/catalogo/puntosvehiculoselectricos",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "trans_005|https://www.opendatalapalma.es/datasets/4f7a27f5c2d14406b287cb3b4eb826ad_0",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "cult_002|https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/cultura-ocio/turismo-museos",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "cult_002|https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/museos-en-la-region-de-murcia",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "cult_002|https://datosabiertos.jcyl.es/web/jcyl/set/es/cultura-ocio/visitantes-museos/1285086084080",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "cult_002|https://datosabiertos.jcyl.es/web/jcyl/set/es/cultura-ocio/visitantes-anuales-museos/1285086250146",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-262-para-el-ao-2012",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "dep_003|https://www.cis.es/es/estudios/los-habitos-deportivos-de-los-espanoles-ii-",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "dep_003|https://www.cis.es/es/estudios/habitos-deportivos-en-espana-iv-",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2017/",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "demo_004|https://datos.comunidad.madrid/catalogo/dataset/migraciones_por_procedencia_destino_edad_y_sexo",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "edu_005|https://dadesobertes.gva.es/dataset/edu-alu-fp-2022",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "edu_005|https://dadesobertes.gva.es/dataset/edu-alu-fp-2014",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "edu_005|https://dadesobertes.gva.es/dataset/edu-alu-fp-2018",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "edu_005|https://datos.lorca.es/catalogo/cursos-formacion-empleo/",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_004|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30048a_000004",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_004|urn:ine:es:TABLA:TPX:67301",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919185",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "trans_003|https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/2300",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "cult_003|https://www.cis.es/es/estudios/distribuidores-de-cine",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "cult_003|https://www.cis.es/es/estudios/actores",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "cult_003|https://www.cis.es/es/estudios/directores-de-cine",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "econ_005|https://datos.icane.es/dataset/ad80bceb-5ed3-487a-8e94-8471e16d317d",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "econ_005|https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/0f3a293d-e060-4017-a62f-c2357c1458b2",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "econ_005|https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-de-la-deuda-publica-comunidad-autonoma-de-la-region-de-murcia",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "san_004|https://datos.icane.es/dataset/ecfe7bb0-3f96-4b3d-9752-7f6325043d12",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "san_004|http://datosabiertos.castillalamancha.es/node/815",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1932150",
+   "base": 0,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/402030",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "empleo_002|https://www.juntadeandalucia.es/datosabiertos/portal/dataset/1c24b257-0bb2-4eab-a629-c2745d2a81ed",
+   "base": 0,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "edu_004|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/2_3_Mat_Sex_Edad1_Amb_CA",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "dep_001|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/e1706200-49b4-423c-b420-01539706c774",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "dep_002|https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/deporte/deportes-instalaciones",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "dep_002|https://www.vitoria-gasteiz.org/j34-01w/catalogo/Uso_de_las_instalaciones_deportivas",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "amb_002|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-127129",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "amb_002|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-70124",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "empleo_003|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/c992e963-e812-4dff-b396-7b513cbf1c7e",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "medio_003|https://opendata.euskadi.eus/catalogo/-/indice-evolucion-emisiones-totales-gases-efecto-invernadero-pais-ano-base-1990-100/",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "medio_003|https://opendata.euskadi.eus/catalogo/-/evolucion-ratio-emisiones-totales-gases-efecto-invernadero-per-capita-paises/",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Graduacion_Master_Tot",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Duracion_Master_CA",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_003|https://opendata.euskadi.eus/catalogo/-/indice-precios-industriales-c-euskadi-tasas-variacion-p/",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_003|https://opendata.euskadi.eus/catalogo/-/indice-de-precios-industriales-de-la-c-a-de-euskadi-por-mes-y-ano-segun-sectorizacion-a38-sectores-12-16-p/",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_003|https://opendata.euskadi.eus/catalogo/-/indice-de-precios-industriales-de-la-c-a-de-euskadi-por-mes-y-ano-segun-grandes-divisiones-sectorizacion-a21-p/",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "econ_003|https://datos.canarias.es/catalogos/estadisticas/dataset/indice-de-precios-de-consumo-y-tasas-de-variacion-segun-grupos-ecoicop-por-comunidades-autonoma",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "dep_004|https://datos.gob.es/catalogo/D00000000512004",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "dep_005|https://www.cis.es/es/estudios/deporte",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "cult_004|https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/salas-de-exposiciones",
+   "base": 0,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 0
+  },
+  {
+   "clave": "edu_002|urn:ine:es:TABLA:T3:237:69787",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "edu_002|https://datos.gob.es/catalogo/EMLEP0000091011",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "san_005|https://datos.comunidad.madrid/catalogo/dataset/1905428",
+   "base": 2,
+   "mismo_prompt": 0,
+   "mismo_prompt_2": 0,
+   "prompt_alt": 1
+  },
+  {
+   "clave": "econ_001|https://intranet.caib.es/opendatacataleg/dataset/2a936328-37ab-4738-a200-6cf016a077aa",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "medio_001|https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+   "base": 2,
+   "mismo_prompt": 2,
+   "mismo_prompt_2": 2,
+   "prompt_alt": 2
+  },
+  {
+   "clave": "demo_002|https://www.donostia.eus/datosabiertos/catalogo/demografia-piramideedad",
+   "base": 2,
+   "mismo_prompt": 1,
+   "mismo_prompt_2": 1,
+   "prompt_alt": 1
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="105 226 500 500" width="600" height="600" role="img" aria-labelledby="t">
+  <title id="t">DataTrust — símbolo</title>
+  <defs>
+    <linearGradient id="tealGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00B9B0"/>
+      <stop offset="100%" stop-color="#00A79D"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0D2B4D"/>
+      <stop offset="100%" stop-color="#1769E0"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-30 -10) scale(1)">
+  <g transform="translate(120 180)">
+    <!-- Magnifying glass -->
+    <circle cx="250" cy="250" r="158" fill="none" stroke="#0D2B4D" stroke-width="42"/>
+    <path d="M137 362 L52 447" stroke="#0D2B4D" stroke-width="48" stroke-linecap="round"/>
+    <!-- Semantic graph -->
+    <path d="M165 225 L250 185 L325 255 L245 316 L165 225 M250 185 L245 316 M165 225 L245 316"
+          fill="none" stroke="#0D2B4D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="165" cy="225" r="22" fill="#00A79D"/>
+    <circle cx="250" cy="185" r="24" fill="#00A79D"/>
+    <circle cx="325" cy="255" r="22" fill="#8B99A6"/>
+    <circle cx="245" cy="316" r="24" fill="#00A79D"/>
+    <!-- Shield -->
+    <path d="M337 292
+             C337 292 390 317 442 317
+             V390
+             C442 448 392 489 337 521
+             C282 489 232 448 232 390
+             V317
+             C284 317 337 292 337 292Z" fill="url(#tealGrad)" stroke="#FFFFFF" stroke-width="10"/>
+    <path d="M281 388 L323 430 L400 348" fill="none" stroke="#FFFFFF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  </g>
+</svg>

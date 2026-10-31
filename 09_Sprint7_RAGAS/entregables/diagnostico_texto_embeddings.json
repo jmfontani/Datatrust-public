@@ -1,0 +1,83 @@
+{
+ "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+ "muestra": 30,
+ "variantes": {
+  "t+d+k+theme+territory (script actual)": {
+   "coseno_medio": 0.843639,
+   "coseno_min": 0.69954,
+   "n_casi_exactos": 1
+  },
+  "t+d+k+theme+territory+publisher": {
+   "coseno_medio": 0.859706,
+   "coseno_min": 0.69954,
+   "n_casi_exactos": 0
+  },
+  "t+d": {
+   "coseno_medio": 0.796281,
+   "coseno_min": 0.545955,
+   "n_casi_exactos": 0
+  },
+  "d": {
+   "coseno_medio": 0.719468,
+   "coseno_min": 0.269582,
+   "n_casi_exactos": 0
+  },
+  "t": {
+   "coseno_medio": 0.706148,
+   "coseno_min": 0.255154,
+   "n_casi_exactos": 0
+  },
+  "t+d+k": {
+   "coseno_medio": 0.830916,
+   "coseno_min": 0.69954,
+   "n_casi_exactos": 0
+  },
+  "d+k": {
+   "coseno_medio": 0.777043,
+   "coseno_min": 0.269582,
+   "n_casi_exactos": 0
+  },
+  "d+t": {
+   "coseno_medio": 0.79078,
+   "coseno_min": 0.516499,
+   "n_casi_exactos": 0
+  },
+  "t: d": {
+   "coseno_medio": 0.80365,
+   "coseno_min": 0.550129,
+   "n_casi_exactos": 0
+  },
+  "t. d": {
+   "coseno_medio": 0.797357,
+   "coseno_min": 0.561009,
+   "n_casi_exactos": 0
+  },
+  "t - d": {
+   "coseno_medio": 0.798151,
+   "coseno_min": 0.534307,
+   "n_casi_exactos": 0
+  },
+  "t+d+theme+subtheme+territory+muni": {
+   "coseno_medio": 0.83336,
+   "coseno_min": 0.675955,
+   "n_casi_exactos": 0
+  },
+  "t+d+k+theme+subtheme+territory+muni+publisher": {
+   "coseno_medio": 0.859706,
+   "coseno_min": 0.69954,
+   "n_casi_exactos": 0
+  },
+  "d+url": {
+   "coseno_medio": 0.672042,
+   "coseno_min": 0.369626,
+   "n_casi_exactos": 0
+  },
+  "d + ' ' + t + ' ' + k": {
+   "coseno_medio": 0.823825,
+   "coseno_min": 0.69954,
+   "n_casi_exactos": 0
+  }
+ },
+ "mejor": "t+d+k+theme+territory+publisher"
+}

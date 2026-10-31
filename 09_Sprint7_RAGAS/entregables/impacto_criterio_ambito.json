@@ -1,0 +1,17 @@
+{
+ "total_etiquetas": 1424,
+ "nivel1": 225,
+ "con_razon": 225,
+ "sin_razon": 0,
+ "clases": {
+  "sin_pista": 83,
+  "no_territorial": 42,
+  "territorial": 84,
+  "mixta": 16
+ },
+ "cambiarian_con_certeza": 84,
+ "mixtas": 16,
+ "cota_superior": 100,
+ "pct_gt_afectado_min": 5.9,
+ "pct_gt_afectado_max": 7.02
+}

@@ -1,0 +1,2857 @@
+# ============================================
+# CONCEPTOS SEMÁNTICOS PARA NORMALIZACIÓN
+# ============================================
+#
+# Propósito: Detectar conceptos en queries y clasificar resultados
+# como equivalente/relacionado/complementario/no_equivalente.
+#
+# Uso: Experimental - Activar solo con conceptual_normalization=True
+#
+# Versión: 2.0 - 100+ conceptos de datos abiertos
+# Fecha: 2026-06-05
+#
+# ============================================
+
+# ============================================
+# EMPLEO Y MERCADO LABORAL (12 conceptos)
+# ============================================
+
+empleo:
+  desempleo_juvenil:
+    label: "Desempleo juvenil"
+    triggers:
+      - "paro juvenil"
+      - "desempleo juvenil"
+      - "jóvenes parados"
+      - "jovenes parados"
+      - "paro joven"
+      - "desempleo joven"
+      - "desempleo menores"
+      - "paro menores"
+      - "población.*joven.*empleo"
+      - "poblacion.*joven.*empleo"
+    equivalentes:
+      - "paro juvenil"
+      - "desempleo juvenil"
+      - "jóvenes parados"
+      - "jovenes parados"
+      - "tasa de paro juvenil"
+      - "desempleo menores 30"
+      - "desempleo menores 25"
+      - "población activa joven"
+      - "poblacion activa joven"
+      - "activos menores 25"
+      - "activos menores 30"
+      - "población de 16 y más años según situación laboral"
+      - "población de 18 y más años según empleo"
+    relacionados:
+      - "demandantes de empleo jóvenes"
+      - "mercado laboral juvenil"
+      - "contratos jóvenes"
+      - "empleo juvenil"
+      - "primer empleo"
+      - "alumnado que busca empleo"
+      - "población activa juvenil"
+    complementarios:
+      - "abandono escolar"
+      - "ninis"
+      - "jóvenes que no estudian ni trabajan"
+      - "formación profesional"
+      - "educación secundaria"
+      - "alumnado matriculado"
+    no_equivalentes:
+      - "contratos laborales"
+      - "afiliación"
+      - "ocupados"
+      - "empresas"
+      - "paro general"
+      - "accidentes de trabajo"
+
+  desempleo_general:
+    label: "Desempleo general"
+    triggers:
+      - "paro"
+      - "desempleo"
+      - "desempleados"
+      - "parados"
+      - "tasa de paro"
+      - "tasa de desempleo"
+      - "paro registrado"
+      - "población según situación laboral"
+    equivalentes:
+      - "paro"
+      - "desempleo"
+      - "desempleados"
+      - "parados"
+      - "tasa de paro"
+      - "tasa de desempleo"
+      - "población parada"
+      - "poblacion parada"
+      - "paro registrado"
+      - "población de 16 y más años según situación laboral"
+      - "población de 18 y más años según empleo"
+    relacionados:
+      - "demandantes de empleo"
+      - "atur"
+      - "sepe"
+      - "servicio público de empleo"
+      - "prestación por desempleo"
+      - "población activa"
+      - "población inactiva"
+    complementarios:
+      - "población activa"
+      - "ocupados"
+      - "empleo"
+      - "afiliación seguridad social"
+      - "población de 16 y más años"
+    no_equivalentes:
+      - "empleo"
+      - "ocupados"
+      - "contratos"
+      - "afiliados"
+      - "accidentes de trabajo"
+      - "población según salud"
+
+  empleo_general:
+    label: "Empleo general"
+    triggers:
+      - "empleo"
+      - "empleados"
+      - "ocupados"
+      - "trabajadores"
+      - "población ocupada"
+    equivalentes:
+      - "empleo"
+      - "empleados"
+      - "ocupados"
+      - "población ocupada"
+      - "poblacion ocupada"
+      - "trabajadores"
+    relacionados:
+      - "afiliación seguridad social"
+      - "contratos laborales"
+      - "mercado laboral"
+      - "población activa"
+      - "altas seguridad social"
+    complementarios:
+      - "paro"
+      - "desempleo"
+      - "salarios"
+      - "rentas del trabajo"
+    no_equivalentes:
+      - "paro"
+      - "desempleo"
+      - "empresas"
+
+  contratos_laborales:
+    label: "Contratos laborales"
+    triggers:
+      - "contratos"
+      - "contratación"
+      - "contratacion"
+      - "altas laborales"
+    equivalentes:
+      - "contratos"
+      - "contratos laborales"
+      - "contratación"
+      - "contratacion"
+      - "altas"
+      - "altas laborales"
+    relacionados:
+      - "modalidad contractual"
+      - "temporales"
+      - "indefinidos"
+      - "parciales"
+      - "jornada completa"
+    complementarios:
+      - "desempleo"
+      - "empleo"
+      - "salarios"
+    no_equivalentes:
+      - "paro"
+      - "desempleo"
+      - "empresas"
+
+  salarios:
+    label: "Salarios y rentas del trabajo"
+    triggers:
+      - "salarios"
+      - "salario"
+      - "sueldos"
+      - "rentas del trabajo"
+      - "ingresos laborales"
+    equivalentes:
+      - "salarios"
+      - "salario"
+      - "sueldos"
+      - "rentas del trabajo"
+      - "ingresos laborales"
+      - "remuneración"
+      - "remuneracion"
+    relacionados:
+      - "salario medio"
+      - "salario mínimo"
+      - "brecha salarial"
+      - "coste laboral"
+    complementarios:
+      - "empleo"
+      - "pensiones"
+      - "rentas del hogar"
+    no_equivalentes:
+      - "rentas del capital"
+      - "beneficios empresariales"
+
+  poblacion_activa:
+    label: "Población activa"
+    triggers:
+      - "población activa"
+      - "poblacion activa"
+      - "activos"
+      - "fuerza de trabajo"
+    equivalentes:
+      - "población activa"
+      - "poblacion activa"
+      - "activos"
+      - "fuerza de trabajo"
+    relacionados:
+      - "tasa de actividad"
+      - "ocupados"
+      - "parados"
+      - "inactivos"
+    complementarios:
+      - "empleo"
+      - "paro"
+      - "población en edad de trabajar"
+    no_equivalentes:
+      - "población total"
+      - "población inactiva"
+
+  pensiones:
+    label: "Pensiones y jubilaciones"
+    triggers:
+      - "pensiones"
+      - "pension"
+      - "jubilación"
+      - "jubilacion"
+      - "jubilados"
+    equivalentes:
+      - "pensiones"
+      - "pensión"
+      - "jubilación"
+      - "jubilacion"
+      - "jubilados"
+      - "pensionistas"
+    relacionados:
+      - "pensión media"
+      - "edad de jubilación"
+      - "jubilación anticipada"
+      - "seguridad social"
+    complementarios:
+      - "mayores"
+      - "dependencia"
+      - "gasto social"
+    no_equivalentes:
+      - "salarios"
+      - "desempleo"
+
+  afiliacion_seguridad_social:
+    label: "Afiliación a la Seguridad Social"
+    triggers:
+      - "afiliación"
+      - "afiliacion"
+      - "afiliados"
+      - "seguridad social"
+      - "altas ss"
+    equivalentes:
+      - "afiliación"
+      - "afiliacion"
+      - "afiliados"
+      - "afiliados seguridad social"
+      - "altas seguridad social"
+    relacionados:
+      - "régimen general"
+      - "autónomos"
+      - "trabajadores"
+      - "cotizantes"
+    complementarios:
+      - "empleo"
+      - "contratos"
+      - "empresas"
+    no_equivalentes:
+      - "paro"
+      - "desempleo"
+      - "pensiones"
+
+# ============================================
+# VIVIENDA Y URBANISMO (10 conceptos)
+# ============================================
+
+vivienda:
+  alquiler_vivienda:
+    label: "Alquiler de vivienda"
+    triggers:
+      - "alquiler vivienda"
+      - "precio alquiler"
+      - "vivienda alquiler"
+      - "renta alquiler"
+      - "arrendamiento"
+    equivalentes:
+      - "alquiler"
+      - "precio del alquiler"
+      - "renta del alquiler"
+      - "arrendamiento vivienda"
+      - "precio alquiler vivienda"
+      - "mercado de alquiler"
+    relacionados:
+      - "mercado inmobiliario"
+      - "vivienda residencial"
+      - "fianza alquiler"
+      - "contratos de alquiler"
+      - "canon de alquiler"
+    complementarios:
+      - "precio compraventa"
+      - "catastro"
+      - "parque de viviendas"
+      - "vivienda protegida"
+    no_equivalentes:
+      - "licencias urbanísticas"
+      - "construcción"
+      - "compraventa"
+
+  compraventa_vivienda:
+    label: "Compraventa de vivienda"
+    triggers:
+      - "compraventa vivienda"
+      - "precio vivienda"
+      - "venta vivienda"
+      - "precio casa"
+      - "transmisiones"
+    equivalentes:
+      - "compraventa"
+      - "precio vivienda"
+      - "venta de viviendas"
+      - "transmisiones inmobiliarias"
+      - "transmisiones propiedad"
+    relacionados:
+      - "mercado inmobiliario"
+      - "hipotecas"
+      - "notarías"
+      - "registro propiedad"
+    complementarios:
+      - "alquiler"
+      - "catastro"
+      - "parque de viviendas"
+    no_equivalentes:
+      - "alquiler"
+      - "construcción"
+      - "urbanismo"
+
+  parque_viviendas:
+    label: "Parque de viviendas"
+    triggers:
+      - "parque viviendas"
+      - "viviendas"
+      - "stock viviendas"
+      - "censio viviendas"
+    equivalentes:
+      - "parque viviendas"
+      - "viviendas"
+      - "stock viviendas"
+      - "censio viviendas"
+      - "número de viviendas"
+    relacionados:
+      - "vivienda principal"
+      - "vivienda secundaria"
+      - "vivienda vacía"
+      - "vivienda desocupada"
+    complementarios:
+      - "población"
+      - "hogares"
+      - "densidad"
+    no_equivalentes:
+      - "construcción nueva"
+      - "licencias"
+
+  construccion_viviendas:
+    label: "Construcción de viviendas"
+    triggers:
+      - "construcción viviendas"
+      - "construccion viviendas"
+      - "viviendas nuevas"
+      - "obra nueva"
+      - "licencias construcción"
+    equivalentes:
+      - "construcción viviendas"
+      - "viviendas nuevas"
+      - "obra nueva"
+      - "licencias construcción"
+      - "licencias obra"
+    relacionados:
+      - "visados arquitectos"
+      - "inversión construcción"
+      - "empresa constructora"
+    complementarios:
+      - "urbanismo"
+      - "suelo"
+      - "parque viviendas"
+    no_equivalentes:
+      - "compraventa"
+      - "alquiler"
+
+  catastro:
+    label: "Catastro inmobiliario"
+    triggers:
+      - "catastro"
+      - "valor catastral"
+      - "referencia catastral"
+      - "inmuebles"
+    equivalentes:
+      - "catastro"
+      - "valor catastral"
+      - "referencia catastral"
+      - "inmuebles"
+      - "bienes inmuebles"
+    relacionados:
+      - "ibis"
+      - "impuesto bienes inmuebles"
+      - "tasación"
+    complementarios:
+      - "vivienda"
+      - "suelo"
+      - "urbanismo"
+    no_equivalentes:
+      - "registro propiedad"
+      - "notaría"
+
+  suelo_urbanismo:
+    label: "Suelo y urbanismo"
+    triggers:
+      - "suelo"
+      - "urbanismo"
+      - "planeamiento"
+      - "pgou"
+      - "uso del suelo"
+    equivalentes:
+      - "suelo"
+      - "urbanismo"
+      - "planeamiento"
+      - "uso del suelo"
+      - "clasificación suelo"
+    relacionados:
+      - "suelo urbano"
+      - "suelo rústico"
+      - "suelo urbanizable"
+      - "ordenación territorial"
+    complementarios:
+      - "construcción"
+      - "licencias"
+      - "vivienda"
+    no_equivalentes:
+      - "vivienda"
+      - "catastro"
+
+  hipotecas:
+    label: "Hipotecas y financiación"
+    triggers:
+      - "hipotecas"
+      - "hipoteca"
+      - "préstamos vivienda"
+      - "prestamos vivienda"
+      - "financiación vivienda"
+    equivalentes:
+      - "hipotecas"
+      - "hipoteca"
+      - "préstamos vivienda"
+      - "prestamos vivienda"
+      - "créditos hipotecarios"
+    relacionados:
+      - "tipo interés"
+      - "amortización"
+      - "embargos"
+      - "ejecuciones hipotecarias"
+    complementarios:
+      - "compraventa"
+      - "precio vivienda"
+      - "bancos"
+    no_equivalentes:
+      - "alquiler"
+      - "consumo"
+
+# ============================================
+# SANIDAD Y SALUD (10 conceptos)
+# ============================================
+
+sanidad:
+  gasto_sanitario:
+    label: "Gasto sanitario"
+    triggers:
+      - "gasto sanitario"
+      - "presupuesto sanitario"
+      - "gasto salud"
+      - "financiación sanitaria"
+    equivalentes:
+      - "gasto sanitario"
+      - "presupuesto sanitario"
+      - "financiación sanitaria"
+      - "financiacion sanitaria"
+      - "gasto en salud"
+      - "inversión sanitaria"
+    relacionados:
+      - "gasto farmacéutico"
+      - "recursos sanitarios"
+      - "atención primaria"
+      - "sanidad pública"
+    complementarios:
+      - "hospitales"
+      - "centros de salud"
+      - "personal sanitario"
+    no_equivalentes:
+      - "listas de espera"
+      - "mortalidad"
+      - "enfermedades"
+
+  hospitales:
+    label: "Hospitales y centros sanitarios"
+    triggers:
+      - "hospitales"
+      - "centros de salud"
+      - "centros sanitarios"
+      - "infraestructura sanitaria"
+      - "centros hospitalarios"
+    equivalentes:
+      - "hospitales"
+      - "centros de salud"
+      - "centros sanitarios"
+      - "infraestructura hospitalaria"
+      - "centros hospitalarios"
+    relacionados:
+      - "personal sanitario"
+      - "médicos"
+      - "enfermeras"
+      - "camas hospitalarias"
+      - "quirófanos"
+    complementarios:
+      - "gasto sanitario"
+      - "atención primaria"
+      - "urgencias"
+    no_equivalentes:
+      - "enfermedades"
+      - "mortalidad"
+      - "pacientes"
+
+  listas_espera:
+    label: "Listas de espera"
+    triggers:
+      - "listas de espera"
+      - "tiempo de espera"
+      - "demora quirúrgica"
+      - "espera consulta"
+    equivalentes:
+      - "listas de espera"
+      - "tiempo de espera"
+      - "demora quirúrgica"
+      - "espera consulta"
+      - "demora médica"
+    relacionados:
+      - "cirugía"
+      - "consulta especializada"
+      - "pruebas diagnósticas"
+    complementarios:
+      - "hospitales"
+      - "personal sanitario"
+      - "actividad quirúrgica"
+    no_equivalentes:
+      - "gasto sanitario"
+      - "mortalidad"
+
+  mortalidad:
+    label: "Mortalidad y defunciones"
+    triggers:
+      - "mortalidad"
+      - "defunciones"
+      - "muertes"
+      - "tasa de mortalidad"
+      - "mortalidad general"
+    equivalentes:
+      - "mortalidad"
+      - "defunciones"
+      - "muertes"
+      - "tasa de mortalidad"
+      - "mortalidad general"
+    relacionados:
+      - "mortalidad infantil"
+      - "mortalidad materna"
+      - "causas de muerte"
+      - "esperanza de vida"
+    complementarios:
+      - "natalidad"
+      - "población"
+      - "envejecimiento"
+    no_equivalentes:
+      - "enfermedades"
+      - "hospitales"
+      - "morbilidad"
+
+  natalidad:
+    label: "Natalidad y fecundidad"
+    triggers:
+      - "natalidad"
+      - "nacimientos"
+      - "fecundidad"
+      - "tasa de natalidad"
+      - "hijos por mujer"
+    equivalentes:
+      - "natalidad"
+      - "nacimientos"
+      - "fecundidad"
+      - "tasa de natalidad"
+      - "hijos por mujer"
+    relacionados:
+      - "fertilidad"
+      - "edad materna"
+      - "partos"
+      - "partos múltiples"
+    complementarios:
+      - "mortalidad"
+      - "población"
+      - "familias"
+    no_equivalentes:
+      - "abortos"
+      - "adopciones"
+
+  enfermedades:
+    label: "Enfermedades y morbilidad"
+    triggers:
+      - "enfermedades"
+      - "morbilidad"
+      - "patologías"
+      - "diagnósticos"
+      - "incidencia enfermedad"
+    equivalentes:
+      - "enfermedades"
+      - "morbilidad"
+      - "patologías"
+      - "diagnósticos"
+      - "incidencia"
+    relacionados:
+      - "enfermedades crónicas"
+      - "enfermedades infecciosas"
+      - "prevalencia"
+      - "epidemiología"
+    complementarios:
+      - "hospitales"
+      - "atención primaria"
+      - "salud pública"
+    no_equivalentes:
+      - "mortalidad"
+      - "defunciones"
+
+  personal_sanitario:
+    label: "Personal sanitario"
+    triggers:
+      - "personal sanitario"
+      - "médicos"
+      - "enfermeras"
+      - "facultativos"
+      - "profesionales salud"
+    equivalentes:
+      - "personal sanitario"
+      - "médicos"
+      - "enfermeras"
+      - "facultativos"
+      - "profesionales salud"
+      - "personal médico"
+    relacionados:
+      - "médicos de familia"
+      - "especialistas"
+      - "enfermería"
+      - "ratio médico-paciente"
+    complementarios:
+      - "hospitales"
+      - "centros de salud"
+      - "gasto sanitario"
+    no_equivalentes:
+      - "pacientes"
+      - "usuarios"
+
+  farmacia:
+    label: "Farmacia y medicamentos"
+    triggers:
+      - "farmacia"
+      - "medicamentos"
+      - "gasto farmacéutico"
+      - "recetas"
+      - "prescripción"
+    equivalentes:
+      - "farmacia"
+      - "medicamentos"
+      - "gasto farmacéutico"
+      - "gasto farmaceutico"
+      - "recetas"
+      - "prescripción"
+    relacionados:
+      - "receta electrónica"
+      - "medicamentos genéricos"
+      - "consumo farmacéutico"
+    complementarios:
+      - "gasto sanitario"
+      - "atención primaria"
+      - "salud"
+    no_equivalentes:
+      - "drogas"
+      - "drogodependencias"
+
+  salud_mental:
+    label: "Salud mental"
+    triggers:
+      - "salud mental"
+      - "trastornos mentales"
+      - "psiquiatría"
+      - "psicología"
+      - "depresión"
+    equivalentes:
+      - "salud mental"
+      - "trastornos mentales"
+      - "psiquiatría"
+      - "psicología clínica"
+    relacionados:
+      - "ansiedad"
+      - "depresión"
+      - "suicidios"
+      - "atención psicológica"
+    complementarios:
+      - "hospitales"
+      - "centros de salud"
+      - "servicios sociales"
+    no_equivalentes:
+      - "discapacidad"
+      - "dependencia"
+
+  drogodependencias:
+    label: "Drogodependencias y adicciones"
+    triggers:
+      - "drogodependencias"
+      - "drogas"
+      - "adicciones"
+      - "toxicomanía"
+      - "alcoholismo"
+    equivalentes:
+      - "drogodependencias"
+      - "drogas"
+      - "adicciones"
+      - "toxicomanía"
+      - "alcoholismo"
+    relacionados:
+      - "consumo drogas"
+      - "tratamiento desintoxicación"
+      - "prevención"
+    complementarios:
+      - "salud mental"
+      - "servicios sociales"
+      - "juventud"
+    no_equivalentes:
+      - "farmacia"
+      - "medicamentos"
+
+# ============================================
+# EDUCACIÓN (8 conceptos)
+# ============================================
+
+educacion:
+  abandono_escolar:
+    label: "Abandono escolar temprano"
+    triggers:
+      - "abandono escolar"
+      - "abandono educativo"
+      - "fracaso escolar"
+      - "abandono estudios"
+      - "abandono temprano"
+    equivalentes:
+      - "abandono escolar"
+      - "abandono educativo"
+      - "abandono temprano"
+      - "tasa de abandono"
+      - "abandono formativo"
+    relacionados:
+      - "fracaso escolar"
+      - "repetición curso"
+      - "graduación escolar"
+      - "titulación básica"
+    complementarios:
+      - "paro juvenil"
+      - "ninis"
+      - "formación profesional"
+    no_equivalentes:
+      - "matrícula"
+      - "alumnos"
+      - "centros educativos"
+
+  educacion_infantil:
+    label: "Educación infantil"
+    triggers:
+      - "educación infantil"
+      - "educacion infantil"
+      - "escuelas infantiles"
+      - "guarderías"
+      - "guarderias"
+      - "preescolar"
+    equivalentes:
+      - "educación infantil"
+      - "educacion infantil"
+      - "escuelas infantiles"
+      - "guarderías"
+      - "guarderias"
+      - "preescolar"
+      - "educación 0-6"
+    relacionados:
+      - "escolarización temprana"
+      - "primer ciclo"
+      - "segundo ciclo"
+      - "matrícula infantil"
+    complementarios:
+      - "natalidad"
+      - "conciliación"
+      - "familias"
+    no_equivalentes:
+      - "educación primaria"
+      - "colegios"
+
+  educacion_primaria:
+    label: "Educación primaria"
+    triggers:
+      - "educación primaria"
+      - "educacion primaria"
+      - "primaria"
+      - "colegios"
+      - "escuelas primarias"
+    equivalentes:
+      - "educación primaria"
+      - "educacion primaria"
+      - "primaria"
+      - "colegios"
+      - "educación 6-12"
+    relacionados:
+      - "alumnos primaria"
+      - "profesores primaria"
+      - "centros educativos"
+      - "ratio alumno-profesor"
+    complementarios:
+      - "educación secundaria"
+      - "abandono escolar"
+      - "rendimiento académico"
+    no_equivalentes:
+      - "educación infantil"
+      - "universidad"
+
+  educacion_secundaria:
+    label: "Educación secundaria"
+    triggers:
+      - "educación secundaria"
+      - "educacion secundaria"
+      - "secundaria"
+      - "eso"
+      - "bachillerato"
+      - "institutos"
+    equivalentes:
+      - "educación secundaria"
+      - "educacion secundaria"
+      - "secundaria"
+      - "eso"
+      - "bachillerato"
+      - "institutos"
+      - "educación 12-18"
+    relacionados:
+      - "alumnos secundaria"
+      - "profesores secundaria"
+      - "graduados eso"
+      - "selectividad"
+    complementarios:
+      - "abandono escolar"
+      - "formación profesional"
+      - "universidad"
+    no_equivalentes:
+      - "educación primaria"
+      - "educación infantil"
+
+  formacion_profesional:
+    label: "Formación profesional"
+    triggers:
+      - "formación profesional"
+      - "formacion profesional"
+      - "fp"
+      - "fp básica"
+      - "grado medio"
+      - "grado superior"
+      - "ciclos formativos"
+    equivalentes:
+      - "formación profesional"
+      - "formacion profesional"
+      - "fp"
+      - "ciclos formativos"
+      - "grado medio"
+      - "grado superior"
+    relacionados:
+      - "alumnos fp"
+      - "titulados fp"
+      - "empleabilidad fp"
+      - "prácticas empresa"
+    complementarios:
+      - "empleo juvenil"
+      - "abandono escolar"
+      - "educación secundaria"
+    no_equivalentes:
+      - "universidad"
+      - "bachillerato"
+
+  universidad:
+    label: "Universidad y educación superior"
+    triggers:
+      - "universidad"
+      - "universidades"
+      - "educación superior"
+      - "educacion superior"
+      - "grado universitario"
+      - "master"
+      - "doctorado"
+    equivalentes:
+      - "universidad"
+      - "universidades"
+      - "educación superior"
+      - "educacion superior"
+      - "grado universitario"
+      - "máster"
+      - "master"
+      - "doctorado"
+    relacionados:
+      - "estudiantes universitarios"
+      - "graduados universitarios"
+      - "profesores universitarios"
+      - "investigación universitaria"
+    complementarios:
+      - "formación profesional"
+      - "bachillerato"
+      - "investigación"
+    no_equivalentes:
+      - "formación profesional"
+      - "educación secundaria"
+
+  alumnos_profesores:
+    label: "Alumnos y profesores"
+    triggers:
+      - "alumnos"
+      - "estudiantes"
+      - "profesores"
+      - "docentes"
+      - "matrícula"
+      - "escolarización"
+    equivalentes:
+      - "alumnos"
+      - "estudiantes"
+      - "profesores"
+      - "docentes"
+      - "matrícula"
+      - "matricula"
+      - "escolarización"
+    relacionados:
+      - "ratio alumno-profesor"
+      - "unidades escolares"
+      - "grupos clase"
+      - "absentismo"
+    complementarios:
+      - "centros educativos"
+      - "gasto educativo"
+      - "rendimiento académico"
+    no_equivalentes:
+      - "personal no docente"
+      - "administrativos"
+
+  gasto_educativo:
+    label: "Gasto educativo"
+    triggers:
+      - "gasto educativo"
+      - "presupuesto educación"
+      - "presupuesto educacion"
+      - "inversión educativa"
+      - "financiación educación"
+    equivalentes:
+      - "gasto educativo"
+      - "presupuesto educación"
+      - "inversión educativa"
+      - "financiación educación"
+      - "gasto por alumno"
+    relacionados:
+      - "gasto público educación"
+      - "gasto privado educación"
+      - "becas"
+      - "ayudas estudio"
+    complementarios:
+      - "alumnos"
+      - "centros educativos"
+      - "profesores"
+    no_equivalentes:
+      - "gasto sanitario"
+      - "gasto social"
+
+# ============================================
+# DEMOGRAFÍA Y POBLACIÓN (12 conceptos)
+# ============================================
+
+demografia:
+  poblacion_general:
+    label: "Población y demografía"
+    triggers:
+      - "población"
+      - "poblacion"
+      - "habitantes"
+      - "demografía"
+      - "demografia"
+      - "censo"
+      - "padrón"
+      - "padron"
+    equivalentes:
+      - "población"
+      - "poblacion"
+      - "habitantes"
+      - "demografía"
+      - "demografia"
+      - "censo de población"
+      - "padrón municipal"
+      - "padron municipal"
+    relacionados:
+      - "crecimiento demográfico"
+      - "densidad de población"
+      - "pirámide poblacional"
+      - "proyecciones población"
+    complementarios:
+      - "natalidad"
+      - "mortalidad"
+      - "migraciones"
+    no_equivalentes:
+      - "viviendas"
+      - "hogares"
+      - "familias"
+
+  envejecimiento:
+    label: "Envejecimiento poblacional"
+    triggers:
+      - "población envejecida"
+      - "poblacion envejecida"
+      - "envejecimiento"
+      - "personas mayores"
+      - "tercera edad"
+      - "ancianos"
+      - "mayores 65"
+    equivalentes:
+      - "envejecimiento"
+      - "población mayor"
+      - "poblacion mayor"
+      - "personas mayores"
+      - "tercera edad"
+      - "ancianos"
+      - "mayores 65 años"
+    relacionados:
+      - "índice de dependencia"
+      - "indice de dependencia"
+      - "esperanza de vida"
+      - "jubilación"
+      - "jubilacion"
+    complementarios:
+      - "pensiones"
+      - "servicios sociales"
+      - "dependencia"
+    no_equivalentes:
+      - "natalidad"
+      - "juventud"
+      - "infancia"
+
+  infancia:
+    label: "Infancia y niñez"
+    triggers:
+      - "infancia"
+      - "niños"
+      - "niños"
+      - "menores"
+      - "menores 14"
+      - "menores 18"
+      - "población infantil"
+    equivalentes:
+      - "infancia"
+      - "niños"
+      - "niños"
+      - "menores"
+      - "población infantil"
+      - "menores 14 años"
+      - "menores 18 años"
+    relacionados:
+      - "natalidad"
+      - "escolarización"
+      - "protección menores"
+      - "derechos infancia"
+    complementarios:
+      - "educación infantil"
+      - "familias"
+      - "servicios sociales"
+    no_equivalentes:
+      - "juventud"
+      - "adolescentes"
+
+  juventud:
+    label: "Juventud y adolescencia"
+    triggers:
+      - "juventud"
+      - "jóvenes"
+      - "jovenes"
+      - "adolescentes"
+      - "menores 30"
+      - "menores 25"
+      - "población juvenil"
+    equivalentes:
+      - "juventud"
+      - "jóvenes"
+      - "jovenes"
+      - "adolescentes"
+      - "población juvenil"
+      - "menores 30 años"
+      - "menores 25 años"
+    relacionados:
+      - "emancipación"
+      - "primer empleo"
+      - "educación secundaria"
+      - "ocio juvenil"
+    complementarios:
+      - "paro juvenil"
+      - "abandono escolar"
+      - "vivienda"
+    no_equivalentes:
+      - "infancia"
+      - "adultos"
+
+  migraciones:
+    label: "Migraciones e inmigración"
+    triggers:
+      - "migraciones"
+      - "inmigración"
+      - "inmigracion"
+      - "emigración"
+      - "emigracion"
+      - "población extranjera"
+      - "inmigrantes"
+    equivalentes:
+      - "migraciones"
+      - "inmigración"
+      - "inmigracion"
+      - "emigración"
+      - "emigracion"
+      - "población extranjera"
+      - "inmigrantes"
+      - "movimientos migratorios"
+    relacionados:
+      - "nacionalidad"
+      - "naturalización"
+      - "asilo"
+      - "refugiados"
+      - "salidas del país"
+    complementarios:
+      - "población"
+      - "natalidad"
+      - "mercado laboral"
+    no_equivalentes:
+      - "turismo"
+      - "viajeros"
+
+  hogares_familias:
+    label: "Hogares y familias"
+    triggers:
+      - "hogares"
+      - "familias"
+      - "unidades familiares"
+      - "tamaño hogar"
+      - "composición familiar"
+    equivalentes:
+      - "hogares"
+      - "familias"
+      - "unidades familiares"
+      - "tamaño hogar"
+      - "composición familiar"
+      - "número de hogares"
+    relacionados:
+      - "hogares unipersonales"
+      - "familias monoparentales"
+      - "hogares con hijos"
+      - "carga familiar"
+    complementarios:
+      - "población"
+      - "viviendas"
+      - "natalidad"
+    no_equivalentes:
+      - "población total"
+      - "individuos"
+
+  densidad_poblacion:
+    label: "Densidad de población"
+    triggers:
+      - "densidad población"
+      - "densidad poblacion"
+      - "habitantes por km2"
+      - "densidad demográfica"
+    equivalentes:
+      - "densidad población"
+      - "densidad poblacion"
+      - "habitantes por km2"
+      - "densidad demográfica"
+      - "habitantes por kilómetro"
+    relacionados:
+      - "población"
+      - "superficie"
+      - "territorio"
+      - "urbanización"
+    complementarios:
+      - "municipios"
+      - "provincias"
+      - "comunidades autónomas"
+    no_equivalentes:
+      - "población total"
+      - "crecimiento"
+
+  crecimiento_poblacion:
+    label: "Crecimiento poblacional"
+    triggers:
+      - "crecimiento población"
+      - "crecimiento poblacion"
+      - "crecimiento demográfico"
+      - "crecimiento demografico"
+      - "variación población"
+    equivalentes:
+      - "crecimiento población"
+      - "crecimiento poblacion"
+      - "crecimiento demográfico"
+      - "variación población"
+      - "incremento poblacional"
+    relacionados:
+      - "tasa de crecimiento"
+      - "crecimiento natural"
+      - "crecimiento migratorio"
+      - "saldo migratorio"
+    complementarios:
+      - "natalidad"
+      - "mortalidad"
+      - "migraciones"
+    no_equivalentes:
+      - "población total"
+      - "densidad"
+
+  esperanza_vida:
+    label: "Esperanza de vida"
+    triggers:
+      - "esperanza de vida"
+      - "longevidad"
+      - "esperanza vida"
+      - "años de vida"
+    equivalentes:
+      - "esperanza de vida"
+      - "esperanza vida"
+      - "longevidad"
+      - "años de vida"
+      - "expectativa de vida"
+    relacionados:
+      - "esperanza de vida hombres"
+      - "esperanza de vida mujeres"
+      - "envejecimiento"
+      - "mortalidad"
+    complementarios:
+      - "mayores"
+      - "salud"
+      - "pensiones"
+    no_equivalentes:
+      - "natalidad"
+      - "juventud"
+
+  indice_dependencia:
+    label: "Índice de dependencia"
+    triggers:
+      - "índice de dependencia"
+      - "indice de dependencia"
+      - "dependencia demográfica"
+      - "ratio dependencia"
+    equivalentes:
+      - "índice de dependencia"
+      - "indice de dependencia"
+      - "dependencia demográfica"
+      - "ratio dependencia"
+      - "tasa de dependencia"
+    relacionados:
+      - "dependencia mayores"
+      - "dependencia jóvenes"
+      - "población dependiente"
+      - "población activa"
+    complementarios:
+      - "envejecimiento"
+      - "pensiones"
+      - "servicios sociales"
+    no_equivalentes:
+      - "discapacidad"
+      - "dependencia funcional"
+
+  proyecciones_poblacion:
+    label: "Proyecciones de población"
+    triggers:
+      - "proyecciones población"
+      - "proyecciones poblacion"
+      - "previsiones población"
+      - "escenarios población"
+    equivalentes:
+      - "proyecciones población"
+      - "proyecciones poblacion"
+      - "previsiones población"
+      - "escenarios población"
+      - "previsiones demográficas"
+    relacionados:
+      - "crecimiento futuro"
+      - "envejecimiento futuro"
+      - "escenarios migratorios"
+    complementarios:
+      - "población"
+      - "planificación"
+      - "servicios públicos"
+    no_equivalentes:
+      - "población actual"
+      - "censo"
+
+  movimientos_migratorios:
+    label: "Movimientos migratorios"
+    triggers:
+      - "movimientos migratorios"
+      - "flujos migratorios"
+      - "migraciones internas"
+      - "migraciones interprovinciales"
+    equivalentes:
+      - "movimientos migratorios"
+      - "flujos migratorios"
+      - "migraciones internas"
+      - "migraciones interprovinciales"
+      - "movilidad geográfica"
+    relacionados:
+      - "inmigración"
+      - "emigración"
+      - "saldo migratorio"
+      - "migraciones exteriores"
+    complementarios:
+      - "población"
+      - "territorio"
+      - "empleo"
+    no_equivalentes:
+      - "turismo"
+      - "viajes"
+
+# ============================================
+# ECONOMÍA Y HACIENDA (12 conceptos)
+# ============================================
+
+economia:
+  pib:
+    label: "Producto Interior Bruto (PIB)"
+    triggers:
+      - "pib"
+      - "producto interior bruto"
+      - "producto interno bruto"
+      - "crecimiento económico"
+      - "crecimiento economico"
+    equivalentes:
+      - "pib"
+      - "producto interior bruto"
+      - "producto interno bruto"
+      - "crecimiento económico"
+      - "crecimiento economico"
+      - "renta nacional"
+    relacionados:
+      - "pib per cápita"
+      - "pib per capita"
+      - "pib por sector"
+      - "valor añadido"
+      - "actividad económica"
+    complementarios:
+      - "empleo"
+      - "inflación"
+      - "comercio exterior"
+    no_equivalentes:
+      - "deuda pública"
+      - "déficit"
+
+  inflacion:
+    label: "Inflación y precios"
+    triggers:
+      - "inflación"
+      - "inflacion"
+      - "ipc"
+      - "índice de precios"
+      - "indice de precios"
+      - "precios al consumo"
+    equivalentes:
+      - "inflación"
+      - "inflacion"
+      - "ipc"
+      - "índice de precios"
+      - "indice de precios"
+      - "precios al consumo"
+      - "variación de precios"
+    relacionados:
+      - "inflación subyacente"
+      - "inflación energética"
+      - "inflación alimentaria"
+      - "poder adquisitivo"
+    complementarios:
+      - "salarios"
+      - "pensiones"
+      - "consumo"
+    no_equivalentes:
+      - "precios vivienda"
+      - "precios industriales"
+
+  deuda_publica:
+    label: "Deuda pública"
+    triggers:
+      - "deuda pública"
+      - "deuda publica"
+      - "deuda del estado"
+      - "deuda soberana"
+      - "endeudamiento"
+    equivalentes:
+      - "deuda pública"
+      - "deuda publica"
+      - "deuda del estado"
+      - "deuda soberana"
+      - "endeudamiento público"
+    relacionados:
+      - "deuda por pib"
+      - "servicio de la deuda"
+      - "déficit público"
+      - "bonos del estado"
+    complementarios:
+      - "pib"
+      - "presupuestos"
+      - "hacienda"
+    no_equivalentes:
+      - "deuda privada"
+      - "deuda empresarial"
+
+  deficit_publico:
+    label: "Déficit público"
+    triggers:
+      - "déficit público"
+      - "deficit publico"
+      - "déficit estatal"
+      - "déficit presupuestario"
+      - "balance público"
+    equivalentes:
+      - "déficit público"
+      - "deficit publico"
+      - "déficit estatal"
+      - "déficit presupuestario"
+      - "balance público negativo"
+    relacionados:
+      - "déficit por pib"
+      - "superávit"
+      - "gasto público"
+      - "ingresos públicos"
+    complementarios:
+      - "deuda pública"
+      - "presupuestos"
+      - "hacienda"
+    no_equivalentes:
+      - "déficit comercial"
+      - "déficit privado"
+
+  presupuestos:
+    label: "Presupuestos públicos"
+    triggers:
+      - "presupuestos"
+      - "presupuesto"
+      - "presupuestos públicos"
+      - "presupuesto del estado"
+      - "presupuestos generales"
+    equivalentes:
+      - "presupuestos"
+      - "presupuesto"
+      - "presupuestos públicos"
+      - "presupuesto del estado"
+      - "presupuestos generales"
+      - "pgp"
+    relacionados:
+      - "gasto público"
+      - "ingresos públicos"
+      - "déficit"
+      - "ejecución presupuestaria"
+    complementarios:
+      - "hacienda"
+      - "deuda pública"
+      - "política fiscal"
+    no_equivalentes:
+      - "presupuestos privados"
+      - "presupuestos familiares"
+
+  gasto_publico:
+    label: "Gasto público"
+    triggers:
+      - "gasto público"
+      - "gasto publico"
+      - "gasto del estado"
+      - "inversión pública"
+      - "gasto estatal"
+    equivalentes:
+      - "gasto público"
+      - "gasto publico"
+      - "gasto del estado"
+      - "inversión pública"
+      - "gasto estatal"
+    relacionados:
+      - "gasto social"
+      - "gasto sanitario"
+      - "gasto educativo"
+      - "gasto por comunidades"
+    complementarios:
+      - "ingresos públicos"
+      - "presupuestos"
+      - "impuestos"
+    no_equivalentes:
+      - "gasto privado"
+      - "gasto familiar"
+
+  ingresos_publicos:
+    label: "Ingresos públicos"
+    triggers:
+      - "ingresos públicos"
+      - "ingresos publicos"
+      - "ingresos del estado"
+      - "recaudación"
+      - "recaudacion"
+    equivalentes:
+      - "ingresos públicos"
+      - "ingresos publicos"
+      - "ingresos del estado"
+      - "recaudación"
+      - "recaudacion"
+    relacionados:
+      - "ingresos tributarios"
+      - "ingresos no tributarios"
+      - "recaudación impuestos"
+      - "presión fiscal"
+    complementarios:
+      - "gasto público"
+      - "impuestos"
+      - "hacienda"
+    no_equivalentes:
+      - "ingresos privados"
+      - "ingresos familiares"
+
+  impuestos:
+    label: "Impuestos y tributación"
+    triggers:
+      - "impuestos"
+      - "impuesto"
+      - "tributos"
+      - "tributación"
+      - "carga fiscal"
+      - "presión fiscal"
+    equivalentes:
+      - "impuestos"
+      - "impuesto"
+      - "tributos"
+      - "tributación"
+      - "carga fiscal"
+      - "presión fiscal"
+    relacionados:
+      - "irpf"
+      - "iva"
+      - "impuesto sociedades"
+      - "impuesto patrimonio"
+      - "tipos impositivos"
+    complementarios:
+      - "hacienda"
+      - "recaudación"
+      - "renta"
+    no_equivalentes:
+      - "tasas"
+      - "contribuciones"
+
+  renta:
+    label: "Renta e ingresos"
+    triggers:
+      - "renta"
+      - "ingresos"
+      - "renta disponible"
+      - "renta per cápita"
+      - "renta per capita"
+      - "ingresos por hogar"
+    equivalentes:
+      - "renta"
+      - "ingresos"
+      - "renta disponible"
+      - "renta per cápita"
+      - "renta per capita"
+      - "ingresos por hogar"
+    relacionados:
+      - "renta media"
+      - "renta mediana"
+      - "distribución renta"
+      - "desigualdad"
+      - "irpf"
+    complementarios:
+      - "consumo"
+      - "ahorro"
+      - "pobreza"
+    no_equivalentes:
+      - "rentas del capital"
+      - "beneficios empresariales"
+
+  pobreza:
+    label: "Pobreza y exclusión social"
+    triggers:
+      - "pobreza"
+      - "pobre"
+      - "exclusión social"
+      - "riesgo pobreza"
+      - "tasa arope"
+      - "arope"
+    equivalentes:
+      - "pobreza"
+      - "pobre"
+      - "exclusión social"
+      - "riesgo pobreza"
+      - "tasa arope"
+      - "arope"
+      - "población vulnerable"
+    relacionados:
+      - "pobreza severa"
+      - "pobreza infantil"
+      - "pobreza energética"
+      - "umbral pobreza"
+      - "privación material"
+    complementarios:
+      - "renta"
+      - "servicios sociales"
+      - "ayudas sociales"
+      - "desigualdad"
+    no_equivalentes:
+      - "desempleo"
+      - "vivienda"
+
+  desigualdad:
+    label: "Desigualdad y distribución"
+    triggers:
+      - "desigualdad"
+      - "desigualdad económica"
+      - "desigualdad social"
+      - "coeficiente gini"
+      - "gini"
+      - "distribución renta"
+    equivalentes:
+      - "desigualdad"
+      - "desigualdad económica"
+      - "desigualdad social"
+      - "coeficiente gini"
+      - "gini"
+      - "distribución renta"
+    relacionados:
+      - "índice gini"
+      - "ratio quintiles"
+      - "brecha salarial"
+      - "movilidad social"
+    complementarios:
+      - "pobreza"
+      - "renta"
+      - "salarios"
+    no_equivalentes:
+      - "discriminación"
+      - "diversidad"
+
+  comercio_exterior:
+    label: "Comercio exterior"
+    triggers:
+      - "comercio exterior"
+      - "exportaciones"
+      - "importaciones"
+      - "balanza comercial"
+      - "comercio internacional"
+    equivalentes:
+      - "comercio exterior"
+      - "exportaciones"
+      - "importaciones"
+      - "balanza comercial"
+      - "comercio internacional"
+    relacionados:
+      - "superávit comercial"
+      - "déficit comercial"
+      - "aranceles"
+      - "acuerdos comerciales"
+    complementarios:
+      - "pib"
+      - "empresas"
+      - "industria"
+    no_equivalentes:
+      - "comercio interior"
+      - "ventas minoristas"
+
+# ============================================
+# TRANSPORTE Y MOVILIDAD (8 conceptos)
+# ============================================
+
+transporte:
+  transporte_publico:
+    label: "Transporte público"
+    triggers:
+      - "transporte público"
+      - "transporte publico"
+      - "transporte urbano"
+      - "movilidad urbana"
+      - "transporte colectivo"
+    equivalentes:
+      - "transporte público"
+      - "transporte publico"
+      - "transporte urbano"
+      - "transporte colectivo"
+      - "transporte metropolitano"
+    relacionados:
+      - "autobús"
+      - "autobus"
+      - "metro"
+      - "tren"
+      - "tranvía"
+      - "tranvia"
+      - "cercanías"
+    complementarios:
+      - "calidad del aire"
+      - "tráfico"
+      - "accidentes"
+    no_equivalentes:
+      - "transporte mercancías"
+      - "logística"
+
+  trafico:
+    label: "Tráfico y circulación"
+    triggers:
+      - "tráfico"
+      - "trafico"
+      - "circulación"
+      - "tráfico rodado"
+      - "intensidad tráfico"
+      - "congestión"
+    equivalentes:
+      - "tráfico"
+      - "trafico"
+      - "circulación"
+      - "tráfico rodado"
+      - "intensidad tráfico"
+      - "congestión"
+    relacionados:
+      - "vehículos"
+      - "turismos"
+      - "camiones"
+      - "velocidad media"
+      - "tiempos de viaje"
+    complementarios:
+      - "transporte público"
+      - "accidentes"
+      - "calidad del aire"
+    no_equivalentes:
+      - "tráfico web"
+      - "datos"
+
+  accidentes_trafico:
+    label: "Accidentes de tráfico"
+    triggers:
+      - "accidentes tráfico"
+      - "accidentes trafico"
+      - "siniestralidad vial"
+      - "accidentes circulación"
+      - "víctimas tráfico"
+    equivalentes:
+      - "accidentes tráfico"
+      - "accidentes trafico"
+      - "siniestralidad vial"
+      - "accidentes circulación"
+      - "víctimas tráfico"
+    relacionados:
+      - "accidentes mortales"
+      - "accidentes graves"
+      - "accidentes leves"
+      - "heridos"
+      - "fallecidos"
+    complementarios:
+      - "tráfico"
+      - "seguridad vial"
+      - "carreteras"
+    no_equivalentes:
+      - "accidentes laborales"
+      - "accidentes domésticos"
+
+  carreteras:
+    label: "Carreteras e infraestructuras viarias"
+    triggers:
+      - "carreteras"
+      - "red viaria"
+      - "infraestructuras viarias"
+      - "vías"
+      - "autovías"
+      - "autopistas"
+    equivalentes:
+      - "carreteras"
+      - "red viaria"
+      - "infraestructuras viarias"
+      - "vías"
+      - "autovías"
+      - "autopistas"
+    relacionados:
+      - "carreteras estatales"
+      - "carreteras autonómicas"
+      - "carreteras locales"
+      - "kilómetros red"
+      - "estado conservación"
+    complementarios:
+      - "tráfico"
+      - "accidentes"
+      - "transporte"
+    no_equivalentes:
+      - "calles urbanas"
+      - "caminos rurales"
+
+  ferrocarril:
+    label: "Ferrocarril y tren"
+    triggers:
+      - "ferrocarril"
+      - "tren"
+      - "trenes"
+      - "red ferroviaria"
+      - "vía férrea"
+      - "alta velocidad"
+      - "ave"
+    equivalentes:
+      - "ferrocarril"
+      - "tren"
+      - "trenes"
+      - "red ferroviaria"
+      - "vía férrea"
+      - "alta velocidad"
+      - "ave"
+    relacionados:
+      - "cercanías"
+      - "media distancia"
+      - "larga distancia"
+      - "mercancías por ferrocarril"
+      - "estaciones"
+    complementarios:
+      - "transporte público"
+      - "movilidad"
+      - "infraestructuras"
+    no_equivalentes:
+      - "metro"
+      - "tranvía"
+
+  aeropuerto:
+    label: "Aeropuertos y aviación"
+    triggers:
+      - "aeropuerto"
+      - "aeropuertos"
+      - "aviación"
+      - "tráfico aéreo"
+      - "pasajeros aéreos"
+      - "vuelos"
+    equivalentes:
+      - "aeropuerto"
+      - "aeropuertos"
+      - "aviación"
+      - "tráfico aéreo"
+      - "pasajeros aéreos"
+      - "vuelos"
+    relacionados:
+      - "pasajeros"
+      - "operaciones"
+      - "carga aérea"
+      - "conexiones"
+      - "rutas"
+    complementarios:
+      - "turismo"
+      - "transporte"
+      - "comercio exterior"
+    no_equivalentes:
+      - "puertos"
+      - "marítimo"
+
+  puertos:
+    label: "Puertos y transporte marítimo"
+    triggers:
+      - "puertos"
+      - "puerto"
+      - "transporte marítimo"
+      - "transporte maritimo"
+      - "tráfico portuario"
+      - "mercancías puerto"
+    equivalentes:
+      - "puertos"
+      - "puerto"
+      - "transporte marítimo"
+      - "transporte maritimo"
+      - "tráfico portuario"
+    relacionados:
+      - "contenedores"
+      - "graneles"
+      - "pasajeros marítimos"
+      - "cruceros"
+      - "mercancías"
+    complementarios:
+      - "comercio exterior"
+      - "exportaciones"
+      - "importaciones"
+    no_equivalentes:
+      - "aeropuertos"
+      - "aviación"
+
+  movilidad:
+    label: "Movilidad y desplazamientos"
+    triggers:
+      - "movilidad"
+      - "desplazamientos"
+      - "movilidad sostenible"
+      - "movilidad urbana"
+      - "transporte sostenible"
+    equivalentes:
+      - "movilidad"
+      - "desplazamientos"
+      - "movilidad sostenible"
+      - "movilidad urbana"
+      - "transporte sostenible"
+    relacionados:
+      - "bicicleta"
+      - "patinete"
+      - "peatones"
+      - "zonas peatonales"
+      - "carril bici"
+    complementarios:
+      - "transporte público"
+      - "calidad del aire"
+      - "urbanismo"
+    no_equivalentes:
+      - "migraciones"
+      - "movimientos poblacionales"
+
+# ============================================
+# MEDIO AMBIENTE (10 conceptos)
+# ============================================
+
+medio_ambiente:
+  calidad_aire:
+    label: "Calidad del aire"
+    triggers:
+      - "calidad del aire"
+      - "contaminación atmosférica"
+      - "contaminacion atmosférica"
+      - "contaminación aire"
+      - "contaminacion aire"
+      - "índice calidad aire"
+    equivalentes:
+      - "calidad del aire"
+      - "contaminación atmosférica"
+      - "contaminacion atmosférica"
+      - "contaminación del aire"
+      - "índice calidad aire"
+    relacionados:
+      - "emisiones"
+      - "gases de efecto invernadero"
+      - "material particulado"
+      - "ozono"
+      - "no2"
+      - "pm10"
+      - "pm2.5"
+    complementarios:
+      - "transporte público"
+      - "industria"
+      - "salud ambiental"
+    no_equivalentes:
+      - "calidad del agua"
+      - "residuos"
+
+  emisiones:
+    label: "Emisiones y gases de efecto invernadero"
+    triggers:
+      - "emisiones"
+      - "gases efecto invernadero"
+      - "gases de efecto invernadero"
+      - "gei"
+      - "co2"
+      - "dióxido de carbono"
+      - "huella carbono"
+    equivalentes:
+      - "emisiones"
+      - "gases efecto invernadero"
+      - "gei"
+      - "co2"
+      - "dióxido de carbono"
+      - "huella carbono"
+    relacionados:
+      - "emisiones por sector"
+      - "emisiones industriales"
+      - "emisiones transporte"
+      - "protocolo kyoto"
+      - "acuerdo parís"
+    complementarios:
+      - "calidad del aire"
+      - "cambio climático"
+      - "energía"
+    no_equivalentes:
+      - "emisiones acústicas"
+      - "ruido"
+
+  residuos:
+    label: "Residuos y gestión de residuos"
+    triggers:
+      - "residuos"
+      - "basura"
+      - "gestión residuos"
+      - "gestion residuos"
+      - "reciclaje"
+      - "recogida selectiva"
+    equivalentes:
+      - "residuos"
+      - "basura"
+      - "gestión residuos"
+      - "gestion residuos"
+      - "reciclaje"
+      - "recogida selectiva"
+    relacionados:
+      - "residuos urbanos"
+      - "residuos industriales"
+      - "residuos peligrosos"
+      - "vertederos"
+      - "incineración"
+      - "compostaje"
+    complementarios:
+      - "medio ambiente"
+      - "economía circular"
+      - "sostenibilidad"
+    no_equivalentes:
+      - "aguas residuales"
+      - "vertidos"
+
+  agua:
+    label: "Agua y recursos hídricos"
+    triggers:
+      - "agua"
+      - "recursos hídricos"
+      - "calidad del agua"
+      - "abastecimiento agua"
+      - "consumo agua"
+      - "embalses"
+    equivalentes:
+      - "agua"
+      - "recursos hídricos"
+      - "calidad del agua"
+      - "abastecimiento agua"
+      - "consumo agua"
+      - "embalses"
+    relacionados:
+      - "agua potable"
+      - "aguas subterráneas"
+      - "aguas superficiales"
+      - "depuración"
+      - "sequía"
+    complementarios:
+      - "medio ambiente"
+      - "agricultura"
+      - "población"
+    no_equivalentes:
+      - "aguas residuales"
+      - "vertidos"
+
+  energia:
+    label: "Energía"
+    triggers:
+      - "energía"
+      - "energia"
+      - "producción energética"
+      - "produccion energética"
+      - "consumo energético"
+      - "mix energético"
+    equivalentes:
+      - "energía"
+      - "energia"
+      - "producción energética"
+      - "produccion energética"
+      - "consumo energético"
+      - "mix energético"
+    relacionados:
+      - "energía renovable"
+      - "energía solar"
+      - "energía eólica"
+      - "energía hidráulica"
+      - "energía nuclear"
+      - "eficiencia energética"
+    complementarios:
+      - "emisiones"
+      - "medio ambiente"
+      - "industria"
+    no_equivalentes:
+      - "electricidad"
+      - "combustibles"
+
+  cambio_climatico:
+    label: "Cambio climático"
+    triggers:
+      - "cambio climático"
+      - "cambio climatico"
+      - "calentamiento global"
+      - "crisis climática"
+      - "crisis climatica"
+    equivalentes:
+      - "cambio climático"
+      - "cambio climatico"
+      - "calentamiento global"
+      - "crisis climática"
+      - "crisis climatica"
+    relacionados:
+      - "temperatura media"
+      - "sequía"
+      - "inundaciones"
+      - "fenómenos extremos"
+      - "adaptación climática"
+    complementarios:
+      - "emisiones"
+      - "energía"
+      - "medio ambiente"
+    no_equivalentes:
+      - "meteorología"
+      - "clima"
+
+  biodiversidad:
+    label: "Biodiversidad y naturaleza"
+    triggers:
+      - "biodiversidad"
+      - "especies"
+      - "fauna"
+      - "flora"
+      - "espacios naturales"
+      - "áreas protegidas"
+    equivalentes:
+      - "biodiversidad"
+      - "especies"
+      - "fauna"
+      - "flora"
+      - "espacios naturales"
+      - "áreas protegidas"
+    relacionados:
+      - "especies protegidas"
+      - "especies en peligro"
+      - "parques naturales"
+      - "reservas naturales"
+      - "red natura 2000"
+    complementarios:
+      - "medio ambiente"
+      - "turismo"
+      - "agricultura"
+    no_equivalentes:
+      - "zoológicos"
+      - "jardines botánicos"
+
+  suelo:
+    label: "Suelo y territorio"
+    triggers:
+      - "suelo"
+      - "uso del suelo"
+      - "ocupación suelo"
+      - "cambios uso suelo"
+      - "impermeabilización"
+    equivalentes:
+      - "suelo"
+      - "uso del suelo"
+      - "ocupación suelo"
+      - "cambios uso suelo"
+      - "impermeabilización"
+    relacionados:
+      - "suelo agrícola"
+      - "suelo forestal"
+      - "suelo urbano"
+      - "erosión"
+      - "desertificación"
+    complementarios:
+      - "agricultura"
+      - "urbanismo"
+      - "medio ambiente"
+    no_equivalentes:
+      - "catastro"
+      - "propiedad"
+
+  incendios:
+    label: "Incendios forestales"
+    triggers:
+      - "incendios"
+      - "incendios forestales"
+      - "fuego"
+      - "superficie quemada"
+      - "número incendios"
+    equivalentes:
+      - "incendios"
+      - "incendios forestales"
+      - "fuego"
+      - "superficie quemada"
+      - "número incendios"
+    relacionados:
+      - "causas incendios"
+      - "extinción"
+      - "prevención"
+      - "riesgo incendios"
+    complementarios:
+      - "bosques"
+      - "medio ambiente"
+      - "cambio climático"
+    no_equivalentes:
+      - "incendios urbanos"
+      - "incendios industriales"
+
+  ruido:
+    label: "Ruido y contaminación acústica"
+    triggers:
+      - "ruido"
+      - "contaminación acústica"
+      - "contaminacion acústica"
+      - "mapa ruido"
+      - "niveles sonoros"
+    equivalentes:
+      - "ruido"
+      - "contaminación acústica"
+      - "contaminacion acústica"
+      - "mapa ruido"
+      - "niveles sonoros"
+    relacionados:
+      - "ruido tráfico"
+      - "ruido industrial"
+      - "ruido ocio"
+      - "zonas acústicas"
+    complementarios:
+      - "calidad de vida"
+      - "salud"
+      - "urbanismo"
+    no_equivalentes:
+      - "emisiones"
+      - "contaminación atmosférica"
+
+# ============================================
+# TURISMO Y OCIO (6 conceptos)
+# ============================================
+
+turismo:
+  turismo_general:
+    label: "Turismo general"
+    triggers:
+      - "turismo"
+      - "turistas"
+      - "visitantes"
+      - "actividad turística"
+      - "sector turístico"
+    equivalentes:
+      - "turismo"
+      - "turistas"
+      - "visitantes"
+      - "actividad turística"
+      - "sector turístico"
+    relacionados:
+      - "pernoctaciones"
+      - "plazas hoteleras"
+      - "ocupación hotelera"
+      - "gasto turístico"
+    complementarios:
+      - "hostelería"
+      - "transporte"
+      - "comercio"
+    no_equivalentes:
+      - "excursionismo"
+      - "ocio local"
+
+  hosteleria:
+    label: "Hostelería y alojamiento"
+    triggers:
+      - "hostelería"
+      - "hosteleria"
+      - "hoteles"
+      - "alojamiento"
+      - "plazas hoteleras"
+      - "establecimientos hoteleros"
+    equivalentes:
+      - "hostelería"
+      - "hosteleria"
+      - "hoteles"
+      - "alojamiento"
+      - "plazas hoteleras"
+    relacionados:
+      - "ocupación hotelera"
+      - "categoría hotelera"
+      - "restaurantes"
+      - "cafeterías"
+      - "alojamientos rurales"
+    complementarios:
+      - "turismo"
+      - "empleo"
+      - "comercio"
+    no_equivalentes:
+      - "vivienda"
+      - "residencial"
+
+  ocupacion_hotelera:
+    label: "Ocupación hotelera"
+    triggers:
+      - "ocupación hotelera"
+      - "ocupacion hotelera"
+      - "tasa ocupación"
+      - "tasa ocupacion"
+      - "grado ocupación"
+      - "plazas ocupadas"
+    equivalentes:
+      - "ocupación hotelera"
+      - "ocupacion hotelera"
+      - "tasa ocupación"
+      - "tasa ocupacion"
+      - "grado ocupación"
+    relacionados:
+      - "pernoctaciones"
+      - "estancias medias"
+      - "temporada alta"
+      - "temporada baja"
+    complementarios:
+      - "turismo"
+      - "hoteles"
+      - "empleo"
+    no_equivalentes:
+      - "ocupación laboral"
+      - "paro"
+
+  pernoctaciones:
+    label: "Pernoctaciones y estancias"
+    triggers:
+      - "pernoctaciones"
+      - "noches"
+      - "estancias"
+      - "días de estancia"
+      - "estancia media"
+    equivalentes:
+      - "pernoctaciones"
+      - "noches"
+      - "estancias"
+      - "días de estancia"
+      - "estancia media"
+    relacionados:
+      - "pernoctaciones hoteleras"
+      - "pernoctaciones extrahoteleras"
+      - "turistas"
+      - "viajeros"
+    complementarios:
+      - "turismo"
+      - "hoteles"
+      - "ocupación"
+    no_equivalentes:
+      - "excursiones"
+      - "visitas día"
+
+  cultura_ocio:
+    label: "Cultura y ocio"
+    triggers:
+      - "cultura"
+      - "ocio"
+      - "actividades culturales"
+      - "equipamientos culturales"
+      - "museos"
+      - "bibliotecas"
+      - "teatros"
+    equivalentes:
+      - "cultura"
+      - "ocio"
+      - "actividades culturales"
+      - "equipamientos culturales"
+      - "museos"
+      - "bibliotecas"
+      - "teatros"
+    relacionados:
+      - "patrimonio"
+      - "festivales"
+      - "conciertos"
+      - "exposiciones"
+      - "espectáculos"
+    complementarios:
+      - "turismo"
+      - "educación"
+      - "deporte"
+    no_equivalentes:
+      - "educación reglada"
+      - "formación"
+
+  deporte:
+    label: "Deporte y actividad física"
+    triggers:
+      - "deporte"
+      - "deportes"
+      - "actividad física"
+      - "instalaciones deportivas"
+      - "licencias deportivas"
+      - "practicantes deporte"
+    equivalentes:
+      - "deporte"
+      - "deportes"
+      - "actividad física"
+      - "instalaciones deportivas"
+      - "licencias deportivas"
+    relacionados:
+      - "deporte federado"
+      - "deporte base"
+      - "deporte profesional"
+      - "competiciones"
+      - "eventos deportivos"
+    complementarios:
+      - "salud"
+      - "juventud"
+      - "educación"
+    no_equivalentes:
+      - "ocio"
+      - "recreación"
+
+# ============================================
+# SEGURIDAD Y JUSTICIA (6 conceptos)
+# ============================================
+
+seguridad:
+  criminalidad:
+    label: "Criminalidad y delincuencia"
+    triggers:
+      - "criminalidad"
+      - "delincuencia"
+      - "delitos"
+      - "infracciones penales"
+      - "tasa criminalidad"
+    equivalentes:
+      - "criminalidad"
+      - "delincuencia"
+      - "delitos"
+      - "infracciones penales"
+      - "tasa criminalidad"
+    relacionados:
+      - "delitos violentos"
+      - "delitos propiedad"
+      - "robos"
+      - "hurtos"
+      - "agresiones"
+    complementarios:
+      - "policía"
+      - "seguridad"
+      - "justicia"
+    no_equivalentes:
+      - "accidentes"
+      - "siniestralidad"
+
+  policia:
+    label: "Policía y seguridad ciudadana"
+    triggers:
+      - "policía"
+      - "policia"
+      - "seguridad ciudadana"
+      - "fuerzas seguridad"
+      - "efectivos policiales"
+      - "agentes"
+    equivalentes:
+      - "policía"
+      - "policia"
+      - "seguridad ciudadana"
+      - "fuerzas seguridad"
+      - "efectivos policiales"
+    relacionados:
+      - "policía nacional"
+      - "guardia civil"
+      - "policía local"
+      - "policía autonómica"
+      - "denuncias"
+    complementarios:
+      - "criminalidad"
+      - "justicia"
+      - "seguridad"
+    no_equivalentes:
+      - "ejército"
+      - "defensa"
+
+  justicia:
+    label: "Justicia y administración de justicia"
+    triggers:
+      - "justicia"
+      - "administración justicia"
+      - "administracion justicia"
+      - "juzgados"
+      - "tribunales"
+      - "procesos judiciales"
+    equivalentes:
+      - "justicia"
+      - "administración justicia"
+      - "administracion justicia"
+      - "juzgados"
+      - "tribunales"
+      - "procesos judiciales"
+    relacionados:
+      - "jueces"
+      - "fiscales"
+      - "abogados"
+      - "procuradores"
+      - "sentencias"
+    complementarios:
+      - "criminalidad"
+      - "policía"
+      - "derecho"
+    no_equivalentes:
+      - "abogacía privada"
+      - "notarías"
+
+  prisiones:
+    label: "Prisiones y población penitenciaria"
+    triggers:
+      - "prisiones"
+      - "cárceles"
+      - "carceles"
+      - "población penitenciaria"
+      - "poblacion penitenciaria"
+      - "internos"
+      - "reclusos"
+    equivalentes:
+      - "prisiones"
+      - "cárceles"
+      - "carceles"
+      - "población penitenciaria"
+      - "poblacion penitenciaria"
+      - "internos"
+      - "reclusos"
+    relacionados:
+      - "tasa encarcelamiento"
+      - "centros penitenciarios"
+      - "reinserción"
+      - "permisos penitenciarios"
+    complementarios:
+      - "justicia"
+      - "criminalidad"
+      - "servicios sociales"
+    no_equivalentes:
+      - "hospitales"
+      - "centros de menores"
+
+  violencia_genero:
+    label: "Violencia de género"
+    triggers:
+      - "violencia género"
+      - "violencia de género"
+      - "violencia machista"
+      - "víctimas violencia"
+      - "victimas violencia"
+      - "maltrato"
+    equivalentes:
+      - "violencia género"
+      - "violencia de género"
+      - "violencia machista"
+      - "víctimas violencia"
+      - "victimas violencia"
+      - "maltrato"
+    relacionados:
+      - "denuncias violencia"
+      - "orden protección"
+      - "casos violencia"
+      - "fallecidas violencia"
+    complementarios:
+      - "igualdad"
+      - "mujeres"
+      - "servicios sociales"
+    no_equivalentes:
+      - "violencia doméstica"
+      - "violencia filio-parental"
+
+  seguridad_vial:
+    label: "Seguridad vial"
+    triggers:
+      - "seguridad vial"
+      - "educación vial"
+      - "prevención accidentes"
+      - "carnet conducir"
+      - "permiso conducir"
+    equivalentes:
+      - "seguridad vial"
+      - "educación vial"
+      - "prevención accidentes"
+      - "carnet conducir"
+      - "permiso conducir"
+    relacionados:
+      - "exámenes conducir"
+      - "puntos carnet"
+      - "campañas seguridad"
+      - "velocidad"
+      - "alcohol"
+    complementarios:
+      - "tráfico"
+      - "accidentes"
+      - "policía"
+    no_equivalentes:
+      - "seguridad laboral"
+      - "prevención riesgos"
+
+# ============================================
+# IGUALDAD Y SERVICIOS SOCIALES (8 conceptos)
+# ============================================
+
+igualdad:
+  igualdad_genero:
+    label: "Igualdad de género"
+    triggers:
+      - "igualdad género"
+      - "igualdad de género"
+      - "igualdad mujeres hombres"
+      - "brecha género"
+      - "brecha de género"
+      - "perspectiva género"
+    equivalentes:
+      - "igualdad género"
+      - "igualdad de género"
+      - "igualdad mujeres hombres"
+      - "brecha género"
+      - "brecha de género"
+    relacionados:
+      - "brecha salarial"
+      - "conciliación"
+      - "corresponsabilidad"
+      - "empoderamiento mujeres"
+    complementarios:
+      - "violencia género"
+      - "mujeres"
+      - "empleo"
+    no_equivalentes:
+      - "discriminación positiva"
+      - "cuotas"
+
+  conciliacion:
+    label: "Conciliación y corresponsabilidad"
+    triggers:
+      - "conciliación"
+      - "conciliacion"
+      - "conciliación familiar"
+      - "conciliacion familiar"
+      - "corresponsabilidad"
+      - "permisos parentales"
+    equivalentes:
+      - "conciliación"
+      - "conciliacion"
+      - "conciliación familiar"
+      - "conciliacion familiar"
+      - "corresponsabilidad"
+      - "permisos parentales"
+    relacionados:
+      - "permiso paternidad"
+      - "permiso maternidad"
+      - "excedencias"
+      - "trabajo flexible"
+    complementarios:
+      - "igualdad"
+      - "familias"
+      - "empleo"
+    no_equivalentes:
+      - "vacaciones"
+      - "descanso"
+
+  servicios_sociales:
+    label: "Servicios sociales"
+    triggers:
+      - "servicios sociales"
+      - "servicios sociales básicos"
+      - "atención social"
+      - "bienestar social"
+      - "ayudas sociales"
+    equivalentes:
+      - "servicios sociales"
+      - "servicios sociales básicos"
+      - "atención social"
+      - "bienestar social"
+      - "ayudas sociales"
+    relacionados:
+      - "centros servicios sociales"
+      - "trabajadores sociales"
+      - "usuarios servicios"
+      - "prestaciones económicas"
+    complementarios:
+      - "dependencia"
+      - "mayores"
+      - "pobreza"
+    no_equivalentes:
+      - "sanidad"
+      - "educación"
+
+  dependencia:
+    label: "Dependencia y discapacidad"
+    triggers:
+      - "dependencia"
+      - "ley dependencia"
+      - "personas dependientes"
+      - "discapacidad"
+      - "grado discapacidad"
+      - "certificado discapacidad"
+    equivalentes:
+      - "dependencia"
+      - "ley dependencia"
+      - "personas dependientes"
+      - "discapacidad"
+      - "grado discapacidad"
+    relacionados:
+      - "grados dependencia"
+      - "prestaciones dependencia"
+      - "servicios dependencia"
+      - "cuidadores"
+      - "centros día"
+    complementarios:
+      - "mayores"
+      - "servicios sociales"
+      - "sanidad"
+    no_equivalentes:
+      - "enfermedad"
+      - "hospitalización"
+
+  mayores:
+    label: "Personas mayores"
+    triggers:
+      - "personas mayores"
+      - "mayores"
+      - "tercera edad"
+      - "ancianos"
+      - "adultos mayores"
+      - "envejecimiento activo"
+    equivalentes:
+      - "personas mayores"
+      - "mayores"
+      - "tercera edad"
+      - "ancianos"
+      - "adultos mayores"
+      - "envejecimiento activo"
+    relacionados:
+      - "pensiones"
+      - "jubilación"
+      - "centros día"
+      - "residencias mayores"
+      - "teleasistencia"
+    complementarios:
+      - "dependencia"
+      - "servicios sociales"
+      - "sanidad"
+    no_equivalentes:
+      - "envejecimiento poblacional"
+      - "demografía"
+
+  infancia_proteccion:
+    label: "Protección de menores"
+    triggers:
+      - "protección menores"
+      - "proteccion menores"
+      - "menores desprotegidos"
+      - "acogimiento"
+      - "adopción"
+      - "adopcion"
+    equivalentes:
+      - "protección menores"
+      - "proteccion menores"
+      - "menores desprotegidos"
+      - "acogimiento"
+      - "adopción"
+      - "adopcion"
+    relacionados:
+      - "entidades protección"
+      - "familias acogida"
+      - "tutelas"
+      - "guarda"
+    complementarios:
+      - "infancia"
+      - "servicios sociales"
+      - "justicia"
+    no_equivalentes:
+      - "adopción internacional"
+      - "guarderías"
+
+  discapacidad:
+    label: "Discapacidad"
+    triggers:
+      - "discapacidad"
+      - "personas discapacidad"
+      - "discapacitados"
+      - "accesibilidad"
+      - "barreras arquitectónicas"
+    equivalentes:
+      - "discapacidad"
+      - "personas discapacidad"
+      - "discapacitados"
+      - "accesibilidad"
+      - "barreras arquitectónicas"
+    relacionados:
+      - "discapacidad física"
+      - "discapacidad intelectual"
+      - "discapacidad sensorial"
+      - "empleo discapacidad"
+      - "centros ocupacionales"
+    complementarios:
+      - "dependencia"
+      - "servicios sociales"
+      - "igualdad"
+    no_equivalentes:
+      - "enfermedad"
+      - "dependencia"
+
+  exclusion_social:
+    label: "Exclusión social"
+    triggers:
+      - "exclusión social"
+      - "exclusion social"
+      - "marginación"
+      - "marginalidad"
+      - "vulnerabilidad social"
+      - "sin hogar"
+      - "sinhogarismo"
+    equivalentes:
+      - "exclusión social"
+      - "exclusion social"
+      - "marginación"
+      - "marginalidad"
+      - "vulnerabilidad social"
+      - "sin hogar"
+      - "sinhogarismo"
+    relacionados:
+      - "personas sin hogar"
+      - "albergues"
+      - "recursos emergencia"
+      - "inserción social"
+    complementarios:
+      - "pobreza"
+      - "servicios sociales"
+      - "vivienda"
+    no_equivalentes:
+      - "inmigración"
+      - "minorías"
+
+# ============================================
+# METADATOS DEL DICCIONARIO
+# ============================================
+
+metadata:
+  version: "2.0.0-experimental"
+  fecha_creacion: "2026-06-05"
+  autor: "Experimento Normalización Conceptual"
+  total_dominios: 14
+  total_conceptos: 105
+  total_triggers_aprox: 500+
+  notas: |
+    Este diccionario es EXPERIMENTAL y contiene 100+ conceptos de datos abiertos.
+    - No modificar el comportamiento por defecto del buscador
+    - Activar solo con conceptual_normalization=True
+    - Los conceptos están organizados por dominio temático
+    - Cada subconcepto tiene triggers, equivalentes, relacionados, complementarios y no_equivalentes
+
+    Dominios cubiertos:
+    - Empleo y Mercado Laboral (12)
+    - Vivienda y Urbanismo (10)
+    - Sanidad y Salud (10)
+    - Educación (8)
+    - Demografía y Población (12)
+    - Economía y Hacienda (12)
+    - Transporte y Movilidad (8)
+    - Medio Ambiente (10)
+    - Turismo y Ocio (6)
+    - Seguridad y Justicia (6)
+    - Igualdad y Servicios Sociales (8)

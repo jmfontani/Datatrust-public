@@ -1,0 +1,24 @@
+{
+ "consultas": 214,
+ "gt": "gt_etiquetas_v5.json",
+ "columnas": {
+  "limpieza": "embedding",
+  "aprox": "embedding_minilm_aprox"
+ },
+ "metricas": {
+  "limpieza": {
+   "ndcg": 0.3211588785046729
+  },
+  "aprox": {
+   "ndcg": 0.34228644859813084
+  }
+ },
+ "efecto_texto": {
+  "diff": 0.0211,
+  "ic95": [
+   -0.0061,
+   0.0484
+  ],
+  "cruza_cero": true
+ }
+}

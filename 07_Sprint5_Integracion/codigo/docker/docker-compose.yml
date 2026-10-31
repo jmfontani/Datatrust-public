@@ -1,0 +1,120 @@
+# ============================================================================
+# Docker Compose: Buscador Semántico + PostgreSQL + pgvector
+# Versión Final V3 — 11 ago 2026
+# ============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # PostgreSQL con pgvector
+  # ---------------------------------------------------------------------------
+  postgres:
+    image: ankane/pgvector@sha256:956744bd14e9cbdf639c61c2a2a7c7c2c48a9c8cdd42f7de4ac034f4e96b90f8
+    container_name: buscador_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-buscador}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../db/init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-buscador}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - buscador_network
+    command: >
+      postgres
+      -c shared_buffers=256MB
+      -c effective_cache_size=768MB
+      -c maintenance_work_mem=64MB
+      -c work_mem=16MB
+      -c max_connections=100
+
+  # ---------------------------------------------------------------------------
+  # API REST (FastAPI) - Backend Principal
+  # ---------------------------------------------------------------------------
+  api:
+    build:
+      context: ../../..
+      dockerfile: 07_Sprint5_Integracion/codigo/docker/Dockerfile.api
+    container_name: buscador_api
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=${POSTGRES_DB:-buscador}
+      - POSTGRES_USER=${POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-https://ollama.com/v1}
+      - OLLAMA_API_KEY=${OLLAMA_API_KEY}
+      - OLLAMA_HOST=${OLLAMA_HOST:-https://ollama.com}
+      - MODEL_NAME=paraphrase-multilingual-MiniLM-L12-v2
+      # ==========================================================
+      # MOTOR DE EMBEDDINGS (Fase H). Valores por defecto = MiniLM,
+      # o sea el comportamiento historico. Para activar BGE-M3 basta
+      # cambiar aqui y recrear; NO hace falta rebuild (son env vars).
+      # Vuelta atras: EXPERIMENTO_MOTOR=minilm y EXPERIMENTO_COLUMNA=embedding
+      # ==========================================================
+      - EXPERIMENTO_MOTOR=${EXPERIMENTO_MOTOR:-bge}
+      - EXPERIMENTO_COLUMNA=${EXPERIMENTO_COLUMNA:-embedding_bge}
+      - OLLAMA_EMBED_URL=${OLLAMA_EMBED_URL:-http://172.17.0.1:11434/api/embed}
+      - LOG_LEVEL=INFO
+    ports:
+      - "${API_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - api_cache:/app/cache
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - buscador_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  # ---------------------------------------------------------------------------
+  # Frontend (Streamlit) - Interfaz Web
+  # ---------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ../../..
+      dockerfile: 07_Sprint5_Integracion/codigo/docker/Dockerfile.frontend
+    container_name: buscador_frontend
+    restart: unless-stopped
+    environment:
+      - API_URL=http://api:8000
+    ports:
+      - "${FRONTEND_PORT:-8501}:8501"
+    depends_on:
+      - api
+    networks:
+      - buscador_network
+
+# ---------------------------------------------------------------------------
+# Volúmenes
+# ---------------------------------------------------------------------------
+volumes:
+  postgres_data:
+    name: docker_postgres_data
+    external: true
+  api_cache:
+    driver: local
+
+# ---------------------------------------------------------------------------
+# Redes
+# ---------------------------------------------------------------------------
+networks:
+  buscador_network:
+    driver: bridge

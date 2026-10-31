@@ -1,0 +1,10 @@
+id_fila,caso_id,categoria,query,posicion,dataset_titulo,dataset_publisher,score_llm,explicacion,modelo,tiempo,puntuacion_1_5,comentario
+1,S1,sinonimia,paro juvenil desempleo jóvenes,1,Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Can,ISTAC - Gobierno de Canarias,0.0,,unknown,120.2,,
+2,S1,sinonimia,paro juvenil desempleo jóvenes,2,Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Can,ISTAC - Gobierno de Canarias,0.0,,unknown,120.2,,
+3,S1,sinonimia,paro juvenil desempleo jóvenes,3,Población parada registrada de 16 a 24 años de edad. Media anual. Secciones de C,ISTAC - Gobierno de Canarias,0.0,,unknown,120.2,,
+4,C1,conceptual,vulnerabilidad económica juventud,1,Adolescentes,Ministerio de Transportes y Movilidad Sostenible,0.0,,unknown,120.1,,
+5,C1,conceptual,vulnerabilidad económica juventud,2,Juventud y economía,Ministerio de Transportes y Movilidad Sostenible,0.0,,unknown,120.1,,
+6,C1,conceptual,vulnerabilidad económica juventud,3,"Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están emplea",INE - Instituto Nacional de Estadística,0.0,,unknown,120.1,,
+7,T1,territorial,turismo Canarias 2023,1,Alojamientos Vacacionales,Comunidad Autónoma de la Región de Murcia,0.0,,unknown,120.1,,
+8,T1,territorial,turismo Canarias 2023,2,Hoteles,Cabildo de Tenerife,0.0,,unknown,120.1,,
+9,T1,territorial,turismo Canarias 2023,3,Hoteles,Comunidad Autónoma de la Región de Murcia,0.0,,unknown,120.1,,

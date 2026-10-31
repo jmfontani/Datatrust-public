@@ -1,0 +1,568 @@
+{
+ "n_muestra": 90,
+ "n_comparables": 90,
+ "acuerdo": 0.6778,
+ "kappa": 0.5167,
+ "cambian": 29,
+ "flips_peligrosos": 3,
+ "matriz": {
+  "0": {
+   "0": 26,
+   "1": 3,
+   "2": 1
+  },
+  "1": {
+   "0": 1,
+   "1": 27,
+   "2": 2
+  },
+  "2": {
+   "0": 2,
+   "1": 20,
+   "2": 8
+  }
+ },
+ "fallos": [],
+ "detalle": {
+  "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-121571": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "nota corte universidad grados",
+   "query_nueva": "nota corte universidad grados España"
+  },
+  "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-70358": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "nota corte universidad grados",
+   "query_nueva": "nota corte universidad grados España"
+  },
+  "edu_003|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Duracion_Master_Tot": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "nota corte universidad grados",
+   "query_nueva": "nota corte universidad grados España"
+  },
+  "edu_003|https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-109323": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "nota corte universidad grados",
+   "query_nueva": "nota corte universidad grados España"
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2017/": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "residuos urbanos reciclaje",
+   "query_nueva": "residuos urbanos reciclaje España"
+  },
+  "medio_002|https://datosabiertos.navarra.es/dataset/residuos-urbanos": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "residuos urbanos reciclaje",
+   "query_nueva": "residuos urbanos reciclaje España"
+  },
+  "medio_002|https://www.donostia.eus/datosabiertos/catalogo/indicadores_residuos": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "residuos urbanos reciclaje",
+   "query_nueva": "residuos urbanos reciclaje España"
+  },
+  "medio_002|https://www.cis.es/es/estudios/opiniones-de-los-espanoles-sobre-el-medio-ambiente": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "residuos urbanos reciclaje",
+   "query_nueva": "residuos urbanos reciclaje España"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2019/": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "paro registrado por comunidades",
+   "query_nueva": "paro registrado por comunidades España"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918112": {
+   "viejo": 1,
+   "nuevo": 0,
+   "query_vieja": "paro registrado por comunidades",
+   "query_nueva": "paro registrado por comunidades España"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/paro_por_nacionalidad_sector_y_sexo": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "paro registrado por comunidades",
+   "query_nueva": "paro registrado por comunidades España"
+  },
+  "econ_001|https://intranet.caib.es/opendatacataleg/dataset/d3edc54f-846d-49df-a779-688c64a33fa5": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "vulnerabilidad económica",
+   "query_nueva": "vulnerabilidad económica España"
+  },
+  "econ_001|https://intranet.caib.es/opendatacataleg/dataset/01d71206-e84c-4f9f-b746-004d8ea66438": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "vulnerabilidad económica",
+   "query_nueva": "vulnerabilidad económica España"
+  },
+  "econ_001|https://intranet.caib.es/opendatacataleg/dataset/2a936328-37ab-4738-a200-6cf016a077aa": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "vulnerabilidad económica",
+   "query_nueva": "vulnerabilidad económica España"
+  },
+  "trans_004|https://datos.gob.es/catalogo/e00130502-accidentes-de-trafico-con-victimas": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "accidentes tráfico mortalidad",
+   "query_nueva": "accidentes tráfico mortalidad España"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Las-principales-cifras-de-la-siniestralidad-vial-2007/": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "accidentes tráfico mortalidad",
+   "query_nueva": "accidentes tráfico mortalidad España"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2001.-Datos-sobre-conductores-y-victimas-implicados/": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "accidentes tráfico mortalidad",
+   "query_nueva": "accidentes tráfico mortalidad España"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2004.-Circunstancias-concurrentes-conductores-implicados/": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "accidentes tráfico mortalidad",
+   "query_nueva": "accidentes tráfico mortalidad España"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2001.-Circunstancias-concurrentes-conductores-implicados/": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "accidentes tráfico mortalidad",
+   "query_nueva": "accidentes tráfico mortalidad España"
+  },
+  "trans_001|https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/71a8c2b5-1c97-4f6e-9410-c2d16a7773fa": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "tráfico carreteras estatal",
+   "query_nueva": "tráfico carreteras estatal España"
+  },
+  "trans_001|https://datosabiertos.jcyl.es/web/jcyl/set/es/transporte/intensidad_circulacion/1284733182199": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "tráfico carreteras estatal",
+   "query_nueva": "tráfico carreteras estatal España"
+  },
+  "trans_001|https://datosabiertos.jcyl.es/web/jcyl/set/es/urbanismo-infraestructuras/anchura-carreteras/1284967627462": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "tráfico carreteras estatal",
+   "query_nueva": "tráfico carreteras estatal España"
+  },
+  "demo_004|https://opendata.aragon.es/datos/catalogo/dataset/comarcas-tasa-de-migracion-neta-con-el-extranjero-por-comarca": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "migración extranjera",
+   "query_nueva": "migración extranjera España"
+  },
+  "demo_004|https://opendata.aragon.es/datos/catalogo/dataset/aragon-y-provincias-tasa-bruta-de-emigracion-con-destino-al-extranjero": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "migración extranjera",
+   "query_nueva": "migración extranjera España"
+  },
+  "demo_004|https://datos.comunidad.madrid/catalogo/dataset/migraciones_por_procedencia_destino_y_sexo": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "migración extranjera",
+   "query_nueva": "migración extranjera España"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1908081": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "transporte público urbano",
+   "query_nueva": "transporte público urbano España"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1911323": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "transporte público urbano",
+   "query_nueva": "transporte público urbano España"
+  },
+  "trans_003|https://www.vitoria-gasteiz.org/j34-01w/catalogo/personas_usuarias_del_transporte_publico": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "transporte público urbano",
+   "query_nueva": "transporte público urbano España"
+  },
+  "empleo_004|https://datosabiertos.navarra.es/dataset/encuesta-de-estructura-salarial": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "brecha salarial género",
+   "query_nueva": "brecha salarial género España"
+  },
+  "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1921207": {
+   "viejo": 1,
+   "nuevo": 2,
+   "query_vieja": "brecha salarial género",
+   "query_nueva": "brecha salarial género España"
+  },
+  "edu_005|http://datosabiertos.castillalamancha.es/node/2065": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "FP formación profesional plazas",
+   "query_nueva": "plazas formación profesional España"
+  },
+  "edu_005|https://dadesobertes.gva.es/dataset/edu-alu-fp-2019": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "FP formación profesional plazas",
+   "query_nueva": "plazas formación profesional España"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Duracion_Grado_CA": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "universidades estudiantes matrícula",
+   "query_nueva": "universidades estudiantes matrícula España"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Master_Tot": {
+   "viejo": 0,
+   "nuevo": 2,
+   "query_vieja": "universidades estudiantes matrícula",
+   "query_nueva": "universidades estudiantes matrícula España"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_NoBec_CA": {
+   "viejo": 0,
+   "nuevo": 1,
+   "query_vieja": "universidades estudiantes matrícula",
+   "query_nueva": "universidades estudiantes matrícula España"
+  },
+  "san_005|https://datos.gob.es/catalogo/ea0042823-tablas-de-mortalidad-por-ano-provincia-sexo-edad-y-funciones-tm-identificador-api-67235": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "esperanza de vida hombres mujeres",
+   "query_nueva": "esperanza de vida España hombres mujeres"
+  },
+  "san_005|urn:ine:es:TABLA:T3:66:67234": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "esperanza de vida hombres mujeres",
+   "query_nueva": "esperanza de vida España hombres mujeres"
+  },
+  "dep_004|https://datos.gob.es/catalogo/D00000000512002": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "subvenciones deporte base",
+   "query_nueva": "subvenciones deporte base España"
+  },
+  "cult_003|https://intranet.caib.es/opendatacataleg/dataset/aef2f1ed-0bf8-4f50-8d49-9a2e89a1c8a8": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "cines taquilla películas",
+   "query_nueva": "cines taquilla películas España"
+  },
+  "cult_003|https://datos.comunidad.madrid/catalogo/dataset/1906200": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "cines taquilla películas",
+   "query_nueva": "cines taquilla películas España"
+  },
+  "cult_003|http://opendata.caceres.es/federator/cines-caceres": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "cines taquilla películas",
+   "query_nueva": "cines taquilla películas España"
+  },
+  "econ_003|https://opendata.euskadi.eus/catalogo/-/indice-de-precios-industriales-de-la-c-a-de-euskadi-por-mes-y-ano-segun-sectorizacion-a38-sectores-12-16-p/": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "IPC inflación mensual",
+   "query_nueva": "IPC inflación mensual España"
+  },
+  "san_004|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00041a_000001": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "gasto farmacéutico público",
+   "query_nueva": "gasto farmacéutico público España"
+  },
+  "san_004|urn:ine:es:TABLA:T3:9:67259": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "gasto farmacéutico público",
+   "query_nueva": "gasto farmacéutico público España"
+  },
+  "empleo_001|https://analisi.transparenciacatalunya.cat/api/views/refd-92gt": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "empleo juvenil",
+   "query_nueva": "empleo juvenil España"
+  },
+  "econ_002|https://opendata.aragon.es/datos/catalogo/dataset/renta-anual-neta-media-del-hogar-segun-tipo-de-hogar-aragon": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "renta media por hogar",
+   "query_nueva": "renta media por hogar España"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000044": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "renta media por hogar",
+   "query_nueva": "renta media por hogar España"
+  },
+  "econ_002|https://datos.comunidad.madrid/catalogo/dataset/1916304": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "renta media por hogar",
+   "query_nueva": "renta media por hogar España"
+  },
+  "econ_002|https://opendata-ajuntament.barcelona.cat/data/dataset/renda-tributaria-unitat-consum-atlas-distribucio": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "renta media por hogar",
+   "query_nueva": "renta media por hogar España"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-n-de-puntos-de-servicio-de-los-que-disponen-identificador-api-33019": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "cult_001|https://opendata.euskadi.eus/catalogo/-/estadistica/archivos/servicios-para-el-usuario/numero-y-media-de-publicaciones-de-las-bibliotecas-auxiliares-por-tipologia-de-archivo/": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "cult_001|https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/cultura-ocio/cultura-bibliotecas": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-titularidad-de-la-biblioteca-identificador-api-33020": {
+   "viejo": 1,
+   "nuevo": 2,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-servicios-de-internet-de-los-que-disponen-identificador-api-33033": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "cult_001|https://datos.comunidad.madrid/catalogo/dataset/701012": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "bibliotecas públicas",
+   "query_nueva": "bibliotecas públicas España"
+  },
+  "dep_002|https://www.vitoria-gasteiz.org/j34-01w/catalogo/Uso_de_las_instalaciones_deportivas": {
+   "viejo": 0,
+   "nuevo": 1,
+   "query_vieja": "instalaciones deportivas municipales",
+   "query_nueva": "instalaciones deportivas municipales España"
+  },
+  "dep_002|https://datos.madrid.es/dataset/210227-0-piscinas-publicas": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "instalaciones deportivas municipales",
+   "query_nueva": "instalaciones deportivas municipales España"
+  },
+  "dep_002|https://datos.madrid.es/dataset/212808-0-espacio-deporte": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "instalaciones deportivas municipales",
+   "query_nueva": "instalaciones deportivas municipales España"
+  },
+  "dep_002|https://datosabiertos.navarra.es/dataset/spasitnaidemun_sym_instalacionesdeportivas-xml": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "instalaciones deportivas municipales",
+   "query_nueva": "instalaciones deportivas municipales España"
+  },
+  "dep_002|https://intranet.caib.es/opendatacataleg/dataset/d07c1772-2cd2-4053-89bc-54112c07be18": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "instalaciones deportivas municipales",
+   "query_nueva": "instalaciones deportivas municipales España"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-areas-2012": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "densidad poblacional municipios pequeños",
+   "query_nueva": "densidad poblacional municipios pequeños España"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-barrios-2012": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "densidad poblacional municipios pequeños",
+   "query_nueva": "densidad poblacional municipios pequeños España"
+  },
+  "dep_001|https://datos.gob.es/catalogo/D00000000507003": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "licencias deportivas federadas",
+   "query_nueva": "licencias deportivas federadas España"
+  },
+  "dep_001|https://datos.comunidad.madrid/catalogo/dataset/1908802": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "licencias deportivas federadas",
+   "query_nueva": "licencias deportivas federadas España"
+  },
+  "medio_001|https://opendata.gijon.es/catalogo/calidad_aire_2006": {
+   "viejo": 0,
+   "nuevo": 1,
+   "query_vieja": "calidad del aire ciudades",
+   "query_nueva": "calidad del aire ciudades España"
+  },
+  "san_002|https://datosabiertos.regiondemurcia.es/carm/catalogo/salud/poblacion-asignada-a-equipos-de-atencion-primaria": {
+   "viejo": 2,
+   "nuevo": 0,
+   "query_vieja": "médicos atención primaria ratio",
+   "query_nueva": "médicos atención primaria ratio España"
+  },
+  "san_003|https://web.larioja.org/dato-abierto/datoabierto?n=opd-316": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "espera quirúrgica lista",
+   "query_nueva": "lista de espera quirúrgica España"
+  },
+  "san_003|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00045a_000001": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "espera quirúrgica lista",
+   "query_nueva": "lista de espera quirúrgica España"
+  },
+  "trans_005|https://datosabiertos.jcyl.es/web/jcyl/set/es/energia/vehiculo_electrico/1284273412751": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "vehículos eléctricos matriculación",
+   "query_nueva": "matriculación vehículos eléctricos España"
+  },
+  "trans_005|https://datosabiertos.malaga.eu/dataset/cargadores-de-vehiculos-electricos": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "vehículos eléctricos matriculación",
+   "query_nueva": "matriculación vehículos eléctricos España"
+  },
+  "trans_005|https://intranet.caib.es/opendatacataleg/dataset/a520e68f-b79f-4559-9f38-b69adc48ee56": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "vehículos eléctricos matriculación",
+   "query_nueva": "matriculación vehículos eléctricos España"
+  },
+  "medio_004|https://enlaza.eprinsa.es/api/catalog/dataset/04d106e9-9916-454a-ba56-09defe65e38b": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "consumo agua embalses",
+   "query_nueva": "consumo agua embalses España"
+  },
+  "medio_004|https://enlaza.eprinsa.es/api/catalog/dataset/3ef7a842-5d5a-450e-8d18-1f1aae26d5eb": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "consumo agua embalses",
+   "query_nueva": "consumo agua embalses España"
+  },
+  "medio_005|https://datos.tenerife.es/datos/conjuntos-de-datos/energia-producida-y-consumida-en-plantas-fotovoltaicas-y-parques-eolicos-en-tenerife": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "energías renovables producción",
+   "query_nueva": "energías renovables producción España"
+  },
+  "medio_005|https://catalogodatos.cnmc.es/dataset/ds_24271_1": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "energías renovables producción",
+   "query_nueva": "energías renovables producción España"
+  },
+  "medio_005|https://intranet.caib.es/opendatacataleg/dataset/e3f74a23-5689-4f94-88bf-a6250353c88b": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "energías renovables producción",
+   "query_nueva": "energías renovables producción España"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-262-para-el-ao-2010": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "energías renovables producción",
+   "query_nueva": "energías renovables producción España"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-271-para-el-ao-2010": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "energías renovables producción",
+   "query_nueva": "energías renovables producción España"
+  },
+  "medio_003|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-total-de-emisiones-de-gases-efecto-invernadero-de-las-unidades-residentes-per-capita-identificador-api-177-328": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "emisiones gases efecto invernadero",
+   "query_nueva": "emisiones gases efecto invernadero España"
+  },
+  "medio_003|https://datos.comunidad.madrid/catalogo/dataset/atm_inventario_gei": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "emisiones gases efecto invernadero",
+   "query_nueva": "emisiones gases efecto invernadero España"
+  },
+  "cult_002|https://opendata.aragon.es/datos/catalogo/dataset/museos-y-colecciones-museograficas-por-titularidad-y-entidad-gestora": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "museos visitantes",
+   "query_nueva": "museos visitantes España"
+  },
+  "demo_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372": {
+   "viejo": 2,
+   "nuevo": 0,
+   "query_vieja": "censo población 2024",
+   "query_nueva": "censo población 2024 España"
+  },
+  "demo_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000445": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "censo población 2024",
+   "query_nueva": "censo población 2024 España"
+  },
+  "cult_004|https://datos.comunidad.madrid/catalogo/dataset/1901540": {
+   "viejo": 0,
+   "nuevo": 0,
+   "query_vieja": "festivales música verano",
+   "query_nueva": "festivales música verano España"
+  },
+  "edu_004|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Relacion_Becados_Grado_CA": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "becas MEC estudiantes beneficiarios",
+   "query_nueva": "becas MEC España estudiantes beneficiarios"
+  },
+  "edu_002|urn:ine:es:TABLA:T3:237:69789": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "abandono escolar temprano",
+   "query_nueva": "abandono escolar temprano España"
+  },
+  "edu_002|https://intranet.caib.es/opendatacataleg/dataset/3a1fc8ae-99e5-42e5-af87-ebfcd3ff17ef": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "abandono escolar temprano",
+   "query_nueva": "abandono escolar temprano España"
+  },
+  "edu_002|urn:ine:es:TABLA:T3:237:69788": {
+   "viejo": 2,
+   "nuevo": 2,
+   "query_vieja": "abandono escolar temprano",
+   "query_nueva": "abandono escolar temprano España"
+  },
+  "trans_002|https://datos.comunidad.madrid/catalogo/dataset/1927020": {
+   "viejo": 1,
+   "nuevo": 1,
+   "query_vieja": "pasajeros aeropuerto",
+   "query_nueva": "pasajeros aeropuerto España"
+  },
+  "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/pasajeros-procedentes-de-aeropuertos-nacionales-segun-comunidad-autonoma-de-residencia-por-isla": {
+   "viejo": 2,
+   "nuevo": 1,
+   "query_vieja": "pasajeros aeropuerto",
+   "query_nueva": "pasajeros aeropuerto España"
+  }
+ }
+}

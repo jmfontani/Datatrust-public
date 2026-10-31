@@ -1,0 +1,82 @@
+{
+  "format": "linked-data-api",
+  "version": "0.2",
+  "result": {
+    "_about": "http://datos.gob.es/apidata/catalog/dataset.json?_pageSize=1&_page=0",
+    "definition": "http://datos.gob.es/apidata/catalog/meta/dataset.json",
+    "extendedMetadataVersion": "http://datos.gob.es/apidata/catalog/dataset.json?_pageSize=1&_page=0&_metadata=all",
+    "first": "http://datos.gob.es/apidata/catalog/dataset.json?_page=0",
+    "isPartOf": {
+      "_about": "http://datos.gob.es/apidata/catalog/dataset.json",
+      "definition": "http://datos.gob.es/apidata/catalog/meta/dataset.json",
+      "hasPart": "http://datos.gob.es/apidata/catalog/dataset.json?_pageSize=1&_page=0",
+      "type": "http://purl.org/linked-data/api/vocab#ListEndpoint"
+    },
+    "items": [
+      {
+        "_about": "https://datos.gob.es/catalogo/e05068001-mapas-estrategicos-de-ruido",
+        "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/OP_DATPRO",
+        "description": [
+          {
+            "_value": "Mapas estratégicos de ruido (MER) de la tercera fase de implementación de la Directiva 2002/49/CE del Parlamento Europeo y del Consejo, de 25 de junio de 2002, sobre evaluación y gestión del ruido ambiental (END, por sus siglas en inglés).",
+            "_lang": "es"
+          },
+          {
+            "_value": "Strategic Noise Maps for the third phase of implementation of Directive 2002/49/EC of the European Parliament and of the Council, of 25 June 2002, relating to the assessment and management of environmental noise (END).",
+            "_lang": "en"
+          }
+        ],
+        "distribution": {
+          "_about": "https://datos.gob.es/catalogo/e05068001-mapas-estrategicos-de-ruido/resource/eedb4841-ff53-4788-9d88-11fb48b45296",
+          "accessURL": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/b0da07b8-6856-4af2-91f7-20a7531d6b6f/resource/4e99901d-aed7-445c-ab1b-0690a1e195f5",
+          "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+          "title": [
+            {
+              "_value": "Mapas Estratégicos de Ruido",
+              "_lang": "es"
+            }
+          ],
+          "type": "http://www.w3.org/ns/dcat#Distribution"
+        },
+        "identifier": "b0da07b8-6856-4af2-91f7-20a7531d6b6f",
+        "issued": "dom, 19 dic 2021 00:00:00 GMT+0000",
+        "keyword": [
+          {
+            "_value": "environment",
+            "_lang": "es"
+          }
+        ],
+        "language": "http://publications.europa.eu/resource/authority/language/SPA",
+        "license": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+        "modified": "mié, 18 jun 2025 00:00:00 GMT+0000",
+        "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001",
+        "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
+        "temporal": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/bnode/Nf9ee8310ebfe49f08a80255b1ccac7f2",
+        "theme": [
+          "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente",
+          "http://inspire.ec.europa.eu/theme/ac",
+          "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+        ],
+        "title": [
+          {
+            "_value": "Mapas estratégicos de Ruido",
+            "_lang": "es"
+          },
+          {
+            "_value": "Strategic Noise maps",
+            "_lang": "en"
+          }
+        ],
+        "type": [
+          "http://www.w3.org/ns/dcat#Dataset",
+          "http://xmlns.com/foaf/0.1/Document"
+        ]
+      }
+    ],
+    "itemsPerPage": 1,
+    "next": "http://datos.gob.es/apidata/catalog/dataset.json?_page=1",
+    "page": 0,
+    "startIndex": 1,
+    "type": "http://purl.org/linked-data/api/vocab#Page"
+  }
+}

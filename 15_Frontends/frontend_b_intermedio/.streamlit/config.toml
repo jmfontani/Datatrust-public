@@ -1,0 +1,9 @@
+[theme]
+# Tema basado en el Manual de Identidad "Infancia Digital"
+# Fuerza modo claro para respetar la paleta cromática corporativa
+base = "light"
+primaryColor = "#080066"
+backgroundColor = "#f0ecf6"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1D1E1B"
+font = "sans serif"

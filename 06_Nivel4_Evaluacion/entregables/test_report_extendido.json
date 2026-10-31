@@ -1,0 +1,1039 @@
+{
+  "fecha": "2026-05-23T20:41:52.776922",
+  "api_url": "http://localhost:8000",
+  "total_tests": 41,
+  "passed": 30,
+  "failed": 11,
+  "errors": 0,
+  "accuracy": 73.17073170731707,
+  "results": [
+    {
+      "query": "despoblación",
+      "status": "PASS",
+      "description": "Concepto específico: despoblación rural",
+      "category": "demografia",
+      "results_count": 2,
+      "search_time_ms": 112.18,
+      "response_time_ms": 114.76778984069824,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.dipcas.es/explore/dataset/municipios-valencianos-en-riesgo-de-despoblacion/",
+        "score": 0.216,
+        "title": "Municipios valencianos en riesgo de despoblación",
+        "description": "Dataset elaborado a partir de los datos obtenidos en la [Agenda Valenciana Antidespoblamiento](https://avant.gva.es/es/avant) (Agenda AVANT). Esta Agenda pertenece a la Generalitat Valenciana y se ins...",
+        "territorio": "Comunitat Valenciana",
+        "tema": [
+          "medio rural pesca"
+        ],
+        "formato": [],
+        "publisher": "Diputación de Castellón",
+        "url": "https://datos.gob.es/catalogo/l02000012-municipios-valencianos-en-riesgo-de-despoblacion",
+        "explanation": "Términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "paro juvenil",
+      "status": "FAIL",
+      "description": "Empleo: desempleo en jóvenes",
+      "category": "empleo",
+      "results_count": 10,
+      "search_time_ms": 89.11,
+      "response_time_ms": 92.86141395568848,
+      "issues": [
+        "  ❌ Resultado #6 no contiene términos esperados (score: 0.5667)",
+        "     Título: Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están emplea..."
+      ],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+        "score": 1.4786,
+        "title": "Asesoramiento a jóvenes",
+        "description": "Garantía Juvenil: Es un iniciativa europea que pretende facilitar el acceso de los jóvenes al mercado de trabajo.    Jóvenes inscritos en el sistema de Garantía Juvenil: a partir de octubre 2021 pasar...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-asesoramiento-a-jovenes",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "calidad del aire",
+      "status": "PASS",
+      "description": "Medio ambiente: contaminación atmosférica",
+      "category": "medio_ambiente",
+      "results_count": 10,
+      "search_time_ms": 108.58,
+      "response_time_ms": 112.11180686950684,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+        "score": 1.4985,
+        "title": "Calidad del aire - Datos año actual (Validados)",
+        "description": "Información de la calidad del aire.",
+        "territorio": "España",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Ayuntamiento (L01330241)",
+        "url": "https://datos.gob.es/catalogo/l01330241-calidad-del-aire-datos-ano-actual-validados1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "matriculaciones coches eléctricos",
+      "status": "PASS",
+      "description": "Movilidad: vehículos eléctricos",
+      "category": "transporte",
+      "results_count": 10,
+      "search_time_ms": 95.91,
+      "response_time_ms": 98.49286079406738,
+      "issues": [],
+      "top_result": {
+        "id": "https://intranet.caib.es/opendatacataleg/dataset/a520e68f-b79f-4559-9f38-b69adc48ee56",
+        "score": 1.4531,
+        "title": "Punto de recarga de vehículos eléctricos",
+        "description": "Punto de recarga de vehículos eléctricos",
+        "territorio": "España",
+        "tema": [
+          "energia"
+        ],
+        "formato": [],
+        "publisher": "Govern de les Illes Balears",
+        "url": "https://datos.gob.es/catalogo/a04003003-punto-de-recarga-de-vehiculos-electricos1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "gasto sanitario por habitante",
+      "status": "PASS",
+      "description": "Sanidad: financiación salud",
+      "category": "sanidad",
+      "results_count": 10,
+      "search_time_ms": 135.3,
+      "response_time_ms": 138.18717002868652,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.icane.es/dataset/fa91f1c7-8ff5-4ee7-92f5-2cb952491224",
+        "score": 1.3867,
+        "title": "Estadística gasto sanitario público",
+        "description": "Estadística gasto sanitario público",
+        "territorio": "España",
+        "tema": [
+          "salud"
+        ],
+        "formato": [],
+        "publisher": "Gobierno de Cantabria",
+        "url": "https://datos.gob.es/catalogo/a06004074-estadistica-gasto-sanitario-publico",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "precio vivienda",
+      "status": "PASS",
+      "description": "Vivienda: mercado inmobiliario",
+      "category": "vivienda",
+      "results_count": 10,
+      "search_time_ms": 83.18,
+      "response_time_ms": 86.72237396240234,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+        "score": 1.5334,
+        "title": "Estadística del valor tasado de la vivienda",
+        "description": "La Estadística de Valor Tasado de la Vivienda informa sobre el precio del metro cuadrado para viviendas libres y protegidas a partir de los informes de tasación procedentes de las empresas tasadoras d...",
+        "territorio": "Navarra",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Gobierno de Navarra",
+        "url": "https://datos.gob.es/catalogo/a15002917-estadistica-del-valor-tasado-de-la-vivienda1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: n."
+      }
+    },
+    {
+      "query": "tasa de natalidad",
+      "status": "PASS",
+      "description": "Demografía: nacimientos",
+      "category": "demografia",
+      "results_count": 10,
+      "search_time_ms": 125.34,
+      "response_time_ms": 128.62372398376465,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/202010",
+        "score": 1.4825,
+        "title": "Indicadores de natalidad y fecundidad",
+        "description": "Tasa bruta de natalidad, Tasa bruta de fecundidad, Índice sintético de fecundidad: a partir del año 1996 se han calculado utilizando como población de referencia la población oficial del Padrón Munici...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-indicadores-de-natalidad-y-fecundidad",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "energía solar fotovoltaica",
+      "status": "PASS",
+      "description": "Energías renovables",
+      "category": "energia",
+      "results_count": 10,
+      "search_time_ms": 146.48,
+      "response_time_ms": 148.68664741516113,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.madrid.es/dataset/300427-0-generacion-fotovoltaica-edificio",
+        "score": 1.4702,
+        "title": "Generación de energía solar fotovoltaica en edificios y centros municipales",
+        "description": "Distintos edificios y centros municipales disponen de instalaciones de generación de energía solar fotovoltaica, incluyendo diversas sedes de Juntas Municipales de Distrito, bibliotecas, centros cultu...",
+        "territorio": "Navarra",
+        "tema": [
+          "energia"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Madrid",
+        "url": "https://datos.gob.es/catalogo/l01280796-generacion-de-energia-solar-fotovoltaica-en-edificios-y-centros-municipales",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: n."
+      }
+    },
+    {
+      "query": "delitos por municipio",
+      "status": "PASS",
+      "description": "Seguridad: criminalidad",
+      "category": "seguridad",
+      "results_count": 5,
+      "search_time_ms": 116.31,
+      "response_time_ms": 118.25180053710938,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/1917185",
+        "score": 0.216,
+        "title": "Delitos cometidos por adultos por sexo y por nacionalidad",
+        "description": "En julio de 2015 entró en vigor una reforma del Código Penal que suprimió las faltas, convirtiéndolas en delitos leves.",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-delitos-cometidos-por-adultos-por-sexo-y-por-nacionalidad",
+        "explanation": "Términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "rendimiento académico escolar",
+      "status": "PASS",
+      "description": "Educación: resultados escolares",
+      "category": "educacion",
+      "results_count": 7,
+      "search_time_ms": 109.45,
+      "response_time_ms": 111.77396774291992,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.gob.es/catalogo/EALRA0000073021",
+        "score": 0.5674,
+        "title": "Porcentaje de alumnado de primero de Bachillerato ordinario que promociona por tipo de promoción, sexo, comunidad autónoma y curso académico",
+        "description": "Se presenta en este apartado la información estadística referida a los resultados académicos del alumnado matriculado procedente de las Estadísticas de las Enseñanzas no universitarias que realiza la ...",
+        "territorio": "España",
+        "tema": [
+          "educacion"
+        ],
+        "formato": [],
+        "publisher": "Ministerio de Educación y Formación Profesional",
+        "url": "https://datos.gob.es/catalogo/e05230301-porcentaje-de-alumnado-de-primero-de-bachillerato-ordinario-que-promociona-por-tipo-de-promocion-sexo-comunidad-autonoma-y-curso-academico",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "Turismo en Canarias",
+      "status": "PASS",
+      "description": "Turismo: territorio específico",
+      "category": "turismo",
+      "results_count": 10,
+      "search_time_ms": 115.33,
+      "response_time_ms": 117.11955070495605,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000375",
+        "score": 0.5765,
+        "title": "Turistas de 16 y más años según situación laboral y países de residencia. Islas de Canarias y periodos",
+        "description": "Perfil del turista. Turistas de 16 y más años según actividad económica y países de residencia por islas de Canarias por años y trimestres.",
+        "territorio": "Canarias",
+        "tema": [
+          "turismo"
+        ],
+        "formato": [],
+        "publisher": "ISTAC - Gobierno de Canarias",
+        "url": "https://datos.gob.es/catalogo/a05003423-turistas-de-16-y-mas-anos-segun-situacion-laboral-y-paises-de-residencia-islas-de-canarias-y-periodos",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: c; tema coincidente: turismo."
+      }
+    },
+    {
+      "query": "Agua potable",
+      "status": "PASS",
+      "description": "Recursos hídricos básico",
+      "category": "medio_ambiente",
+      "results_count": 3,
+      "search_time_ms": 88.59,
+      "response_time_ms": 91.1245346069336,
+      "issues": [],
+      "top_result": {
+        "id": "https://intranet.caib.es/opendatacataleg/dataset/baa0e0ce-62aa-4c90-81c7-1ff45e09c6aa",
+        "score": 0.588,
+        "title": "Red Agua Residual ABAQUA",
+        "description": "Red Agua Residual ABAQUA",
+        "territorio": "España",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Govern de les Illes Balears",
+        "url": "https://datos.gob.es/catalogo/a04003003-red-agua-residual-abaqua",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "accidentes de tráfico",
+      "status": "PASS",
+      "description": "Seguridad vial: accidentes",
+      "category": "transporte",
+      "results_count": 10,
+      "search_time_ms": 126.17,
+      "response_time_ms": 129.06646728515625,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.ponferrada.org/dataset/75197d1f-1774-438e-900b-be91b223b013",
+        "score": 1.545,
+        "title": "Accidentes de tráfico",
+        "description": "Datos sobre tráfico y accidentes.",
+        "territorio": "Castilla y León",
+        "tema": [
+          "transporte"
+        ],
+        "formato": [],
+        "publisher": "Ayuntamiento (L01241152)",
+        "url": "https://datos.gob.es/catalogo/l01241152-accidentes-de-trafico",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "bicicleta carril bici",
+      "status": "FAIL",
+      "description": "Movilidad sostenible: infraestructura ciclista",
+      "category": "transporte",
+      "results_count": 10,
+      "search_time_ms": 113.27,
+      "response_time_ms": 115.22579193115234,
+      "issues": [
+        "  ❌ Resultado #1 no contiene términos esperados (score: 1.4871)",
+        "     Título: Carriles Bici...",
+        "  ❌ Resultado #2 no contiene términos esperados (score: 1.4067)",
+        "     Título: Carriles bici...",
+        "  ⚠️ Resultado #6 contiene 'motor' (score: 1.2658)",
+        "     Título: Red de bidegorris: Carriles bici y sendas..."
+      ],
+      "top_result": {
+        "id": "https://datosabiertos.ayto-arganda.es/dataset/carriles-bici",
+        "score": 1.4871,
+        "title": "Carriles Bici",
+        "description": "Carriles Bici",
+        "territorio": "Comunidad de Madrid",
+        "tema": [
+          "deporte",
+          "transporte"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Segovia",
+        "url": "https://datos.gob.es/catalogo/l01280148-carriles-bici",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "transporte público autobús",
+      "status": "PASS",
+      "description": "Transporte público: autobuses",
+      "category": "transporte",
+      "results_count": 10,
+      "search_time_ms": 118.89,
+      "response_time_ms": 121.7200756072998,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.lorca.es/catalogo/paradas-autobus/",
+        "score": 1.4453,
+        "title": "Paradas de autobús",
+        "description": "Paradas de autobús urbano",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "transporte"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Salamanca",
+        "url": "https://datos.gob.es/catalogo/l01300243-paradas-de-autobus",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: r; tema coincidente: transporte."
+      }
+    },
+    {
+      "query": "cambio climático temperatura",
+      "status": "PASS",
+      "description": "Cambio climático: datos meteorológicos",
+      "category": "medio_ambiente",
+      "results_count": 10,
+      "search_time_ms": 112.34,
+      "response_time_ms": 114.75253105163574,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.euskadi.eus/catalogo/-/escenarios-cambio-climatico-para-el-siglo-xxi/",
+        "score": 1.5273,
+        "title": "Escenarios de cambio climático de alta resolución para el siglo XXI e indicadores climáticos históricos para el periodo 1971-2000",
+        "description": "Conjunto de datos, históricos y futuros, formado por algunos de los indicadores climáticos obtenidos en el marco de los proyectos ESCENARIOS II (convocatoria KLIMATEK de 2017) y URBAN KLIMA 2050 (LIFE...",
+        "territorio": "País Vasco",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (Open Data Euskadi)",
+        "url": "https://datos.gob.es/catalogo/a16003011-escenarios-de-cambio-climatico-de-alta-resolucion-para-el-siglo-xxi-e-indicadores-climaticos-historicos-para-el-periodo-1971-2000",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: p."
+      }
+    },
+    {
+      "query": "residuos reciclaje",
+      "status": "PASS",
+      "description": "Gestión de residuos y reciclaje",
+      "category": "medio_ambiente",
+      "results_count": 10,
+      "search_time_ms": 89.08,
+      "response_time_ms": 92.40174293518066,
+      "issues": [],
+      "top_result": {
+        "id": "https://www.donostia.eus/datosabiertos/catalogo/residuos",
+        "score": 1.4865,
+        "title": "Medio ambiente - Residuos",
+        "description": "Datos de residuos 2010-2023Se muestran las cantidades de residuos generados anualmente en la ciudad en función del tipo de recogida, la clasificación y la subclasificación.Las cantidades de los residu...",
+        "territorio": "País Vasco",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Diputación de Gipuzkoa",
+        "url": "https://datos.gob.es/catalogo/l01200697-medio-ambiente-residuos",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: a."
+      }
+    },
+    {
+      "query": "espacios verdes parques",
+      "status": "PASS",
+      "description": "Espacios naturales urbanos",
+      "category": "medio_ambiente",
+      "results_count": 10,
+      "search_time_ms": 109.11,
+      "response_time_ms": 112.42461204528809,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.navarra.es/dataset/spasitnainfotu_pol_indproporcionzv-xml",
+        "score": 1.4836,
+        "title": "Proporción de zonas verdes",
+        "description": "Este indicador muestra si la superficie dedicada en el espacio público a parques y zonas verdes públicas, es la adecuada en relación al número de habitantes.",
+        "territorio": "Navarra",
+        "tema": [
+          "hacienda"
+        ],
+        "formato": [],
+        "publisher": "Gobierno de Navarra",
+        "url": "https://datos.gob.es/catalogo/a15002917-proporcion-de-zonas-verdes1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: a."
+      }
+    },
+    {
+      "query": "PIB producto interior bruto",
+      "status": "PASS",
+      "description": "Economía: indicador macroeconómico",
+      "category": "economia",
+      "results_count": 10,
+      "search_time_ms": 135.42,
+      "response_time_ms": 137.93325424194336,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.euskadi.eus/catalogo/-/pib-per-capita-de-la-c-a-de-euskadi-por-territorio-historico-precios-corrientes-euros-y-tasa-variacion-2014-2016-a/",
+        "score": 1.5001,
+        "title": "Producto Interior Bruto (PIB) per cápita de la C.A. de Euskadi por territorio histórico Precios corrientes (euros y tasa variación).",
+        "description": "El Producto Interior Bruto (PIB) se cuantifica con periodicidad anual mediante la operación estadística de síntesis Cuentas Económicas, la cual recoge la actividad de los agentes económicos en la C.A....",
+        "territorio": "País Vasco",
+        "tema": [
+          "economia",
+          "hacienda",
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (Open Data Euskadi)",
+        "url": "https://datos.gob.es/catalogo/a16003011-producto-interior-bruto-pib-per-capita-de-la-c-a-de-euskadi-por-territorio-historico-precios-corrientes-euros-y-tasa-variacion",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: p."
+      }
+    },
+    {
+      "query": "pensiones jubilación",
+      "status": "FAIL",
+      "description": "Seguridad social: pensiones",
+      "category": "economia",
+      "results_count": 10,
+      "search_time_ms": 89.07,
+      "response_time_ms": 92.00024604797363,
+      "issues": [
+        "  ❌ Resultado #7 no contiene términos esperados (score: 1.2050)",
+        "     Título: Pensiones...",
+        "  ❌ Resultado #8 no contiene términos esperados (score: 1.2017)",
+        "     Título: Pensiones contributivas..."
+      ],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/1921202",
+        "score": 1.4785,
+        "title": "Años cotizados por personas que perciben una pensión de jubilación por sexo y por edad",
+        "description": "Personas con pensiones de jubilación no procedentes de una pensión de incapacidad. Se incluyen las pensiones con efecto posterior a 1996, año en que la S.S. creó la Base de datos de pensionistas. Expr...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-anos-cotizados-por-personas-que-perciben-una-pension-de-jubilacion-por-sexo-y-por-edad",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "subvenciones ayudas",
+      "status": "PASS",
+      "description": "Financiación pública: subvenciones",
+      "category": "economia",
+      "results_count": 10,
+      "search_time_ms": 83.68,
+      "response_time_ms": 87.37587928771973,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.lorca.es/catalogo/ayudas-juventud/",
+        "score": 1.4388,
+        "title": "Ayudas y subvenciones Lorcajoven",
+        "description": "Ayudas y subvenciones publicadas en Lorcajoven",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "sociedad bienestar"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Salamanca",
+        "url": "https://datos.gob.es/catalogo/l01300243-ayudas-y-subvenciones-lorcajoven",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "museos exposiciones",
+      "status": "FAIL",
+      "description": "Cultura: instituciones museísticas",
+      "category": "cultura",
+      "results_count": 10,
+      "search_time_ms": 94.4,
+      "response_time_ms": 98.51551055908203,
+      "issues": [
+        "  ❌ Resultado #3 no contiene términos esperados (score: 1.2773)",
+        "     Título: Salas de exposiciones..."
+      ],
+      "top_result": {
+        "id": "https://datos.lorca.es/catalogo/museos/",
+        "score": 1.3521,
+        "title": "Museos",
+        "description": "Listado de museos en el casco urbano de Lorca",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "turismo"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Salamanca",
+        "url": "https://datos.gob.es/catalogo/l01300243-museos",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "bibliotecas lectura",
+      "status": "PASS",
+      "description": "Cultura: bibliotecas y fomento de lectura",
+      "category": "cultura",
+      "results_count": 10,
+      "search_time_ms": 91.9,
+      "response_time_ms": 96.2982177734375,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.euskadi.eus/catalogo/-/catalogo-bibliografico-de-la-red-de-lectura-publica-de-euskadi/",
+        "score": 1.3882,
+        "title": "Catálogo Bibliográfico de la Red de Lectura Pública de Euskadi",
+        "description": "Este conjunto de datos ofrece el Catálogo bibliográfico de la Red de Bibliotecas Públicas de Euskadi. Los datos incluyen información sobre libros, películas, música, revistas, etc. de las diferentes b...",
+        "territorio": "País Vasco",
+        "tema": [
+          "cultura ocio"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (Open Data Euskadi)",
+        "url": "https://datos.gob.es/catalogo/a16003011-catalogo-bibliografico-de-la-red-de-lectura-publica-de-euskadi",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: a."
+      }
+    },
+    {
+      "query": "festivales música",
+      "status": "FAIL",
+      "description": "Ocio cultural: festivales",
+      "category": "cultura",
+      "results_count": 10,
+      "search_time_ms": 93.64,
+      "response_time_ms": 97.21875190734863,
+      "issues": [
+        "  ❌ Resultado #7 no contiene términos esperados (score: 0.4777)",
+        "     Título: Centres musicals 2016 / Centros musicales 2016..."
+      ],
+      "top_result": {
+        "id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/festivales",
+        "score": 1.4554,
+        "title": "Festivales",
+        "description": "Festivales en la Región de Murcia",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "cultura ocio"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (A14002961)",
+        "url": "https://datos.gob.es/catalogo/a14002961-festivales",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "instalaciones deportivas",
+      "status": "FAIL",
+      "description": "Deporte: infraestructuras",
+      "category": "deporte",
+      "results_count": 10,
+      "search_time_ms": 94.22,
+      "response_time_ms": 99.33972358703613,
+      "issues": [
+        "  ❌ Resultado #1 no contiene términos esperados (score: 1.5485)",
+        "     Título: Instalaciones deportivas...",
+        "  ❌ Resultado #2 no contiene términos esperados (score: 1.4660)",
+        "     Título: Instalaciones deportivas...",
+        "  ❌ Resultado #3 no contiene términos esperados (score: 1.4498)",
+        "     Título: Instalaciones deportivas municipales...",
+        "  ❌ Resultado #4 no contiene términos esperados (score: 1.3873)",
+        "     Título: Instalacions esportives / Instalaciones deportivas...",
+        "  ❌ Resultado #5 no contiene términos esperados (score: 1.3855)",
+        "     Título: Directorio de instalaciones deportivas...",
+        "  ❌ Resultado #7 no contiene términos esperados (score: 1.3835)",
+        "     Título: Instalaciones deportivas...",
+        "  ❌ Resultado #8 no contiene términos esperados (score: 1.3603)",
+        "     Título: Uso de las instalaciones deportivas...",
+        "  ❌ Resultado #9 no contiene términos esperados (score: 1.3514)",
+        "     Título: Instalaciones Deportivas...",
+        "  ❌ Resultado #10 no contiene términos esperados (score: 1.3447)",
+        "     Título: Instalaciones deportivas de la ciudad de Barcelona..."
+      ],
+      "top_result": {
+        "id": "https://datos.lorca.es/catalogo/instalaciones-deportivas/",
+        "score": 1.5485,
+        "title": "Instalaciones deportivas",
+        "description": "Instalaciones deportivas municipales",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "deporte"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Salamanca",
+        "url": "https://datos.gob.es/catalogo/l01300243-instalaciones-deportivas",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: r."
+      }
+    },
+    {
+      "query": "fútbol equipos",
+      "status": "PASS",
+      "description": "Deporte: fútbol",
+      "category": "deporte",
+      "results_count": 7,
+      "search_time_ms": 94.23,
+      "response_time_ms": 97.4280834197998,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.malaga.eu/dataset/instalaciones-deportivas-futbol-sala",
+        "score": 1.3977,
+        "title": "Instalaciones deportivas - Fútbol sala",
+        "description": "Previsualización disponible en la siguiente URL de Geoportal https://callejero.malaga.eu/?gplayers=deporte-futbol-sala",
+        "territorio": "Andalucía",
+        "tema": [
+          "deporte"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Torrelodones",
+        "url": "https://datos.gob.es/catalogo/l01290672-instalaciones-deportivas-futbol-sala",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: l."
+      }
+    },
+    {
+      "query": "obra pública construcción",
+      "status": "PASS",
+      "description": "Urbanismo: obras públicas",
+      "category": "infraestructuras",
+      "results_count": 10,
+      "search_time_ms": 125.42,
+      "response_time_ms": 128.30328941345215,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/1926160",
+        "score": 1.4924,
+        "title": "Licitación oficial de obras por tipo de obra",
+        "description": "Sin información adicional",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-licitacion-oficial-de-obras-por-tipo-de-obra",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: s."
+      }
+    },
+    {
+      "query": "carreteras carretera",
+      "status": "PASS",
+      "description": "Infraestructuras: red viaria",
+      "category": "infraestructuras",
+      "results_count": 10,
+      "search_time_ms": 90.24,
+      "response_time_ms": 93.34993362426758,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/transporte/grandes-ejes-viarios/1285053156540",
+        "score": 1.4658,
+        "title": "Grandes ejes viarios",
+        "description": "Grandes ejes viarios de las carreteras autonómicas según la Ley de Ruido.\n\nLa red autonómica de carreteras se clasifica en dos categorías, según la Ley, Red Básica y Red Complementaria. La red complem...",
+        "territorio": "Castilla y León",
+        "tema": [
+          "transporte"
+        ],
+        "formato": [],
+        "publisher": "Junta de Castilla y León",
+        "url": "https://datos.gob.es/catalogo/a07002862-grandes-ejes-viarios",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "agricultura cultivos",
+      "status": "FAIL",
+      "description": "Agricultura: producción agrícola",
+      "category": "agricultura",
+      "results_count": 10,
+      "search_time_ms": 88.48,
+      "response_time_ms": 92.44084358215332,
+      "issues": [
+        "  ⚠️ Resultado #2 contiene 'industrial' (score: 1.4199)",
+        "     Título: Superficie de cultivos herbáceos y barbechos. Cultivos industriales...",
+        "  ⚠️ Resultado #8 contiene 'industrial' (score: 0.5824)",
+        "     Título: Superficie cultivada total según productos agrícolas herbáceos y sistemas de cul..."
+      ],
+      "top_result": {
+        "id": "https://www.opendatalapalma.es/datasets/461509808e2b4847a1812b3c9435b9bf_0",
+        "score": 1.4378,
+        "title": "cultivos",
+        "description": "Se trata de una capa de información en la que se describen las asociaciones de cultivos que se dan en las diferentes parcelas en las que se divide el territorio. Se diferencia entre zonas cultivadas y...",
+        "territorio": "Canarias",
+        "tema": [
+          "medio ambiente",
+          "medio rural pesca"
+        ],
+        "formato": [],
+        "publisher": "Cabildo de Gran Canaria",
+        "url": "https://datos.gob.es/catalogo/l03380010-cultivos",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "pesca flota pesquera",
+      "status": "PASS",
+      "description": "Pesca: sector pesquero",
+      "category": "agricultura",
+      "results_count": 10,
+      "search_time_ms": 116.31,
+      "response_time_ms": 119.27366256713867,
+      "issues": [],
+      "top_result": {
+        "id": "https://abertos.xunta.gal/catalogo/economia-empresa-emprego/-/dataset/0153/buques-pesqueiros-comunidade",
+        "score": 1.4147,
+        "title": "Buques pesqueros de la comunidad",
+        "description": "Permite conocer las características -actividad, artes empleadas, zonas geográficas de pesca, capacidad de pesca (CV) y capacidad de almacenamiento (GT)- de la flota pesquera con base en los puertos de...",
+        "territorio": "Galicia",
+        "tema": [
+          "economia",
+          "urbanismo infraestructuras"
+        ],
+        "formato": [],
+        "publisher": "Xunta de Galicia",
+        "url": "https://datos.gob.es/catalogo/a12002994-buques-pesqueros-de-la-comunidad1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: a."
+      }
+    },
+    {
+      "query": "banda ancha internet",
+      "status": "FAIL",
+      "description": "Tecnología: conectividad",
+      "category": "tecnologia",
+      "results_count": 10,
+      "search_time_ms": 117.21,
+      "response_time_ms": 119.6603775024414,
+      "issues": [
+        "  ❌ Resultado #10 no contiene términos esperados (score: 0.4733)",
+        "     Título: Redes informáticas en los establecimientos de 10 o mas empleados de la C.A. de E..."
+      ],
+      "top_result": {
+        "id": "https://intranet.caib.es/opendatacataleg/dataset/49cc6e7f-5875-43bc-a74e-f9a1cbdd8cdb",
+        "score": 1.4752,
+        "title": "Número de líneas de banda ancha fija por cada 100 habitantes según tecnología de acceso",
+        "description": "Número de abonados a Internet de banda ancha fija por cada 100 habitantes, desglosado por velocidad",
+        "territorio": "España",
+        "tema": [
+          "ciencia tecnologia",
+          "comercio",
+          "cultura ocio",
+          "demografia",
+          "deporte",
+          "economia",
+          "educacion",
+          "empleo",
+          "energia",
+          "hacienda",
+          "industria",
+          "legislacion justicia",
+          "medio ambiente",
+          "medio rural pesca",
+          "salud",
+          "sector publico",
+          "seguridad",
+          "sociedad bienestar",
+          "transporte",
+          "turismo",
+          "urbanismo infraestructuras",
+          "vivienda"
+        ],
+        "formato": [],
+        "publisher": "INE - Instituto Nacional de Estadística",
+        "url": "https://datos.gob.es/catalogo/a04027063-numero-de-lineas-de-banda-ancha-fija-por-cada-100-habitantes-segun-tecnologia-de-acceso",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "innovación I+D investigación",
+      "status": "PASS",
+      "description": "Innovación: I+D+i",
+      "category": "tecnologia",
+      "results_count": 10,
+      "search_time_ms": 135.55,
+      "response_time_ms": 137.75253295898438,
+      "issues": [],
+      "top_result": {
+        "id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/3ec11b42-bfe6-4c1c-b13a-cb1ab7e95615",
+        "score": 1.4299,
+        "title": "Encuesta sobre innovación en las empresas",
+        "description": "La Encuesta sobre innovación en las empresas tiene como objetivo obtener información directa sobre la estructura del proceso de innovación y la estrategia tecnológica de las empresas, ofreciendo infor...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Junta de Andalucía",
+        "url": "https://datos.gob.es/catalogo/a01002820-encuesta-sobre-innovacion-en-las-empresas",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "COVID-19 coronavirus pandemia",
+      "status": "PASS",
+      "description": "Caso especial: término técnico moderno",
+      "category": "especial",
+      "results_count": 10,
+      "search_time_ms": 151.52,
+      "response_time_ms": 153.70869636535645,
+      "issues": [],
+      "top_result": {
+        "id": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-895",
+        "score": 1.4923,
+        "title": "Coronavirus: Pruebas analizadas por Zona básica de salud",
+        "description": "Número de pruebas diagnósticas de COVID-19 realizadas y resultados por Zona Básica de Salud. En las últimas 24 horas y acumuladas desde el inicio de la pandemia. Cada Zona Básica de Salud tiene un Cen...",
+        "territorio": "España",
+        "tema": [
+          "salud"
+        ],
+        "formato": [],
+        "publisher": "Xunta de Galicia",
+        "url": "https://datos.gob.es/catalogo/a17002943-coronavirus-pruebas-analizadas-por-zona-basica-de-salud",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "igualdad género mujer",
+      "status": "PASS",
+      "description": "Caso especial: términos sociales",
+      "category": "especial",
+      "results_count": 10,
+      "search_time_ms": 116.3,
+      "response_time_ms": 119.30346488952637,
+      "issues": [],
+      "top_result": {
+        "id": "https://www.cis.es/es/estudios/percepciones-sobre-la-igualdad-entre-hombres-y-mujeres-y-estereotipos-de-genero",
+        "score": 1.4811,
+        "title": "Percepciones sobre la igualdad entre hombres y mujeres y estereotipos de género",
+        "description": "Percepciones sobre la igualdad entre hombres y mujeres y estereotipos de género",
+        "territorio": "España",
+        "tema": [
+          "demografia",
+          "seguridad",
+          "sociedad bienestar"
+        ],
+        "formato": [],
+        "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+        "url": "https://datos.gob.es/catalogo/ea0040772-percepciones-sobre-la-igualdad-entre-hombres-y-mujeres-y-estereotipos-de-genero",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "discapacidad accesibilidad",
+      "status": "PASS",
+      "description": "Caso especial: términos de inclusión",
+      "category": "especial",
+      "results_count": 10,
+      "search_time_ms": 91.45,
+      "response_time_ms": 94.4051742553711,
+      "issues": [],
+      "top_result": {
+        "id": "urn:ine:es:TABLA:TPX:51927",
+        "score": 1.3361,
+        "title": "Adaptaciones en la vivienda, edificio o entorno  por sexo y grupo de discapacidad. Población de 6 y más años con discapacidad. (Identificador API: 51927)",
+        "description": "Tabla de INEbase\nAdaptaciones en la vivienda, edificio o entorno  por sexo y grupo de discapacidad. Población de 6 y más años con discapacidad. Nacional. Encuesta de Discapacidad, Autonomía Personal y...",
+        "territorio": "España",
+        "tema": [
+          "salud",
+          "sociedad bienestar"
+        ],
+        "formato": [],
+        "publisher": "Ministerio de Sanidad",
+        "url": "https://datos.gob.es/catalogo/ea0042823-adaptaciones-en-la-vivienda-edificio-o-entorno-por-sexo-y-grupo-de-discapacidad-poblacion-de-6-y-mas-anos-con-discapacidad-identificador-api-51927",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "inmigración extranjero",
+      "status": "PASS",
+      "description": "Caso sensible: inmigración",
+      "category": "especial",
+      "results_count": 10,
+      "search_time_ms": 101.11,
+      "response_time_ms": 104.46357727050781,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.aragon.es/datos/catalogo/dataset/flujo-de-inmigracion-procedente-del-extranjero-por-pais-de-nacionalidad",
+        "score": 1.4589,
+        "title": "Flujo de inmigración procedente del extranjero por país de nacionalidad",
+        "description": "Proporciona resultados para Aragón y provincias de las migraciones exteriores e interiores previas a la explotación de los microdatos.",
+        "territorio": "Aragón",
+        "tema": [
+          "demografia"
+        ],
+        "formato": [],
+        "publisher": "IAEST - Gobierno de Aragón",
+        "url": "https://datos.gob.es/catalogo/a02002834-flujo-de-inmigracion-procedente-del-extranjero-por-pais-de-nacionalidad1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: a."
+      }
+    },
+    {
+      "query": "turismo",
+      "status": "FAIL",
+      "description": "Filtro territorial: Andalucía",
+      "category": "territorial",
+      "results_count": 0,
+      "search_time_ms": 64.66,
+      "response_time_ms": 67.44170188903809,
+      "issues": [
+        "⚠️ Solo 0 resultados (mínimo esperado: 2)"
+      ],
+      "top_result": null
+    },
+    {
+      "query": "padrón habitantes",
+      "status": "FAIL",
+      "description": "Filtro territorial: Madrid",
+      "category": "territorial",
+      "results_count": 0,
+      "search_time_ms": 114.68,
+      "response_time_ms": 117.6908016204834,
+      "issues": [
+        "⚠️ Solo 0 resultados (mínimo esperado: 2)"
+      ],
+      "top_result": null
+    },
+    {
+      "query": "playas costa",
+      "status": "FAIL",
+      "description": "Filtro territorial: Cataluña",
+      "category": "territorial",
+      "results_count": 0,
+      "search_time_ms": 90.84,
+      "response_time_ms": 94.58637237548828,
+      "issues": [
+        "⚠️ Solo 0 resultados (mínimo esperado: 1)"
+      ],
+      "top_result": null
+    },
+    {
+      "query": "hospitales",
+      "status": "PASS",
+      "description": "Umbral bajo: término simple",
+      "category": "umbrales",
+      "results_count": 10,
+      "search_time_ms": 113.22,
+      "response_time_ms": 116.0125732421875,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/salud/hospitales",
+        "score": 1.5314,
+        "title": "Hospitales",
+        "description": "Hospitales en la Región de Murcia",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "salud"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (A14002961)",
+        "url": "https://datos.gob.es/catalogo/a14002961-hospitales",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "hospitales",
+      "status": "PASS",
+      "description": "Umbral alto: término simple",
+      "category": "umbrales",
+      "results_count": 10,
+      "search_time_ms": 52.96,
+      "response_time_ms": 55.65476417541504,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/salud/hospitales",
+        "score": 1.5314,
+        "title": "Hospitales",
+        "description": "Hospitales en la Región de Murcia",
+        "territorio": "Región de Murcia",
+        "tema": [
+          "salud"
+        ],
+        "formato": [],
+        "publisher": "Gobierno Vasco (A14002961)",
+        "url": "https://datos.gob.es/catalogo/a14002961-hospitales",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    }
+  ]
+}

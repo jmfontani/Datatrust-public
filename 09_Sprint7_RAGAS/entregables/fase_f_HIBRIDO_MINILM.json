@@ -1,0 +1,84 @@
+{
+ "consultas": 214,
+ "etiquetas": 10653,
+ "top_k": 10,
+ "sistemas": {
+  "actual (0.7/0.3)": {
+   "ndcg": 0.4249,
+   "ic95": [
+    0.3772,
+    0.4727
+   ],
+   "n": 214,
+   "desv": 0.3567,
+   "p5": 0.3458,
+   "mrr": 0.4932,
+   "cobertura": 1.0,
+   "mmd_media": 0.0478
+  },
+  "semantico (1.0/0.0)": {
+   "ndcg": 0.3712,
+   "ic95": [
+    0.3275,
+    0.4149
+   ],
+   "n": 214,
+   "desv": 0.3263,
+   "p5": 0.2879,
+   "mrr": 0.4351,
+   "cobertura": 1.0,
+   "mmd_media": 0.0437
+  },
+  "lexico (0.0/1.0)": {
+   "ndcg": 0.3269,
+   "ic95": [
+    0.2784,
+    0.3754
+   ],
+   "n": 214,
+   "desv": 0.3621,
+   "p5": 0.3129,
+   "mrr": 0.4047,
+   "cobertura": 0.6822,
+   "mmd_media": 0.0485
+  }
+ },
+ "comparaciones": [
+  {
+   "a": "actual (0.7/0.3)",
+   "b": "semantico (1.0/0.0)",
+   "diff": 0.0537,
+   "ic95_diff": [
+    0.0339,
+    0.0736
+   ],
+   "mmd": 0.0199,
+   "significativo": true,
+   "n_pares": 214
+  },
+  {
+   "a": "actual (0.7/0.3)",
+   "b": "lexico (0.0/1.0)",
+   "diff": 0.0981,
+   "ic95_diff": [
+    0.0524,
+    0.1438
+   ],
+   "mmd": 0.0457,
+   "significativo": true,
+   "n_pares": 214
+  },
+  {
+   "a": "semantico (1.0/0.0)",
+   "b": "lexico (0.0/1.0)",
+   "diff": 0.0443,
+   "ic95_diff": [
+    -0.0079,
+    0.0966
+   ],
+   "mmd": 0.0522,
+   "significativo": false,
+   "n_pares": 214
+  }
+ ]
+}

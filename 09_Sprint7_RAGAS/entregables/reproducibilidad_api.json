@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "fecha": "auto"
+ },
+ "informe": {
+  "repetida_actual": {
+   "rankings_distintos": 1,
+   "n": 10
+  },
+  "repetida_lexico": {
+   "rankings_distintos": 1,
+   "n": 10
+  },
+  "repetida_semantico": {
+   "rankings_distintos": 1,
+   "n": 10
+  },
+  "pasadas_actual": {
+   "distintas": 0,
+   "vacias": 0,
+   "identicas": 47
+  },
+  "pasadas_lexico": {
+   "distintas": 0,
+   "vacias": 12,
+   "identicas": 47
+  },
+  "pasadas_semantico": {
+   "distintas": 0,
+   "vacias": 0,
+   "identicas": 47
+  },
+  "vacios_actual": {
+   "vacias": 0,
+   "media": 10.0,
+   "min": 10,
+   "max": 10
+  },
+  "vacios_lexico": {
+   "vacias": 12,
+   "media": 6.127659574468085,
+   "min": 0,
+   "max": 10
+  },
+  "vacios_semantico": {
+   "vacias": 0,
+   "media": 10.0,
+   "min": 10,
+   "max": 10
+  }
+ }
+}

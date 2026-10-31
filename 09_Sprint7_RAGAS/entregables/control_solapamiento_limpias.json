@@ -1,0 +1,8 @@
+{
+ "solapamiento_humanas": 0.5142,
+ "solapamiento_limpias": 0.435,
+ "solapamiento_version_contaminada": 0.735,
+ "n_humanas": 47,
+ "n_limpias": 168,
+ "pasa": true
+}

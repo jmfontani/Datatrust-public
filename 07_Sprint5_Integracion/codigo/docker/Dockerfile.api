@@ -1,0 +1,59 @@
+# ============================================================================
+# Dockerfile: API REST (FastAPI) - Buscador Semántico v07
+# ============================================================================
+
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    TRANSFORMERS_CACHE=/app/cache
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# ---------------------------------------------------------------------------
+# Dependencias CON VERSIONES FIJADAS
+# ---------------------------------------------------------------------------
+# Antes se instalaban 13 paquetes sin ninguna version fijada, de modo que cada
+# build producia un entorno distinto. Si cambia cualquier pieza del stack de
+# embeddings (torch / transformers / tokenizers), los vectores que produzca el
+# contenedor dejan de coincidir con los guardados en la base de datos, y las
+# metricas dejan de ser reproducibles.
+#
+# requirements.txt fija las 77 versiones del entorno validado, separadas en
+# cuatro bloques; el segundo es el nucleo del embedding y es el que NO debe
+# cambiar sin recalcular los embeddings del catalogo.
+#
+# Nota: torch 2.14.0 se resuelve desde PyPI (su wheel ya incluye CUDA 13, de ahi
+# las dependencias nvidia-*-cu13). No se usa el indice de PyTorch porque alli la
+# version es 2.14.0+cu130, que no es el paquete que hay instalado.
+#
+# Verificacion del pinning: scripts/86_verificar_requirements.py
+# Documentacion: docs/PINNING-DEPENDENCIAS.md
+COPY 07_Sprint5_Integracion/codigo/docker/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar TODO el código de la API (main + routers + motor)
+COPY 08_Sprint6_LLM_Mejora/codigo/api/ ./api/
+COPY 08_Sprint6_LLM_Mejora/codigo/motor/ ./motor/
+COPY 08_Sprint6_LLM_Mejora/codigo/validator/ ./validator/
+
+# El motor necesita acceso a sinonimos.json
+COPY 08_Sprint6_LLM_Mejora/codigo/motor/sinonimos.json ./motor/sinonimos.json
+
+RUN mkdir -p /app/cache
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=5 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# Usar --app-dir api para que los routers se carguen correctamente
+CMD ["python", "-m", "uvicorn", "main_v2_final_v07:app", "--app-dir", "api", "--host", "0.0.0.0", "--port", "8000"]

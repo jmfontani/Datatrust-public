@@ -1,0 +1,7 @@
+id_fila,caso_id,categoria,query,posicion,dataset_titulo,dataset_publisher,score_llm,explicacion,puntuacion_1_5,comentario
+1,C1,conceptual,vulnerabilidad económica juventud,1,"Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están emplea",INE - Instituto Nacional de Estadística,10,"Directamente mide la vulnerabilidad económica juvenil (jóvenes 15-24 que ni estudian ni trabajan), indicador clave a nivel nacional.",,
+2,C1,conceptual,vulnerabilidad económica juventud,2,Juventud y economía,Ministerio de Transportes y Movilidad Sostenible,9,"Temática explícita 'Juventud y economía', ámbito nacional, muy relevante para el análisis de vulnerabilidad económica.",,
+3,C1,conceptual,vulnerabilidad económica juventud,3,Asesoramiento a jóvenes,Comunidad de Madrid,8,Garantía Juvenil es un programa clave contra la vulnerabilidad económica juvenil; datos nacionales sobre inscritos.,,
+4,T1,territorial,turismo Canarias 2023,1,Hoteles,Cabildo de Tenerife,10.0,"Directamente relacionado con turismo en Canarias (Tenerife), geolocalización de hoteles.",,
+5,T1,territorial,turismo Canarias 2023,2,Estades Turístiques Menorca,Govern de les Illes Balears,8.0,"Turismo en islas (Menorca), contexto insular similar aunque no Canarias.",,
+6,T1,territorial,turismo Canarias 2023,3,Alojamientos Vacacionales,Comunidad Autónoma de la Región de Murcia,6.0,"Alojamientos vacacionales en Murcia, tema turismo pero región diferente y sin conexión con Canarias.",,

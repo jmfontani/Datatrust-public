@@ -1,0 +1,439 @@
+{
+ "muestra": 60,
+ "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+ "coseno_medio": 1.000000011482635,
+ "coseno_min": 0.9999998417374009,
+ "exactos": 60,
+ "reproduce": true,
+ "por_tercio": {
+  "1": [
+   1.0000000617296003,
+   0.999999957519691,
+   0.9999998603187563,
+   1.000000060580998,
+   0.9999999119378575,
+   1.0000000395122337,
+   1.0000000825100157,
+   1.0000000723382487,
+   0.9999999407036132,
+   0.9999999755241035,
+   1.0000001092914166,
+   0.999999922002146,
+   1.000000058027953,
+   0.9999998417374009,
+   1.000000049934767,
+   0.9999999614015492,
+   1.000000076743417,
+   1.000000071832865,
+   0.999999952834074,
+   1.0000000670605549
+  ],
+  "2": [
+   0.9999999200571243,
+   1.0000001735602748,
+   1.0000000075259479,
+   1.0000000132940956,
+   1.000000017021082,
+   1.0000000394173938,
+   1.0000000489792251,
+   0.9999999305976676,
+   0.9999999142756613,
+   0.9999998663754838,
+   0.9999999985194629,
+   1.000000013583309,
+   1.000000031283178,
+   0.999999969853987,
+   1.0000001005023602,
+   1.000000012217228,
+   0.9999999682712015,
+   1.0000000764709165,
+   1.0000000558099547,
+   1.0000001172426205
+  ],
+  "3": [
+   1.0000000554465978,
+   0.9999998528379443,
+   0.999999924862875,
+   1.0000001564895178,
+   0.9999999452956692,
+   0.9999999015739817,
+   0.9999999022758422,
+   0.9999998995253947,
+   1.0000000346188678,
+   1.0000000931269466,
+   0.9999999736210711,
+   1.0000000481599631,
+   1.000000098115594,
+   1.0000001541888435,
+   0.9999999270293797,
+   1.0000000609877815,
+   1.000000051923359,
+   1.0000000774803326,
+   1.0000000814857029,
+   1.0000001015130087
+  ]
+ },
+ "detalle": [
+  {
+   "dataset_id": "https://enlaza.eprinsa.es/api/catalog/dataset/b10f341b-fab5-49e8-ab2b-c3f652229632",
+   "tercio": 1,
+   "n_chars": 148,
+   "coseno": 1.0000000617296003
+  },
+  {
+   "dataset_id": "https://datos.parcan.es/dataset/comisiones_miembros_id_organo090374",
+   "tercio": 1,
+   "n_chars": 216,
+   "coseno": 0.999999957519691
+  },
+  {
+   "dataset_id": "https://datos.um.es/dataset/99fe7550-793c-489b-8012-8453cc44b9f5",
+   "tercio": 1,
+   "n_chars": 226,
+   "coseno": 0.9999998603187563
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/perfil-de-la-industria-turistica-variabilidad-2024/",
+   "tercio": 1,
+   "n_chars": 229,
+   "coseno": 1.000000060580998
+  },
+  {
+   "dataset_id": "https://datos.parcan.es/dataset/comisiones_miembros_id_organo060309",
+   "tercio": 1,
+   "n_chars": 240,
+   "coseno": 0.9999999119378575
+  },
+  {
+   "dataset_id": "https://datos.alcobendas.org/dataset/elecciones-generales-26-06-2016-datos-y-porcentajes-de-participacion-en-alcobendas",
+   "tercio": 1,
+   "n_chars": 247,
+   "coseno": 1.0000000395122337
+  },
+  {
+   "dataset_id": "https://www.opendatabizkaia.eus/es/catalogo/declaracion-superficies-sukarrieta",
+   "tercio": 1,
+   "n_chars": 282,
+   "coseno": 1.0000000825100157
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/otros-servicios-segun-municipios-por-islas-y-anos",
+   "tercio": 1,
+   "n_chars": 317,
+   "coseno": 1.0000000723382487
+  },
+  {
+   "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Matriculaciones-Tablas-estadisticas-Tractores-Marca-Potencia-2010/",
+   "tercio": 1,
+   "n_chars": 323,
+   "coseno": 0.9999999407036132
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000791",
+   "tercio": 1,
+   "n_chars": 327,
+   "coseno": 0.9999999755241035
+  },
+  {
+   "dataset_id": "https://opendata.vlci.valencia.es/dataset/247e5129-ddc5-40c5-8ab1-0267539a639f",
+   "tercio": 1,
+   "n_chars": 327,
+   "coseno": 1.0000001092914166
+  },
+  {
+   "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_14076_1",
+   "tercio": 1,
+   "n_chars": 336,
+   "coseno": 0.999999922002146
+  },
+  {
+   "dataset_id": "https://opendata.unex.es/federator/asignaturas-uex-2021-2022",
+   "tercio": 1,
+   "n_chars": 345,
+   "coseno": 1.000000058027953
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/numero-de-explotaciones-segun-numero-de-parcelas-por-municipios-por-islas-canarias-1999",
+   "tercio": 1,
+   "n_chars": 354,
+   "coseno": 0.9999998417374009
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/67577c04-ebf5-4e05-9ea1-69b7fec9e026",
+   "tercio": 1,
+   "n_chars": 355,
+   "coseno": 1.000000049934767
+  },
+  {
+   "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/901010",
+   "tercio": 1,
+   "n_chars": 357,
+   "coseno": 0.9999999614015492
+  },
+  {
+   "dataset_id": "https://dadesobertes.gva.es/dataset/mapa-de-sombras-de-5-m-de-resolucion-de-la-comunitat-valenciana-ano-2009",
+   "tercio": 1,
+   "n_chars": 363,
+   "coseno": 1.000000076743417
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion-total-segun-autovaloracion-del-estado-de-salud-en-los-ultimos-12-meses-por-comar-2009",
+   "tercio": 1,
+   "n_chars": 370,
+   "coseno": 1.000000071832865
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/estancias-causadas-en-hospitales-de-canarias-segun-diagnosticos-principales-sexos-y-grupos-2017",
+   "tercio": 1,
+   "n_chars": 402,
+   "coseno": 0.999999952834074
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/beneficiarios-de-renta-de-garantia-de-ingresos-por-territorios-historicos-durante-el-2014/",
+   "tercio": 1,
+   "n_chars": 408,
+   "coseno": 1.0000000670605549
+  },
+  {
+   "dataset_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/vehiculos-adscritos/1284771880797",
+   "tercio": 2,
+   "n_chars": 423,
+   "coseno": 0.9999999200571243
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000661",
+   "tercio": 2,
+   "n_chars": 431,
+   "coseno": 1.0000001735602748
+  },
+  {
+   "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/porcentaje_contratos_por_tipo",
+   "tercio": 2,
+   "n_chars": 433,
+   "coseno": 1.0000000075259479
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/64287718-ac59-4437-9297-3bd8d9f3842a",
+   "tercio": 2,
+   "n_chars": 443,
+   "coseno": 1.0000000132940956
+  },
+  {
+   "dataset_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/medio-rural-pesca/solicitantes-edad-sexo-SAC/1285093079643",
+   "tercio": 2,
+   "n_chars": 449,
+   "coseno": 1.000000017021082
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30414a_000015",
+   "tercio": 2,
+   "n_chars": 476,
+   "coseno": 1.0000000394173938
+  },
+  {
+   "dataset_id": "https://www.igme.es/datosabiertos/catalogo/6110",
+   "tercio": 2,
+   "n_chars": 493,
+   "coseno": 1.0000000489792251
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/ab651c09-f898-4635-ab39-ac5f75090c10",
+   "tercio": 2,
+   "n_chars": 496,
+   "coseno": 0.9999999305976676
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/3e14f002-aa99-4436-884a-4ef6d5ed6831",
+   "tercio": 2,
+   "n_chars": 499,
+   "coseno": 0.9999999142756613
+  },
+  {
+   "dataset_id": "https://www.igme.es/datosabiertos/catalogo/6265",
+   "tercio": 2,
+   "n_chars": 499,
+   "coseno": 0.9999998663754838
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/5b18be39-c6ae-4d3c-8837-419142fd2a36",
+   "tercio": 2,
+   "n_chars": 501,
+   "coseno": 0.9999999985194629
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/3d8a3f87-4b75-425f-866b-4e8647255580",
+   "tercio": 2,
+   "n_chars": 512,
+   "coseno": 1.000000013583309
+  },
+  {
+   "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnahidrog_sym_temperaturario-xml",
+   "tercio": 2,
+   "n_chars": 519,
+   "coseno": 1.000000031283178
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00086a_000024",
+   "tercio": 2,
+   "n_chars": 530,
+   "coseno": 0.999999969853987
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/c8ffd026-d27e-4737-be9a-3fe5582a3a45",
+   "tercio": 2,
+   "n_chars": 532,
+   "coseno": 1.0000001005023602
+  },
+  {
+   "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1003047",
+   "tercio": 2,
+   "n_chars": 535,
+   "coseno": 1.000000012217228
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/be9e23ee-ddcc-4a82-9d49-5873228f10eb",
+   "tercio": 2,
+   "n_chars": 537,
+   "coseno": 0.9999999682712015
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/0254dbb4-b66c-4302-a74a-e190f3e4c10f",
+   "tercio": 2,
+   "n_chars": 549,
+   "coseno": 1.0000000764709165
+  },
+  {
+   "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/9885f027-cf04-4148-bc41-5ecbaa266513",
+   "tercio": 2,
+   "n_chars": 586,
+   "coseno": 1.0000000558099547
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia_men-municipios-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+   "tercio": 2,
+   "n_chars": 611,
+   "coseno": 1.0000001172426205
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/matrimonios-por-lugar-de-celebracion-de-residencia-segun-nacionalidad-de-los-contrayentes/",
+   "tercio": 3,
+   "n_chars": 633,
+   "coseno": 1.0000000554465978
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/tpar_t-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 652,
+   "coseno": 0.9999998528379443
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/comercio-exterior-bienes-industriales-c-euskadi-principales-partidas-exportadas/",
+   "tercio": 3,
+   "n_chars": 663,
+   "coseno": 0.999999924862875
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pocu_t_55mas-secciones-canarias-2015-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 677,
+   "coseno": 1.0000001564895178
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/entidades-publicas-c-euskadi-que-disponen-algun-tipo-sitio-web-y-porcentaje-total-tipo-entidad-publica-territorio-dependencia/",
+   "tercio": 3,
+   "n_chars": 677,
+   "coseno": 0.9999999452956692
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_45a54-municipios-canarias-2018-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 684,
+   "coseno": 0.9999999015739817
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_m_55mas-municipios-canarias-2015-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 704,
+   "coseno": 0.9999999022758422
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pocu_f_35a44-distritos-canarias-2011-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 712,
+   "coseno": 0.9999998995253947
+  },
+  {
+   "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/psal_f_35a44-comarcas-canarias-2018-mapa-coropletas-5cuantiles",
+   "tercio": 3,
+   "n_chars": 719,
+   "coseno": 1.0000000346188678
+  },
+  {
+   "dataset_id": "https://datos.gob.es/catalogo/EMLIN0000090067",
+   "tercio": 3,
+   "n_chars": 756,
+   "coseno": 1.0000000931269466
+  },
+  {
+   "dataset_id": "https://dadesobertes.gva.es/dataset/plan-eolico-de-la-comunitat-valenciana-aptitud-del-territorio-para-el-aprovechamiento-eolico3",
+   "tercio": 3,
+   "n_chars": 768,
+   "coseno": 0.9999999736210711
+  },
+  {
+   "dataset_id": "https://www.igme.es/datosabiertos/catalogo/8155",
+   "tercio": 3,
+   "n_chars": 815,
+   "coseno": 1.0000000481599631
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/registro-contratos-ayuntamiento-llodio-del-2021/",
+   "tercio": 3,
+   "n_chars": 865,
+   "coseno": 1.000000098115594
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/registro-contratos-ayuntamiento-usurbil-del-2021/",
+   "tercio": 3,
+   "n_chars": 866,
+   "coseno": 1.0000001541888435
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/registro-contratos-instituto-tutelar-bizkaia-del-2019/",
+   "tercio": 3,
+   "n_chars": 871,
+   "coseno": 0.9999999270293797
+  },
+  {
+   "dataset_id": "https://opendata.euskadi.eus/catalogo/-/registro-contratos-residencia-municipal-getxo-sagrado-corazon-jesus-del-2025/",
+   "tercio": 3,
+   "n_chars": 927,
+   "coseno": 1.0000000609877815
+  },
+  {
+   "dataset_id": "urn:ine:es:TABLA:PX:t22:p332:serie_6-7-22:03002",
+   "tercio": 3,
+   "n_chars": 1023,
+   "coseno": 1.000000051923359
+  },
+  {
+   "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/3qwi-5fut",
+   "tercio": 3,
+   "n_chars": 1376,
+   "coseno": 1.0000000774803326
+  },
+  {
+   "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/tramer-mapa-estrategic-soroll",
+   "tercio": 3,
+   "n_chars": 1413,
+   "coseno": 1.0000000814857029
+  },
+  {
+   "dataset_id": "https://www.cis.es/es/estudios/valores-y-dinamica-intergeneracional.-jovenes",
+   "tercio": 3,
+   "n_chars": 2698,
+   "coseno": 1.0000001015130087
+  }
+ ]
+}

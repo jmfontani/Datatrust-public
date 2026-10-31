@@ -1,0 +1,85 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "fecha_creacion": "2026-06-04",
+        "descripcion": "Diccionario de sinónimos para expansión léxica de queries",
+        "dominio": "datos abiertos españoles (datos.gob.es)"
+    },
+    "sinonimos": {
+        "paro": ["desempleo", "desempleado", "parados", "tasa de paro", "atur", "aturado"],
+        "desempleo": ["paro", "parados", "desempleados", "tasa de desempleo"],
+        "empleo": ["trabajo", "ocupación", "puestos de trabajo", "activos"],
+        "juvenil": ["jóvenes", "jóven", "16-24", "16-29", "menores de 30", "población joven"],
+        "trabajador": ["empleado", "activo", "ocupado", "afiliado"],
+        "empresa": ["compañía", "negocio", "firma", "sociedad"],
+        "salario": ["sueldo", "retribución", "remuneración", "percepciones"],
+        "contrato": ["vínculo laboral", "relación laboral"],
+
+        "pib": ["producto interior bruto", "p.i.b.", "PIB", "renta nacional"],
+        "economía": ["económico", "financiero", "monetario", "económica"],
+        "renta": ["ingresos", "salario", "remuneración", "per cápita"],
+        "precio": ["coste", "tarifa", "valor"],
+        "gasto": ["consumo", "inversión", "desembolso"],
+        "vulnerabilidad": ["riesgo", "precariedad", "pobreza", "exclusión social", "privación"],
+        "vulnerabilidad económica": ["pobreza", "exclusión social", "AROPE", "riesgo pobreza", "precariedad económica"],
+        "banco": ["entidad financiera", "institución financiera", "banca", "sistema financiero", "Banco de España"],
+        "financiero": ["bancario", "monetario", "económico", "crédito"],
+
+        "población": ["habitantes", "ciudadanos", "residentes", "demografía"],
+        "censo": ["padrón", "registro", "contabilización"],
+        "mortalidad": ["defunciones", "muertes", "fallecimientos"],
+        "natalidad": ["nacimientos", "nacidos"],
+        "inmigración": ["inmigrantes", "extranjeros", "población extranjera"],
+        "mayor": ["tercera edad", "anciano", "jubilado", "65+", "65 años"],
+
+        "educación": ["enseñanza", "formación", "estudios"],
+        "estudiante": ["alumno", "escolar", "educando"],
+        "universidad": ["facultad", "escuela universitaria", "higher education"],
+        "abandono": ["deserción", "desistimiento", "fracaso escolar"],
+        "titulado": ["graduado", "diplomado", "egresado"],
+
+        "municipio": ["ayuntamiento", "población", "localidad", "ciudad"],
+        "provincia": ["provincial", "departamento"],
+        "comunidad": ["autonomía", "región", "CCAA"],
+        "barrio": ["vecindario", "zona", "distrito"],
+        "calle": ["vía", "callejero", "carretera"],
+
+        "turismo": ["turista", "viajero", "visitante", "hostelería"],
+        "hotel": ["alojamiento", "hostal", "pensión"],
+        "hospedaje": ["pernoctación", "estancia"],
+        "llegada": ["arribo", "entrada", "visitante"],
+
+        "clima": ["meteorología", "tiempo atmosférico", "temperatura"],
+        "contaminación": ["polución", "emisiones", "calidad del aire"],
+        "energía": ["electricidad", "combustible", "potencia"],
+
+        "vivienda": ["casa", "hogar", "domicilio", "residencia"],
+        "alquiler": ["arrendamiento", "renta"],
+        "precio vivienda": ["valor inmobiliario", "precio inmueble"],
+
+        "sanidad": ["salud", "asistencia sanitaria", "salud pública"],
+        "hospital": ["centro sanitario", "clínica"],
+        "enfermedad": ["patología", "dolencia", "afección"],
+
+        "transporte": ["movilidad", "tráfico", "desplazamiento"],
+        "vehículo": ["coche", "automóvil", "auto"],
+        "accidente": ["siniestro", "colisión", "incidente"],
+
+        "gobierno": ["administración", "ejecutivo", "autoridad"],
+        "ayuntamiento": ["municipio", "corporación municipal", "consistorio"],
+        "ministerio": ["departamento", "secretaría"],
+
+        "dato": ["información", "estadística", "registro"],
+        "estadística": ["estadístico", "dato", "cifra"],
+        "indicador": ["métrica", "medida", "parámetro"],
+        "año": ["ejercicio", "anualidad", "periodo"],
+        "tasa": ["ratio", "porcentaje", "índice"]
+    },
+    "reglas_expansion": {
+        "max_terminos": 20,
+        "peso_original": 1.0,
+        "peso_sinonimo_directo": 0.9,
+        "peso_relacionado": 0.8,
+        "peso_frase_completa": 0.95
+    }
+}

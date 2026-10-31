@@ -1,0 +1,62 @@
+{
+  "resumen": {
+    "metricas": {
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "recall": 0.1666
+    },
+    "n_queries": 2,
+    "mode": "llm",
+    "tiempo_total_seg": 141.55,
+    "tiempo_medio_por_query_seg": 70.77,
+    "por_categoria": {
+      "empleo": {
+        "precision_at_5": 0.0,
+        "ndcg_at_10": 0.0,
+        "n_queries": 2
+      }
+    },
+    "por_dificultad": {
+      "fácil": {
+        "precision_at_5": 0.0,
+        "ndcg_at_10": 0.0,
+        "n_queries": 1
+      },
+      "media": {
+        "precision_at_5": 0.0,
+        "ndcg_at_10": 0.0,
+        "n_queries": 1
+      }
+    }
+  },
+  "resultados_por_query": [
+    {
+      "query": "empleo juvenil",
+      "n_resultados": 10,
+      "n_relevantes_encontrados": 0,
+      "n_relevantes_esperados": 3,
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "recall": 0.0,
+      "query_id": "empleo_001",
+      "search_time_sec": 53.197,
+      "mode": "llm"
+    },
+    {
+      "query": "paro registrado por comunidades",
+      "n_resultados": 10,
+      "n_relevantes_encontrados": 1,
+      "n_relevantes_esperados": 3,
+      "precision_at_5": 0.0,
+      "precision_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "recall": 0.3333,
+      "query_id": "empleo_002",
+      "search_time_sec": 88.35,
+      "mode": "llm"
+    }
+  ],
+  "timestamp": "2026-06-05T08:26:36.114563"
+}

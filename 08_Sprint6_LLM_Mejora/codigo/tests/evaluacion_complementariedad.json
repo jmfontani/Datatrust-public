@@ -1,0 +1,1317 @@
+{
+  "fecha": "2026-06-15T15:30:01.379541",
+  "modelo_juez": "qwen3-coder-next:cloud",
+  "datasets_evaluados": 50,
+  "complementarios_evaluados": 130,
+  "complementarios_totales": 140,
+  "metricas": {
+    "relevancia_media": 3.246153846153846,
+    "join_key_valid_media": 2.8846153846153846,
+    "analysis_useful_media": 2.5692307692307694,
+    "calidad_general_media": 2.9,
+    "pct_calidad_alta": 0.13846153846153847,
+    "pct_calidad_aceptable": 0.4846153846153846
+  },
+  "detalle": [
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/administracion-publica/-/dataset/0023/estatistica-sobre-administracion-electronica",
+      "comp_id": "https://abertos.xunta.gal/catalogo/ciencia-tecnoloxia/-/dataset/0586/sistema-indicadores-administracion-dixital",
+      "title_comp": "Sistema de indicadores de la administración digital - consultas a servicios de i",
+      "reason": "Aporta datos sobre uso de servicios digitales y interoperabilidad en la administración, lo que compl",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El segundo dataset es directamente complementario: mide indicadores de la administración digital en Galicia (misma unidad geográfica y ámbito administrativo), y se centra en servicios de interoperabilidad (aspecto clave de la administración electrónica). Comparten claves implícitas como 'organismos públicos autonómicos' y 'territorio gallego', lo que permite fusionarlos por entidad/organismo o por indicador funcional. El análisis conjunto aportaría profundidad en la evaluación de la implantación digital (no solo uso, sino rendimiento técnico y eficiencia operativa)."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/administracion-publica/-/dataset/0023/estatistica-sobre-administracion-electronica",
+      "comp_id": "https://abertos.xunta.gal/catalogo/ciencia-tecnoloxia/-/dataset/0611/sistema-indicadores-administracion-dixital",
+      "title_comp": "Sistema de indicadores da administración dixital - relacións coa cidadanía 2024",
+      "reason": "Extiende la información al año 2024 con enfoque en relaciones con la ciudadanía, permitiendo análisi",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "Ambos datasets miden la Administración Digital en Galicia, con el primero centrado en estadísticas generales de uso e implantación electrónica, y el segundo en indicadores más avanzados y operativos del Sistema de Indicadores (Ley 4/2019). Comparten claves implícitas claras: ámbito autonómico (Galicia), sector público, ciudadanía y servicios digitales. Las variables son complementarias (implantación vs. funcionamiento operativo) y pueden integrarse para análisis longitudinal y de impacto (ej. correlación entre uso percibido y eficiencia real)."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/administracion-publica/-/dataset/0023/estatistica-sobre-administracion-electronica",
+      "comp_id": "https://abertos.xunta.gal/catalogo/ciencia-tecnoloxia/-/dataset/0006/sistema-indicadores-sociedade-informacion",
+      "title_comp": "Sistema de indicadores de la sociedad de la información",
+      "reason": "Incluye variables de equipación y uso de TIC en población y empresas, lo que aporta contexto socioec",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "Ambos datasets abordan la e-Administración y la digitalización en Galicia a nivel autonómico. El primero se enfoca en la implantación tecnológica en la administración pública autonómica, mientras el segundo incluye específicamente un seguimiento de la e-Administración en Galicia y proporciona indicadores sociales y empresariales de uso TIC. Comparten claves implícitas como 'administración electrónica', 'Galicia' y 'sector público autonómico', lo que permite vínculos fuertes. El análisis combinado permitiría correlacionar la madurez institucional con la capacidad de la ciudadanía y empresas para interactuar con servicios digitales, aportando una visión integral de la transformación digital local."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/dades-covid-19-percentatge-i-numero-de-morts-per-rang-edat-i-sexe",
+      "comp_id": "https://dadesobertes.gva.es/dataset/covid-19-casos-confirmats-pcr-casos-pcr-ultims-14-dies-i-persones-mortes-per-departament-2022",
+      "title_comp": "COVID-19 Casos confirmados por PCR+, casos PCR+ en los últimos 14 días y persona",
+      "reason": "Comparte el mismo ámbito geográfico (Comunitat Valenciana) y se centra en la evolución de la pandemi",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan fallecimientos por COVID-19 en la Comunitat Valenciana, pero con enfoques distintos: el primero por rangos de edad y sexo (agregado temporalmente hasta mayo 2020), el segundo por departamentos de salud y fecha reciente (aunque marcado como 2022, parece erróneo si no hay actualización). Comparten variables de salida (fallecimientos), geografía (autonómica), y posible clave implícita: departamento de salud + fecha/desglose por periodo. No están completamente sincronizados temporalmente ni tienen cobertura temporal sobrelapada clara, pero sí son potencialmente combinables para análisis descriptivos comparativos (ej. evolución de mortalidad por área y perfil demográfico)."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/covid-19-casos-confirmats-pcr-casos-pcr-ultims-14-dies-i-persones-mortes-per-departament-2022",
+      "comp_id": "https://dadesobertes.gva.es/dataset/dades-covid-19-percentatge-i-numero-de-morts-per-rang-edat-i-sexe",
+      "title_comp": "Datos COVID-19 Comunitat Valenciana histórico - Porcentaje y número de fallecido",
+      "reason": "Comparte el ámbito geográfico (Comunitat Valenciana) y el periodo temporal (2022, si bien este datas",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan fallecimientos por COVID-19 en la Comunitat Valenciana, pero con enfoques distintos: uno por departamento de salud y otro por rango etario y sexo. Aunque las variables no se solapan directamente, podrían relacionarse a nivel agregado (p. ej., correlacionar fallecimientos por departamento con perfiles etarios). La clave de unión ('departamento de salud' + 'comunitat valenciana' + 'fecha' implícita) es viable pero no trivial, y el análisis tendría valor para análisis descriptivos cruzados, aunque con limitaciones por diferente granularidad y cesación de actualización en 2022."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/covid-19-casos-confirmats-pcr-casos-pcr-ultims-14-dies-i-persones-mortes-per-departament-2022",
+      "comp_id": "https://dadesobertes.gva.es/dataset/covid-19-series-casos-pdia-positiva",
+      "title_comp": "COVID-19 Serie de casos con PDIA positiva en la Comunitat Valenciana",
+      "reason": "Mantiene el mismo ámbito geográfico y es altamente relevante temporalmente; aporta información de ca",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El dataset complementario aporta una medida más actualizada y estandarizada (PDIA, incluyendo PCR y antígenos) con cobertura temporal continua y mayor granularidad temporal (fecha de diagnóstico), mientras que el original se detuvo en 2022 y está obsoleto. Comparten geografía (Comunitat Valenciana) y unidades de análisis (casos diagnósticos por departamento de salud), lo que permite fusionar por departamento + fecha para análisis de tendencias, transición de criterios y validación cruzada."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ybgg-dgi6",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/6fpi-ycak",
+      "title_comp": "Expedientes de regulación temporal de empleo (ERTE) por comarca 2020",
+      "reason": "Comparte geografía (Cataluña, a nivel comarcal) y periodo (2020, coincidente con el inicio de la cri",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset de ERTEs ofrece variable de impacto laboral (afectados) que complementa bien la contratación pública (expedientes, lots, adjudicaciones), pero la unión es solo plausible si se usa 'comarca' como clave geográfica—sin embargo, el primer dataset no incluye geografía comarcal, solo autonómica, lo que limita la jointura precisa."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ybgg-dgi6",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/623z-r97q",
+      "title_comp": "Incidencia del COVID-19 en Cataluña",
+      "reason": "Comparte cobertura geográfica (autonómica) y periodo (2020, con datos diarios), lo que permite vincu",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto (incidencia de COVID-19) no es complementario al de contratación pública: no comparten unidades de análisis, scope temporal (el primero va hasta 2020, el segundo sin fecha clara), ni variables contextualmente relacionadas. No hay clave de unión plausible (no hay fecha de expediente detallada al día, ni geometría geográfica fina ni variables compartidas para joint). El análisis propuesto carece de sentido analítico válido entre ambas fuentes."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ybgg-dgi6",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/vh5k-6j3v",
+      "title_comp": "Proyecciones de población en edad escolar",
+      "reason": "Comparte ámbito geográfico (Cataluña) y permite integrar demanda demográfica (niños en edad escolar)",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset de contratación pública (ámbito administrativo y económico) y el de proyecciones de población escolar (ámbito demográfico y educativo) son temáticamente muy dispares. No comparten una clave de unión lógica ni geográfica o temporal coherente (uno es anual y por entidad contractora; el otro por edad, sexo y ciclo, sin especificar unidad geográfica fina como municipio). El análisis potencial propuesto no es claramente viable sin variables intermedias o agregados adicionales."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/ECNCE0000092005",
+      "comp_id": "https://datos.gob.es/catalogo/ECNCE0000092015",
+      "title_comp": "Número medio de alumnado por unidad en E. Especial por titularidad del centro, c",
+      "reason": "Comparte el mismo dominio temático (enseñanza especial), nivel geográfico (autonómico) y variables c",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El dataset propuesto aporta la variable 'número medio de alumnado por unidad', que complementa perfectamente el original (que cuenta unidades y centros), permitiendo análisis de densidad educativa en enseñanza especial. Comparten variables clave comunes (comunidad autónoma, curso académico, titularidad del centro) y el nivel geográfico autonómico, lo que hace plausible y lógica una unión por estos campos."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EALRA0000019026",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_dgt_condicion_firme",
+      "title_comp": "Clasificación de la condición del firme de la Dirección General de Tráfico (DGT)",
+      "reason": "Aunque no comparte variables directas con el dataset de educación, ambos pueden integrarse a nivel t",
+      "relevancia": 1,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto trata sobre condiciones físicas del firme vial (DGT), mientras que el original aborda tasas de finalización educativa por sexo y comunidad autónoma. No existe relación temática, conceptual ni geográfica significativa entre ambos; no hay claves de unión válidas (p.ej., variables compartidas como 'comunidad autónoma' son de naturaleza distinta: una categórica de dominio educativo, otra de dominio vial); cualquier análisis conjunto carecería de sentido interpretativo."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EALRA0000019026",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_dgt_tipos_vias",
+      "title_comp": "Clasificación del tipos de vías de la Dirección General de Tráfico (DGT) de Espa",
+      "reason": "Similar al anterior, permite cruzar tipos de vía (carreteras, autopistas, etc.) con niveles de educa",
+      "relevancia": 1,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset original se centra en indicadores educativos (tasa de finalización de FP por sexo, región y curso), mientras que el complementario es una clasificación estándar de tipos de vías de tráfico (DGT). No hay relación conceptual, temática ni potencial de unión lógica entre ambos; no comparten dimensiones comunes ni variables superponibles. El análisis propuesto carecería de sentido."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EALRA0000019026",
+      "comp_id": "https://www.cis.es/es/estudios/encuesta-social-general-espanola-esge-2015",
+      "title_comp": "Encuesta Social General Española 2015 (ESGE)",
+      "reason": "Aporta variables como 'empleo', 'educación', 'bienestar' y 'actitudes', que permiten profundizar en ",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El dataset de la ESGE aporta variables sociodemográficas y actitudinales que pueden contextualizar las tasas de finalización educativa (relevancia alta), y comparten coordenadas geográficas (comunidades autónomas) y desagregación por sexo como posibles claves de unión (plausible, aunque la ESGE no siempre incluye datos autonómicos con suficiente resolución ni por curso académico exacto). El análisis de correlación entre actitudes toward la educación/empleo y las tasas de finalización tendría sentido, aunque con limitaciones por diferencia en granularidad temporal/geográfica (utilidad moderada)."
+    },
+    {
+      "source_id": "http://catalogo.villanuevadelaserena.es/dataset/9a8f2509-9fbf-4735-940c-ed40f2348dcf",
+      "comp_id": "http://catalogo.villanuevadelaserena.es/dataset/905da521-51f8-4281-9c5c-ac7f56f6d9de",
+      "title_comp": "Patrimonio religioso",
+      "reason": "Comparte el mismo territorio (Villanueva de la Serena) y ambos abordan el patrimonio monumental, con",
+      "relevancia": 5,
+      "join_key_valid": 4,
+      "analysis_useful": 5,
+      "comentario": "El dataset 'Patrimonio religioso' es altamente relevante como complemento de 'Patrimonio monumental', ya que aborda un subconjunto temático (religioso) dentro del más amplio de patrimonio monumental, aportando variables específicas como 'edificaciones religiosas' y 'turismo cultural', que refuerzan la dimensión turística y de gestión pública. La clave de unión plausible es la localización geográfica (municipal) y posiblemente identifiers comunes de bienes culturales (ej. códigos INE, referencias catastrales, o nombres de bienes), aunque no se especifican explícitamente en las variables. El análisis propuesto —integrar ambos para estudiar el patrimonio religioso como subcategoría estratégica dentro del patrimonio monumental y evaluar su contribución al turismo cultural— es muy útil para la planificación turística y patrimonial municipal."
+    },
+    {
+      "source_id": "http://catalogo.villanuevadelaserena.es/dataset/9a8f2509-9fbf-4735-940c-ed40f2348dcf",
+      "comp_id": "http://catalogo.villanuevadelaserena.es/dataset/38b6609e-0044-459e-873f-afd8a5adc843",
+      "title_comp": "Accesos a la ciudad",
+      "reason": "Complementa el análisis del patrimonio al incluir infraestructura vial y puntos de entrada, factores",
+      "relevancia": 5,
+      "join_key_valid": 4,
+      "analysis_useful": 5,
+      "comentario": "El dataset 'Accesos a la ciudad' complementa muy bien el de 'Patrimonio monumental', ya que permite relacionar localización de monumentos con accesos turísticos y viales. Comparten una clave de unión plausible (georreferenciación/localización espacial) y el análisis de rutas turísticas o accesibilidad al patrimonio es altamente útil para gestión cultural y turística municipal."
+    },
+    {
+      "source_id": "http://catalogo.villanuevadelaserena.es/dataset/9a8f2509-9fbf-4735-940c-ed40f2348dcf",
+      "comp_id": "http://catalogo.villanuevadelaserena.es/dataset/fa11a5a1-c886-44f4-877b-4d538b93998a",
+      "title_comp": "Instalaciones e infraestructuras culturales",
+      "reason": "Aporta variables sobre infraestructura cultural (edificios, municipalidad) que pueden cruzarse con e",
+      "relevancia": 5,
+      "join_key_valid": 4,
+      "analysis_useful": 4,
+      "comentario": "Ambos datasets abordan el ámbito del patrimonio y la cultura en el mismo municipio. El primero se centra en bienes inmuebles protegidos (monumentos), mientras que el segundo incluye instalaciones culturales activas (museos, centros culturales, etc.). Una clave de unión plausible podría ser la localización geográfica (coordinadas o dirección) o el nombre del bien (si coinciden en ambos). El análisis de correlación entre patrimonio monumental y disponibilidad de infraestructuras culturales cercanas es relevante para evaluar el turismo y la gestión cultural local."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/pre-result-elec-local-2023",
+      "comp_id": "https://datos.parcan.es/dataset/resultados_electorales_anio2019_8id_circunscripcion_98013id_municipio",
+      "title_comp": "Resultados electorales 2019 - Autonómica - Frontera",
+      "reason": "Comparte municipio y año (2019) con el dataset de elecciones locales 2023, permitiendo comparar tend",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto parece referirse a elecciones autonómicas de 2019 en una circunscripción específica (posiblemente 'Frontera', aunque el nombre es ambiguo), mientras que el original es de elecciones locales 2023 a nivel municipal de la Generalitat Valenciana. Las variables no se especifican en el dataset propuesto, lo que reduce la compatibilidad. La clave de unión no está definida y sería difícil de establecer: no hay garantía de que 'municipios' coincida semántica ni geográficamente (ej. 'Frontera' podría referirse a una localidad pequeña o a una circunscripción administrativa diferente). El análisis comparativo de 2019 vs 2023 podría tener interés, pero la falta de claridad en variables y cobertura territorial limita su utilidad y viabilidad técnica."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/pre-result-elec-local-2023",
+      "comp_id": "https://datos.parcan.es/dataset/resultados_electorales_anio2007_7id_circunscripcion_38052id_municipio",
+      "title_comp": "Resultados electorales 2007 - Tenerife - Vilaflor",
+      "reason": "Incluye resultados electorales a nivel municipal (como el dataset 2023) y permite análisis temporal ",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto es de 2007, mucho más antiguo que el original (2023), y no se especifican sus variables, limitando su complementariedad. Aunque comparten contexto electoral y geográfico (Vilaflor puede corresponder con municipios del dataset original), no hay evidencia de que las claves geográficas (como municipios) coincidan a nivel granular ni que las variables sean compatibles. El análisis es limitado: comparar 2007 con 2023 puede tener valor histórico, pero sin variables definidas, la utilidad analítica es baja."
+    },
+    {
+      "source_id": "https://dadesobertes.gva.es/dataset/pre-result-elec-local-2023",
+      "comp_id": "https://www.cis.es/es/estudios/latinobarometro-1997-ii-",
+      "title_comp": "Latinobarómetro 1997 (II)",
+      "reason": "Aunque no compite en cobertura geográfica y temporal exacta con el dataset 2023, aporta variables cu",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El Latinobarómetro 1997 es un estudio transnacional de opinión pública en América Latina, sin relación geográfica ni temporal directa con las elecciones locales de la Comunitat Valenciana (España) en 2023. No comparten clave geográfica (municipios valencianos vs países de América Latina) ni temporal (1997 vs 2023), y las variables no son compatibles para análisis combinado. La propuesta carece de fundamento para unión lógica o análisis significativo."
+    },
+    {
+      "source_id": "https://catalogodatos.cnmc.es/dataset/ds_14094_1",
+      "comp_id": "c547a8f6-3f1d-47a1-a59c-d3b8f460f341",
+      "title_comp": "Bibliografía Española. Publicaciones seriadas (2006-presente)",
+      "reason": "Comparte periodicidad anual/trimestral (con cobertura temporal que se extiende más allá del original",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Los datasets pertenecen a dominios prácticamente independientes (telecomunicaciones vs. bibliografía de publicaciones periódicas). No hay superposición temática clara ni variables compartidas significativas. Aunque se podría especular con una relación indirecta (ej. empresas de telecomunicaciones publicando informes técnicos), no existe una clave de unión obvia ni variables directamente alineables (no hay campos comunes como nombre de entidad, CIF, ISSN de publicaciones de interés, etc.). El análisis propuesto carecería de fundamento empírico sólido sin una justificación adicional fuerte."
+    },
+    {
+      "source_id": "4b2264bc-5d01-4a65-ae04-409f3cdbdb5c",
+      "comp_id": "https://www.cis.es/es/estudios/asistencia-a-espectaculos",
+      "title_comp": "Asistencia a espectáculos",
+      "reason": "Aporta variables sobre comportamiento cultural y consumo de ocio (asistencia, frecuencia, recintos, ",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset de 'Asistencia a espectáculos' es relevance para entender el contexto de consumo cultural de los materiales mixtos (que incluyen audiovisuales, teatro, etc.), pero la clave de unión no está clara: no hay variables comunes explícitas (ej. fecha, geografía detallada, categorías estandarizadas). La relación es temática, no estructural. El análisis podría explorar correlaciones entre perfil del público y tipo de material mixto, pero requiere ingeniería de variables no trivial."
+    },
+    {
+      "source_id": "4b2264bc-5d01-4a65-ae04-409f3cdbdb5c",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_cned_f_2000",
+      "title_comp": "Clasificación Nacional de Educación 2000. Clasificación de programas en sectores",
+      "reason": "Ofrece una clasificación estandarizada de áreas de estudio (incluyendo disciplinas culturales como C",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset complementario trata sobre una clasificación educativa (CNED-2000), mientras el original se refiere a metadatos bibliográficos de 'materiales mixtos' (colecciones multiformato sin finalidad educativa). No hay relación temática clara, ni variables comunes, ni clave de unión viable (e.g., no hay campos educativos en el catálogo BN, ni identificadores de programas educativos en el catálogo bibliográfico). El análisis propuesto carecería de justificación lógica."
+    },
+    {
+      "source_id": "4b2264bc-5d01-4a65-ae04-409f3cdbdb5c",
+      "comp_id": "https://dadesobertes.gva.es/dataset/hac-pmp-proveedores-2014-2023",
+      "title_comp": "Deuda comercial. Periodo medio de pago a proveedores 2014-2023",
+      "reason": "Proporciona información sobre sostenibilidad financiera y prácticas contractuales en la administraci",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset de deuda comercial se refiere a plazos de pago a proveedores por administraciones públicas (ámbito valenciano y nacional, según las leyes citadas), mientras que el catálogo bibliográfico se centra en metadatos de colecciones culturales sin relación directa con financiación, pagos o proveedores. No hay variable compartida plausible (ej. entidad, fecha, importe, proveedor) para unir ambos datasets. El análisis propuesto carece de sentido práctico o analítico válido entre ellos."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/indicadores-demograficos-grandes-comarcas-canarias-01-01-2010",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/indicadores-demograficos-comarcas-canarias-01-01-2016",
+      "title_comp": "Indicadores demográficos. Comarcas de Canarias. 01/01/2016",
+      "reason": "Comparte el mismo nivel geográfico (comarcas de Canarias) y un período temporal cercano (2016 vs 201",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan indicadores demográficos para territorializaciones relacionadas (comarcas vs. grandes comarcas), lo que sugiere potencial complementariedad. La clave de unión plausible sería el nombre o código de comarca/territorio insular, aunque la diferencia en la delimitación territorial (comarcas vs. grandes comarcas) puede causar mala correspondencia parcial. El análisis comparativo temporal (2010 vs. 2016) tiene sentido, pero la falta de variables definidas en el dataset propuesto limita la utilidad exacta."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/indicadores-demograficos-grandes-comarcas-canarias-01-01-2010",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/c260cbc2-d030-47a3-9151-87f1c49a2ebb",
+      "title_comp": "Población nacida en el extranjero por isla, municipio de residencia, sexo y grup",
+      "reason": "Aporta desagregación geográfica más fina (municipio e isla) y variable específica sobre extranjería,",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto corresponde a Illes Balears (Islas Baleares), mientras que el original es de Canarias; no comparten territorio, por lo que no es posible establecer una unión geográfica válida. Además, el año (2016) no coincide con el de referencia (2010), y carece de variables que complementen directamente las del dataset original (e.g., no especifica grandes comarcas, ni incluye indicadores como naturalidad o población por sexos en el mismo nivel desagregado). No aporta valor complementario razonable."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/indicadores-demograficos-grandes-comarcas-canarias-01-01-2010",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/cb765f06-66a7-47f4-a881-e1e829b96804",
+      "title_comp": "Población nacida en el extranjero por isla de residencia, sexo y grupo de edad. ",
+      "reason": "Similar al anterior, pero directamente desagregado por isla — coincidente con el nivel insular del d",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "Aunque ambos datasets tratan sobre población y variables demográficas, el dataset original es de Canarias (2010), mientras que el propuesto es de Illes Balears (2004), lo que impide una comparación directa o fusión lógica. Las claves geográficas (‘isla’ vs ‘comarca/territorio insular’) no coinciden semánticamente ni operativamente entre comunidades autónomas distintas, y la diferencia temporal (2004 vs 2010) refuerza la falta de complementariedad. La propuesta no permite análisis conjunto válido."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaocupac_pol_mca_ve2023-xml",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/directorio-de-establecimientos-con-actividad-economica-en-navarra",
+      "title_comp": "Directorio de establecimientos con actividad económica en Navarra (DENA)",
+      "reason": "Comparte cobertura territorial autonómica y anualidad con el mapa de cultivos, lo que permite correl",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset DENA aporta variables económicas (actividad, tamaño de establecimiento), mientras que el mapa MCA describe usos del suelo físico. La relación es débil: aunque ambos cubren Navarra y podrían vincularse geográficamente (p. ej., por polígono o municipio), elDEN A no incluye posición espacial precisa ni identificadores de polígonos MCA, y el MCA no contiene información de actividad económica. El análisis conjunta tendría un sesgo fuerte y poca potencia explicativa sin variables intermediarias (como zonificación urbana o uso industrial)."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaocupac_pol_mca_ve2023-xml",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/censo-de-solicitantes-de-vivienda-por-lugar-de-empadronamiento",
+      "title_comp": "Censo de solicitantes de vivienda, por lugar de empadronamiento",
+      "reason": "Aunque el nivel geográfico es municipal (más fino que el autonómico), permite desagregar el mapa de ",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "La propuesta es potencialmente complementaria pero débil: ambos datasets son geográficos y de Navarra, lo que permite una unión por área (polígonos del MCA vs. empadronamiento por lugar), pero el censo se refiere a solicitudes de vivienda (demanda habitacional), mientras que el MCA es sobre uso del suelo y cobertura. Una relación plausible sería analizar si ciertos usos del suelo (ej. áreas urbanas improductivas o zonas en expansión) correlacionan con alta demanda habitacional, aunque la granularidad y temporalidad (2023 vs. fecha no especificada del censo) y falta de variables espaciales explícitas (como código de polígono o Entidad Poblacional) limitan la robustez de la unión."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaocupac_pol_mca_ve2023-xml",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/alojamientos-inscritos-en-el-registro-de-turismo-de-navarra",
+      "title_comp": "Alojamientos inscritos en el Registro de Turismo de Navarra",
+      "reason": "El uso del suelo (especialmente áreas rurales o improductivas) puede estar relacionado con la locali",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 4,
+      "comentario": "Sí es relevante, ya que ambos datasets abordan el uso del suelo y la actividad humana en Navarra (uno: coberturas/uso del suelo; otro: actividad turística alojada). Comparten una clave de unión plausible a nivel geográfico (municipios o coordenadas), aunque el segundo dataset puede carecer de precisión espacial para asociación directa a polígonos de uso del suelo. El análisis conjunto permitiría explorar correlaciones entre tipos de cobertura del suelo y concentración de alojamientos turísticos (p.ej., turismo rural en zonas rurales/improductivas o forestales), útil para planificación territorial y sostenibilidad."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ut3h-wvbc",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/sexe-cpsh",
+      "title_comp": "Registro del sector público de la Generalitat de Catalunya. Miembros del órgano ",
+      "reason": "Comparte el ámbito autonómico (Cataluña) y el mismo sector público que el dataset original, además d",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 4,
+      "comentario": "El segundo dataset contiene información específica sobre los miembros del órgano de gobierno superior, lo que permite identificar con precisión los órganos de dirección mencionados en el primer dataset. Ambos datasets pertenecen al ámbito de la Generalitat de Catalunya y del Departamento de la Presidencia, y comparten potenciales claves como el nombre de la entidad beneficiaria y el nombre del órgano/gestor. La correlación es muy alta: el primer dataset reporta retribuciones por órgano de dirección, y el segundo las define formalmente. Esto permite cruzar datos para profundizar en perfiles retributivos por cargo o entidad."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ut3h-wvbc",
+      "comp_id": "https://dadesobertes.gva.es/dataset/sec-nefis-visor-2026",
+      "title_comp": "Ejecución presupuestaria de la Generalitat y sus organismos autónomos 2026",
+      "reason": "Comparte ámbito autonómico (Cataluña) y período anual, y aporta variables de ejecución presupuestari",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 4,
+      "comentario": "El dataset propuesto es moderadamente complementario: aporta contexto financiero macro (ejecución presupuestaria) útil para interpretar el volumen y contexto de las subvenciones/publicaciones del primero. No comparten clave de unión explícita (una es por beneficiario/entidad, otra por estructura presupuestaria), pero podrían vincularse mediante entidades beneficiarias que coincidan con organismos autónomos incluidos en el segundo dataset, aunque el mapeo es complejo. El análisis (ej.: correlación entre retribuciones de órganos directivos y presupuesto ejecutado por su órgano dependiente) sí tiene sentido aunque requiera filtrado por coincidencia de entidades."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ut3h-wvbc",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/hu7t-2x76",
+      "title_comp": "Expedientes de regulación temporal de empleo (ERTE) por actividad económica 2020",
+      "reason": "Aunque temporalmente limitado a 2020 y con foco laboral, permite contrastar retribuciones con contex",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset de ERTEs (2020) y el de retribuciones (no hay fecha específica, pero vinculado a subvenciones/presidencia) carecen de una relación directa clara. No hay clave común plausible (p. ej., beneficiarios de subvenciones ≠ necesariamente empresas con ERTEs; y no hay evidencia de que los órganos de dirección de beneficiarios sean las mismas entidades afectadas por ERTEs). El análisis propuesto (p. ej., correlación entre retribuciones y ERTEs) sería especulativo, poco riguroso y con riesgo de ecología fallacy. Solo podría tener sentido si ambos datasets se cruzaran por empresa y sector, pero ni siquiera el ámbito temporal (ERTEs 2020 vs. retribuciones no fechadas) ni la granularidad (individual vs. agregado por sector) lo facilitan."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/numero-de-inscripciones-en-el-programa-de-juventud-del-cabildo-de-tenerife",
+      "comp_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/centros-deportivos-y-de-ocio-en-tenerife",
+      "title_comp": "Centros deportivos y de ocio en Tenerife",
+      "reason": "Comparte el ámbito insular de Tenerife y el enfoque en ocio y actividades para la población (incluye",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset de centros deportivos y de ocio es razonablemente relevante, ya que proporciona infraestructura que podría soportar el programa de juventud (actividades en centros), pero no hay clave de unión clara (ej. centro específico por año/actividad). La unión por localización o por tipo de centro podría ser plausible, pero no se especifica en el dataset. El análisis potencial (ej. correlación entre número de centros y tasas de inscripción) es útil de forma genérica, pero limitado por la falta de granularity temporal y geoespacial específica en ambos datasets."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/numero-de-inscripciones-en-el-programa-de-juventud-del-cabildo-de-tenerife",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000063",
+      "title_comp": "Afiliaciones según situaciones en el empleo, actividades económicas (A21) y sexo",
+      "reason": "Aporta contexto socioeconómico municipal y de isla (empleo) que puede explicar variaciones en partic",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto aporta contexto socioeconómico (empleo, afiliación a Seguridad Social) que podría relacionarse con variables como 'residentes' o 'actividades culturales/ocio', pero no hay una relación directa con 'inscripciones en programas juveniles', especialmente dado el alto desbalance temporal (2012-actualidad vs. 2013-2016) y diferente nivel de desagregación (municipios vs. insular). La clave común plausible sería 'municipio + año/mes', pero la resolución temporal mensual del dataset de empleo no encaja bien con los datos anuales de inscripciones, lo que limita el análisis conjuto útil."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/numero-de-inscripciones-en-el-programa-de-juventud-del-cabildo-de-tenerife",
+      "comp_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/reservas-de-actividades-en-la-naturaleza-en-tenerife",
+      "title_comp": "Reservas de actividades en la naturaleza en Tenerife",
+      "reason": "Comparte el ámbito insular y el enfoque en actividades de ocio y naturaleza; permite contrastar dema",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets giran en torno al ocio juvenil y actividades en Tenerife, lo que sugiere una relación temática plausible. Sin embargo, el primero se centra en inscripciones a programas estivales (niños/niñas residentes), mientras que el segundo aborda reservas de actividades naturaleza (segmento más amplio, posiblemente turístico). La clave de unión (tiempo + geografía insular) es básica y no permite análisis granular sin variables adicionales como edad, residentes vs. no residentes, o tipo de actividad. El análisis potencial sería descriptivo (e.g., correlación temporal entre participación juvenil y oferta de naturaleza), pero limitado por diferencias en población objetivo y granularidad."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_extranjera-malla-de-250m-canarias-01-01-2018-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_extranjera_pc-comarcas-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+      "title_comp": "Población extranjera (% sobre el total). Comarcas de Canarias. 01/01/2016. Mapa ",
+      "reason": "Aunque tiene cobertura temporal distinta (2016 vs 2018), comparte el nivel geográfico de comarcas y ",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 4,
+      "comentario": "El dataset propuesto aporta una variable relativa (% de extranjeros), útil para comparar proporciones frente al absoluto del original, pero hay desfase temporal (2016 vs 2018) y niveles geográficos distintos (comarcas vs malla 250m). La unión es factible mediante coincidencia parcial de unidades territoriales (comarcas contienen mallas), aunque no directa. El análisis comparativo temporal y espacial es útil si se asume compatibilidad relativa."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_extranjera-malla-de-250m-canarias-01-01-2018-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_15a64_pc-malla-de-250m-canarias-01-01-2015-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. De 15 a 64 años (% sobre total). Malla de 250m de Canarias. 01/01/201",
+      "reason": "Comparte malla geográfica (250m), cobertura territorial (Canarias) y variable demográfica, permitien",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets usan la misma malla espacial (250m) y cubren Canarias, lo que permite una unión espacial plausible. Aunque el primer dataset captura la proporción de extranjeros (variable demográfica específica) y el segundo la población en edad activa (% sobre total), ambos son indicadores demográficos relevantes que podrían cruzarse para explorar correlaciones (ej.: distribución geográfica de extranjeros vs. densidad de población en edad laboral). Sin embargo, no comparten variables idénticas ni cobertura temporal (2015 vs 2018), limitando análisis directos de co-variación temporal sin corrección. El análisis es razonable pero con ciertas limitaciones metodológicas."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_extranjera-malla-de-250m-canarias-01-01-2018-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_extranjero_pc-islas-canarias-01-01-2021-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. Nacidos en el extranjero (% sobre total). Islas de Canarias. 01/01/20",
+      "reason": "Difiere en nivel geográfico (islas vs malla 250m), pero permite integrar agregados insulares con res",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario aporta una variable derivada (% de extranjeros sobre total) y amplía el análisis a nivel insular, lo que es relevante pero no idéntico al original (malla 250m). La clave de unión (islas de Canarias) es posible, pero el desagregado espacial no coincide exactamente (malla vs. islas), lo que limita la precisión del cruce. El análisis sería útil para comparar tendencias demográficas, aunque con limitaciones de resolución espacial."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-centros-culturales-500m-2012",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/1e3b2b85-1b10-45cf-932d-b71913140079",
+      "title_comp": "Distribución Espacial de la Población en Andalucía",
+      "reason": "Comparte nivel geográfico autonómico (Andalucía) y permite cruzar población con proximidad a centros",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "La propuesta es moderadamente relevante, pero hay desajuste temático: el dataset original se enfoca en infraestructura cultural y accesibilidad urbana a nivel local (aunque mencionado como autonómico), mientras que el complementario es macroeconómico (población, empleo, pensiones). La clave de unión (geográfica, tipo 'provincia' o 'municipio') es plausible, pero no está explícita y ambos datasets podrían no compartir granularidad espacial (500m vs. agrupaciones regionales). El análisis potencial (p.ej., correlación entre densidad poblacional y cercanía a centros culturales) es débil por falta de variables espaciales finas en el segundo dataset y ausencia de coordenadas o identificadores geográficos compatibles."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-centros-culturales-500m-2012",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/bd8b6e07-2d11-429b-86c9-8a662fc54813",
+      "title_comp": "Datos cuantitativos históricos horarios y diarios de Calidad del Aire en Andaluc",
+      "reason": "Permite explorar relaciones entre proximity cultural y factores ambientales (contaminantes), especia",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 2,
+      "comentario": "El dataset de calidad del aire es globalmente independiente del de proximidad cultural en Agenda 21: no comparten ni地理grafía ni temática directa (urbanismo/accesibilidad vs contaminantes). Aunque ambos abarcan Andalucía y tienen cobertura temporal parcial (2012 presente en ambos), el nivel geográfico del primero es autonómico y el segundo no especifica, lo que dificulta la alineación espacial precisa. No existe clave de unión razonable (ej. geocódigos, estaciones específicas vinculadas a centros culturales). El análisis combinado carece de fundamentación lógica sólida sin hipótesis previa concreta (ej. correlación salud-espacios culturales), que no se infiere de la descripción."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-centros-culturales-500m-2012",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/c9a35715-25f6-45ae-878b-eb5ea7605474",
+      "title_comp": "Estadísticas de Actuaciones de la Unidad de Policía. Año 2019",
+      "reason": "Aunque el año es distinto (2019), comparte nivel geográfico y permite analizar relaciones entre dens",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets comparten nivel geográfico (autonómico) y una posible relación temática con seguridad y espacio público, no hay evidencia clara de que las variables de 'policía/actuaciones' completen directamente las variables de 'urbanismo, accesibilidad y infraestructura cultural' del dataset original. La conexión es débil y especulativa (ej.: ¿se asume que la seguridad influye en el uso de centros culturales? Sin hipótesis clara, la correlación es poco sustancial. La clave de unión (geografía autonómica) es válida pero insuficiente sin granularidad espacial común (ej. distritos o barrios)."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/af962e03-e44e-46bf-a13c-11af7a0f82a8",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/9e12fddd-ca25-431f-b782-700f1557d222",
+      "title_comp": "Viviendas principales según estado de conservación del edificio, tipo de edifici",
+      "reason": "Comparte nivel geográfico municipal y cobertura temporal (2021) con el dataset original, y aporta in",
+      "relevancia": 3,
+      "join_key_valid": 5,
+      "analysis_useful": 2,
+      "comentario": "La relevancia es modesta porque el dataset complementario se centra en viviendas en municipios >50.000 hab (solo 3 municipios), mientras que el original cubre *todos* los municipios balearés y se enfoca en flujos migratorios. No hay superposición temática clara (demografía no equivale a movimientos migratorios). La clave de unión (municipio + isla) es técnicamente válida, pero la cobertura geográfica muy limitada del segundo datasetreduce significativamente el análisis potencial. El análisis útil es bajo porque vincular viviendas con migración requiere inferencias débiles (ej. correlación causal implícita), y no hay variables directamente relacionadas (ej. no hay información de fecha de residencia, cambios de vivienda por migración, etc.)."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/af962e03-e44e-46bf-a13c-11af7a0f82a8",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/c079c703-8e04-4d76-82f1-65df09cd6bc2",
+      "title_comp": "Personas que utilizan frecuentemente o siempre cada lengua por lugar de uso y mu",
+      "reason": "Coincide en geografía municipal y ofrece variables de inclusión sociocultural (uso de lengua) que co",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset complementario se centra en hábitos lingüísticos en municipios >50k hab., mientras que el original analiza migraciones intermunicipales por lugar de nacimiento y sexo. La superposición geográfica es limitada (solo 3 municipios en IB >50k: Palma, Mahón, Ibiza), y no comparten variables directas. El enlace plausible sería 'municipio', pero la ausencia de datos de lugar de nacimiento o sexo en el segundo dataset limita fuertemente el análisis combinado."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/af962e03-e44e-46bf-a13c-11af7a0f82a8",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/f8b89ad1-413c-42c5-9261-4d83a8bd2890",
+      "title_comp": "Matrimonios según lugar de nacimiento de los cónyuges. Illes Balears e isla de r",
+      "reason": "Aporta información sobre dinámicas nupciales interculturales con relación al lugar de nacimiento, co",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan fenómenos demográficos relacionados con la movilidad y la composición familiar en las Illes Balears, con superposición temática en 'lugar_nacimiento', 'islas' y 'municipio' (indirectamente, vía residencia). El matrimonio puede influir en patrones migratorios (p. ej., al formar nuevos núcleos familiares), pero no hay una relación causal directa ni coincidencia exacta de unidades (movimiento vs. evento puntual). El 'año' y 'lugar_nacimiento' permiten una unión plausible, aunque con pérdida de precisión si se agrupan por isla vs. municipios. El análisis potencial (p. ej., correlación entre matrimonios mixtos y migración reciente) es razonable, aunque limitado por diferencias en granularidad y definición temporal."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/plan-territorial-especial-de-ordenacion-de-la-actividad-ganadera-de-tenerife-2007",
+      "comp_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/plan-territorial-especial-de-ordenacion-turistica-de-tenerife-2005",
+      "title_comp": "Plan Territorial Especial de Ordenación Turística de Tenerife (2005)",
+      "reason": "Comparte el mismo nivel geográfico (insular) y cercanía temporal (2005 vs 2007), y aporta variables ",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos planes son de ordenación territorial en Tenerife (mismo ámbito geográfico e institucional), con cobertura temporal cercana (2005 vs 2007), y abordan sectores clave del desarrollo insular (ganadería vs turismo). Comparten variables como 'ordenación', 'planificación territorial' e 'infraestructura', lo que sugiere posibles interrelaciones espaciales (ej. superposición zonas ganaderas vs turísticas). Sin embargo, la unión directa por claves geográficas (municipios o zonas específicas del PTEOG y PTOTT) requeriría homogeneización de unidades espaciales y podría no capturar interacciones causales sin análisis adicional. El análisis propuesto (ej. correlación entre zonificación ganadera y áreas turísticas) puede ser útil para estudios de sostenibilidad o conflicto de usos, pero tiene limitaciones metodológicas si no se dispone de geometrías alineadas."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/plan-territorial-especial-de-ordenacion-de-la-actividad-ganadera-de-tenerife-2007",
+      "comp_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/mapa-de-accesibilidad-de-la-isla-de-tenerife",
+      "title_comp": "Mapa de accesibilidad de la isla de Tenerife",
+      "reason": "Aporta variables de accesibilidad e infraestructura que condicionan la localización de la actividad ",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset de accesibilidad puede aportar información valiosa sobre el acceso a infraestructuras y servicios, lo que se relaciona con la planificación ganadera (infraestructura rural, movilidad de productos), pero el nivel geográfico y temático (lugares públicos urbanos vs. zonas rurales/ganaderas) no coincide perfectamente. La clave de unión más plausible sería zonas o localidades, aunque la granularidad y precisión espacial deben verificarse. El análisis podría explorar correlaciones entre accesibilidad y viabilidad de actividades ganaderas, pero con limitaciones."
+    },
+    {
+      "source_id": "https://datos.tenerife.es/datos/conjuntos-de-datos/plan-territorial-especial-de-ordenacion-de-la-actividad-ganadera-de-tenerife-2007",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e58015b_000063",
+      "title_comp": "Afiliaciones según situaciones en el empleo, actividades económicas (A21) y sexo",
+      "reason": "Incluye dato por municipios y actividad económica (incluida ganadería), con cobertura temporal ampli",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario aporta información de empleo afiliado a Seguridad Social (con desglose por actividad económica A21 y sexo) que puede contextualizar la evolución socioeconomica del sector ganadero tras el PTEOGAT de 2007. Comparten el ámbito territorial (Tenerife, a nivel municipal en el secundario), aunque el original es insular y el complementario municipal, lo que dificulta una unión directa sin reconciliación de granularidad. El análisis es plausible (ej. correlación entre zonificación ganadera y empleo en el sector), pero limitado por diferencias en cobertura temporal (2007 vs. 2012 en adelante) y falta de variables directas de actividad ganadera en el segundo dataset."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/incidencia-covid-centros-ense%C3%B1anza-no-universitaria/1284986982010",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/cobertura-vacunacion/1284880380254",
+      "title_comp": "Coberturas de vacunación en Castilla y León",
+      "reason": "Comparte nivel geográfico autonómico y cobertura temporal cercana (aunque temporalización exacta es ",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset de vacunación es razonablemente relevante como contexto epidemiológico (inmunidad previa puede influir en la severidad o transmisión), pero la relación directa con casos PCR en centros educativos es débil. La clave de unión plausible sería nivel geográfico (autonómico) y tiempo (por Periodo: trimestral/anual), aunque discrepan en粒 granularity (el dataset de vacunación suele ser porcohorte etaria o geomédico, no por centro educativo). El análisis conjunto podría explorar correlaciones temporales entre coberturas vacunales y olas epidémicas, pero con limitada potencia inferencial."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/incidencia-covid-centros-ense%C3%B1anza-no-universitaria/1284986982010",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/altas-hospitalarias-ictus/1285114657743",
+      "title_comp": "Altas hospitalarias con diagnóstico de Ictus",
+      "reason": "Aunque el foco es distinto, ambos datasets incluyen variables de salud pública con nivel autonómico ",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset de ictus no es claramente complementario al de incidencia de COVID-19 en centros educativos: temáticas distintas (epidemia viral vs. evento vascular agudo), poblaciones potencialmente distintas (enseñanza no universitaria vs. población general hospitalaria), y sin relación causal o contextual clara. Las claves geográficas (Zona Básica de Salud vs. autonómico/ámbito escolar) y temporales (no sincronizadas con precisión diaria) son débiles para una unión significativa. El análisis potencial (ej. correlación temporal o geográfica) sería especulativo y con bajo valor epidemiológico sin hipótesis justificada."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/incidencia-covid-centros-ense%C3%B1anza-no-universitaria/1284986982010",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/demografia/registro-parejas-hecho/1285090203163",
+      "title_comp": "Estadística del registro de parejas de hecho",
+      "reason": "Proporciona variable demográfica de estructura familiar a nivel provincial (inner join posibles con ",
+      "relevancia": 2,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets son del ámbito de la Consejería de Salud/Educación y comparten cobertura temporal y geográfica (Castilla y León), el primero aborda salud pública (casos de COVID-19 en centros escolares) mientras el segundo trata de demografía y uniones afectivas (registro de parejas de hecho). La relación causal o correlacional no es evidente ni justificada: el registro de parejas de hecho no influye directamente en la incidencia de COVID en centros no universitarios. La clave de unión 'provincia + año' es técnicamente viable (ambos lo contienen), pero no garantiza análisis relevante. El uso potencial sería muy especulativo (ej. correlar estructura familiar con exposición escolar), pero sin base empírica sólida ni justificación teórica clara. Requiere hipótesis ad hoc no respaldadas."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaagroal_pol_docava-xml",
+      "comp_id": "https://datos.madrid.es/dataset/300321-0-aforos-peatones-bicicletas",
+      "title_comp": "Aforos de peatones y bicicletas",
+      "reason": "Comparte cobertura municipal en Navarra y permite relacionar actividad vitivinícola (DO Cava) con mo",
+      "relevancia": 1,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset de Navarra se centra en municipios productores de cava (agricultura/vitivinicultura), mientras que el de Madrid registra aforos de peatones y bicicletas en calles (movilidad urbana). No comparten variable de unión válida (el dataset madrileño no incluye Navarra ni municipios vitivinícolas), y no hay relación lógica ni temática entre producción de cava y aforos de tráfico peatonal/bicicleta. La inclusión de 'Navarra' en las variables del segundo dataset parece un error de etiquetado, ya que el dominio del endpoint es datos.madrid.es."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaagroal_pol_docava-xml",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/spasitnabiodiv_pol_paisajessing-xml",
+      "title_comp": "Paisajes singulares",
+      "reason": "Permite vincular el cultivo de uva para cava con la identificación de paisajes agrícolas protegidos ",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El dataset de paisajes singulares es contextualmente relevante para entender el entorno físico y paisajístico donde se ubican los municipios productores de cava, lo que puede enriquecer el análisis del sector vitivinícola en Navarra. Comparten el mismo nivel geográfico municipal, lo que hace plausible la unión por 'municipios'. Sin embargo, la relación directa entre paisajes y producción vitivinícola es débil (no se indica explícitamente la presencia de viñedos en los paisajes singulares), limitando el impacto analítico. El análisis podría explorar correlaciones espaciales entre zonas productoras y tipos de paisaje, pero sería más útil como contexto ambiental que como análisis causal o productivo."
+    },
+    {
+      "source_id": "https://datosabiertos.navarra.es/dataset/spasitnaagroal_pol_docava-xml",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/spasitnaganade_pol_pastos-xml",
+      "title_comp": "Mapa de Pastos de Navarra",
+      "reason": "Proporciona información sobre uso del suelo (cobertura vegetal, valor forrajero), que es relevante p",
+      "relevancia": 2,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset de pastos no aporta variables directamente relacionadas con la producción de cava o la DO Cava; aunque ambos son de Navarra y escalan a nivel municipal, los pastos no están intrínsecamente vinculados al cultivo de uva para cava. La clave de unión plausible sería el municipio, pero el análisis conjunto (ej. relación entre cobertura vegetal y productores de cava) carece de sentido técnico o sectorial evidente (sector vitivinícola vs. ganadería/pastos)."
+    },
+    {
+      "source_id": "https://datos.alcobendas.org/dataset/subvenciones-2014-asociaciones-ambito-educativo",
+      "comp_id": "https://datos.alcobendas.org/dataset/subvenciones-2014-asociadiones-de-salud-consumo-integracion-social-y-mayores",
+      "title_comp": "Subvenciones 2014. Asociadiones de salud, consumo, integración social y mayores",
+      "reason": "Comparte el mismo año (2014) y territorialidad (Alcobendas), y ofrece una perspectiva similar de sub",
+      "relevancia": 4,
+      "join_key_valid": 5,
+      "analysis_useful": 4,
+      "comentario": "Ambos datasets comparten el contexto de subvenciones del Ayuntamiento de Alcobendas en 2014 y pueden unirse mediante claves implícitas como 'entidad beneficiaria' (asociación) y 'convocatoria/año'. El segundo dataset complementa el primero al cubrir áreas sociales y de salud (no educativas), lo que permite análisis comparativos o聚合 sobre el impacto general de subvenciones. Aunque hay ligeras ambigüedades en la descripción del segundo (typo 'Asociadiones'), el vínculo temático y temporal es sólido."
+    },
+    {
+      "source_id": "https://datos.alcobendas.org/dataset/subvenciones-2014-asociaciones-ambito-educativo",
+      "comp_id": "https://datos.alcobendas.org/dataset/subvenciones-2017",
+      "title_comp": "Subvenciones municipales desde 2017",
+      "reason": "Extiende la serie temporal más allá de 2014 con la misma lógica de registro de subvenciones a asocia",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan subvenciones del Ayuntamiento de Alcobendas y comparten ámbito educativo, lo que sugiere complementariedad razonable. La clave de unión plausible podría ser 'asociación' (nombre o identificador), aunque no se especifica en los metadatos. El análisis propuesto (evolución temporal de subvenciones a asociaciones educativas entre 2014 y 2017) es factible pero limitado por la posible falta de coherencia en la identificación de entidades o variables de alcance (2014 es específico de ámbito educativo, mientras que 2017 es amplio y menos homogéneo)."
+    },
+    {
+      "source_id": "https://datos.alcobendas.org/dataset/subvenciones-2014-asociaciones-ambito-educativo",
+      "comp_id": "https://datos.alcobendas.org/dataset/formacion-adultos-alumnos-matriculados-desde-2012-historico",
+      "title_comp": "Formación adultos. Alumnos matriculados desde 2012. Histórico",
+      "reason": "Aporta información de resultados operativos (matrícula) del mismo ámbito educativo (formación, inclu",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets están vinculados al ámbito educativo municipal y comparten entidades potenciales de interés (asociaciones, adultos, formación), lo que sugiere una relación temática fuerte. La clave de unión plausible podría ser 'entidad' (entidades beneficiarias/subvencionadas) o 'convocatoria/categoría de formación', aunque la superposición semántica es más débil que numérica. El análisis de correlación entre subvenciones y participación en formación adulta puede ser útil para evaluar impacto, pero es limitado por posibles diferencias en granularidad y cobertura temporal (2012–2014 vs. solo 2014)."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/higiene-industrias",
+      "comp_id": "https://www.cis.es/es/estudios/barometro-de-la-comunidad-autonoma-de-andalucia-iii-",
+      "title_comp": "Barómetro de la comunidad autónoma de Andalucía (III)",
+      "reason": "Comparte cobertura autonómica (Andalucía) y permite relacionar percepción ciudadana (empleo, industr",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset del Barómetro CIS es macro (percepción ciudadana general en Andalucía), mientras que el dataset de higiene industrial es específico de equipamientos industriales en Málaga. No comparten clave de unión viable (ej.: neither tiene entidades geográficas alineadas, ni tiempo, ni variables compartidas como 'industria' en el mismo contexto). Las variables de percepción ciudadana no aportan valor analítico directo sobre la higiene de industrias. La coincidencia de 'industria' es superficial y descontextualizada."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/higiene-industrias",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/1e3b2b85-1b10-45cf-932d-b71913140079",
+      "title_comp": "Distribución Espacial de la Población en Andalucía",
+      "reason": "Aporta variables de población (edad, sexo, nacionalidad, afiliación, empleo) con cobertura autonómic",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto ofrece variables sociodemográficas y económicas a nivel autonómico (muy agregado), mientras que el original es específico de higiene industrial en Málaga. No existe una clave de unión clara: el nivel geográfico del primero es autonómico (Andalucía), mientras que el de 'higiene industrias' parece municipal (Málaga), y no hay variables espaciales compatibles directas (ni coodernadas ni código geográfico compartido). La correlación entre acceso a industrias con higiene y variables agregadas como población o pensiones es débil y especulativa, limitando la utilidad del análisis."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/higiene-industrias",
+      "comp_id": "https://opendata.euskadi.eus/catalogo/-/proporcion-personas-viviendo-hogares-carencia-material-severa-indicadores-agenda-2030-c-euskadi/",
+      "title_comp": "Proporción de personas viviendo en hogares con carencia material severa. Indicad",
+      "reason": "Aunque la cobertura geográfica no coincide exacta (Euskadi vs Canarias/Andalucía en el dataset origi",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto trata sobre carencia material severa en Euskadi (dimension socioeconómica), mientras que el original aborda equipamientos industriales relacionados con higiene (dimensión sanitaria/urbana). No comparten clave geográfica viable (el primero es autonómico, el segundo no especifica nivel geográfico, pero Euskadi ≠ Málaga), ni variables superpuestas significativas. La relación es muy indirecta y forzada."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0325/enquisa-condicions-vida-das-familias-coidado",
+      "comp_id": "https://abertos.xunta.gal/catalogo/territorio-vivienda-transporte/-/dataset/0084/enquisa-condicions-vida-das-familias-rexistro",
+      "title_comp": "Encuesta de condiciones de vida de las familias: registro de viviendas. Año 2008",
+      "reason": "Comparte la temática de condiciones de vida y contexto socioeconómico familiar, aunque de un año dif",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets son del mismo programa (ECV) y abordan temáticas relacionadas con condiciones de vida y familia, lo que aporta contexto socioeconómico útil para interpretar la encuesta de 2012. El dataset de 2008 incluye variables de ingreso, gasto y vivienda, que podrían influir en el cuidado infantil y la conciliación (e.g., recursos económicos, tipo de vivienda, localización). Sin embargo, la diferencia de 4 años y el cambio en variables clave (cuidado infantil en 2012 vs. vivienda/empleo en 2008) reducen la directez de la relación. La clave de unión plausible sería el hogar o individuo (si hay identificadores estables), pero no se especifican en la metadata, limitando la certeza técnica."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0325/enquisa-condicions-vida-das-familias-coidado",
+      "comp_id": "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0267/rexistro-escolas-tempo-libre",
+      "title_comp": "Registro de Escuelas de Tiempo Libre",
+      "reason": "Proporciona cobertura geográfica y cantidad de infraestructuras de tiempo libre (relacionadas con cu",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto registra entidades de formación (escuelas de tiempo libre), no de uso directo por menores (como guarderías o centros de día), ni ofrece variables sobre cobertura, calidad o utilización por familias. No comparte clave geográfica precisa ni temporal coherente (2012 vs datos actualizados del registro), y su enfoque formativo no se alinea directamente con el cuidado cotidiano o conciliación familiar evaluada en la encuesta. Aunque ambientalmente relacionado (ocio/educación), no es realmente complementario para el análisis propuesto."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0325/enquisa-condicions-vida-das-familias-coidado",
+      "comp_id": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0298/centros-para-infancia",
+      "title_comp": "Centros para la infancia",
+      "reason": "Ofrece localización y servicios específicos de centros de atención a la infancia, permitiendo compar",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario es relevante porque aporta información espacial y operativa sobre centros de infancia (type, localización, servicios), lo cual puede contextualizar los hallazgos sobre cuidado infantil y conciliación de la encuesta. Sin embargo, la clave de unión no es clara: la encuesta no menciona centros específicos ni IDs, y el registro de centros no incluye vinculación directa con familias o áreas geográficas homogeneizadas (solo puntos KML). Unión por localización (municipio/provincia) es posible pero débil, y la cobertura territorial de la encuesta es autonómica, lo que limita la resolución espacial. El análisis (ej. correlación entre cobertura de centros y uso de guarderías) es útil en términos generales, pero con limitaciones por la granularidad y naturaleza agregada de ambos datasets."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1927102",
+      "comp_id": "https://datos.madrid.es/dataset/300610-0-defunciones-mapas",
+      "title_comp": "Defunciones clasificadas por nacionalidad y sexo según distrito y barrio",
+      "reason": "Comparte nivel geográfico municipal (distrito/barrio) y variable 'nacionalidad', lo que permite cruz",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto incluye defunciones por nacionalidad y geografía (distrito/barrio), mientras que el original se centra en pasajeros aéreos por zona geográfica y tipo de tráfico (nacional/internacional/Schengen). Ambos comparten 'nacionalidad' y 'zona geográfica' como conceptos temáticos, pero los niveles geográficos no coinciden (municipal vs. distrito/barrio), y no hay una variable común explícita y granular suficiente para unirlos con validez técnica (ej.: no hay 'cuatro vientos' como origen/destino en defunciones, ni información de tráfico aéreo en defunciones). El análisis potencial (ej.: correlación movilidad-salud) podría ser interesante a nivel macro, pero no viable con los datos disponibles a nivel microsin compleja georreferenciación adicional."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1927102",
+      "comp_id": "https://datos.madrid.es/dataset/206117-0-entidades-participa-asociaciones",
+      "title_comp": "Entidades de participación ciudadana. Asociaciones (Sección 1ª)",
+      "reason": "Ofrece variable 'censo municipal' y nivel geográfico municipal, lo que permite contrastar con el vol",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "El dataset original se centra en movimientos de pasajeros aeroportuarios por zona geográfica, mientras que el propuesto registra entidades de participación ciudadana inscritas en el censo municipal de Madrid. No existe una relación temática clara ni una clave de unión lógica (p.ej., zona geográfica compartida en nivel municipal no es suficiente sin superposición espacial o funcional). El análisis propuesto carece de utilidad estadística o contextual sólida entre ambos conjuntos."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1927102",
+      "comp_id": "https://datos.madrid.es/dataset/300360-0-meteorologicos-estaciones",
+      "title_comp": "Datos meteorológicos. Estaciones de control",
+      "reason": "Aporta variables meteorológicas que podrían condicionar la demanda de transporte aéreo (ej: neblina ",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset meteorológico puede influir en el tráfico aéreo (ej. retrasos por condiciones climáticas), pero la relación indirecta y la falta de superposición geográfica explícita (Cuatro Vientos vs estaciones generales de Madrid) limitan la utilidad directa. Las estaciones están distribuidas en el municipio, lo que permite una aproximación geográfica razonable, aunque no específica para Cuatro Vientos."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/calidad-del-aire-2017",
+      "comp_id": "https://www.cis.es/es/estudios/barometro-de-la-comunidad-autonoma-de-andalucia-iii-",
+      "title_comp": "Barómetro de la comunidad autónoma de Andalucía (III)",
+      "reason": "Comparte territorio (Andalucía) y año aproximado (2017 implícito en contexto de calidad del aire), y",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El Barómetro CIS incluye percepción ciudadana y confianza económica, que podrían relacionarse con calidad del aire desde una perspectiva subjetiva, pero no hay variables directamente medibles ni geometrías comunes (ni siquiera a nivel de municipio). La clave común sería Andalucía y 2017, pero es débil: datos agregados autonómicos vs. Encuesta por hogares sin datos espaciales explícitos. El análisis potencial (ej. correlación percepción-calidad) es limitado y poco riguroso sin datos individuales o por zona geográfica."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/calidad-del-aire-2017",
+      "comp_id": "https://datosabiertos.malaga.eu/dataset/higiene-industrias",
+      "title_comp": "Higiene Industrias",
+      "reason": "Comparte territorio (Andalucía) y permite cruzar presencia industrial (fuente potencial de emisiones",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El dataset de 'Higiene Industrias' puede ofrecer contexto sobre la localización y tipo de instalaciones industriales (p. ej., titularidad, accesibilidad), lo cual es potencialmente relevante para interpretar la calidad del aire en la misma área. Aunque no comparten una clave de unión directa explícita (como coordenadas o ID único), la dirección y el contexto geográfico (Málaga, autonómico) permiten una asociación espacial plausible. El análisis de correlación entre presencia industrial y niveles de contaminantes podría tener sentido, aunque con limitaciones por la granularidad y posible desincronía espacial."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/calidad-del-aire-2017",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/0f780f6c-a8af-473a-9d6d-16540df811a7",
+      "title_comp": "Índice de Precios Hoteleros e Indicadores de Rentabilidad del Sector Hotelero (I",
+      "reason": "Comparte territorio (Andalucía) y puede correlacionarse con actividad económica y movilidad, factore",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto (IPH/IRSH) trata sobre economía hotelera y rentabilidad, mientras que el original se centra en calidad del aire. Aunque ambos se refieren a Andalucía y al año 2017, no comparten unidades de análisis comunes (p. ej., localidades, zonas geográficas, o series temporales alineadas por puntos específicos de medición). La relación entre calidad del aire y actividad hotelera es débil y no implícita en los datos disponibles. No hay variables compartidas ni claves plausibles de unión (como geohashes, municipios o coordenadas)."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/98",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/776",
+      "title_comp": "Portal de Datos Geográficos Abiertos de la Junta de Comunidades de Castilla-La M",
+      "reason": "Proporciona marco geográfico base y geometrías municipal que permiten unir los demás datasets espaci",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 4,
+      "comentario": "El segundo dataset complementa al primero al ofrecer datos geográficos reutilizables y reales (INSPIRE), posiblemente con capas vectoriales, imágenes satelitales o temáticas espaciales (medio ambiente, transporte, etc.), mientras que el primero se centra en metadatos municipales. Ambos comparten el ámbito geográfico (Castilla-La Mancha) y el nivel municipal, lo que permite uniones por código INE de municipio o geometría. El análisis integrado permitiría correlacionar variables socioeconómicas (población, urbanismo) con factores ambientales o de infraestructura espacial, útil para planificación territorial."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/98",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/1108",
+      "title_comp": "Espacios escénicos de Castilla-La Mancha",
+      "reason": "Sus variables sobre infraestructuras culturales (espacios escénicos por municipio) se complementan c",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 4,
+      "comentario": "Ambos datasets comparten la clave geográfica 'municipios' (y EATIM), lo que permite asociar espacios escénicos a su contexto municipal. La variable 'municipios' está presente en ambos, y aunque uno es demográfico/geoambiental y el otro cultural/espacial, la unión permitiría análises como densidad de espacios escénicos por habitante, correlación entre infraestructuras culturales y población, o análisis de accesibilidad cultural por municipio. Es un complemento razonable, aunque la cobertura temporal del primero sigue siendo desconocida, lo que limita parcialmente el análisis temporal."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/98",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/658",
+      "title_comp": "PROGRAMA DE TERMALISMO SOCIAL DE CASTILLA-LA MANCHA",
+      "reason": "Los beneficiarios y variables sociosanitarias (edad, dependencia) pueden cruzarse con variables geog",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset de termalismo social está orientado a beneficiarios por edad y condición de pensionista, pero no incluye variables geográficas a nivel municipal explícitas ni datos demográficos estructurados como población o superficie del municipio. Aunque comparten ámbito territorial (Castilla-La Mancha), no hay una clave de unión obvia (ej. ID municipal o coordenadas), y las variables no se solapan de forma clara. El análisis potencial (ej. correlación entre termalismo y demografía) sería tenue sin un vínculo estructural robusto."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ka4a-fyht",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/euku-fzbx",
+      "title_comp": "Registro General de Cooperativas de la Generalidad de Cataluña",
+      "reason": "Comparte el ámbito territorial (Cataluña) y la temática de financiación local y cooperación, y permi",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset de cooperativas no aporta variables directamente relacionadas con la distribución de transferencias (FCLC), y no hay una clave de unión evidente (por ejemplo, neither dataset incluye 'codinec' o 'cif' de entidad claramente usable para unión con el registro de cooperativas, que está orientado a entidades económicas y no necesariamente a municipios). Aunque ambas se relacionan con la estructura territorial o económica de Cataluña, el vínculo es débil y especulativo."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ka4a-fyht",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/3wu9-6h2n",
+      "title_comp": "Índice Sintético de Empleo y Desarrollo Económico Local",
+      "reason": "Complementa el dataset al incluir indicadores de desarrollo económico local y empleo a nivel territo",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El FCLC (financiación local) y el ISODEL (empleo y desarrollo económico) están estrechamente vinculados: la financiación local puede influir en el desarrollo económico y el empleo, y viceversa. Ambos tienen cobertura municipal, lo que permite una unión directa por clave geográfica (municipio). Las variables son complementarias: el fondo financia políticas locales, mientras que ISODEL mide resultados del tejido productivo y laboral, permitiendo análisis de impacto o correlación espacial. El análisis es altamente útil para evaluar la efectividad de las transferencias en términos de desarrollo local."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/ka4a-fyht",
+      "comp_id": "https://enlaza.eprinsa.es/api/catalog/dataset/8a6fcdcd-0097-4f98-93eb-37608125d157",
+      "title_comp": "Población",
+      "reason": "Aporta la variable clave de población por municipio, esencial para normalizar la transferencia del F",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto es de población de Andalucía (ICA), mientras que el original se refiere a Cataluña (Generalitat). No comparten nivel geográfico (municipal de Cataluña vs. de Andalucía), ni misma autoridad productora, ni cobertura temporal. No hay clave de unión válida entre ellos (aunque ambos sean municipales, están en comunidades autónomas distintas). El análisis no es viable sin homogeneización previa, lo cual invalida su utilidad como complementario."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300702-0-satisfaccion-archivo-villa",
+      "comp_id": "https://datos.madrid.es/dataset/300631-0-estudio-conciliacion_familias",
+      "title_comp": "Estudio de satisfacción de personas usuarias del Servicio de Conciliación y Apoy",
+      "reason": "Comparte variables como 'satisfacción', 'evaluación' y 'navarra', y se enfoca en atención a familias",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets midven satisfacción de usuarios de servicios públicos bajo la administración del Ayuntamiento de Madrid, con variables como 'satisfacción', 'evaluación' y 'mejora'. Aunque los servicios (Archivo de Villa vs. SERCAF-Menores) son distintos, comparten un marco común de evaluación de calidad en servicios sociales/culturales. La clave de unión plausible sería el 'usuario' o 'persona usuaria' en términos generales, aunque sin identificadores comunes no es posible un join exacto. El análisis combinado sería útil para comparar niveles de satisfacción entre servicios o identificar patrones transversales, pero limitado por cobertura temporal desconocida y escalas de medición no estandarizadas."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300702-0-satisfaccion-archivo-villa",
+      "comp_id": "https://datos.madrid.es/dataset/300387-0-servicios-sociales-demandas",
+      "title_comp": "Demandas de servicio en atención social primaria de centros de servicios sociale",
+      "reason": "Ofrece información detallada sobre demandas de servicios sociales a nivel municipal en Navarra, lo q",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El segundo dataset aporta contexto socioeconómico (edad, sexo, nacionalidad, distrito/barrio) que podría contextualizar la satisfacción en el Archivo de Villa, especialmente si se desea analizar diferencias demográficas en la percepción del servicio. Sin embargo, la relación entre 'demandas de servicios sociales' y 'satisfacción con un archivo' es débil y no directa; no hay una variable común clara (como ID de usuario o caso), aunque distrito/barrio podrían servir como clave de unión aproximada. El análisis podría ser exploratorio (ej. correlación entre densidad de demandas sociales y niveles de satisfacción en zonas), pero con limitaciones metodológicas significativas."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300702-0-satisfaccion-archivo-villa",
+      "comp_id": "https://datos.madrid.es/dataset/205414-0-perfil-voluntarios",
+      "title_comp": "Voluntarios y voluntarias del Ayuntamiento de Madrid",
+      "reason": "Aunque el foco geográfico es autonómico Navarra y el título menciona Madrid, el conjunto de variable",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets están relacionados con el Ayuntamiento de Madrid, el primero se centra en satisfacción de usuarios del Archivo de Villa ( servicio archivístico), mientras el segundo recoge información general de voluntarios del Ayuntamiento. No hay evidencia clara de que los usuarios del Archivo de Villa sean o estén relacionados con el cuerpo de voluntarios. La variable 'usuarios' en el primer dataset no implica que coincidan con 'voluntarios' del segundo. La clave de unión (p. ej., identificador personal) no es factible por privacidad y no se comparten identificadores explícitos. El análisis conjunto sería débil: solo podría explorar correlaciones muy hipotéticas (p. ej., si voluntarios también son usuarios), sin respaldo en las variables disponibles."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/199",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/146",
+      "title_comp": "Registro de festejos taurinos tradicionales en Castilla-La Mancha",
+      "reason": "Aunque temáticamente distinto, comparte el ámbito geográfico autonómico y puede vincularse por terri",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets son del ámbito público y autonómico, pero tratan temas fundamentalmente distintos: uno sobre relaciones laborales (convenios colectivos), el otro sobre normativa cultural/taurina. No comparten entidades comunes claras (como empresas, trabajadores o territorios específicos a nivel granular), aunque podrían cruzarse indirectamente por ubicación geográfica (municipios) o entidad gestora (DGC de empleo vs. DG de Cultura). Sin embargo, el vínculo es débil y el análisis combinado tendría un valor limitado y poco explícito."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/199",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/518",
+      "title_comp": "Bodegas de vino en Castilla-La Mancha",
+      "reason": "Comparte el ámbito autonómico y permite cruzar datos de empresas (bodegas) con acuerdos colectivos p",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset de bodegas aporta información económica y productiva del sector vitivinícola, que puede relacionarse con el marco laboral de los convenios colectivos en el ámbito agroalimentario, pero no hay vínculo directo claro. La clave de unión plausible sería 'empresa' o 'sector economico', pero la granularidad y cobertura de ambos datasets (convenios vs. bodegas) pueden no coincidir. El análisis potencial (p.ej., impacto de convenios en producción vitícola) es de utilidad limitada y especulativa sin más datos de superposición de variables."
+    },
+    {
+      "source_id": "http://datosabiertos.castillalamancha.es/node/199",
+      "comp_id": "http://datosabiertos.castillalamancha.es/node/244",
+      "title_comp": "Listado de servicios de información juvenil de Castilla-La Mancha",
+      "reason": "Permite vincular servicios públicos de empleo y orientación laboral con convenios colectivos por áre",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset complementario (servicios de información juvenil) no guarda relación temática ni funcional directa con los convenios colectivos (tema laboral/sectorial). No existe una clave de unión razonable entre ambos (ej.: no hay variables comunes como geografía fina, entidad inscrita o entidad generadora coherente). El análisis conjunto carecería de sentido analítico o político válido."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/expedientes-localizacion-exhumacion/1285479748537",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/retribuciones-altoscargos-2024/1285620475456",
+      "title_comp": "Retribuciones anuales de altos cargos: Año 2024",
+      "reason": "Comparte el ámbito geográfico autonómico y el año 2024, y permite contextualizar los gastos en perso",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets pertenecen al ámbito de la Administración de Castilla y León, no comparten claves de unión evidentes (uno se centra en expedientes de memoria histórica por localidad/provincia, el otro en retribuciones individuales de altos cargos en 2024). No hay variable común razonable (p. ej., provincia o entidad solicitante no se alinea con la estructura de retribuciones). El análisis propuesto carece de coherencia lógica entre los dominios: no hay vínculo claro entre localización/exhumación y retribuciones de altos cargos."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/expedientes-localizacion-exhumacion/1285479748537",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/empleo/situacion-coronavirus-ertes/1284942625786",
+      "title_comp": "Situación de solicitudes de ERTEs coronavirus (Marzo-Septiembre 2020)",
+      "reason": "Ofrece datos temporales y geográficos (provincial) que permiten contrastar contextos socioeconómicos",
+      "relevancia": 3,
+      "join_key_valid": 4,
+      "analysis_useful": 2,
+      "comentario": "Los datasets comparten variables de provincia, lo que facilita una unión geográfica, pero las temáticas (exhumaciones por Memoria Histórica vs. ERTEs por COVID-19) son prácticamente desconectadas. No existe una hipótesis clara de análisis que justifique su combinación, y los marcos temporales son incompatibles (uno es continuo y de largo plazo, el otro limitado a 2020). Aunque técnicamente se puede unir por provincia, la relevancia semántica y analítica es baja."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/expedientes-localizacion-exhumacion/1285479748537",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/demografia/registro-parejas-hecho/1285090203163",
+      "title_comp": "Estadística del registro de parejas de hecho",
+      "reason": "Incluye provincia y año, lo que permite cruzar datos demográficos y estructurales con la actividad d",
+      "relevancia": 3,
+      "join_key_valid": 5,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets comparten 'provincia' y 'año', lo que permite una unión técnicamente viable (join_key_valid=5). Sin embargo, la relación temática entre expedientes de exhumación (contexto histórico, memoria democrática) y registro de parejas de hecho (estructura demográfica/social contemporánea) es débil (relevancia=3). El análisis potencial (p. ej., correlación temporal entre cambios en la normativa sobre parejas de hecho y exhumaciones) es especulativo y poco robusto, careciendo de una hipótesis clara o marco teórico sólido (analysis_useful=2)."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/demografia/registro-centros-infantiles/1285090117201",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/subvenciones/1284925635127",
+      "title_comp": "Subvenciones concedidas",
+      "reason": "Permite vincular ayudas públicas concedidas a centros infantiles (como beneficiarios de convocatoria",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El registro de centros infantiles y las subvenciones concedidas son temáticamente relacionados (ayudas públicas para atención temprana), lo que justifica su combinación para evaluar financiación y cobertura. La clave de unión plausible podría ser el 'organismo beneficiario' o 'entidad gestora', aunque no se especifica claramente en los metadatos. El análisis podría explorar correlaciones entre número de centros y importes subvencionados, pero se requiere validación de campos comunes para unión fiable."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/demografia/registro-centros-infantiles/1285090117201",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sociedad-bienestar/empresas-distintivo-optima/1285092443058",
+      "title_comp": "Empresas de Castilla y León con distintivo Óptima",
+      "reason": "Las empresas con distintivo Óptima suelen implementar políticas de conciliación (como horarios flexi",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets relacionan la conciliación y el ámbito laboral en Castilla y León, el primero se centra en centros infantiles (oferta de servicios), mientras el segundo en empresas reconocidas por políticas de igualdad (demandas organizacionales). No comparten una clave de unión clara: los centros no están vinculados directamente a empresas individuales (ni a sus centros de trabajo), ni hay identificadores comunes (NIF, CIF, etc.) explícitos. El análisis de correlación entre ambos sería débil y especulativo, salvo en una exploración macro (ej. por provincia), pero sin validez causal. Mejores combinaciones existirían, como cruzar con datos de natalidad o empleo por sector."
+    },
+    {
+      "source_id": "https://datos.parcan.es/dataset/comisiones_miembros_id_organo110305",
+      "comp_id": "https://www.cis.es/es/estudios/sondeo-sobre-la-juventud-en-espana-2006-tercera-oleada-",
+      "title_comp": "Sondeo sobre la Juventud en España 2006 (tercera oleada)",
+      "reason": "Comparte nivel geográfico nacional y contexto temporal cercano (2006 vs 2019-2023), lo que permite t",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "El dataset de la CIS sobre juventud (2006) no es complementario al de miembros de la comisión de Agricultura (2019-2023): differen en población objetivo (jóvenes en general vs. parlamentarios), periodo (2006 vs. 2019-2023), nivel (micro vs. institucional) y dominio temático (actitudes y comportamientos juveniles vs. estructura parlamentaria). No existe una clave de unión lógica (ej. ID de persona no disponible en ambos), y el análisis combinado carecería de coherencia metodológica y objetivo analítico válido."
+    },
+    {
+      "source_id": "https://datos.parcan.es/dataset/comisiones_miembros_id_organo110305",
+      "comp_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=c2991e47-924d-411d-911e-1da64666ba34",
+      "title_comp": "Servicio WMS (Web Map Service) Distribución de especies",
+      "reason": "Proporciona datos geoespaciales de especies silvestres y marinas, que pueden relacionarse con políti",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets tratan temas ambientales y legislativos en España, pero la conexión es débil: el primero se enfoca en estructura política (comisiones), el segundo en distribución espacial de especies. No comparten claves plausibles directas (p. ej., no hay variables geográficas comunes explícitas ni coincidencia temporal precisa con la legislatura). El análisis potencial sería limitado y especulativo sin geometrías o variables intermedias (como diputados por provincias o zonas NUTS) que no se mencionan en los metadatos."
+    },
+    {
+      "source_id": "https://datos.parcan.es/dataset/comisiones_miembros_id_organo110305",
+      "comp_id": "2856CCD0-83EA-4D01-A814-517B2C650066",
+      "title_comp": "Afiliados extranjeros por régimen, provincia, sección de actividad (CNAE 09) y o",
+      "reason": "Aporta datos sectoriales detallados (incluyendo CNAE 09: Pesca) con desagregación por origen, útil p",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset original se centra en la composición de un órgano legislativo (comisión de Agricultura, Ganadería y Pesca), mientras que el propuesto trata sobre afiliaciones de extranjeros a la Seguridad Social por actividad económica y origen. No comparten variable común ni nivel de agregación coherente (perspectiva institucional vs. estadística laboral), y no hay justificación lógica para una unión. Las claves (comisión, legislatura, actividad) son demasiado genéricas o incompatibles (CNAE 2009 no coincide con el objeto 'pesca' como variable de interés legislativo)."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_mujeres-grandes-comarcas-canarias-01-01-2020-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_extranjera-comarcas-canarias-01-01-2009-mapa-coropletas-5cuantiles",
+      "title_comp": "Población extranjera. Comarcas de Canarias. 01/01/2009. Mapa temático de corople",
+      "reason": "Comparte la delimitación territorial de grandes comarcas de Canarias y una variable demográfica estr",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets abordan poblaciones en comarcas canarias y usan mapas coropletas, pero difieren en nivel geográfico (grandes comarcas vs. comarcas), año (2020 vs. 2009) y variable temática (mujeres vs. extranjera), lo que limita su integración directa. Sin embargo, podrían ser útiles en un análisis histórico comparativo o de desagregación demográfica si se reconcilian geográficamente y se alinean fechas."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_mujeres-grandes-comarcas-canarias-01-01-2020-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_es_xcanarias_pc-grandes-comarcas-canarias-01-01-2015-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. Nacidos en el resto de España (% sobre total). Grandes comarcas de Ca",
+      "reason": "Ofrece una dimensión adicional de la demografía (origen geográfico), compatible en geografía y metod",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "Ambos datasets abordan la demografía en Canarias a nivel de grandes comarcas, comparten geografía (niveles equivalentes) y pueden unirse mediante la variable 'comarcas' (claves geográficas homogéneas). El dataset original reporta población femenina absoluta, mientras que el propuesto aporta una tasa relativa de nacidos en el resto de España, lo que permite profundizar en la composición migratoria y su relación con la estructura por sexos. El análisis conjunto (p.ej., correlación entre población femenina y proporción de nacidos fuera de Canarias) puede revelar patrones migratorios diferenciados por sexo o región."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_mujeres-grandes-comarcas-canarias-01-01-2020-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion-malla-de-250m-canarias-01-01-2014-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. Malla de 250m de Canarias. 01/01/2014. Mapa temático de coropletas de",
+      "reason": "Aporta resolución espacial más fina (malla de 250 m) y está en el mismo ámbito territorial (Canarias",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets abordan población, pero uno usa grandes comarcas (agregación alta) y el otro malla de 250m (granularidad espacial muy fina), con cobertura temporal distinta (2020 vs 2014). No hay una clave geográfica explícita compatible (comarcas vs celdas de malla), dificultando unión directa. El análisis potencial sería comparar distribuciones demográficas, pero la falta de alineación espacial y temporal limita su utilidad práctica."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/asistencia-y-opinion-de-las-actividades-formativas-de-la-espam-2019",
+      "comp_id": "https://dadesobertes.gva.es/dataset/edu-alu-eoi-2009",
+      "title_comp": "Alumnado matriculado en Escuelas Oficiales de Idiomas 2009",
+      "reason": "Comparte nivel geográfico autonómico (Andalucía/Euskadi/Aragón según fuente), periodo (2009 vs 2019)",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto es de 2009 y se refiere a matrícula en Escuelas Oficiales de Idiomas (EOI), mientras que el original es de 2019 y trata sobre formación policial (ESPAM). Las coberturas temporales no se solapan, y los contextos (formación general de idiomas vs. formación policial) son distintos. No hay claves de unión plausibles comunes (por ejemplo, 'andalucía' es nivel geográfico genérico, no una entidad agrupable como municipio o centro educativo específico). El análisis conjunto carecería de coherencia metodológica."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/asistencia-y-opinion-de-las-actividades-formativas-de-la-espam-2019",
+      "comp_id": "https://opendata.aragon.es/datos/catalogo/dataset/gasto-publico-en-educacion-por-capitulos-de-gasto-y-actividades-de-ensenyanza-aragon",
+      "title_comp": "Gasto Público en educación por capítulos de gasto y actividades de enseñanza. Ar",
+      "reason": "Mismo nivel geográfico (Aragón) y periodo (2019); permite vincular el gasto por actividades formativ",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets comparten cierta temática educativa, pero el primero se centra en satisfacción del alumnado tras formación de la ESPAM (Escuela de Seguridad de Málaga), mientras el segundo describe gasto educativo en Aragón por capítulos y enseñanzas, sin vinculación explícita con formación policial ni con la ESPAM. La clave de unión (geográfica: 'andalucia' vs 'aragón') no es compatible. Tampoco hay variables comunes suficientes para unirlos de forma coherente. El análisis propuesto (relacionar gasto con satisfacción) carece de base empírica directa."
+    },
+    {
+      "source_id": "https://datosabiertos.malaga.eu/dataset/asistencia-y-opinion-de-las-actividades-formativas-de-la-espam-2019",
+      "comp_id": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/1e3b2b85-1b10-45cf-932d-b71913140079",
+      "title_comp": "Distribución Espacial de la Población en Andalucía",
+      "reason": "Comparte nivel geográfico autonómico (Andalucía) y permite contextualizar la asistencia (proporción ",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario aporta variables socioeconómicas contextuales (población, empleo, pensiones) que podrían contextualizar la asistencia y opinión formativa (ej.: ¿regiones con mayor desempleo tienen mayor asistencia a formación?). La clave de unión plausible es 'territorio' (Andalucía), aunque el primer dataset es específico de Málaga (espacio municipal) y el segundo es autonómico, lo que genera una discrepancia en granularity. El análisis es razonable pero con limitaciones por escalas espaciales distintas."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/contenidors-d-oli-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/llistat-associacions-empresarials-2019-listado-asociaciones-empresariales-2019",
+      "title_comp": "Llistat Associacions Empresarials 2019 / Listado Asociaciones Empresariales 2019",
+      "reason": "Comparte el territorio (Torrent) y permite cruzar la ubicación de contenedores con la distribución d",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets comparten una localización geográfica (Torrent) y un enfoque temático en gestión urbana/ambiental, lo que sugiere una relación indirecta. La clave de unión plausible es la localidad (Torrent) y el año (aunque el de los contenedores es 2016 y el de asociaciones 2019, pueden asociarse por proximidad temporal y misma entidad geográfica). El análisis más plausible sería correlacionar densidad de contenedores con actividad empresarial local, aunque la diferencia temporal y el débil vínculo causal limitan su utilidad práctica, justificando un nivel intermedio."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/contenidors-d-oli-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/padro-de-guals-2016",
+      "title_comp": "Padró de guals 2016 / Padrón de vados 2016",
+      "reason": "Comparte el año 2016 y el municipio Torrent; permite vincular la ubicación de contenedores con la di",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset de vados está relacionado con la infraestructura urbana y la gestión municipal, pero no complementa directamente los contenedores de aceite. La clave de unión (ubicación en Torrent) es compartida, pero no hay variables comunes técnicas (p. ej., identificadores de calle o coordenadas precisas no están explícitas como unibles). El análisis potencial (relación entre vivienda y reciclaje de aceite) es débil, ya que los contenedores de aceite no dependen directamente de la categoría 'vado' (zona urbana), sino de factores como densidad, tipo de uso del suelo o regulación ambiental, no del padrón de vados."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/contenidors-d-oli-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/estat-dels-contenidors-volumetrics-estado-de-los-contenedores-volumetricos-online",
+      "title_comp": "Estat dels contenidors volumètrics / Estado de los contenedores volumétricos - O",
+      "reason": "Comparte el contexto municipal (Torrent) y el tema (contenedores), aunque el año es desconocido; si ",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets tratan sobre contenidores en Torrent, pero el original es estático (ubicación y tipo de aceite), mientras que el propuesto aporta estado en tiempo real y nivel de ocupación, lo cual es relevante y complementario. La clave de unión plausible podría ser una identificación espacial o local (ID de contenedor o coordenadas cercanas), aunque no se especifica explícitamente. El análisis de correlación entre estado/ocupación y ubicación/tipo de aceite tiene sentido para optimizar gestión, pero el uso práctico depende de la calidad y granularidad de los IDs."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EMLEP0000091013",
+      "comp_id": "https://www.cis.es/es/estudios/barometro-de-mayo-1991",
+      "title_comp": "Barómetro de mayo 1991",
+      "reason": "Permite correlacionar percepciones sociales y económicas con la situación educativo-laboral de jóven",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 2,
+      "comentario": "El dataset del Barómetro del CIS de mayo 1991 no es complementario: tiene cobertura temporal anterior, orientación distinta (percepción política/económica subjetiva vs. situación educativo-laboral objetiva), y no comparte claves de unión válidas (no hay variables comunes como región, edad, sexo, año con precisión temporal alineada). La unión por 'comunidad autónoma' es técnicamente improbable dada la diferencia de años y enfoque metodológico."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EMLEP0000091013",
+      "comp_id": "fe68e0a9-dd6c-4bbb-852f-a85be8292044",
+      "title_comp": "Resumen de evaluación de calidad del aire",
+      "reason": "La calidad del aire puede influir en la salud y bienestar de los jóvenes, lo que podría estar relaci",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset de calidad del aire no es directamente complementario del de situación educativa-laboral de jóvenes: comparten solo geografía (comunidades autónomas) como posible clave de unión, pero las temáticas son débilmente relacionadas (salud ambiental vs. dinámica educativa-laboral juvenil). Un análisis conjunto podría explorar correlaciones hipotéticas (ej. calidad del aire y rendimiento académico), pero no hay variables intermedias ni literatura clara que respalde una vinculación directa, limitando su utilidad analítica inmediata."
+    },
+    {
+      "source_id": "https://datos.gob.es/catalogo/EMLEP0000091013",
+      "comp_id": "https://datos.parcan.es/dataset/iniciativas_tipoegp_anio2001_vlegislatura",
+      "title_comp": "Iniciativas EGP - 2001 - V Legislatura",
+      "reason": "Si bien el periodo es más antiguo, podría servir como contexto histórico normativo sobre políticas d",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "No hay relación temática plausible entre el dataset de población educativa-laboral (jóvenes 15-29 años en España, ámbito macroestadístico) y el dataset de iniciativas parlamentarias de 2001 (actos legislativos específicos en V Legislatura). No comparten claves de unión razonables (p. ej., geometría temporal: un anual-agregado vs. documento específico; ámbito: nacional/desagregado autonómico vs. parlamentario). El análisis propuesto no es viable ni relevante para ambos conjuntos."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1919013",
+      "comp_id": "https://opendata.aragon.es/datos/catalogo/dataset/sentencias",
+      "title_comp": "Sentencias",
+      "reason": "Aporta sentencias individuales que permiten validar y profundizar en las tasas globales del dataset ",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El dataset aragonés aporta datos de sentencias con detalle temporal, jurisdiccional y de materia, lo que complementa bien la tasa de sentencia por partidos judiciales (municipios madrileños). Aunque no comparten geografía exacta (Comunidad de Madrid vs. Aragón), la clave 'sentencias' y 'fecha' permite enriquecer análisis de tendencias o correlaciones cruzadas (p. ej., cobertura territorial vs. volumen de sentencias por materia), aunque con limitaciones por no compartir nivel geográfico común."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1919013",
+      "comp_id": "https://opendata.aragon.es/datos/catalogo/dataset/cuentas-de-la-industria-aragonesa-gastos-por-agrupaciones-de-actividad-14-agrupaciones",
+      "title_comp": "Cuentas de la Industria Aragonesa. Gastos por agrupaciones de actividad (14 agru",
+      "reason": "Si bien el dominio es económico, permite correlacionar la carga procesal penal (asuntos resueltos/se",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto se refiere a gastos industriales en Aragón, mientras que el original evalúa tasas de sentencia judicial en partidos judiciales madrileños. No comparten variables semánticas ni espaciales plausibles (municipios en Madrid vs. industria en Aragón), y la clave de unión no es ni implícita ni obvia. No hay relación lógica para análisis combinado."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1919013",
+      "comp_id": "https://opendata.aragon.es/datos/catalogo/dataset/centros-segun-numero-de-horas-de-apertura-de-la-biblioteca-en-horario-no-escolar",
+      "title_comp": "Centros según número de horas de apertura de la biblioteca en horario no escolar",
+      "reason": "Como indicador de capital social y de oferta de ocio/educación no formal, puede usarse como variable",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "El dataset complementario trata sobre bibliotecas escolares en Aragón, mientras que el original se centra en tasas de sentencias penales en Madrid. Aunque ambos son públicos y geográficos, no comparten variables temáticas, unidades de análisis ni claves geográficas compatibles (municipios madrileños vs. equipamientos escolares aragoneses). No hay relación lógica entre justicia penal y horas de apertura de bibliotecas escolares, por lo que la complementariedad y utilidad del análisis son mínimas."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/9e12fddd-ca25-431f-b782-700f1557d222",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/0e92a506-0eec-4ae5-8c9d-560d69b0d2c0",
+      "title_comp": "Viviendas principales según si tienen cocina independiente, tipo de edificio y a",
+      "reason": "Comparte el mismo territorio (municipios >50.000 habitantes: Calvià, Eivissa, Palma), la misma tempo",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "Ambos datasets comparten geometría geográfica idéntica (islas y municipios con >50.000 hab.), misma cobertura temporal (2021) y objeto común (viviendas principales). La primera aporta estado de conservación y tipo/año de edificio; la segunda aporta acceso a cocina independiente —variables estructurales complementarias sobre calidad habitacional. La clave de unión (municipio + isla + año) es técnica y semánticamente válida, permitiendo correlacionar estado de conservación con dotación básica de infraestructura (cocina), útil para análisis de calidad habitacional y Planificación Urbanística."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/9e12fddd-ca25-431f-b782-700f1557d222",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/3a130b73-9681-4b3e-ba15-146354e4a3c7",
+      "title_comp": "Densidad de población residente. Illes Balears, isla, municipio de residencia y ",
+      "reason": "Ofrece densidad poblacional a nivel municipal (incluyendo Calvià, Eivissa, Palma) en el mismo año (2",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El dataset complementario aporta densidad de población (variable críticamente relacionada con la vivienda, como presión inmobiliaria, crecimiento urbano o necesidades habitacionales), comparte claves geográficas explícitas (isla y municipio, incluyendo los mismos municipios >50.000 hab.), y la temporalidad (2021) es compatible. La unión por isla y municipio es técnica y operativamente viable, y el análisis conjunto permite estudiar correlaciones entre estado de vivienda y presión demográfica."
+    },
+    {
+      "source_id": "https://intranet.caib.es/opendatacataleg/dataset/9e12fddd-ca25-431f-b782-700f1557d222",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/b5727ecc-c173-4dca-ae72-b591c001d52a",
+      "title_comp": "Población residente según sexo, nacionalidad (española/ extranjera) y gran grupo",
+      "reason": "Aporta desagregación demográfica detallada (sexo, nacionalidad, edad) a nivel insular y municipal, c",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset propuesto aporta variables demográficas (sexo, nacionalidad, edad) que pueden ayudar a contextualizar el parque de viviendas principales, pero los niveles geográficos no coinciden exactamente: el original tiene municipios >50.000 hab., mientras que el complementario incluye núcleos de población y entidades singulares (más granulares y no necesariamente superpuestos). Ambos comparten 'isla' como variable común, lo que permite una unión parcial, pero la ausencia de alineación geográfica precisa (ej. municipios de >50.000 hab. vs núcleos) reduce la calidad del join. El análisis potencial (ej. correlación entre estructura demográfica y estado de conservación de viviendas) es razonable, aunque limitado por la desincronía temporal (2021 vs 2023) y la diferencia en cobertura espacial."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/ensino-formacion/-/dataset/0318/calendario-escolar-2014-2015",
+      "comp_id": "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0492/enquisa-estrutural-fogares-conecemento-uso",
+      "title_comp": "Enquisa estrutural a fogares. Coñecemento e uso do galego. Edición 2018",
+      "reason": "Comparte cobertura autonómica y variables de contexto socioeducativo (uso lengua, educación, hogares",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El calendario escolar y la encuesta sobre uso del gallego son temáticamente relevantes en el ámbito educativo y sociolingüístico de Galicia. Aunque no comparten una unión directa obvia (el calendario es institucional y anual, la encuesta es individual/hogar y anual), sí comparten geografía (autonómica) y una posible clave implícita: nivel educativo o entorno escolar (puede vincularse por nivel educativo de los hogares o por zona/geografía a nivel comarcal o provincial, si ambas incluyen desagregación geográfica). El análisis propuesto (ej. correlación entre vacaciones escolares y uso del gallego en hogares) es razonable pero con limitaciones en granularidad y alineación temporal (2014-15 vs 2018)."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/ensino-formacion/-/dataset/0318/calendario-escolar-2014-2015",
+      "comp_id": "https://abertos.xunta.gal/catalogo/saude-servicios-sociais/-/dataset/0325/enquisa-condicions-vida-das-familias-coidado",
+      "title_comp": "Encuesta de condiciones de vida de las familias. Cuidado de menores y conciliaci",
+      "reason": "Ofrece variables sobre conciliación, guardería y organización del tiempo, que son directamente relev",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "La encuesta de condiciones de vida (2012) aporta información detallada sobre cuidado infantil, conciliación familiar y uso de servicios escolares (como comedor, guardería), que complementa el calendario escolar (2014-15) al explorar el contexto familiar y de gestión del tiempo. La clave de unión plausible sería el nivel geográfico (autonómico, Galicia) y potencialmente el tipo de centro o edad del menor, aunque no hay superposición temporal exacta ni identificación individual. El análisis de conciliación laboral-familiar en relación con la estructura del calendario escolar es factible a nivel agregado, pero limitado por diferencias temporales y ausencia de variables de unión directa (ej. NIF, código centro)."
+    },
+    {
+      "source_id": "https://abertos.xunta.gal/catalogo/ensino-formacion/-/dataset/0318/calendario-escolar-2014-2015",
+      "comp_id": "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0267/rexistro-escolas-tempo-libre",
+      "title_comp": "Registro de Escuelas de Tiempo Libre",
+      "reason": "Permite cruzar la disponibilidad de escuelas de tiempo libre con los periodos vacacionales escolares",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario aporta información sobre escuelas de tiempo libre, que pueden estar relacionadas con las actividades complementarias al calendario escolar (por ejemplo, campamentos en vacaciones). Comparten el término 'escuelas', pero no hay una clave de unión clara (ID de centro, NIF, etc.) en los metadatos descritos, por lo que la asociación es plausible pero no robusta. El análisis conjunto sería útil para estudiar cómo se articulan actividades extracurriculares en el calendario, pero requiere validación empírica de datos."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30243a_000004",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/7f84d29a-eeb9-4959-b714-ff7ce28c2749",
+      "title_comp": "Población extranjera por país de nacionalidad y tamaño de municipio de residenci",
+      "reason": "Comparte territorialidad municipal y periodo anual (aunque sin fecha exacta especificada), y aporta ",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets tratan sobre población extranjera, el primero abarca Canarias (desde 2021) y el segundo Islas Balears (año 2016), lo que impide una unión directa por territorio. Además, el segundo dataset no aporta variables nuevas esenciales (no se especifican variables) y su enfoque por tamaño de municipio no coincide con el de municipios exactos del primero. La similitud temática es limitada por diferencia geográfica y temporal, lo que reduce la utilidad del complemento."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30243a_000004",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/9372d25e-ac57-42f6-96f9-7f440bbde916",
+      "title_comp": "Población de 1991 por isla de residencia, sexo, grupo de edad y relación entre l",
+      "reason": "Ofrece desglose histórico por edad y sexo (variables ya presentes en el dataset principal), pero en ",
+      "relevancia": 2,
+      "join_key_valid": 1,
+      "analysis_useful": 1,
+      "comentario": "El dataset propuesto data de 1991 y se refiere a las Illes Balears, mientras que el original es de Canarias (desde 2021). No comparten neither geografía ni periodo temporal, lo que hace inviable cualquier unión directa. Además, el dataset propuesto parece mal descrito (título en catalán, fecha única 11/01/1991 pero título sugiere datos de 1991), y no incluye variables compartidas razonables (países de nacimiento, grupos de edad, etc.). No es complementario ni utilizable para análisis comparativo con el dataset original."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30243a_000004",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-secciones-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. Índice de dependencia. Secciones de Canarias. 01/01/2016. Mapa temáti",
+      "reason": "Deriva directamente de variables de edad y sexo (población por edad y sexo), las cuales están implíc",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 3,
+      "comentario": "El dataset complementario aporta un indicador demográfico (índice de dependencia) derivado de la estructura por edad, lo cual es conceptualmente relacionado con la estructura por edad implícita en la edad de nacimiento o la cobertura por sexos y países del original. Sin embargo, la clave de unión (secciones censales vs. municipios/islas) es inconsistente: el dataset original se desglosa a nivel municipal (nivel geoagregado), mientras que el complementario está a nivel de secciones censales (nivel más fino y distinto), lo que dificulta una unión directa sin geocodificación previa. El análisis potencial (correlación entre origen extranjero y dependencia demográfica) es viable pero limitado por la discongruencia espacial."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/bens-historics-artistics-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/farmacies",
+      "title_comp": "Farmàcies 2016 / Farmacias 2016",
+      "reason": "Comparte territorio (Torrent) y periodo (2016) con el dataset de bienes histórico-artísticos, y apor",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets son municipales y de 2016, el tema de los bienes histórico-artísticos (patrimonio cultural) y el de farmacias (salud/infraestructura) no comparten una relación temática directa ni una clave de unión clara (ej.: ubicación geográfica podría usarse, pero sin coordenadas estandarizadas o código postal común en los metadatos, el joining es frágil). El análisis conjunto (ej.: correlación entre acceso a farmacias y patrimonio) carece de sentido público plausiblemente interpretado sin hipótesis clara."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/bens-historics-artistics-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/padro-de-guals-2016",
+      "title_comp": "Padró de guals 2016 / Padrón de vados 2016",
+      "reason": "Aporta variables de vivienda, catastro y geolocalización en el mismo municipio y año, lo que permite",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "El dataset de vados aporta datos espaciales (coordenadas y referencia catastral) que pueden vincularse con el de bienes histórico-artísticos para localizar físicamente estos bienes, identificar su contexto urbano y analizar su accesibilidad o exposición a riesgos (como inundaciones en zonas de vado). Comparten cobertura temporal (2016) y geográfica (Torrent), y la referencia catastral es una clave de unión plausible y Oficial para ambos datasets."
+    },
+    {
+      "source_id": "http://datosabiertos.torrent.es/dataset/bens-historics-artistics-2016",
+      "comp_id": "http://datosabiertos.torrent.es/dataset/contenidors-d-oli-2016",
+      "title_comp": "Contenidors d'oli 2016 / Contenedores de aceite 2016",
+      "reason": "Comparte territorialidad y año, y aporta datos ambientales (reciclaje, gestión) que permiten integra",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets son municipales y de 2016, el primero se centra en patrimonio cultural (bienes inmuebles con valor histórico-artístico), mientras el segundo registra infraestructuras de gestión ambiental (contenedores de aceite). Las variables son técnicamente distintas pero no temáticamente relacionadas; no hay una clave de unión lógica (ej. geográfica o temporal específica por bien/patrimonio). El análisis combinado carecería de coherencia sin hipótesis fuerte que los vincule."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/njs3-mzdd",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/uzq3-xr23",
+      "title_comp": "Estimación de la población centenaria",
+      "reason": "Comparte Cobertura municipal, período temporal (2018-2033) y variable 'población' con el dataset ori",
+      "relevancia": 5,
+      "join_key_valid": 5,
+      "analysis_useful": 5,
+      "comentario": "Ambos datasets son altamente complementarios: las proyecciones municipales (2018-2033) ofrecen desagregación por municipio, sexo y edad, mientras que la estimación de centenarios proporciona datos empíricos de la población muy longeva (≥100 años), validando o ajustando proyecciones extremas. Comparten clave geográfica (municipio/comarca/Cataluña), tiempo (superposición anual) y variables demográficas (sexo, edad). La unión por municipio y año permite analizar la dinámica de la very longevidad a nivel local, útil para políticas sanitarias y sociales."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/njs3-mzdd",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/hu7t-2x76",
+      "title_comp": "Expedientes de regulación temporal de empleo (ERTE) por actividad económica 2020",
+      "reason": "Aunque su cobertura temporal es limitada a 2020, comparte nivel geográfico municipal y permite vincu",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset de ERTE es de 2020 y la proyección de población cubre 2018–2033, pero las proyecciones son anuales y municipales, mientras que los ERTE se dan por actividad económica (no necesariamente desagregados a nivel municipal). No hay variable común explícita clara (no hay 'municipio' en el de ERTE según la descripción); aunque ambos son de Cataluña, no comparten una clave de unión técnica robusta (ej. códigos de municipio). El análisis potencial (relacionar proyección poblacional con ERTE) es débil: los ERTE son un fenómeno transitorio (2020) y las proyecciones son expectativas de población futura, no impacto laboral directo. Posible correlación débil, pero no causal ni metodológicamente sostenible."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/njs3-mzdd",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/2pwz-wwxf",
+      "title_comp": "Impuesto sobre las viviendas vacías por importe ingresado por los tenedores y ej",
+      "reason": "Comparte Cobertura territorial municipal y temporal (2018-2024) con el dataset original; permite exp",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets abordan temas relacionados con Cataluña y el periodo 2018–2033, la población (demografía) y el IHB (tributación por viviendas vacías) no tienen una relación causal o correlacional clara ni directamente medible a nivel municipal sin supuestos fuertes. La clave de unión plausible sería 'municipio' + 'año', pero el IHB no se desglosa obligatoriamente por municipios ni por edad/sexe como la población, lo que limita el enlace preciso. El análisis potencial (ej. relación entre envejecimiento poblacional y vaciedad vivienda) sería especulativo sin variables intermedias (tipo de vivienda, ocupación real, etc.)."
+    },
+    {
+      "source_id": "https://datos.comunidad.madrid/catalogo/dataset/1911906",
+      "comp_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=5353db93-fcb3-4be3-a4ff-39bbf25429ce",
+      "title_comp": "Reservas de la Biosfera (MaB_ES)",
+      "reason": "Comparte cobertura territorial nacional y permite relacionar la presencia de reservas de la biosfera",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "Ambos datasets comparten una relación temática indirecta (uso sostenible del suelo y conservación), pero no una clave de unión directa obvia. Las reservas de la Biosfera pueden contener explotaciones ecológicas en su interior, por lo que una unión por localización geográfica (común en datos espaciales) es plausible. Sin embargo, falta una clave de unión explícita y compartida (como códigos geográficos estandarizados), lo que reduce la confianza técnica. El análisis tiene potencial para estudiar correlaciones entre zonas protegidas y agricultura ecológica, pero es limitado por la ausencia de información espacial explícita en el dataset original."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/uzq3-xr23",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/niff-3wey",
+      "title_comp": "Encuesta continua de hogares",
+      "reason": "Comparte nivel geográfico autonómico y periodicidad anual con la estimación de centenarios, y aporta",
+      "relevancia": 4,
+      "join_key_valid": 4,
+      "analysis_useful": 3,
+      "comentario": "El dataset de Encuesta Continua de Hogares sí aporta variables demográficas complementarias (estructura familiar, migrabilidad, vivienda) que enriquecen la comprensión de la población centenaria (por ejemplo, su contexto residencial o familiar). La clave de unión plausible sería 'autonómica (Cataluña) + año', ya que ambos son anuales y de nivel geográfico autonómico. No obstante, la falta de granularidad por edad o grupo de edad en la encuesta limita la profundidad del análisis conjunto, limitando su utilidad a contextualización general."
+    },
+    {
+      "source_id": "https://analisi.transparenciacatalunya.cat/api/views/uzq3-xr23",
+      "comp_id": "https://analisi.transparenciacatalunya.cat/api/views/w8kv-kmwv",
+      "title_comp": "Impuesto sobre las viviendas vacías por municipio y ejercicio de devengo.",
+      "reason": "Aporta información territorial detallada (municipal) que podría cruzarse con estimaciones de poblaci",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "Aunque ambos datasets son de Cataluña y relacionados con políticas públicas, el primero trata sobre demografía (población centenaria por edad y sexo), mientras el segundo aborda vivienda vacía a nivel municipal. No comparten una clave de unión lógica (ej. año podría coincidir, pero no hay vínculo estructural ni geográfico robusto; población centenaria no está desagregada a nivel municipal en este dataset, y el impuesto no se vincula con características demográficas de los propietarios. El análisis propuesto carece de fundamentación empírica sólida y sería especulativo."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300549-0-estudio-sgt",
+      "comp_id": "https://datos.madrid.es/dataset/300546-0-encuesta-deportivos",
+      "title_comp": "Estudio de satisfacción de las personas usuarias de los servicios deportivos de ",
+      "reason": "Comparte el ámbito autonómico (Navarra, aunque el dominio es Madrid, el geo indicado es autonómico N",
+      "relevancia": 4,
+      "join_key_valid": 3,
+      "analysis_useful": 4,
+      "comentario": "Ambos datasets miden satisfacción de usuarios de servicios públicos bajo el mismo ámbito institucional (Ayuntamiento de Madrid, Área de Vicealcaldía), lo que da relevancia moderada-alta. Comparten la variable 'satisfacción', pero los servicios (SGT vs deportivos) son diferentes, por lo que la unión podría basarse en 'usuario/a' o 'entorno municipal', aunque sin variable común explícita. El análisis conjunto de percepción de bienestar, seguridad y acceso a servicios públicos puede ofrecer perspectivas integradas sobre la calidad percibida de los servicios municipales."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300549-0-estudio-sgt",
+      "comp_id": "https://datos.madrid.es/dataset/300702-0-satisfaccion-archivo-villa",
+      "title_comp": "Estudio de satisfacción de las personas usuarias del Archivo de Villa",
+      "reason": "Aunque el dataset principal habla de la SGT del Área de Gobierno de Vicealcaldía, Portavoz, Segurida",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets miden satisfacción de usuarios de servicios públicos, pero uno se refiere a servicios generales de la SGT (Área de Vicealcaldía, Seguridad y Emergencias) y el otro al Archivo de Villa (único servicio de archivo), lo que implica contextos institucionales y geográficos distintos (el segundo parece referirse a Navarra, noMadrid). No comparten una clave de unión clara (ej. ID de usuario, fecha, servicio común). La relevancia es modesta por el tema compartido (satisfacción), pero el join no es técnicamente viable sin supuestos arbitrarios."
+    },
+    {
+      "source_id": "https://datos.madrid.es/dataset/300549-0-estudio-sgt",
+      "comp_id": "https://datosabiertos.navarra.es/dataset/datos-centros-sociales-covid-19-01-07",
+      "title_comp": "Datos centros sociales, covid-19",
+      "reason": "Permite correlacionar percepción de servicio público con contextos de emergencia sanitaria; los cent",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto se centra en impacto de la COVID-19 en centros sociales de Navarra (mayores, residencias), mientras que el original evalúa satisfacción de servicios de la SGT de Madrid (seguridad, emergencias, portavoz). Son ámbitos geográficos distintos (Navarra vs. Madrid) y contextos temáticos poco alineados (satisfacción institucional vs. datos sanitarios de residencias). No comparten claves de unión lógicas (e.g., ‘oficinas’, ‘servicios públicos’ ≠ ‘centros sociales’), y la relación entre satisfacción percibida y afectación por COVID en residencias no es directamente inferible."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/calificaciones-aguas-bano/1284840207211",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sector-publico/actividad-diaria-012/1285002951181",
+      "title_comp": "Actividad diaria del servicio 012",
+      "reason": "Comparte temporalidad reciente (2020-presente) y cobertura autonómica, lo que permite correlacionar ",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "La propuesta intenta vincular calificaciones de aguas de baño con actividad del servicio 012, pero no existe una relación lógica directa: las llamadas al 012 son generales y no específicas sobre baños o aguas, y no hay variable temporal compartida granular (anual vs diaria). Las claves de unión como fecha o zona no están explícitas en ambos datasets, y la relación causal/descRIPTiva es débil. Podría tener valor en un análisis exploratorio muy genérico, pero no como complemento técnico directo."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/calificaciones-aguas-bano/1284840207211",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/incidencia-covid-centros-ense%C3%B1anza-no-universitaria/1284986982010",
+      "title_comp": "Incidencia de la COVID-19 en la enseñanza no universitaria",
+      "reason": "Ambos datos tienen cobertura autonómica y periodicidad anual, lo que permite explorar posibles víncu",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets son del ámbito sanitario y relacionados con la salud pública, pero abordan contextos distintos (baños vs. enseñanza) y temporadas no alineadas (jun-sep vs. sep 2020-mar 2022). La coincidencia en 'epoca' o 'epidemiología' es tenue y no permite una clave de unión robusta (ej.: fecha, municipio, zona sanitaria no compartida explícitamente). El análisis conjunto sería especulativo y de baja viabilidad analítica sin normalización profunda."
+    },
+    {
+      "source_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/calificaciones-aguas-bano/1284840207211",
+      "comp_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/demografia/registro-parejas-hecho/1285090203163",
+      "title_comp": "Estadística del registro de parejas de hecho",
+      "reason": "Aunque no comparte directamente la misma temporalidad precisa, ambos datasets abarcan ámbito autonóm",
+      "relevancia": 2,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "Aunque ambos datasets comparten una cobertura geográfica autonómica y temporal, las temáticas (calidad de aguas de baño vs. registro de parejas de hecho) son altamente disparejas y no hay relación lógica o causal clara entre ellas. La clave de unión propuesta (provincia + año) es técnicamente viable, pero el análisis combinado carece de justificación metodológica sólida. El potencial de insight es muy bajo y no aporta valor añadido real."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_es_xcanarias_pc-secciones-canarias-01-01-2022-mapa-coropletas-5cuantiles",
+      "comp_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_es_xcanarias-municipios-canarias-01-01-2019-mapa-coropletas-5cuantiles",
+      "title_comp": "Población. Nacidos en el resto de España. Municipios de Canarias. 01/01/2019. Ma",
+      "reason": "Comparte el mismo indicador (nacidos en el resto de España %) pero a nivel municipal y un año anteri",
+      "relevancia": 3,
+      "join_key_valid": 2,
+      "analysis_useful": 2,
+      "comentario": "Ambos datasets miden el mismo indicador (nacidos en el resto de España), pero el original es por *secciones* (nivel submunicipal), mientras el propuesto es por *municipios*. Aunque el nivel geográfico es diferente, no hay clave de unión directa y explícita entre secciones y municipios sin un mapa de correspondencia adicional (p. ej., archivo de agregación o polígonos complementarios). Además, el propuesto no incluye el porcentaje (solo número absoluto), lo que limita la comparabilidad temporal (2019 vs 2022) y analítica. El aporte es parcialmente complementario, pero no suficiente para justificar su uso sin esfuerzo adicional de geocodificación o agregación."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_es_xcanarias_pc-secciones-canarias-01-01-2022-mapa-coropletas-5cuantiles",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/6800f093-c198-49d8-8aa1-52a083448747",
+      "title_comp": "Población nacida en otra CA por isla, municipio de residencia, sexo y grupo de e",
+      "reason": "Proporciona desagregación por sexo y grupo de edad, permitiendo calcular indicadores como la proporc",
+      "relevancia": 3,
+      "join_key_valid": 3,
+      "analysis_useful": 2,
+      "comentario": "El dataset propuesto se refiere a Illes Balears (comunidad autónoma distinta de Canarias), lo que limita severamente su complementariedad con el original, centrado en secciones de Canarias. Aunque ambas tratan población nacida fuera de su región, la cobertura geográfica no coincide (Balears vs. Canarias), y el nivel geográfico del propuesto (isla, municipio) no se alinea directamente con el de secciones. Las variables no se solapan de forma clara, y el año (2020 vs. 2022) introduce desfase temporal. Aporta información detallada por sexo y grupo edad, pero su utilidad integrada es limitada."
+    },
+    {
+      "source_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_nacida_es_xcanarias_pc-secciones-canarias-01-01-2022-mapa-coropletas-5cuantiles",
+      "comp_id": "https://intranet.caib.es/opendatacataleg/dataset/b013b795-5218-4d8c-a2fb-220220ec65ac",
+      "title_comp": "Población nacida en otra CA por isla de residencia, comunidad autónoma de nacimi",
+      "reason": "Ofrece información detallada por CA de origen, lo que permite cruzarla con el dataset de referencia ",
+      "relevancia": 2,
+      "join_key_valid": 2,
+      "analysis_useful": 1,
+      "comentario": "El dataset original se centra en Canarias (2022), mientras que el propuesto se refiere a Illes Balears (2002), con cobertura temporal y geográfica distinta. Las variables tampoco son directamente alineables: el primero mide % de nacidos en el resto de España en secciones, el segundo detalla nacidos en otras CCAA por isla, sexo y grupo edad, sin conexión clara a la estructura territorial de Canarias. No hay clave de unión válida ni relevancia temática suficiente para una integración significativa."
+    }
+  ]
+}

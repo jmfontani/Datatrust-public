@@ -1,0 +1,227 @@
+# =============================================================================
+# .gitignore — Buscador Semántico de Datasets Públicos
+# =============================================================================
+# Ignora artefactos locales, datos pesados, entornos virtuales y archivos
+# generados que no deben subirse al repositorio.
+# =============================================================================
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Python — Entornos, caché y artefactos de compilación
+# ─────────────────────────────────────────────────────────────────────────────
+# Entornos virtuales (hay 3 distintos en este proyecto)
+venv/
+.venv/
+venv_*/
+*/venv/
+*/.venv/
+*/venv_*/
+**/venv/
+**/.venv/
+**/venv_*/
+
+# Caché de Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribuciones y builds
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+03_Sprint1_Ingesta/codigo/datos/processed/embeddings.npy 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Jupyter Notebooks
+# ─────────────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Datos y artefactos pesados — NO subir (~1.2 GB en total)
+# ─────────────────────────────────────────────────────────────────────────────
+# 03_Sprint1_Ingesta: 137 batches raw (528 MB) + datasets_clean.jsonl (509 MB)
+03_Sprint1_Ingesta/codigo/datos/raw/
+03_Sprint1_Ingesta/codigo/datos/processed/datasets_clean.jsonl
+
+# 04_Sprint2_Embeddings: embeddings.npy (129 MB) + índices binarios
+04_Sprint2_Embeddings/datos/processed/embeddings.npy
+04_Sprint2_Embeddings/datos/indices/bm25_index.pkl
+04_Sprint2_Embeddings/datos/indices/*.pkl
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 03_Sprint1_Ingesta/codigo/descarga_datos: manifiestos y progreso (568 MB)
+# Solo se versionan los scripts (.py) y la documentación (.md).
+# manifest.csv, manifest_*.csv, *.jsonl de progreso, inaccesibles*.csv,
+# sniff_no_tabular*.csv, *.marker, stats_final.json y backups .pre_*/.bak
+# son artefactos de datos regenerables con los propios scripts.
+# ─────────────────────────────────────────────────────────────────────────────
+03_Sprint1_Ingesta/codigo/descarga_datos/*.csv
+03_Sprint1_Ingesta/codigo/descarga_datos/*.csv.pre_*
+03_Sprint1_Ingesta/codigo/descarga_datos/*.csv.bak
+03_Sprint1_Ingesta/codigo/descarga_datos/*.jsonl
+03_Sprint1_Ingesta/codigo/descarga_datos/*.jsonl.sample
+03_Sprint1_Ingesta/codigo/descarga_datos/*.marker
+03_Sprint1_Ingesta/codigo/descarga_datos/stats_final.json
+# (los *.log ya están cubiertos por la regla global de logs)
+
+# PDFs y vídeos pesados (>50 MB) — superan el límite de GitHub (100 MB)
+docs/research/pdfs/
+metodologia/recursos_video.mp4
+metodología EOI/SEMANA PRESENCIAL COSAS VALVANERA/*.pdf
+
+# Salidas de herramientas de grafo / caché de R
+graphify-out/
+.Rhistory
+.RData
+.Rproj.user/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Variables de entorno y credenciales
+# ─────────────────────────────────────────────────────────────────────────────
+# NUNCA subir .env reales — siempre subir solo .env.example
+# (los !.env.example van al final para tener prioridad sobre .env/**/.env)
+.env
+**/.env
+*.env.local
+*.env.production
+*.env.development
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Bases de datos locales
+# ─────────────────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.sql.gz
+pgdata/
+postgres_data/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Logs, resultados de tests y cachés de aplicación
+# ─────────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+*.pid
+*.pid.lock
+.cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Resultados de tests / benchmarks pesados (los nombres siguen un patrón)
+test_results_*.json
+comparison_results_*.json
+eval_results_*.json
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Sistema operativo — MacOS / Windows / Linux
+# ─────────────────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Iconos de MacOS / Windows
+*.icns
+*.ico
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Editores e IDEs
+# ─────────────────────────────────────────────────────────────────────────────
+# VS Code
+.vscode/
+!.vscode/settings.json.example
+!.vscode/launch.json.example
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Archivos de copia de seguridad y temporales
+# ─────────────────────────────────────────────────────────────────────────────
+*.bak
+*.backup
+*.tmp
+*.temp
+*.orig
+*.rej
+*.py.bak
+
+# Backups específicos del proyecto
+**/main_v2_improved_backup.py
+**/routes_llm_v2_backup.py
+**/llm_reranker_backup_*.py
+**/llm_reranker_qwen.py
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Docker — overrides locales
+# ─────────────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+.docker/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Streamlit
+# ─────────────────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EXCEPCIONES — siempre permitir (van al final por prioridad de git)
+# ─────────────────────────────────────────────────────────────────────────────
+# Plantillas de variables de entorno (no contienen secretos reales)
+!*.example
+!**/.env.example
+!**/docker/.env.example
+!**/.vscode/settings.json.example
+!**/.vscode/launch.json.example
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Notas para el repositorio
+# ─────────────────────────────────────────────────────────────────────────────
+# Si un archivo grande ya fue commitado por error y quieres dejar de
+# rastrearlo, ejecuta:
+#   git rm --cached <ruta>
+#   git commit -m "Stop tracking <archivo>"
+# Esto NO lo borra del historial; para purgarlo del histórico:
+#   git filter-repo --path <ruta> --invert-paths
+
+# =============================================================================
+# TFM — material de metodologia y EOI: SOLO LOCAL, nunca en github (01-oct-2026)
+# Copia de seguridad completa en Drive: PFM_metodologia_EOI_20261001.zip
+# =============================================================================
+"metodología EOI/
+metodología EOI/
+metodologia/
+metodologia/*
+!metodologia/.gitkeep
+doc*/IDENTIFICACION_CANVAS_EOI.md
+docs/IDENTIFICACION_CANVAS_EOI.md

@@ -1,0 +1,50 @@
+# Configuración del proyecto
+
+project:
+  name: "Buscador Semántico de Datasets Públicos"
+  version: "0.1.0"
+  focus: "datos.gob.es"
+
+data_sources:
+  primary:
+    name: "datos.gob.es"
+    url: "https://datos.gob.es"
+    api_url: "https://datos.gob.es/apidata"
+    sparql_endpoint: "https://datos.gob.es/sparql"
+    total_datasets: 113313
+    format: "DCAT-AP"
+  
+  secondary:
+    name: "data.europa.eu"
+    url: "https://data.europa.eu"
+    enabled: false  # Fase 2
+
+ingestion:
+  batch_size: 1000
+  retry_attempts: 3
+  timeout_seconds: 30
+  
+embedding:
+  model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  dimension: 384
+  batch_size: 32
+  
+database:
+  host: "localhost"
+  port: 5432
+  name: "datasets_db"
+  user: "datasets_user"
+  vector_extension: "pgvector"
+  
+search:
+  top_k: 10
+  hybrid_alpha: 0.7  # Peso semántico vs léxico
+  min_score: 0.5
+  
+evaluation:
+  metrics:
+    - "precision@5"
+    - "recall@10"
+    - "ndcg@10"
+    - "mrr"
+  benchmark_queries: 30

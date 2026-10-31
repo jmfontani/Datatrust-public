@@ -1,0 +1,570 @@
+[
+  {
+    "title": [
+      {
+        "_value": "Mapas estratégicos de Ruido",
+        "_lang": "es"
+      },
+      {
+        "_value": "Strategic Noise maps",
+        "_lang": "en"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Mapas estratégicos de ruido (MER) de la tercera fase de implementación de la Directiva 2002/49/CE del Parlamento Europeo y del Consejo, de 25 de junio de 2002, sobre evaluación y gestión del ruido ambiental (END, por sus siglas en inglés).",
+        "_lang": "es"
+      },
+      {
+        "_value": "Strategic Noise Maps for the third phase of implementation of Directive 2002/49/EC of the European Parliament and of the Council, of 25 June 2002, relating to the assessment and management of environmental noise (END).",
+        "_lang": "en"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": [
+      "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente",
+      "http://inspire.ec.europa.eu/theme/ac",
+      "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+    ],
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001",
+    "contactPoint": {},
+    "identifier": "b0da07b8-6856-4af2-91f7-20a7531d6b6f",
+    "license": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España",
+    "temporal": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/bnode/Nf9ee8310ebfe49f08a80255b1ccac7f2",
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/OP_DATPRO",
+    "distribution": {
+      "_about": "https://datos.gob.es/catalogo/e05068001-mapas-estrategicos-de-ruido/resource/eedb4841-ff53-4788-9d88-11fb48b45296",
+      "accessURL": "https://catalogo.datosabiertos.miteco.gob.es/catalogo/dataset/b0da07b8-6856-4af2-91f7-20a7531d6b6f/resource/4e99901d-aed7-445c-ab1b-0690a1e195f5",
+      "format": "http://publications.europa.eu/resource/authority/file-type/HTML",
+      "title": [
+        {
+          "_value": "Mapas Estratégicos de Ruido",
+          "_lang": "es"
+        }
+      ],
+      "type": "http://www.w3.org/ns/dcat#Distribution"
+    }
+  },
+  {
+    "title": [
+      {
+        "_value": "Población con dificultades para las actividades del hogar debido a una limitación en la actividad o una enfermedad de larga duración según el grado de dificultad por relación con la actividad económica",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Módulo acerca del estado de salud, las enfermedades crónicas y las limitaciones en las actividades diarias, funcionales, de autocuidado y del hogar en la población con y sin discapacidad \nla población con y sin discapacidad,",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/salud",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834",
+    "contactPoint": {},
+    "identifier": "https://opendata.aragon.es/datos/catalogo/dataset/poblacion-con-dificultades-para-las-actividades-del-hogar-debido-a-una-limitacion-en-la-actividad-o-una-enfermedad-de-larga-duracion-segun-el-grado-de-dificultad-por-relacion-con-la-actividad-economica",
+    "license": "N/A",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon",
+    "temporal": "N/A",
+    "accrualPeriodicity": "N/A",
+    "distribution": {
+      "_about": "https://datos.gob.es/catalogo/a02002834-poblacion-con-dificultades-para-las-actividades-del-hogar-debido-a-una-limitacion-en-la-actividad-o-una-enfermedad-de-larga-duracion-segun-el-grado-de-dificultad-por-relacion-con-la-actividad-economica/resource/a307e723-0dcd-494b-ba29-293be7c0e880",
+      "accessURL": "http://servicios3.aragon.es/iaeaxi_docs/04/14/02/041402F04.px",
+      "format": {
+        "_about": "https://datos.gob.es/catalogo/a02002834-poblacion-con-dificultades-para-las-actividades-del-hogar-debido-a-una-limitacion-en-la-actividad-o-una-enfermedad-de-larga-duracion-segun-el-grado-de-dificultad-por-relacion-con-la-actividad-economica/resource/a307e723-0dcd-494b-ba29-293be7c0e880/format",
+        "type": "http://purl.org/dc/terms/IMT",
+        "value": "text/pc-axis"
+      },
+      "identifier": "http://servicios3.aragon.es/iaeaxi_docs/04/14/02/041402F04.px",
+      "title": [
+        {
+          "_value": "041402F04 - PX",
+          "_lang": "es"
+        }
+      ],
+      "type": "http://www.w3.org/ns/dcat#Distribution"
+    }
+  },
+  {
+    "title": [
+      {
+        "_value": "Coberturas de vacunación en Castilla y León",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Se ofrecen datos de las vacunas hexavalente (vacuna frente a poliomielitis (VPI), difteria, tétanos y tosferina (DTPa), Haemophilus influenzae tipo b (Hib) y hepatitis B (HB)), vacuna frente a difteria, tétanos y tosferina de baja carga (dTpa), vacuna frente a tétanos y difteria (Td), vacuna frente a sarampión, rubéola y parotiditis (triple vírica, TV o SRP), vacuna frente a varicela (VVZ), vacuna frente a meningococo C (MenC), vacuna frente a neumococo (VNC), y vacuna frente al virus del papiloma humano (VPH).\n\nFuente: Registro de vacunaciones de Castilla y León (REVA).",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/salud",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A07002862",
+    "contactPoint": {},
+    "identifier": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/cobertura-vacunacion/1284880380254",
+    "license": "N/A",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon",
+    "temporal": "N/A",
+    "accrualPeriodicity": {
+      "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/Frequency",
+      "value": {
+        "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/DurationDescription",
+        "years": 1.0
+      }
+    },
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/224f1981-ebd8-4700-8a49-c28ecff765f0",
+        "accessURL": "https://datosabiertos.jcyl.es/web/jcyl/risp/es/salud/cobertura-vacunacion/1284880380254.xls",
+        "format": {
+          "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/224f1981-ebd8-4700-8a49-c28ecff765f0/format",
+          "type": "http://purl.org/dc/terms/IMT",
+          "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        "title": [
+          {
+            "_value": "Coberturas de vacunación en Castilla y León",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/775519ec-1901-4197-a218-b74b53c28f80",
+        "accessURL": "https://datosabiertos.jcyl.es/web/jcyl/risp/es/salud/cobertura-vacunacion/1284880380254.csv",
+        "format": {
+          "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/775519ec-1901-4197-a218-b74b53c28f80/format",
+          "type": "http://purl.org/dc/terms/IMT",
+          "value": "text/csv"
+        },
+        "title": [
+          {
+            "_value": "Coberturas de vacunación en Castilla y León",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/b32069c2-f119-47cf-b2d2-9e41993301df",
+        "accessURL": "https://datosabiertos.jcyl.es/web/jcyl/risp/es/salud/cobertura-vacunacion/1284880380254.json",
+        "format": {
+          "_about": "https://datos.gob.es/catalogo/a07002862-coberturas-de-vacunacion-en-castilla-y-leon/resource/b32069c2-f119-47cf-b2d2-9e41993301df/format",
+          "type": "http://purl.org/dc/terms/IMT",
+          "value": "application/json"
+        },
+        "title": [
+          {
+            "_value": "Coberturas de vacunación en Castilla y León",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Parques y jardines",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Relación de parques, jardines y zonas verdes del municipio de San Lorenzo de El Escorial.",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": [
+      "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente",
+      "http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"
+    ],
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "875bcf7c-e3e7-49a7-aea2-02b7c58c7923",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": "https://datosabiertos.aytosanlorenzo.es/bnode/Nb52f3b19dfe649eaa56941eac58e3c4a",
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-parques-y-jardines/resource/11cdc9f5-4358-43e2-a441-54d418210cb0",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/875bcf7c-e3e7-49a7-aea2-02b7c58c7923/resource/ab9db332-5e7c-40a5-a787-77c46678cf3f/download/56.parques-y-jardines.csv",
+        "byteSize": 4179,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "Parques y jardines municipales",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-parques-y-jardines/resource/76ab37fb-d4ea-4fa7-973f-7bee28636de4",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/875bcf7c-e3e7-49a7-aea2-02b7c58c7923/resource/de360df1-341d-4e29-aa19-e1bf4ab9f716/download/56.parques-y-jardines.xlsx",
+        "byteSize": 11350,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "Parques y jardines municipales",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-parques-y-jardines/resource/ae8a8f3f-c734-4c8b-b877-a89e949df814",
+        "accessURL": "https://mapas.aytosanlorenzo.es/api/puntos/parques_jardines/etiqueta?descrip=etiqueta%2Cdireccion",
+        "format": "http://publications.europa.eu/resource/authority/file-type/GEOJSON",
+        "title": [
+          {
+            "_value": "Parques y jardines municipales",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Relaciones de puestos de trabajo",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Listado de los puestos de trabajo existentes en el Ayuntamiento de San Lorenzo de El Escorial.",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/sector-publico",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "58b34f1c-5d1f-4248-ba4c-9bec726f7582",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": [
+      "https://datosabiertos.aytosanlorenzo.es/bnode/N75e703f4aae047beb0bbf29dc1d09e0c",
+      "https://datosabiertos.aytosanlorenzo.es/bnode/Ne104b7726e484820831f84e75920aaa1"
+    ],
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-relaciones-de-puestos-de-trabajo/resource/130ae4c3-134d-4645-b278-ba03cba4cf71",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/58b34f1c-5d1f-4248-ba4c-9bec726f7582/resource/0bbc6a66-6f12-4b9d-94b5-1c660040928f/download/65.-relacion-de-puestos-de-trabajo.-2025.csv",
+        "byteSize": 23395,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "2025 Relación de puestos de trabajo",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-relaciones-de-puestos-de-trabajo/resource/d7b4a07e-f9c5-47d6-af36-98ef6ec23398",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/58b34f1c-5d1f-4248-ba4c-9bec726f7582/resource/51fcfcbf-d0f0-4bd7-8607-c25103573e3f/download/65.-relacion-de-puestos-de-trabajo.-2025.xlsx",
+        "byteSize": 37327,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "2025 Relación de puestos de trabajo",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Catálogo normativo del Ayuntamiento de San Lorenzo de El Escorial",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Relación del conjunto de normas municipales vigentes en San Lorenzo de El Escorial, incluyendo ordenanzas, reglamentos y demás disposiciones de carácter local. \nLa información procede del Ayuntamiento de San Lorenzo de El Escorial. ",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "6dbd8249-3294-4514-8209-6f43460726a3",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": "https://datosabiertos.aytosanlorenzo.es/bnode/N305aa66b24a14ebe9fff5e23d630e4b6",
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-catalogo-normativo-del-ayuntamiento-de-san-lorenzo-de-el-escorial/resource/253751e1-1c83-4561-9202-34fc9bfbfb52",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/6dbd8249-3294-4514-8209-6f43460726a3/resource/3008cae8-b84b-43ad-9950-2dbf046e9af8/download/catalogo-de-normativa-municipal.xlsx",
+        "byteSize": 14196,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "Catálogo de normativa municipal",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-catalogo-normativo-del-ayuntamiento-de-san-lorenzo-de-el-escorial/resource/9d5fabcb-6ddd-4a8f-b315-f8fdbdcdc973",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/6dbd8249-3294-4514-8209-6f43460726a3/resource/af4be9ef-ed72-42d8-9964-8d85a95d2f0f/download/catalogo-de-normativa-municipal.csv",
+        "byteSize": 9878,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "Catálogo de normativa municipal",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Evolución del número de conductores por sexo y año",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Serie anual con el número de conductores por sexo y el porcentaje sobre la población residente, para San Lorenzo de El Escorial. Incluye población por sexo y total para contextualizar los ratios.",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": [
+      "http://datos.gob.es/kos/sector-publico/sector/demografia",
+      "http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar",
+      "http://datos.gob.es/kos/sector-publico/sector/transporte"
+    ],
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "f6cc6921-3577-4388-b801-8827f066a59f",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": "https://datosabiertos.aytosanlorenzo.es/bnode/N84e56f8f479d4199bcc00e2ae513c394",
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-evolucion-del-numero-de-conductores-por-sexo-y-ano/resource/49d59b1e-8b7a-4278-83ba-f03326b8db91",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/f6cc6921-3577-4388-b801-8827f066a59f/resource/503870ae-4bdc-4ad6-834e-f2cd27191692/download/conductores_sexo_ano.xlsx",
+        "byteSize": 11068,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "Evolución de conductores por sexo y año",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-evolucion-del-numero-de-conductores-por-sexo-y-ano/resource/75b686a5-dafd-4944-b603-4ebf3fcc85b8",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/f6cc6921-3577-4388-b801-8827f066a59f/resource/e97a5e4b-ce7a-4409-bf30-acace0b4bd3c/download/conductores_sexo_ano.csv",
+        "byteSize": 1079,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "Evolución de conductores por sexo y año",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Número de viviendas según tamaño en municipio, distritos y secciones",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Datos del Censo de Población y Viviendas que recogen el número de viviendas en San Lorenzo de El Escorial clasificadas según su tamaño (superficie útil), desagregadas por niveles territoriales: municipio, distritos y secciones censales.",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/vivienda",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "172ca7e4-1e86-4b96-9096-ee0f3ca0e28b",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": [
+      "https://datosabiertos.aytosanlorenzo.es/bnode/N1c813446f13941cda0e49bb63fd4fc4a",
+      "https://datosabiertos.aytosanlorenzo.es/bnode/Nb09c888a6f46442b9861491763b313e4"
+    ],
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-numero-de-viviendas-segun-tamano-en-municipio-distritos-y-secciones/resource/d3b7e03e-f4d9-4e1f-9032-f8eb1c872793",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/172ca7e4-1e86-4b96-9096-ee0f3ca0e28b/resource/d0ab2061-d75e-464c-97ed-ed8ce635bfe9/download/2021-numero-de-viviendas.xlsx",
+        "byteSize": 18452,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "2021 Número de viviendas",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-numero-de-viviendas-segun-tamano-en-municipio-distritos-y-secciones/resource/f2ca41a9-6467-4ef6-92ff-879c9aabeeba",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/172ca7e4-1e86-4b96-9096-ee0f3ca0e28b/resource/1a87906e-8a00-431c-8e35-06198ea7b257/download/2021-numero-de-viviendas.csv",
+        "byteSize": 960,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "2021 Número de viviendas",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Antigüedad de la vivienda según superficie en municipio, distritos y secciones",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Datos sobre la antigüedad de las viviendas en San Lorenzo de El Escorial, clasificados según superficie y desagregados por municipio, distritos y secciones censales. Información basada en el Censo de Población y Viviendas.",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": "http://datos.gob.es/kos/sector-publico/sector/vivienda",
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "b22e0c23-ba84-432a-a9b4-2803d7c040ec",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": [
+      "https://datosabiertos.aytosanlorenzo.es/bnode/N4591a2a6e97b4383bb33f854c7ba7b6b",
+      "https://datosabiertos.aytosanlorenzo.es/bnode/Ne48f9ddb4e1b4a328ccb944ec759ff06"
+    ],
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-antiguedad-de-la-vivienda-segun-superficie-en-municipio-distritos-y-secciones/resource/64215170-aaff-4c38-9444-f3f049547cd8",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/b22e0c23-ba84-432a-a9b4-2803d7c040ec/resource/6a5b9acc-4e51-4364-93b8-4f6832a160e3/download/antiguedad-de-la-vivienda-segun-superficie-en-municiupio-distritos-y-secciones-2021.csv",
+        "byteSize": 1305,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "2021 Antigüedad de la vivienda",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-antiguedad-de-la-vivienda-segun-superficie-en-municipio-distritos-y-secciones/resource/ca5df3b7-5464-4bf0-9f29-a53fcac18135",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/b22e0c23-ba84-432a-a9b4-2803d7c040ec/resource/457238c9-7900-4f05-b457-01bf62260598/download/2021-antiguedad-de-la-vivienda.xlsx",
+        "byteSize": 18536,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "2021 Antiguedad de la vivienda",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  },
+  {
+    "title": [
+      {
+        "_value": "Ofertas de empleo público y convocatorias del Ayuntamiento",
+        "_lang": "es"
+      }
+    ],
+    "description": [
+      {
+        "_value": "Relación de ofertas de empleo público y convocatorias realizadas por el Ayuntamiento de San Lorenzo de El Escorial. ",
+        "_lang": "es"
+      }
+    ],
+    "organization": "N/A",
+    "tags": [],
+    "theme": [
+      "http://datos.gob.es/kos/sector-publico/sector/economia",
+      "http://datos.gob.es/kos/sector-publico/sector/empleo",
+      "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+    ],
+    "publisher": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317",
+    "contactPoint": {},
+    "identifier": "6fa4dd2c-ea5e-4f9a-ae22-4519369948f7",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid",
+    "temporal": [
+      "https://datosabiertos.aytosanlorenzo.es/bnode/N18d10692858f478b901451f0f0ac2d58",
+      "https://datosabiertos.aytosanlorenzo.es/bnode/Nfa8eaa3a12314de28597917bce6f63b6"
+    ],
+    "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED",
+    "distribution": [
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-ofertas-de-empleo-publico-y-convocatorias-del-ayuntamiento/resource/b80093d7-9e8d-4147-9e13-523641a7570d",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/6fa4dd2c-ea5e-4f9a-ae22-4519369948f7/resource/fdc2e198-af12-4363-8fc2-d0a0d08c1d83/download/31.-oferta-de-empleo-publico-y-convocatorias.csv",
+        "byteSize": 953,
+        "format": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "title": [
+          {
+            "_value": "Oferta de Empleo Público y Convocatorias",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      {
+        "_about": "https://datos.gob.es/catalogo/l01281317-ofertas-de-empleo-publico-y-convocatorias-del-ayuntamiento/resource/f362390d-71e5-4829-8c6d-42314f4b3705",
+        "accessURL": "https://datosabiertos.aytosanlorenzo.es/dataset/6fa4dd2c-ea5e-4f9a-ae22-4519369948f7/resource/f7b1b1e0-7081-4b44-92d8-ea888c5bce64/download/31.-oferta-de-empleo-publico-y-convocatorias.xlsx",
+        "byteSize": 7966,
+        "format": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+        "title": [
+          {
+            "_value": "Ofertas de empleo público y convocatorias",
+            "_lang": "es"
+          }
+        ],
+        "type": "http://www.w3.org/ns/dcat#Distribution"
+      }
+    ]
+  }
+]

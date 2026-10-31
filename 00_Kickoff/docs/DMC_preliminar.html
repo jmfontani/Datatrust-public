@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Model Canvas - Buscador Semántico de Datasets Públicos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.8em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            font-size: 0.95em;
+        }
+        .version {
+            text-align: right;
+            color: #95a5a6;
+            font-size: 0.85em;
+            margin-bottom: 15px;
+        }
+        .canvas-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 12px;
+        }
+        .block {
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            padding: 15px;
+            background: #fafafa;
+            display: flex;
+            flex-direction: column;
+            min-height: 180px;
+        }
+        .block-header {
+            font-weight: bold;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+            padding: 6px 10px;
+            border-radius: 4px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .block-content {
+            flex: 1;
+            font-size: 0.88em;
+            color: #2c3e50;
+        }
+        .block-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .block-content li {
+            margin-bottom: 5px;
+            padding-left: 15px;
+            position: relative;
+        }
+        .block-content li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #7f8c8d;
+        }
+        .block-content p {
+            margin-bottom: 8px;
+        }
+        .block-content strong {
+            color: #34495e;
+        }
+        /* Colores por bloque */
+        .block-problem .block-header { background: #e74c3c; }
+        .block-solution .block-header { background: #27ae60; }
+        .block-sources .block-header { background: #2980b9; }
+        .block-customers .block-header { background: #8e44ad; }
+        .block-activities .block-header { background: #d35400; }
+        .block-analysis .block-header { background: #16a085; }
+        .block-kpis .block-header { background: #c0392b; }
+        .block-resources .block-header { background: #7f8c8d; }
+        .block-costs .block-header { background: #2c3e50; }
+        .block-risks .block-header { background: #e67e22; }
+        .block-benefits .block-header { background: #27ae60; }
+        /* Tamaños específicos */
+        .block-problem { grid-column: span 2; }
+        .block-solution { grid-column: span 2; }
+        .block-sources { grid-column: span 2; }
+        .block-customers { grid-column: span 2; }
+        .block-activities { grid-column: span 1; }
+        .block-analysis { grid-column: span 1; }
+        .block-kpis { grid-column: span 1; }
+        .block-resources { grid-column: span 1; }
+        .block-costs { grid-column: span 2; }
+        .block-risks { grid-column: span 2; }
+        .block-benefits { grid-column: span 2; grid-row: span 2; }
+        /* Responsive */
+        @media (max-width: 900px) {
+            .canvas-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .block { grid-column: span 2 !important; }
+            .block-benefits { grid-row: span 1; }
+        }
+        @media (max-width: 600px) {
+            .canvas-grid {
+                grid-template-columns: 1fr;
+            }
+            .block { grid-column: span 1 !important; }
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="version">Versión: 0.2.0 | Fecha: 2026-05-21 | Estado: PRELIMINAR</div>
+        <h1>Data Model Canvas</h1>
+        <div class="subtitle">Buscador Semántico de Datasets Públicos (PFM)<br>
+        <small>Inicio: Julio 2026 | Entrega: 25 de Octubre 2026</small></div>
+        
+        <div class="canvas-grid">
+            <!-- FILA 1 -->
+            <div class="block block-problem">
+                <div class="block-header">1. Problema / Oportunidad</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Problema:</strong> Los buscadores actuales de datasets se basan en palabras clave exactas, sin entender intención ni contexto</li>
+                        <li><strong>Dolor:</strong> Dificultad para encontrar datasets cuando el vocabulario del usuario difiere de las etiquetas del portal</li>
+                        <li><strong>Oportunidad:</strong> 113,313+ datasets en datos.gob.es con metadatos heterogéneos y baja descubribilidad</li>
+                        <li><strong>Contexto:</strong> Investigadores, analistas y periodistas pierden tiempo buscando fuentes de datos relevantes</li>
+                        <li><strong>Gap:</strong> No existe un buscador semántico específico para datos abiertos en español que combine embeddings + metadatos estructurados</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-solution">
+                <div class="block-header">2. Solución</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Sistema:</strong> Buscador semántico con interfaz conversacional (chatbot) para datasets públicos</li>
+                        <li><strong>Core:</strong> Embeddings multilingües (sentence-transformers) + búsqueda híbrida (semántica + léxica)</li>
+                        <li><strong>Entrada:</strong> Preguntas en lenguaje natural sobre necesidades de datos</li>
+                        <li><strong>Salida:</strong> Ranking de datasets priorizados con explicación de relevancia, cobertura y limitaciones</li>
+                        <li><strong>Alcance MVP:</strong> datos.gob.es como fuente primaria, 4 casos de uso ejemplo:<br>
+                        &nbsp;&nbsp;1. Despoblación rural y demografía<br>
+                        &nbsp;&nbsp;2. Salud pública y medio ambiente<br>
+                        &nbsp;&nbsp;3. Vivienda y turismo<br>
+                        &nbsp;&nbsp;4. Educación y distribución de la renta</li>
+                        <li><strong>Valor diferencial:</strong> Trazabilidad completa (enlaces verificables), no genera datos inventados</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- FILA 2 -->
+            <div class="block block-sources">
+                <div class="block-header">3. Fuentes de Datos</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Primaria:</strong> datos.gob.es - Catálogo Nacional de Datos Abiertos</li>
+                        <li><strong>API:</strong> CKAN API (JSON) - package_list, package_show, package_search</li>
+                        <li><strong>Endpoint:</strong> SPARQL - consultas RDF sobre metadatos DCAT-AP</li>
+                        <li><strong>Formato:</strong> DCAT-AP, GeoDCAT-AP</li>
+                        <li><strong>Metadatos:</strong> título, descripción, tema, publicador, frecuencia, licencia, cobertura geográfica/temporal, distribuciones, idioma</li>
+                        <li><strong>Fase 2:</strong> data.europa.eu (desactivado inicialmente)</li>
+                        <li><strong>Volumen:</strong> 113,313+ datasets (a mayo 2026)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-customers">
+                <div class="block-header">4. Clientes / Grupos de Interés</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Investigadores/académicos:</strong> Buscan datasets para papers, tesis, proyectos de investigación</li>
+                        <li><strong>Analistas de datos:</strong> Necesitan fuentes para informes, dashboards, análisis sectoriales</li>
+                        <li><strong>Periodistas/data journalists:</strong> Buscan datos para historias, verificaciones, investigaciones</li>
+                        <li><strong>Estudiantes:</strong> Proyectos fin de grado/máster que requieren datos reales</li>
+                        <li><strong>Administraciones públicas:</strong> Gestores que quieren descubrir datos de otros organismos</li>
+                        <li><strong>Stakeholders indirectos:</strong> EOI (tutor/evaluadores), Ministerio de Transformación Digital</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- FILA 3 -->
+            <div class="block block-activities">
+                <div class="block-header">5. Actividades Clave</div>
+                <div class="block-content">
+                    <ul>
+                        <li>Ingesta y normalización de metadatos desde CKAN API</li>
+                        <li>Generación de embeddings semánticos</li>
+                        <li>Indexación vectorial (pgvector)</li>
+                        <li>Desarrollo motor búsqueda híbrida</li>
+                        <li>Construcción API REST</li>
+                        <li>Diseño interfaz chatbot</li>
+                        <li>Benchmark evaluación</li>
+                        <li>Dashboard cobertura y calidad</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-analysis">
+                <div class="block-header">6. Tipo de Análisis</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Descriptivo:</strong> Perfilado del catálogo (temas, organismos, formatos, calidad metadatos)</li>
+                        <li><strong>Predictivo:</strong> Modelo de ranking de relevancia - score de match entre query y dataset</li>
+                        <li><strong>Prescriptivo:</strong> Recomendación priorizada + sugerencias de datasets complementarios</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-kpis">
+                <div class="block-header">7. KPIs</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Precision@5</strong></li>
+                        <li><strong>Recall@10</strong></li>
+                        <li><strong>nDCG@10</strong></li>
+                        <li><strong>MRR</strong></li>
+                        <li>Tiempo hasta fuentes válidas</li>
+                        <li>% respuestas con enlaces verificables</li>
+                        <li>% alucinaciones &lt; 5%</li>
+                        <li>Cobertura catálogo &gt; 90%</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-resources">
+                <div class="block-header">8. Recursos Clave</div>
+                <div class="block-content">
+                    <ul>
+                        <li>Equipo: 6 personas × 200h = 1,200h totales</li>
+                        <li>PostgreSQL + pgvector</li>
+                        <li>Python 3.11+</li>
+                        <li>FastAPI + Streamlit</li>
+                        <li>Sentence-transformers</li>
+                        <li>Docker</li>
+                        <li>Google Workspace (EOI)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- FILA 4 -->
+            <div class="block block-costs">
+                <div class="block-header">9. Coste de Implementación</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Infraestructura:</strong> Local/Docker (coste ~0)</li>
+                        <li><strong>Modelo embeddings:</strong> Open source (coste ~0)</li>
+                        <li><strong>Horas equipo:</strong> 1,200h totales (6 personas × 200h cada una)</li>
+                        <li><strong>Datos:</strong> Acceso libre vía API pública</li>
+                        <li><strong>Coste variable:</strong> Si se usa LLM externo para enriquecimiento de metadatos</li>
+                        <li><strong>Total estimado:</strong> Coste principal = tiempo del equipo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-risks">
+                <div class="block-header">10. Riesgos y Mitigaciones</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Riesgo:</strong> Metadatos de baja calidad → <strong>Mitigación:</strong> Estrategia enriquecimiento con LLM o scraping complementario</li>
+                        <li><strong>Riesgo:</strong> Modelo no captura español/administrativo → <strong>Mitigación:</strong> Fallback búsqueda léxica (BM25) + ajuste fino</li>
+                        <li><strong>Riesgo:</strong> Alucinaciones LLM → <strong>Mitigación:</strong> Trazabilidad obligatoria, solo datasets indexados</li>
+                        <li><strong>Riesgo:</strong> Alcance excesivo (scope creep) → <strong>Mitigación:</strong> MVP firmado en Gate 2</li>
+                        <li><strong>Riesgo:</strong> Infraestructura local insuficiente → <strong>Mitigación:</strong> Muestreo inicial + escalado progresivo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="block block-benefits">
+                <div class="block-header">11. Beneficios / Impactos</div>
+                <div class="block-content">
+                    <ul>
+                        <li><strong>Para usuarios:</strong> Reducción del tiempo de búsqueda de datasets relevantes</li>
+                        <li><strong>Para usuarios:</strong> Descubrimiento de datasets que no habrían encontrado con búsqueda tradicional</li>
+                        <li><strong>Para la administración:</strong> Mayor visibilidad y reutilización de datos abiertos</li>
+                        <li><strong>Para EOI:</strong> Demostración de competencias en NLP, embeddings, arquitectura de datos</li>
+                        <li><strong>Impacto medible:</strong> Métricas de ranking comparables vs baseline (búsqueda manual en portal)</li>
+                        <li><strong>Replicabilidad:</strong> Arquitectura aplicable a otros catálogos CKAN (municipales, europeos)</li>
+                        <li><strong>Transparencia:</strong> Todo resultado trazable a fuente original verificable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Data Model Canvas v0.2.0 | Buscador Semántico de Datasets Públicos | EOI 2026
+        </div>
+    </div>
+</body>
+</html>

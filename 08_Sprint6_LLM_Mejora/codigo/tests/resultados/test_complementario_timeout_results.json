@@ -1,0 +1,1233 @@
+{
+  "timestamp": "2026-05-26T22:59:14.048990",
+  "total_queries": 6,
+  "avg_overlap": 9.166666666666666,
+  "avg_v08_unique": 0.8333333333333334,
+  "avg_rank_improvement": -0.0767195767195767,
+  "total_items_reordered": 22,
+  "avg_time_v07": 0.03031917413075765,
+  "avg_time_v08": 60.33782283465067,
+  "by_category": {
+    "territorial": {
+      "overlap": [
+        10,
+        9,
+        7,
+        10
+      ],
+      "improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -2,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -2,
+        -1,
+        2,
+        3,
+        -2,
+        -4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "changes": [
+        0,
+        9,
+        6,
+        0
+      ],
+      "count": 4,
+      "avg_overlap": 9.0,
+      "avg_improvement": -0.3333333333333333,
+      "total_changes": 15
+    },
+    "temporal": {
+      "overlap": [
+        10
+      ],
+      "improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "changes": [
+        0
+      ],
+      "count": 1,
+      "avg_overlap": 10.0,
+      "avg_improvement": 0.0,
+      "total_changes": 0
+    },
+    "conceptual": {
+      "overlap": [
+        9
+      ],
+      "improvements": [
+        0,
+        1,
+        3,
+        0,
+        -3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        7
+      ],
+      "count": 1,
+      "avg_overlap": 9.0,
+      "avg_improvement": 1.0,
+      "total_changes": 7
+    }
+  },
+  "results": [
+    {
+      "query": "presupuestos municipales Arganda del Rey",
+      "query_id": "T1",
+      "categoria": "territorial",
+      "v07_time": 0.028252601623535156,
+      "v08_time": 86.85476732254028,
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/",
+          "title": "Presupuesto gastos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+          "title": "Presupuesto gastos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+          "title": "Presupuesto gastos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+          "title": "Presupuesto gastos 2017",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+          "title": "Presupuesto gastos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/",
+          "title": "Presupuesto ingresos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+          "title": "Presupuesto ingresos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+          "title": "Presupuesto ingresos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+          "title": "Presupuesto de gastos 2023 de la Comunidad Autónoma de la Región de Murcia",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+          "title": "Presupuesto ingresos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/",
+          "title": "Presupuesto gastos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+          "title": "Presupuesto gastos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+          "title": "Presupuesto gastos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+          "title": "Presupuesto gastos 2017",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+          "title": "Presupuesto gastos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/",
+          "title": "Presupuesto ingresos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+          "title": "Presupuesto ingresos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+          "title": "Presupuesto ingresos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+          "title": "Presupuesto de gastos 2023 de la Comunidad Autónoma de la Región de Murcia",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+          "title": "Presupuesto ingresos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+        "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 86852.00500488281
+      }
+    },
+    {
+      "query": "turismo Canarias 2023",
+      "query_id": "T2",
+      "categoria": "territorial",
+      "v07_time": 0.031065940856933594,
+      "v08_time": 53.70935654640198,
+      "v07_results": [
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+          "title": "Alojamientos Vacacionales",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Cabildo de Tenerife",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles",
+          "title": "Hoteles",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.alcoi.org/data/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Alicante",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.terrassa.cat/dataset/allotjaments",
+          "title": "Alojamientos",
+          "publisher": "Ayto. de Castellón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+          "title": "Coyuntura Turística Hotelera (CTH)",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+          "title": "Equipamiento turístico",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+          "title": "Apartamentos Turísticos",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/e329931e-31c3-402d-8f13-5569415117da",
+          "title": "Estades Turístiques Menorca",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Cabildo de Tenerife",
+          "rank": 1,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000524",
+          "title": "Turistas de 16 y más años según tipo de alojamiento por países de residencia. Islas por periodos",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+          "title": "Alojamientos Vacacionales",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles",
+          "title": "Hoteles",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.alcoi.org/data/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Alicante",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.terrassa.cat/dataset/allotjaments",
+          "title": "Alojamientos",
+          "publisher": "Ayto. de Castellón",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+          "title": "Coyuntura Turística Hotelera (CTH)",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+          "title": "Equipamiento turístico",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+          "title": "Apartamentos Turísticos",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+        "https://opendata.alcoi.org/data/dataset/hoteles",
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+        "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+        "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles",
+        "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+        "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+        "https://opendata.terrassa.cat/dataset/allotjaments"
+      ],
+      "v07_unique": [
+        "https://intranet.caib.es/opendatacataleg/dataset/e329931e-31c3-402d-8f13-5569415117da"
+      ],
+      "v08_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000524"
+      ],
+      "rank_improvements": [
+        -1,
+        -1,
+        -2,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "rerank_changes": 9,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 53706.64858818054
+      }
+    },
+    {
+      "query": "tráfico Madrid centro",
+      "query_id": "T3",
+      "categoria": "territorial",
+      "v07_time": 0.033036231994628906,
+      "v08_time": 48.74313235282898,
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/trafico-dgt",
+          "title": "Incidencias de tráfico",
+          "publisher": "Ayto. de León",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3",
+          "title": "Tráfico en A-3. Incidencias",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+          "title": "Aparcamientos ligados al transporte público",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+          "title": "Tráfico en A-3. Cámara  pk 24. Dirección Madrid",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+          "title": "Siniestralidad a 24h en vías interurbanas durante el ESTADO DE ALARMA por el COVID 19 Datos provisionales",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+          "title": "Estado del tráfico en Vitoria-Gasteiz, en tiempo real",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/laterals-tallats-transit-bici-bcn",
+          "title": "Laterales  de calles cerrados al tránsito en la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+          "title": "Estaciones Cercanías Madrid",
+          "publisher": "Ministerio de Cultura",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/ampliacio-voreres-bici-bcn",
+          "title": "Ampliación de aceras de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transit-relacio-trams",
+          "title": "Relación de tramos de la vía pública de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+          "title": "Tráfico en A-3. Cámara  pk 24. Dirección Madrid",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 1,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3",
+          "title": "Tráfico en A-3. Incidencias",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 2,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/trafico-dgt",
+          "title": "Incidencias de tráfico",
+          "publisher": "Ayto. de León",
+          "rank": 3,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+          "title": "Aparcamientos ligados al transporte público",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 6.0
+        },
+        {
+          "dataset_id": "https://data.renfe.com/dataset/volumen-de-viajeros-por-franja-horaria-madrid",
+          "title": "Volumen de Viajeros por Franja Horaria (Madrid)",
+          "publisher": "Ministerio de Cultura",
+          "rank": 5,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+          "title": "Estaciones Cercanías Madrid",
+          "publisher": "Ministerio de Cultura",
+          "rank": 6,
+          "score": 4.0
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+          "title": "Siniestralidad a 24h en vías interurbanas durante el ESTADO DE ALARMA por el COVID 19 Datos provisionales",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 7,
+          "score": 3.0
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-mortal-en-vias-interurbanas-a-24h-Semana-Santa-2023/",
+          "title": "Siniestralidad mortal en vias interurbanas a 24h Semana Santa 2023",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 8,
+          "score": 2.5
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-mortal-en-vias-interurbanas-a-24h-Semana-Santa-2024/",
+          "title": "Siniestralidad mortal en vias interurbanas a 24h Semana Santa 2024",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 9,
+          "score": 2.5
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+          "title": "Estado del tráfico en Vitoria-Gasteiz, en tiempo real",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 10,
+          "score": 1.0
+        }
+      ],
+      "overlap": [
+        "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+        "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+        "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+        "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+        "https://datos.alcobendas.org/dataset/trafico-dgt",
+        "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+        "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3"
+      ],
+      "v07_unique": [
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/ampliacio-voreres-bici-bcn",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/transit-relacio-trams",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/laterals-tallats-transit-bici-bcn"
+      ],
+      "v08_unique": [
+        "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-mortal-en-vias-interurbanas-a-24h-Semana-Santa-2024/",
+        "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-mortal-en-vias-interurbanas-a-24h-Semana-Santa-2023/",
+        "https://data.renfe.com/dataset/volumen-de-viajeros-por-franja-horaria-madrid"
+      ],
+      "rank_improvements": [
+        -2,
+        -1,
+        2,
+        3,
+        -2,
+        -4,
+        0
+      ],
+      "rerank_changes": 6,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 48740.756034851074
+      }
+    },
+    {
+      "query": "precio vivienda Barcelona",
+      "query_id": "T4",
+      "categoria": "territorial",
+      "v07_time": 0.030061960220336914,
+      "v08_time": 64.79230690002441,
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+          "title": "Índice de precios de vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+          "title": "Viviendas en venta en Barcelona. Media del precio de oferta (€ / m2) de una vivienda",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+          "title": "Valor tasado de la vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+          "title": "Estimación del precio de venta. Serie anual del precio/m2 de venta de las viviendas de la ciudad de Barcelona de segunda mano por barrios. 2007-2011. Evolución anual (Base 2008 = 100). Cambio de fuente",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+          "title": "Estadística del valor tasado de la vivienda",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2006",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro; 2007",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+          "title": "Índice de Precios de Vivienda (IPV).",
+          "publisher": "Xunta de Galicia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas nuevas en venta por territorios históricos (&euro;). 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+          "title": "Índice de precios de vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+          "title": "Viviendas en venta en Barcelona. Media del precio de oferta (€ / m2) de una vivienda",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+          "title": "Valor tasado de la vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+          "title": "Estimación del precio de venta. Serie anual del precio/m2 de venta de las viviendas de la ciudad de Barcelona de segunda mano por barrios. 2007-2011. Evolución anual (Base 2008 = 100). Cambio de fuente",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+          "title": "Estadística del valor tasado de la vivienda",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2006",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro; 2007",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+          "title": "Índice de Precios de Vivienda (IPV).",
+          "publisher": "Xunta de Galicia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas nuevas en venta por territorios históricos (&euro;). 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+        "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+        "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+        "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 64790.07601737976
+      }
+    },
+    {
+      "query": "calidad del aire Madrid 2023",
+      "query_id": "TM1",
+      "categoria": "temporal",
+      "v07_time": 0.03115224838256836,
+      "v08_time": 59.7094931602478,
+      "v07_results": [
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+          "title": "Calidad de aire - Datos año 2023",
+          "publisher": "Ayto. de Gijón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+          "title": "Calidad de aire - Datos año 2021",
+          "publisher": "Ayto. de Gijón",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+          "title": "Calidad de aire - Datos año 2020",
+          "publisher": "Ayto. de Gijón",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+          "title": "Calidad de aire - Datos año 2019",
+          "publisher": "Ayto. de Gijón",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+          "title": "Calidad del aire - Datos año actual (Validados)",
+          "publisher": "Ayto. de Gijón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77",
+          "title": "Zonas de calidad del aire de la información histórica de la evaluación",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+          "title": "Datos de las estaciones de medida de la calidad del aire de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+          "title": "COVID-19. Calidad del aire (datos diarios)",
+          "publisher": "Ayto. de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+          "title": "Calidad del aire, año 2023",
+          "publisher": "Ayto. de Sevilla",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+          "title": "Calidad de aire - Datos año 2023",
+          "publisher": "Ayto. de Gijón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+          "title": "Calidad de aire - Datos año 2021",
+          "publisher": "Ayto. de Gijón",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+          "title": "Calidad de aire - Datos año 2020",
+          "publisher": "Ayto. de Gijón",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+          "title": "Calidad de aire - Datos año 2019",
+          "publisher": "Ayto. de Gijón",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+          "title": "Calidad del aire - Datos año actual (Validados)",
+          "publisher": "Ayto. de Gijón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77",
+          "title": "Zonas de calidad del aire de la información histórica de la evaluación",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+          "title": "Datos de las estaciones de medida de la calidad del aire de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+          "title": "COVID-19. Calidad del aire (datos diarios)",
+          "publisher": "Ayto. de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+          "title": "Calidad del aire, año 2023",
+          "publisher": "Ayto. de Sevilla",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+        "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+        "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+        "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 59707.22198486328
+      }
+    },
+    {
+      "query": "vulnerabilidad económica juventud",
+      "query_id": "C1",
+      "categoria": "conceptual",
+      "v07_time": 0.02834606170654297,
+      "v08_time": 48.217880725860596,
+      "v07_results": [
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/adolescentes",
+          "title": "Adolescentes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/juventud-y-economia",
+          "title": "Juventud y economía",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912",
+          "title": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+          "title": "Asesoramiento a jóvenes",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+          "title": "Estudio de satisfacción con el programa de apoyo residencial para la vida autónoma de jóvenes en situación de grave vulnerabilidad social",
+          "publisher": "Ayto. de Madrid",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+          "title": "Expectativas y preocupaciones sociales de los jóvenes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por nivel de formación (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:T3:344:67990",
+          "title": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años). ECV (Identificador API: 67990)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2023. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912",
+          "title": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 1,
+          "score": 10
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/juventud-y-economia",
+          "title": "Juventud y economía",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 2,
+          "score": 9
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+          "title": "Asesoramiento a jóvenes",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 8
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+          "title": "Estudio de satisfacción con el programa de apoyo residencial para la vida autónoma de jóvenes en situación de grave vulnerabilidad social",
+          "publisher": "Ayto. de Madrid",
+          "rank": 4,
+          "score": 7
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+          "title": "Expectativas y preocupaciones sociales de los jóvenes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 5,
+          "score": 6
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:T3:344:67990",
+          "title": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años). ECV (Identificador API: 67990)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 6,
+          "score": 5
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 7,
+          "score": 4
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por nivel de formación (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 8,
+          "score": 4
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2023. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 9,
+          "score": 3
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/2a936328-37ab-4738-a200-6cf016a077aa",
+          "title": "Tasa de riesgo de pobreza o exclusión social (nueva definición 2021) por relación con la actividad (personas de 16 y más años). 2022. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 10,
+          "score": 3
+        }
+      ],
+      "overlap": [
+        "https://www.cis.es/es/estudios/juventud-y-economia",
+        "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4",
+        "urn:ine:es:TABLA:T3:344:67990",
+        "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+        "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+        "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+        "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+        "https://datos.comunidad.madrid/catalogo/dataset/705012",
+        "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912"
+      ],
+      "v07_unique": [
+        "https://www.cis.es/es/estudios/adolescentes"
+      ],
+      "v08_unique": [
+        "https://intranet.caib.es/opendatacataleg/dataset/2a936328-37ab-4738-a200-6cf016a077aa"
+      ],
+      "rank_improvements": [
+        0,
+        1,
+        3,
+        0,
+        -3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rerank_changes": 7,
+      "metadata_v08": {
+        "status": "success",
+        "model": "deepseek-v4-flash:cloud",
+        "initial_count": 15,
+        "reranked_count": 10,
+        "total_time_ms": 48215.33465385437
+      }
+    }
+  ]
+}

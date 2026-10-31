@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-06-18T15:13:36",
+  "base_url": "https://datos.gob.es/es/catalogo",
+  "n_queries": 3,
+  "results": [
+    {
+      "query": "empleo juvenil",
+      "url": "https://datos.gob.es/es/catalogo?q=empleo%20juvenil",
+      "status": "ok",
+      "titles": [
+        "Jóvenes inscritos en garantía juvenil",
+        "Actitudes y opiniones de los españoles ante el plan de empleo juvenil",
+        "Escuela Pública de Animación y Educación Juvenil",
+        "Programa de actividades e instalaciones juveniles",
+        "Indicadores municipales de sostenibilidad: Tasa de ocupación juvenil de la po...",
+        "Estudio de satisfacción de las personas usuarias de la red municipal de las o...",
+        "Empleo y situación económica - Indicadores del Observatorio Vasco de la Juventud",
+        "Información directa a jóvenes",
+        "Asesoramiento a jóvenes",
+        "Escuelas de tiempo libre"
+      ],
+      "error": null,
+      "has_incapsula": false,
+      "elapsed_sec": 9.09
+    },
+    {
+      "query": "paro registrado por comunidades",
+      "url": "https://datos.gob.es/es/catalogo?q=paro%20registrado%20por%20comunidades",
+      "status": "ok",
+      "titles": [
+        "Movimiento Laboral Registrado. Paro registrado, por sexo y municipio. Comunid...",
+        "Movimiento Laboral Registrado. Paro registrado, por edad y municipio. Comunid...",
+        "Movimiento Laboral Registrado. Paro registrado, extranjeros, por sexo. Comuni...",
+        "Movimiento Laboral Registrado. Paro registrado, por sexo y edad. Comunidad de...",
+        "Paro registrado desde 1997",
+        "Paro registrado por 100 habitantes. Municipios",
+        "Movimiento Laboral Registrado. Paro registrado, por sector de actividad (CNAE...",
+        "Movimiento Laboral Registrado. Paro registrado, por sector de actividad (CNAE...",
+        "Movimiento Laboral Registrado. Paro registrado, por sector de actividad (CNAE...",
+        "Paro registrado según sectores económicos. Provincias de España por meses"
+      ],
+      "error": null,
+      "has_incapsula": false,
+      "elapsed_sec": 7.73
+    },
+    {
+      "query": "brecha salarial género",
+      "url": "https://datos.gob.es/es/catalogo?q=brecha%20salarial%20g%C3%A9nero",
+      "status": "ok",
+      "titles": [
+        "Brecha salarial y brechas de género en el mercado laboral",
+        "Brecha salarial de género (no ajustada a las características individuales) en...",
+        "Brecha salarial de género (no ajustada a las características individuales) en...",
+        "Brecha salarial de género (no ajustada a las características individuales) en...",
+        "Encuesta de estructura salarial",
+        "Brecha salarial de género (no ajustada a las características individuales) en...",
+        "Brecha salarial de género (no ajustada a las características individuales) en...",
+        "Salario anual medio, mediano, modal, a tiempo completo y a tiempo parcial, po...",
+        "Salario medio anual por tipo de contrato y periodo. MYH (Identificador API: 1...",
+        "Salario medio anual por sectores de actividad económica y periodo. MYH (Ident..."
+      ],
+      "error": null,
+      "has_incapsula": false,
+      "elapsed_sec": 2.0
+    }
+  ]
+}

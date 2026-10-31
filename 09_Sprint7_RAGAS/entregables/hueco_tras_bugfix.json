@@ -1,0 +1,40 @@
+{
+ "informe": {
+  "actual": {
+   "total": 470,
+   "sin_juicio": 11,
+   "cobertura": 97.66
+  },
+  "semantico": {
+   "total": 470,
+   "sin_juicio": 6,
+   "cobertura": 98.72
+  },
+  "lexico": {
+   "total": 288,
+   "sin_juicio": 0,
+   "cobertura": 100.0
+  }
+ },
+ "a_juzgar": {
+  "medio_004": [
+   "https://enlaza.eprinsa.es/api/catalog/dataset/04d106e9-9916-454a-ba56-09defe65e38b",
+   "https://enlaza.eprinsa.es/api/catalog/dataset/0e97941a-e0fc-4470-96a8-ad0503b94c3c",
+   "https://enlaza.eprinsa.es/api/catalog/dataset/15f6fcbc-f09b-4c30-b985-56cd5dde41d5",
+   "https://enlaza.eprinsa.es/api/catalog/dataset/400d0040-8f37-4966-852c-3537d2ba838e",
+   "https://enlaza.eprinsa.es/api/catalog/dataset/4e96f0aa-fee3-4be5-8551-aaffdd3bf4c8",
+   "https://enlaza.eprinsa.es/api/catalog/dataset/861a07c7-e82e-4f9e-aa74-4b968db69d08"
+  ],
+  "dep_003": [
+   "https://datos.gob.es/catalogo/dc-personas_practicado_deporte_ultimo_ano_segun_motivo_nivel_estudios_situacion_laboral",
+   "https://datos.gob.es/catalogo/dc-personas_practicaron_deporte_semanalmente_tiempo_medio_semanal_sexo_edad_situacion_personal",
+   "https://datos.gob.es/catalogo/dc-personas_practicaron_deporte_ultimo_ano_segun_frecuencia_cada_modalidad"
+  ],
+  "edu_001": [
+   "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_NoBec_CA"
+  ],
+  "amb_003": [
+   "http://hdl.handle.net/10261/286608"
+  ]
+ }
+}

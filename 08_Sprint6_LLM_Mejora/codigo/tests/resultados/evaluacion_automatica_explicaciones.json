@@ -1,0 +1,156 @@
+{
+  "evaluacion": "automatica_heuristica",
+  "n_casos": 5,
+  "resultados": [
+    {
+      "query": "paro juvenil desempleo jóvenes",
+      "dataset_title": "Población parada registrada de 16 a 24 años de edad",
+      "explicacion": "Directamente relacionado con empleo juvenil. Incluye datos de población parada en el rango de edad 16-24 años, que corresponde exactamente a la defini",
+      "explicacion_completa": "Directamente relacionado con empleo juvenil. Incluye datos de población parada en el rango de edad 16-24 años, que corresponde exactamente a la definición de juventud en el contexto laboral.",
+      "scores": {
+        "longitud": {
+          "valor": 4.0,
+          "comentario": "Larga (150-300 caracteres)"
+        },
+        "relevancia": {
+          "valor": 5.0,
+          "comentario": "Excelente overlap (52%)"
+        },
+        "especificidad": {
+          "valor": 2.0,
+          "comentario": "Muy genérica (3 frases genéricas)"
+        },
+        "legibilidad": {
+          "valor": 5.0,
+          "comentario": "Muy legible (5.6 caracteres)"
+        },
+        "diversidad": {
+          "valor": 5.0,
+          "comentario": "Alta diversidad léxica (86%)"
+        }
+      },
+      "score_global": 4.2,
+      "calidad": "Buena"
+    },
+    {
+      "query": "sostenibilidad urbana",
+      "dataset_title": "Indicadores de calidad del aire por municipios",
+      "explicacion": "Dataset relevante que proporciona información sobre calidad del aire. Contiene datos que pueden relacionarse con sostenibilidad.",
+      "explicacion_completa": "Dataset relevante que proporciona información sobre calidad del aire. Contiene datos que pueden relacionarse con sostenibilidad.",
+      "scores": {
+        "longitud": {
+          "valor": 5.0,
+          "comentario": "Adecuada (60-150 caracteres)"
+        },
+        "relevancia": {
+          "valor": 5.0,
+          "comentario": "Excelente overlap (50%)"
+        },
+        "especificidad": {
+          "valor": 2.0,
+          "comentario": "Muy genérica (3 frases genéricas)"
+        },
+        "legibilidad": {
+          "valor": 5.0,
+          "comentario": "Muy legible (7.1 caracteres)"
+        },
+        "diversidad": {
+          "valor": 5.0,
+          "comentario": "Alta diversidad léxica (94%)"
+        }
+      },
+      "score_global": 4.4,
+      "calidad": "Buena"
+    },
+    {
+      "query": "turismo Canarias 2023",
+      "dataset_title": "Movimientos turísticos en Canarias",
+      "explicacion": "Dataset específico sobre turismo en Canarias con datos de 2023.",
+      "explicacion_completa": "Dataset específico sobre turismo en Canarias con datos de 2023.",
+      "scores": {
+        "longitud": {
+          "valor": 5.0,
+          "comentario": "Adecuada (60-150 caracteres)"
+        },
+        "relevancia": {
+          "valor": 5.0,
+          "comentario": "Excelente overlap (67%)"
+        },
+        "especificidad": {
+          "valor": 4.0,
+          "comentario": "Mayormente específica"
+        },
+        "legibilidad": {
+          "valor": 5.0,
+          "comentario": "Muy legible (5.4 caracteres)"
+        },
+        "diversidad": {
+          "valor": 5.0,
+          "comentario": "Alta diversidad léxica (100%)"
+        }
+      },
+      "score_global": 4.8,
+      "calidad": "Excelente"
+    },
+    {
+      "query": "emisiones CO2",
+      "dataset_title": "Estadísticas de contaminación atmosférica",
+      "explicacion": "Muy relevante. Contiene mediciones detalladas de emisiones de CO2 y otros gases de efecto invernadero desglosados por sectores industriales y municipi",
+      "explicacion_completa": "Muy relevante. Contiene mediciones detalladas de emisiones de CO2 y otros gases de efecto invernadero desglosados por sectores industriales y municipios.",
+      "scores": {
+        "longitud": {
+          "valor": 4.0,
+          "comentario": "Larga (150-300 caracteres)"
+        },
+        "relevancia": {
+          "valor": 5.0,
+          "comentario": "Excelente overlap (50%)"
+        },
+        "especificidad": {
+          "valor": 5.0,
+          "comentario": "Muy específica, sin frases genéricas"
+        },
+        "legibilidad": {
+          "valor": 5.0,
+          "comentario": "Muy legible (6.3 caracteres)"
+        },
+        "diversidad": {
+          "valor": 5.0,
+          "comentario": "Alta diversidad léxica (86%)"
+        }
+      },
+      "score_global": 4.8,
+      "calidad": "Excelente"
+    },
+    {
+      "query": "brecha digital educación",
+      "dataset_title": "Encuesta de equipamiento tecnológico en hogares",
+      "explicacion": "Relevante. Proporciona datos sobre acceso a tecnología en hogares que permite inferir brechas digitales en el ámbito educativo.",
+      "explicacion_completa": "Relevante. Proporciona datos sobre acceso a tecnología en hogares que permite inferir brechas digitales en el ámbito educativo.",
+      "scores": {
+        "longitud": {
+          "valor": 5.0,
+          "comentario": "Adecuada (60-150 caracteres)"
+        },
+        "relevancia": {
+          "valor": 3.0,
+          "comentario": "Overlap moderado (12%)"
+        },
+        "especificidad": {
+          "valor": 4.0,
+          "comentario": "Mayormente específica"
+        },
+        "legibilidad": {
+          "valor": 5.0,
+          "comentario": "Muy legible (6.1 caracteres)"
+        },
+        "diversidad": {
+          "valor": 5.0,
+          "comentario": "Alta diversidad léxica (94%)"
+        }
+      },
+      "score_global": 4.4,
+      "calidad": "Buena"
+    }
+  ]
+}

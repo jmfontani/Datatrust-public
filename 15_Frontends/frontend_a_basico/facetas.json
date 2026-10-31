@@ -1,0 +1,525 @@
+{
+  "territorios": [
+    {
+      "value": "Canarias",
+      "count": 23489
+    },
+    {
+      "value": "España",
+      "count": 20621
+    },
+    {
+      "value": "Illes Balears",
+      "count": 14003
+    },
+    {
+      "value": "País Vasco",
+      "count": 12376
+    },
+    {
+      "value": "Aragón",
+      "count": 2637
+    },
+    {
+      "value": "Navarra",
+      "count": 2275
+    },
+    {
+      "value": "Comunidad de Madrid",
+      "count": 2017
+    },
+    {
+      "value": "Cataluña",
+      "count": 1746
+    },
+    {
+      "value": "Andalucía",
+      "count": 1678
+    },
+    {
+      "value": "Comunitat Valenciana",
+      "count": 1048
+    },
+    {
+      "value": "Castilla y León",
+      "count": 955
+    },
+    {
+      "value": "Región de Murcia",
+      "count": 933
+    },
+    {
+      "value": "Galicia",
+      "count": 612
+    },
+    {
+      "value": "ESP_BCN",
+      "count": 554
+    },
+    {
+      "value": "Asturias",
+      "count": 534
+    },
+    {
+      "value": "Castilla-La Mancha",
+      "count": 406
+    },
+    {
+      "value": "Vizcaya",
+      "count": 341
+    },
+    {
+      "value": "Cantabria",
+      "count": 339
+    },
+    {
+      "value": "Andalucia",
+      "count": 301
+    },
+    {
+      "value": "Extremadura",
+      "count": 269
+    },
+    {
+      "value": "Alava",
+      "count": 195
+    },
+    {
+      "value": "La Rioja",
+      "count": 181
+    },
+    {
+      "value": "Melilla",
+      "count": 70
+    },
+    {
+      "value": "ESP_CIA_CEU",
+      "count": 45
+    },
+    {
+      "value": "Teruel",
+      "count": 11
+    },
+    {
+      "value": "Leon",
+      "count": 11
+    },
+    {
+      "value": "Huesca",
+      "count": 10
+    },
+    {
+      "value": "Ceuta",
+      "count": 5
+    },
+    {
+      "value": "ESP_CMA_ANDAL",
+      "count": 4
+    },
+    {
+      "value": "Granada",
+      "count": 2
+    },
+    {
+      "value": "ESP_CMA_BALEAR",
+      "count": 2
+    },
+    {
+      "value": "A Coruna",
+      "count": 2
+    },
+    {
+      "value": "N2f22873f271d4f1a9c6add5e51819dbf",
+      "count": 1
+    },
+    {
+      "value": "Principado Asturias",
+      "count": 1
+    },
+    {
+      "value": "Comunidad Madrid",
+      "count": 1
+    },
+    {
+      "value": "Burgos",
+      "count": 1
+    },
+    {
+      "value": "Jaen",
+      "count": 1
+    }
+  ],
+  "temas": [
+    {
+      "value": "sector publico",
+      "count": 22801
+    },
+    {
+      "value": "demografia",
+      "count": 14939
+    },
+    {
+      "value": "empleo",
+      "count": 12543
+    },
+    {
+      "value": "sociedad bienestar",
+      "count": 8129
+    },
+    {
+      "value": "medio ambiente",
+      "count": 8019
+    },
+    {
+      "value": "hacienda",
+      "count": 7209
+    },
+    {
+      "value": "economia",
+      "count": 6626
+    },
+    {
+      "value": "legislacion justicia",
+      "count": 5512
+    },
+    {
+      "value": "salud",
+      "count": 5065
+    },
+    {
+      "value": "educacion",
+      "count": 5026
+    },
+    {
+      "value": "transporte",
+      "count": 3599
+    },
+    {
+      "value": "ciencia tecnologia",
+      "count": 3562
+    },
+    {
+      "value": "urbanismo infraestructuras",
+      "count": 3224
+    },
+    {
+      "value": "turismo",
+      "count": 3051
+    },
+    {
+      "value": "cultura ocio",
+      "count": 2429
+    },
+    {
+      "value": "medio rural pesca",
+      "count": 2416
+    },
+    {
+      "value": "vivienda",
+      "count": 1657
+    },
+    {
+      "value": "seguridad",
+      "count": 1581
+    },
+    {
+      "value": "energia",
+      "count": 1486
+    },
+    {
+      "value": "industria",
+      "count": 1405
+    },
+    {
+      "value": "comercio",
+      "count": 1350
+    },
+    {
+      "value": "deporte",
+      "count": 1343
+    },
+    {
+      "value": "ENVI",
+      "count": 131
+    },
+    {
+      "value": "GOVE",
+      "count": 116
+    },
+    {
+      "value": "TRAN",
+      "count": 76
+    },
+    {
+      "value": "SOCI",
+      "count": 70
+    },
+    {
+      "value": "EDUC",
+      "count": 67
+    },
+    {
+      "value": "ECON",
+      "count": 15
+    },
+    {
+      "value": "ac",
+      "count": 11
+    },
+    {
+      "value": "ps",
+      "count": 8
+    },
+    {
+      "value": "REGI",
+      "count": 7
+    },
+    {
+      "value": "hb",
+      "count": 5
+    },
+    {
+      "value": "sd",
+      "count": 3
+    },
+    {
+      "value": "sr",
+      "count": 3
+    },
+    {
+      "value": "hy",
+      "count": 3
+    },
+    {
+      "value": "ad",
+      "count": 2
+    },
+    {
+      "value": "ENER",
+      "count": 2
+    },
+    {
+      "value": "af",
+      "count": 1
+    },
+    {
+      "value": "er",
+      "count": 1
+    },
+    {
+      "value": "am",
+      "count": 1
+    },
+    {
+      "value": "br",
+      "count": 1
+    },
+    {
+      "value": "ef",
+      "count": 1
+    }
+  ],
+  "formatos": [],
+  "publishers": [
+    {
+      "value": "ISTAC - Gobierno de Canarias",
+      "count": 21639
+    },
+    {
+      "value": "A04027063",
+      "count": 14167
+    },
+    {
+      "value": "Gobierno Vasco (Open Data Euskadi)",
+      "count": 9064
+    },
+    {
+      "value": "I00000687",
+      "count": 4346
+    },
+    {
+      "value": "Comunidad de Madrid",
+      "count": 3792
+    },
+    {
+      "value": "EA0010987",
+      "count": 2822
+    },
+    {
+      "value": "EA0040772",
+      "count": 2552
+    },
+    {
+      "value": "IAEST - Gobierno de Aragón",
+      "count": 2015
+    },
+    {
+      "value": "Gobierno de Navarra",
+      "count": 1868
+    },
+    {
+      "value": "Ayto. de Lasarte-Oria",
+      "count": 1830
+    },
+    {
+      "value": "Generalitat de Catalunya",
+      "count": 1368
+    },
+    {
+      "value": "Ayto. de Torrelodones",
+      "count": 1282
+    },
+    {
+      "value": "Diputación Foral de Bizkaia",
+      "count": 1268
+    },
+    {
+      "value": "Generalitat Valenciana",
+      "count": 1154
+    },
+    {
+      "value": "E05230301",
+      "count": 1069
+    },
+    {
+      "value": "Ayto. de Segovia",
+      "count": 1023
+    },
+    {
+      "value": "DGT - Dirección General de Tráfico",
+      "count": 950
+    },
+    {
+      "value": "E05073401",
+      "count": 885
+    },
+    {
+      "value": "Junta de Castilla y León",
+      "count": 813
+    },
+    {
+      "value": "L01330241",
+      "count": 783
+    },
+    {
+      "value": "A14002961",
+      "count": 736
+    },
+    {
+      "value": "Junta de Andalucía",
+      "count": 576
+    },
+    {
+      "value": "Gobierno de Extremadura",
+      "count": 561
+    },
+    {
+      "value": "L01080193",
+      "count": 554
+    },
+    {
+      "value": "E0DAT0002",
+      "count": 519
+    },
+    {
+      "value": "A17002943",
+      "count": 458
+    },
+    {
+      "value": "L03380010",
+      "count": 400
+    },
+    {
+      "value": "Ayto. de Madrid",
+      "count": 388
+    },
+    {
+      "value": "Universidad de Zaragoza",
+      "count": 371
+    },
+    {
+      "value": "EA0042823",
+      "count": 359
+    },
+    {
+      "value": "A04003003",
+      "count": 355
+    },
+    {
+      "value": "Junta de Castilla-La Mancha",
+      "count": 352
+    },
+    {
+      "value": "L01462444",
+      "count": 342
+    },
+    {
+      "value": "L01480209",
+      "count": 341
+    },
+    {
+      "value": "Gobierno de Canarias (Turismo)",
+      "count": 297
+    },
+    {
+      "value": "Ayto. de Valencia",
+      "count": 293
+    },
+    {
+      "value": "U01200001",
+      "count": 279
+    },
+    {
+      "value": "A06004074",
+      "count": 256
+    },
+    {
+      "value": "L03380011",
+      "count": 222
+    },
+    {
+      "value": "L01502973",
+      "count": 217
+    },
+    {
+      "value": "Ayto. de Salamanca",
+      "count": 202
+    },
+    {
+      "value": "EA0042931",
+      "count": 202
+    },
+    {
+      "value": "L01010590",
+      "count": 195
+    },
+    {
+      "value": "U01600001",
+      "count": 186
+    },
+    {
+      "value": "L01280066",
+      "count": 177
+    },
+    {
+      "value": "Diputación de Gipuzkoa",
+      "count": 153
+    },
+    {
+      "value": "U00200001",
+      "count": 135
+    },
+    {
+      "value": "L01082798",
+      "count": 125
+    },
+    {
+      "value": "L01100377",
+      "count": 116
+    },
+    {
+      "value": "L01330045",
+      "count": 107
+    }
+  ]
+}

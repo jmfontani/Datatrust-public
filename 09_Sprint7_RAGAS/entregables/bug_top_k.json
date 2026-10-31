@@ -1,0 +1,819 @@
+{
+ "meta": {
+  "consultas": 47,
+  "top_ks": [
+   5,
+   10,
+   20,
+   30
+  ],
+  "config": {
+   "semantic_weight": 0.7,
+   "lexical_weight": 0.3
+  },
+  "n_cambia_primero": 0,
+  "n_cambia_top5": 0,
+  "n_incoherentes": 0
+ },
+ "detalle": [
+  {
+   "query_id": "empleo_001",
+   "primeros": {
+    "5": "https://www.cis.es/es/estudios/actitudes-y-opiniones-de-los-espanoles-ante-el-plan-de-empleo-juvenil",
+    "10": "https://www.cis.es/es/estudios/actitudes-y-opiniones-de-los-espanoles-ante-el-plan-de-empleo-juvenil",
+    "20": "https://www.cis.es/es/estudios/actitudes-y-opiniones-de-los-espanoles-ante-el-plan-de-empleo-juvenil",
+    "30": "https://www.cis.es/es/estudios/actitudes-y-opiniones-de-los-espanoles-ante-el-plan-de-empleo-juvenil"
+   },
+   "scores_primero": {
+    "5": 0.6741999999999999,
+    "10": 0.6741999999999999,
+    "20": 0.6741999999999999,
+    "30": 0.6741999999999999
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "empleo_002",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1932150",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1932150",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1932150",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1932150"
+   },
+   "scores_primero": {
+    "5": 0.8139000000000001,
+    "10": 0.8139000000000001,
+    "20": 0.8139000000000001,
+    "30": 0.8139000000000001
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "empleo_003",
+   "primeros": {
+    "5": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-2025",
+    "10": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-2025",
+    "20": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-2025",
+    "30": "https://datosabiertos.navarra.es/dataset/registro-de-contratos-2025"
+   },
+   "scores_primero": {
+    "5": 0.4774,
+    "10": 0.4774,
+    "20": 0.4774,
+    "30": 0.4774
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "empleo_004",
+   "primeros": {
+    "5": "https://opendata.euskadi.eus/catalogo/-/informes-estudios/21brecha-salarial/",
+    "10": "https://opendata.euskadi.eus/catalogo/-/informes-estudios/21brecha-salarial/",
+    "20": "https://opendata.euskadi.eus/catalogo/-/informes-estudios/21brecha-salarial/",
+    "30": "https://opendata.euskadi.eus/catalogo/-/informes-estudios/21brecha-salarial/"
+   },
+   "scores_primero": {
+    "5": 0.6961,
+    "10": 0.6961,
+    "20": 0.6961,
+    "30": 0.6961
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "demo_001",
+   "primeros": {
+    "5": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372",
+    "10": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372",
+    "20": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372",
+    "30": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00034b_000372"
+   },
+   "scores_primero": {
+    "5": 0.5387,
+    "10": 0.5387,
+    "20": 0.5387,
+    "30": 0.5387
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "demo_002",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/l01281343-piramide-de-poblacion",
+    "10": "https://datos.gob.es/catalogo/l01281343-piramide-de-poblacion",
+    "20": "https://datos.gob.es/catalogo/l01281343-piramide-de-poblacion",
+    "30": "https://datos.gob.es/catalogo/l01281343-piramide-de-poblacion"
+   },
+   "scores_primero": {
+    "5": 0.4467,
+    "10": 0.4467,
+    "20": 0.4467,
+    "30": 0.4467
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "demo_003",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/ea0042823-confianza-alta-o-muy-alta-en-los-demas-por-tipo-de-hogar-identificador-api-74610",
+    "10": "https://datos.gob.es/catalogo/ea0042823-confianza-alta-o-muy-alta-en-los-demas-por-tipo-de-hogar-identificador-api-74610",
+    "20": "https://datos.gob.es/catalogo/ea0042823-confianza-alta-o-muy-alta-en-los-demas-por-tipo-de-hogar-identificador-api-74610",
+    "30": "https://datos.gob.es/catalogo/ea0042823-confianza-alta-o-muy-alta-en-los-demas-por-tipo-de-hogar-identificador-api-74610"
+   },
+   "scores_primero": {
+    "5": 0.4907,
+    "10": 0.4907,
+    "20": 0.4907,
+    "30": 0.4907
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "demo_004",
+   "primeros": {
+    "5": "https://opendata.aragon.es/datos/catalogo/dataset/aragon-y-provincias-tasa-de-migracion-bruta-con-el-extranjero",
+    "10": "https://opendata.aragon.es/datos/catalogo/dataset/aragon-y-provincias-tasa-de-migracion-bruta-con-el-extranjero",
+    "20": "https://opendata.aragon.es/datos/catalogo/dataset/aragon-y-provincias-tasa-de-migracion-bruta-con-el-extranjero",
+    "30": "https://opendata.aragon.es/datos/catalogo/dataset/aragon-y-provincias-tasa-de-migracion-bruta-con-el-extranjero"
+   },
+   "scores_primero": {
+    "5": 0.6629,
+    "10": 0.6629,
+    "20": 0.6629,
+    "30": 0.6629
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "demo_005",
+   "primeros": {
+    "5": "https://datos.lorca.es/catalogo/estadistica-barrios-densidad-poblacion/",
+    "10": "https://datos.lorca.es/catalogo/estadistica-barrios-densidad-poblacion/",
+    "20": "https://datos.lorca.es/catalogo/estadistica-barrios-densidad-poblacion/",
+    "30": "https://datos.lorca.es/catalogo/estadistica-barrios-densidad-poblacion/"
+   },
+   "scores_primero": {
+    "5": 0.5148,
+    "10": 0.5148,
+    "20": 0.5148,
+    "30": 0.5148
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "econ_001",
+   "primeros": {
+    "5": "https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad",
+    "10": "https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad",
+    "20": "https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad",
+    "30": "https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad"
+   },
+   "scores_primero": {
+    "5": 0.5827,
+    "10": 0.5827,
+    "20": 0.5827,
+    "30": 0.5827
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "econ_002",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1916304",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1916304",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1916304",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1916304"
+   },
+   "scores_primero": {
+    "5": 0.7887,
+    "10": 0.7887,
+    "20": 0.7887,
+    "30": 0.7887
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "econ_003",
+   "primeros": {
+    "5": "https://datos.canarias.es/catalogos/estadisticas/dataset/indice-de-precios-de-consumo-y-tasas-de-variacion-segun-rubricas-por-comunidades-autonomas-y-pe-1",
+    "10": "https://datos.canarias.es/catalogos/estadisticas/dataset/indice-de-precios-de-consumo-y-tasas-de-variacion-segun-rubricas-por-comunidades-autonomas-y-pe-1",
+    "20": "https://datos.canarias.es/catalogos/estadisticas/dataset/indice-de-precios-de-consumo-y-tasas-de-variacion-segun-rubricas-por-comunidades-autonomas-y-pe-1",
+    "30": "https://datos.canarias.es/catalogos/estadisticas/dataset/indice-de-precios-de-consumo-y-tasas-de-variacion-segun-rubricas-por-comunidades-autonomas-y-pe-1"
+   },
+   "scores_primero": {
+    "5": 0.5114000000000001,
+    "10": 0.5114000000000001,
+    "20": 0.5114000000000001,
+    "30": 0.5114000000000001
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "econ_004",
+   "primeros": {
+    "5": "https://datos.canarias.es/catalogos/estadisticas/dataset/principales-variables-economicas-segun-agrupaciones-de-actividad-cnae-2009-comunidades-autonoma",
+    "10": "https://datos.canarias.es/catalogos/estadisticas/dataset/principales-variables-economicas-segun-agrupaciones-de-actividad-cnae-2009-comunidades-autonoma",
+    "20": "https://datos.canarias.es/catalogos/estadisticas/dataset/principales-variables-economicas-segun-agrupaciones-de-actividad-cnae-2009-comunidades-autonoma",
+    "30": "https://datos.canarias.es/catalogos/estadisticas/dataset/principales-variables-economicas-segun-agrupaciones-de-actividad-cnae-2009-comunidades-autonoma"
+   },
+   "scores_primero": {
+    "5": 0.4646,
+    "10": 0.4646,
+    "20": 0.4646,
+    "30": 0.4646
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "econ_005",
+   "primeros": {
+    "5": "https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-de-la-deuda-publica-comunidad-autonoma-de-la-region-de-murcia",
+    "10": "https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-de-la-deuda-publica-comunidad-autonoma-de-la-region-de-murcia",
+    "20": "https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-de-la-deuda-publica-comunidad-autonoma-de-la-region-de-murcia",
+    "30": "https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-de-la-deuda-publica-comunidad-autonoma-de-la-region-de-murcia"
+   },
+   "scores_primero": {
+    "5": 0.7035,
+    "10": 0.7035,
+    "20": 0.7035,
+    "30": 0.7035
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "trans_001",
+   "primeros": {
+    "5": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/incidencias_de_trafico",
+    "10": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/incidencias_de_trafico",
+    "20": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/incidencias_de_trafico",
+    "30": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/incidencias_de_trafico"
+   },
+   "scores_primero": {
+    "5": 0.4901,
+    "10": 0.4901,
+    "20": 0.4901,
+    "30": 0.4901
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "trans_002",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1927201",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1927201",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1927201",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1927201"
+   },
+   "scores_primero": {
+    "5": 0.7358,
+    "10": 0.7358,
+    "20": 0.7358,
+    "30": 0.7358
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "trans_003",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1919185",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1919185",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1919185",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1919185"
+   },
+   "scores_primero": {
+    "5": 0.706,
+    "10": 0.706,
+    "20": 0.706,
+    "30": 0.706
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "trans_004",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-tasa-de-mortalidad-por-lesiones-debidas-a-accidentes-de-trafico-identificador-api-26-461720",
+    "10": "https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-tasa-de-mortalidad-por-lesiones-debidas-a-accidentes-de-trafico-identificador-api-26-461720",
+    "20": "https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-tasa-de-mortalidad-por-lesiones-debidas-a-accidentes-de-trafico-identificador-api-26-461720",
+    "30": "https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-tasa-de-mortalidad-por-lesiones-debidas-a-accidentes-de-trafico-identificador-api-26-461720"
+   },
+   "scores_primero": {
+    "5": 0.7018,
+    "10": 0.7018,
+    "20": 0.7018,
+    "30": 0.7018
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "trans_005",
+   "primeros": {
+    "5": "https://datosabiertos.jcyl.es/web/jcyl/set/es/energia/vehiculo_electrico/1284273412751",
+    "10": "https://datosabiertos.jcyl.es/web/jcyl/set/es/energia/vehiculo_electrico/1284273412751",
+    "20": "https://datosabiertos.jcyl.es/web/jcyl/set/es/energia/vehiculo_electrico/1284273412751",
+    "30": "https://datosabiertos.jcyl.es/web/jcyl/set/es/energia/vehiculo_electrico/1284273412751"
+   },
+   "scores_primero": {
+    "5": 0.5617,
+    "10": 0.5617,
+    "20": 0.5617,
+    "30": 0.5617
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "medio_001",
+   "primeros": {
+    "5": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+    "10": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+    "20": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+    "30": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/"
+   },
+   "scores_primero": {
+    "5": 0.5453,
+    "10": 0.5453,
+    "20": 0.5453,
+    "30": 0.5453
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "medio_002",
+   "primeros": {
+    "5": "https://datos.madrid.es/dataset/300384-0-mupi-pilas",
+    "10": "https://datos.madrid.es/dataset/300384-0-mupi-pilas",
+    "20": "https://datos.madrid.es/dataset/300384-0-mupi-pilas",
+    "30": "https://datos.madrid.es/dataset/300384-0-mupi-pilas"
+   },
+   "scores_primero": {
+    "5": 0.6396,
+    "10": 0.6396,
+    "20": 0.6396,
+    "30": 0.6396
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "medio_003",
+   "primeros": {
+    "5": "c1f5ae00-18d5-478d-aab1-685ae5506857",
+    "10": "c1f5ae00-18d5-478d-aab1-685ae5506857",
+    "20": "c1f5ae00-18d5-478d-aab1-685ae5506857",
+    "30": "c1f5ae00-18d5-478d-aab1-685ae5506857"
+   },
+   "scores_primero": {
+    "5": 0.784,
+    "10": 0.784,
+    "20": 0.784,
+    "30": 0.784
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "medio_004",
+   "primeros": {
+    "5": "https://enlaza.eprinsa.es/api/catalog/dataset/d72eba5f-bea2-4587-931b-9d41322e6a03",
+    "10": "https://enlaza.eprinsa.es/api/catalog/dataset/d72eba5f-bea2-4587-931b-9d41322e6a03",
+    "20": "https://enlaza.eprinsa.es/api/catalog/dataset/d72eba5f-bea2-4587-931b-9d41322e6a03",
+    "30": "https://enlaza.eprinsa.es/api/catalog/dataset/d72eba5f-bea2-4587-931b-9d41322e6a03"
+   },
+   "scores_primero": {
+    "5": 0.5145,
+    "10": 0.5145,
+    "20": 0.5145,
+    "30": 0.5145
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "medio_005",
+   "primeros": {
+    "5": "https://catalogodatos.cnmc.es/dataset/ds_24272_1",
+    "10": "https://catalogodatos.cnmc.es/dataset/ds_24272_1",
+    "20": "https://catalogodatos.cnmc.es/dataset/ds_24272_1",
+    "30": "https://catalogodatos.cnmc.es/dataset/ds_24272_1"
+   },
+   "scores_primero": {
+    "5": 0.5834,
+    "10": 0.5834,
+    "20": 0.5834,
+    "30": 0.5834
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "cult_001",
+   "primeros": {
+    "5": "https://opendata.euskadi.eus/catalogo/-/estadistica/archivos/servicios-para-el-usuario/numero-y-media-de-publicaciones-de-las-bibliotecas-auxiliares-por-tipologia-de-archivo/",
+    "10": "https://opendata.euskadi.eus/catalogo/-/estadistica/archivos/servicios-para-el-usuario/numero-y-media-de-publicaciones-de-las-bibliotecas-auxiliares-por-tipologia-de-archivo/",
+    "20": "https://opendata.euskadi.eus/catalogo/-/estadistica/archivos/servicios-para-el-usuario/numero-y-media-de-publicaciones-de-las-bibliotecas-auxiliares-por-tipologia-de-archivo/",
+    "30": "https://opendata.euskadi.eus/catalogo/-/estadistica/archivos/servicios-para-el-usuario/numero-y-media-de-publicaciones-de-las-bibliotecas-auxiliares-por-tipologia-de-archivo/"
+   },
+   "scores_primero": {
+    "5": 0.507,
+    "10": 0.507,
+    "20": 0.507,
+    "30": 0.507
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "cult_002",
+   "primeros": {
+    "5": "https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/f9d69f12-24ae-4682-933b-9c7c68e546c2",
+    "10": "https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/f9d69f12-24ae-4682-933b-9c7c68e546c2",
+    "20": "https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/f9d69f12-24ae-4682-933b-9c7c68e546c2",
+    "30": "https://irekia.araba.eus/es/catalogo-de-datos-abiertos/-/openDataSearcher/detail/detailView/f9d69f12-24ae-4682-933b-9c7c68e546c2"
+   },
+   "scores_primero": {
+    "5": 0.5374,
+    "10": 0.5374,
+    "20": 0.5374,
+    "30": 0.5374
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "cult_003",
+   "primeros": {
+    "5": "http://opendata.caceres.es/federator/cines-caceres",
+    "10": "http://opendata.caceres.es/federator/cines-caceres",
+    "20": "http://opendata.caceres.es/federator/cines-caceres",
+    "30": "http://opendata.caceres.es/federator/cines-caceres"
+   },
+   "scores_primero": {
+    "5": 0.4051,
+    "10": 0.4051,
+    "20": 0.4051,
+    "30": 0.4051
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "cult_004",
+   "primeros": {
+    "5": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/festivales",
+    "10": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/festivales",
+    "20": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/festivales",
+    "30": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/festivales"
+   },
+   "scores_primero": {
+    "5": 0.4525,
+    "10": 0.4525,
+    "20": 0.4525,
+    "30": 0.4525
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "cult_005",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/e05068001-sitios-patrimonio-mundial-unesco",
+    "10": "https://datos.gob.es/catalogo/e05068001-sitios-patrimonio-mundial-unesco",
+    "20": "https://datos.gob.es/catalogo/e05068001-sitios-patrimonio-mundial-unesco",
+    "30": "https://datos.gob.es/catalogo/e05068001-sitios-patrimonio-mundial-unesco"
+   },
+   "scores_primero": {
+    "5": 0.7122999999999999,
+    "10": 0.7122999999999999,
+    "20": 0.7122999999999999,
+    "30": 0.7122999999999999
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "dep_001",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/D00000000505003",
+    "10": "https://datos.gob.es/catalogo/D00000000505003",
+    "20": "https://datos.gob.es/catalogo/D00000000505003",
+    "30": "https://datos.gob.es/catalogo/D00000000505003"
+   },
+   "scores_primero": {
+    "5": 0.6744,
+    "10": 0.6744,
+    "20": 0.6744,
+    "30": 0.6744
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "dep_002",
+   "primeros": {
+    "5": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/deporte/deportes-instalaciones",
+    "10": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/deporte/deportes-instalaciones",
+    "20": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/deporte/deportes-instalaciones",
+    "30": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/deporte/deportes-instalaciones"
+   },
+   "scores_primero": {
+    "5": 0.8659,
+    "10": 0.8659,
+    "20": 0.8659,
+    "30": 0.8659
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "dep_003",
+   "primeros": {
+    "5": "https://www.cis.es/es/estudios/los-habitos-deportivos-de-los-espanoles-i-",
+    "10": "https://www.cis.es/es/estudios/los-habitos-deportivos-de-los-espanoles-i-",
+    "20": "https://www.cis.es/es/estudios/los-habitos-deportivos-de-los-espanoles-i-",
+    "30": "https://www.cis.es/es/estudios/los-habitos-deportivos-de-los-espanoles-i-"
+   },
+   "scores_primero": {
+    "5": 0.8287,
+    "10": 0.8287,
+    "20": 0.8287,
+    "30": 0.8287
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "dep_004",
+   "primeros": {
+    "5": "https://datos.alcobendas.org/dataset/subvenciones-2016-entidades-deportivas",
+    "10": "https://datos.alcobendas.org/dataset/subvenciones-2016-entidades-deportivas",
+    "20": "https://datos.alcobendas.org/dataset/subvenciones-2016-entidades-deportivas",
+    "30": "https://datos.alcobendas.org/dataset/subvenciones-2016-entidades-deportivas"
+   },
+   "scores_primero": {
+    "5": 0.5439,
+    "10": 0.5439,
+    "20": 0.5439,
+    "30": 0.5439
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "dep_005",
+   "primeros": {
+    "5": "https://www.cis.es/es/estudios/deporte",
+    "10": "https://www.cis.es/es/estudios/deporte",
+    "20": "https://www.cis.es/es/estudios/deporte",
+    "30": "https://www.cis.es/es/estudios/deporte"
+   },
+   "scores_primero": {
+    "5": 0.4733,
+    "10": 0.4733,
+    "20": 0.4733,
+    "30": 0.4733
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "san_001",
+   "primeros": {
+    "5": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/ocupacion-hospitales/1284947951914",
+    "10": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/ocupacion-hospitales/1284947951914",
+    "20": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/ocupacion-hospitales/1284947951914",
+    "30": "https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/ocupacion-hospitales/1284947951914"
+   },
+   "scores_primero": {
+    "5": 0.4829,
+    "10": 0.4829,
+    "20": 0.4829,
+    "30": 0.4829
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "san_002",
+   "primeros": {
+    "5": "https://datos.canarias.es/catalogos/estadisticas/dataset/numero-y-ratio-de-medicos-as-de-familia-pediatras-y-personal-de-enfermeria-por-islas-y-anos",
+    "10": "https://datos.canarias.es/catalogos/estadisticas/dataset/numero-y-ratio-de-medicos-as-de-familia-pediatras-y-personal-de-enfermeria-por-islas-y-anos",
+    "20": "https://datos.canarias.es/catalogos/estadisticas/dataset/numero-y-ratio-de-medicos-as-de-familia-pediatras-y-personal-de-enfermeria-por-islas-y-anos",
+    "30": "https://datos.canarias.es/catalogos/estadisticas/dataset/numero-y-ratio-de-medicos-as-de-familia-pediatras-y-personal-de-enfermeria-por-islas-y-anos"
+   },
+   "scores_primero": {
+    "5": 0.4787,
+    "10": 0.4787,
+    "20": 0.4787,
+    "30": 0.4787
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "san_003",
+   "primeros": {
+    "5": "https://dadesobertes.gva.es/dataset/sal-lis-esp-quirurgica",
+    "10": "https://dadesobertes.gva.es/dataset/sal-lis-esp-quirurgica",
+    "20": "https://dadesobertes.gva.es/dataset/sal-lis-esp-quirurgica",
+    "30": "https://dadesobertes.gva.es/dataset/sal-lis-esp-quirurgica"
+   },
+   "scores_primero": {
+    "5": 0.6896,
+    "10": 0.6896,
+    "20": 0.6896,
+    "30": 0.6896
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "san_004",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/e05250001-gasto-en-productos-farmaceuticos-y-sanitarios-de-las-comunidades-autonomas",
+    "10": "https://datos.gob.es/catalogo/e05250001-gasto-en-productos-farmaceuticos-y-sanitarios-de-las-comunidades-autonomas",
+    "20": "https://datos.gob.es/catalogo/e05250001-gasto-en-productos-farmaceuticos-y-sanitarios-de-las-comunidades-autonomas",
+    "30": "https://datos.gob.es/catalogo/e05250001-gasto-en-productos-farmaceuticos-y-sanitarios-de-las-comunidades-autonomas"
+   },
+   "scores_primero": {
+    "5": 0.5332,
+    "10": 0.5332,
+    "20": 0.5332,
+    "30": 0.5332
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "san_005",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1924382",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1924382",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1924382",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1924382"
+   },
+   "scores_primero": {
+    "5": 0.3719,
+    "10": 0.3719,
+    "20": 0.3719,
+    "30": 0.3719
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "edu_001",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1925494",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1925494",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1925494",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1925494"
+   },
+   "scores_primero": {
+    "5": 0.7323999999999999,
+    "10": 0.7323999999999999,
+    "20": 0.7323999999999999,
+    "30": 0.7323999999999999
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "edu_002",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/EMLEP0000091011",
+    "10": "https://datos.gob.es/catalogo/EMLEP0000091011",
+    "20": "https://datos.gob.es/catalogo/EMLEP0000091011",
+    "30": "https://datos.gob.es/catalogo/EMLEP0000091011"
+   },
+   "scores_primero": {
+    "5": 0.4363,
+    "10": 0.4363,
+    "20": 0.4363,
+    "30": 0.4363
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "edu_003",
+   "primeros": {
+    "5": "https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-148071",
+    "10": "https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-148071",
+    "20": "https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-148071",
+    "30": "https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-148071"
+   },
+   "scores_primero": {
+    "5": 0.6254,
+    "10": 0.6254,
+    "20": 0.6254,
+    "30": 0.6254
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "edu_004",
+   "primeros": {
+    "5": "https://datos.gob.es/catalogo/u03400001-estudiantes-de-nuevo-ingreso-por-preinscripcion-en-grado",
+    "10": "https://datos.gob.es/catalogo/u03400001-estudiantes-de-nuevo-ingreso-por-preinscripcion-en-grado",
+    "20": "https://datos.gob.es/catalogo/u03400001-estudiantes-de-nuevo-ingreso-por-preinscripcion-en-grado",
+    "30": "https://datos.gob.es/catalogo/u03400001-estudiantes-de-nuevo-ingreso-por-preinscripcion-en-grado"
+   },
+   "scores_primero": {
+    "5": 0.4419,
+    "10": 0.4419,
+    "20": 0.4419,
+    "30": 0.4419
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "edu_005",
+   "primeros": {
+    "5": "https://datosabiertos.jcyl.es/web/jcyl/set/es/educacion/oferta-formacion-profesional/1285065645144",
+    "10": "https://datosabiertos.jcyl.es/web/jcyl/set/es/educacion/oferta-formacion-profesional/1285065645144",
+    "20": "https://datosabiertos.jcyl.es/web/jcyl/set/es/educacion/oferta-formacion-profesional/1285065645144",
+    "30": "https://datosabiertos.jcyl.es/web/jcyl/set/es/educacion/oferta-formacion-profesional/1285065645144"
+   },
+   "scores_primero": {
+    "5": 0.5153,
+    "10": 0.5153,
+    "20": 0.5153,
+    "30": 0.5153
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "amb_001",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/402030",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/402030",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/402030",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/402030"
+   },
+   "scores_primero": {
+    "5": 0.8226,
+    "10": 0.8226,
+    "20": 0.8226,
+    "30": 0.8226
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "amb_002",
+   "primeros": {
+    "5": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-114",
+    "10": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-114",
+    "20": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-114",
+    "30": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-114"
+   },
+   "scores_primero": {
+    "5": 0.4792,
+    "10": 0.4792,
+    "20": 0.4792,
+    "30": 0.4792
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  },
+  {
+   "query_id": "amb_003",
+   "primeros": {
+    "5": "https://datos.comunidad.madrid/catalogo/dataset/1902793",
+    "10": "https://datos.comunidad.madrid/catalogo/dataset/1902793",
+    "20": "https://datos.comunidad.madrid/catalogo/dataset/1902793",
+    "30": "https://datos.comunidad.madrid/catalogo/dataset/1902793"
+   },
+   "scores_primero": {
+    "5": 0.7242999999999999,
+    "10": 0.7242999999999999,
+    "20": 0.7242999999999999,
+    "30": 0.7242999999999999
+   },
+   "cambia_primero": false,
+   "cambia_top5": false
+  }
+ ]
+}

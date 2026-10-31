@@ -1,0 +1,9 @@
+caso_id,categoria,query,query_expandida,resultados_normal,total_normal,resultados_mejorada,total_mejorada,ganancia_total,ratio,overlap_comunes,nuevos_resultados,tiempo_normal_ms,tiempo_mejorada_ms,overhead_ms,temas_detectados,terminos_añadidos,conceptos_implicitos
+T1,temporalidad_explicita,paro en 2022,paro 2022 desempleo desempleados tasa de paro EPA INE SEPE empleo contratos afiliaciones activos ocupados paro registrado,10,37,10,37,0,1.0,3,7,51.2,58.4,7.2,"paro, desempleo","desempleo, desempleados, tasa de paro, EPA, INE, SEPE, empleo, contratos, afiliaciones, activos, ocupados, paro registrado","EPA, tasa de paro"
+C1,conceptual_abstracto,vulnerabilidad económica,vulnerabilidad económica,10,37,10,37,0,1.0,10,0,28.4,29.8,1.4,"vulnerabilidad económica, pobreza, exclusión social",,"AROPE, riesgo de pobreza, desigualdad"
+G1,geografico_explicito,turismo Barcelona,turismo Barcelona,10,30,10,30,0,1.0,10,0,32.0,30.7,-1.3,"turismo, viajes, visitantes",,"ocupación hotelera, turistas, destinos turísticos"
+A1,ambiguo,banco España,banco España,10,50,10,50,0,1.0,10,0,39.8,35.4,-4.4,"banca, finanzas, Banco de España",,"Banco de España, política monetaria, indicadores financieros, supervisión bancaria"
+S1,siglas_tecnicas,EPA jóvenes,EPA jóvenes,10,30,10,30,0,1.0,10,0,28.4,29.5,1.1,,,
+D1,demografico_edad,población mayor 65 años,población mayor 65 años,10,60,10,60,0,1.0,10,0,35.3,32.2,-3.2,"población, personas mayores, envejecimiento",,"demografía, tercera edad, esperanza de vida"
+I1,indicador_economico,PIB per cápita,PIB per cápita,10,30,10,30,0,1.0,10,0,30.3,33.5,3.2,"PIB, Producto Interior Bruto, renta per cápita",,"economía, macroeconomía, indicador económico"
+E1,educacion,tasa abandono escolar,tasa abandono escolar,10,33,10,33,0,1.0,10,0,29.8,33.1,3.3,,,

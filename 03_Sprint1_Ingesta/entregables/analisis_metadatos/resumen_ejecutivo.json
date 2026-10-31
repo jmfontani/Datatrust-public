@@ -1,0 +1,92 @@
+{
+  "total_datasets": 87676,
+  "extracted_at": "2026-06-08T15:09:36.580607",
+  "formatos": {
+    "desconocido": 86331,
+    "XLSX": 154,
+    "JSON": 134,
+    "XML": 81,
+    "ICS": 1,
+    "CSV": 647,
+    "DBASE": 1,
+    "ZIP": 58,
+    "RDS": 1,
+    "HTML": 43,
+    "PDF": 59,
+    "KMZ": 1,
+    "WMS_SRVC": 14,
+    "GML": 3,
+    "KML": 6,
+    "XLS": 24,
+    "WFS_SRVC": 2,
+    "RDF_XML": 5,
+    "SHP": 9,
+    "RSS": 13,
+    "TXT": 16,
+    "OP": 3,
+    "GEOJSON": 3,
+    "DGN": 4,
+    "GPKG": 28,
+    "RDF-LINKED": 1,
+    "WMS": 13,
+    "SBX": 1,
+    "X-7Z-COMPRESSED": 3,
+    "PRJ": 1,
+    "GTFS": 1,
+    "WMTS": 1,
+    "QML": 3,
+    "ODS": 10,
+    "GZIP": 1
+  },
+  "publisher_types": {
+    "institucional_autonomico": 36672,
+    "otro": 24895,
+    "institucional_nacional": 22440,
+    "institucional_provincial": 1594,
+    "institucional_municipal": 2075
+  },
+  "territory_levels": {
+    "nacional": 34478,
+    "autonomico": 51950,
+    "municipal": 1048,
+    "otro": 200
+  },
+  "description_quality": {
+    "corta": 63597,
+    "buena": 2855,
+    "media": 20085,
+    "excelente": 1139
+  },
+  "temporal_coverage": {
+    "with_coverage": 5379,
+    "without_coverage": 82297
+  },
+  "fields_completeness": {
+    "mean": 0.6410253661214864,
+    "complete_100": 1012,
+    "partial_50_99": 86664,
+    "low_below_50": 0
+  },
+  "top_publishers": {
+    "ISTAC - Gobierno de Canarias": 21639,
+    "INE - Instituto Nacional de Estadística": 14167,
+    "Gobierno Vasco (Open Data Euskadi)": 9063,
+    "Congreso de los Diputados": 4346,
+    "Comunidad de Madrid": 3792,
+    "Ministerio de Agricultura, Pesca y Alimentación": 2828,
+    "Ministerio de Transportes y Movilidad Sostenible": 2552,
+    "IAEST - Gobierno de Aragón": 2015,
+    "Gobierno de Navarra": 1868,
+    "Ayto. de Lasarte-Oria": 1830,
+    "Generalitat de Catalunya": 1368,
+    "Ayto. de Torrelodones": 1282,
+    "Diputación Foral de Bizkaia": 1268,
+    "Generalitat Valenciana": 1154,
+    "Ministerio de Educación y Formación Profesional": 1069,
+    "Ayto. de Arganda del Rey": 1023,
+    "Xunta de Galicia": 1019,
+    "DGT - Dirección General de Tráfico": 950,
+    "Ministerio de Universidades": 885,
+    "Junta de Castilla y León": 813
+  }
+}

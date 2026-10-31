@@ -1,0 +1,281 @@
+{
+  "fecha": "2026-05-23T17:30:19.738482",
+  "api_url": "http://localhost:8000",
+  "total_tests": 12,
+  "passed": 10,
+  "failed": 2,
+  "errors": 0,
+  "accuracy": 83.33333333333334,
+  "results": [
+    {
+      "query": "despoblación",
+      "status": "PASS",
+      "description": "Concepto específico: despoblación rural",
+      "results_count": 2,
+      "search_time_ms": 64.04,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.dipcas.es/explore/dataset/municipios-valencianos-en-riesgo-de-despoblacion/",
+        "score": 0.216,
+        "title": "Municipios valencianos en riesgo de despoblación",
+        "description": "Dataset elaborado a partir de los datos obtenidos en la [Agenda Valenciana Antidespoblamiento](https://avant.gva.es/es/avant) (Agenda AVANT). Esta Agenda pertenece a la Generalitat Valenciana y se ins...",
+        "territorio": "Comunitat Valenciana",
+        "tema": [
+          "medio rural pesca"
+        ],
+        "formato": [],
+        "publisher": "Diputación de Castellón",
+        "url": "https://datos.gob.es/catalogo/l02000012-municipios-valencianos-en-riesgo-de-despoblacion",
+        "explanation": "Términos de la consulta aparecen en título/descripción; territorio coincidente: c."
+      }
+    },
+    {
+      "query": "paro juvenil",
+      "status": "FAIL",
+      "description": "Empleo: desempleo en jóvenes",
+      "results_count": 10,
+      "search_time_ms": 106.21,
+      "issues": [
+        "  ❌ Resultado #6 no contiene términos esperados (score: 0.5667)",
+        "     Título: Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están emplea..."
+      ],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+        "score": 1.4786,
+        "title": "Asesoramiento a jóvenes",
+        "description": "Garantía Juvenil: Es un iniciativa europea que pretende facilitar el acceso de los jóvenes al mercado de trabajo.    Jóvenes inscritos en el sistema de Garantía Juvenil: a partir de octubre 2021 pasar...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-asesoramiento-a-jovenes",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "calidad del aire",
+      "status": "PASS",
+      "description": "Medio ambiente: contaminación atmosférica",
+      "results_count": 10,
+      "search_time_ms": 119.7,
+      "issues": [],
+      "top_result": {
+        "id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+        "score": 1.4985,
+        "title": "Calidad del aire - Datos año actual (Validados)",
+        "description": "Información de la calidad del aire.",
+        "territorio": "España",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Ayuntamiento (L01330241)",
+        "url": "https://datos.gob.es/catalogo/l01330241-calidad-del-aire-datos-ano-actual-validados1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "matriculaciones coches eléctricos",
+      "status": "PASS",
+      "description": "Movilidad: vehículos eléctricos",
+      "results_count": 10,
+      "search_time_ms": 110.29,
+      "issues": [],
+      "top_result": {
+        "id": "https://intranet.caib.es/opendatacataleg/dataset/a520e68f-b79f-4559-9f38-b69adc48ee56",
+        "score": 1.4531,
+        "title": "Punto de recarga de vehículos eléctricos",
+        "description": "Punto de recarga de vehículos eléctricos",
+        "territorio": "España",
+        "tema": [
+          "energia"
+        ],
+        "formato": [],
+        "publisher": "Govern de les Illes Balears",
+        "url": "https://datos.gob.es/catalogo/a04003003-punto-de-recarga-de-vehiculos-electricos1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "gasto sanitario por habitante",
+      "status": "PASS",
+      "description": "Sanidad: financiación salud",
+      "results_count": 10,
+      "search_time_ms": 129.06,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.icane.es/dataset/fa91f1c7-8ff5-4ee7-92f5-2cb952491224",
+        "score": 1.3867,
+        "title": "Estadística gasto sanitario público",
+        "description": "Estadística gasto sanitario público",
+        "territorio": "España",
+        "tema": [
+          "salud"
+        ],
+        "formato": [],
+        "publisher": "Gobierno de Cantabria",
+        "url": "https://datos.gob.es/catalogo/a06004074-estadistica-gasto-sanitario-publico",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "precio vivienda",
+      "status": "PASS",
+      "description": "Vivienda: mercado inmobiliario",
+      "results_count": 10,
+      "search_time_ms": 88.56,
+      "issues": [],
+      "top_result": {
+        "id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+        "score": 1.5334,
+        "title": "Estadística del valor tasado de la vivienda",
+        "description": "La Estadística de Valor Tasado de la Vivienda informa sobre el precio del metro cuadrado para viviendas libres y protegidas a partir de los informes de tasación procedentes de las empresas tasadoras d...",
+        "territorio": "Navarra",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Gobierno de Navarra",
+        "url": "https://datos.gob.es/catalogo/a15002917-estadistica-del-valor-tasado-de-la-vivienda1",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: n."
+      }
+    },
+    {
+      "query": "tasa de natalidad",
+      "status": "PASS",
+      "description": "Demografía: nacimientos",
+      "results_count": 10,
+      "search_time_ms": 158.04,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/202010",
+        "score": 1.4825,
+        "title": "Indicadores de natalidad y fecundidad",
+        "description": "Tasa bruta de natalidad, Tasa bruta de fecundidad, Índice sintético de fecundidad: a partir del año 1996 se han calculado utilizando como población de referencia la población oficial del Padrón Munici...",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-indicadores-de-natalidad-y-fecundidad",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "energía solar fotovoltaica",
+      "status": "FAIL",
+      "description": "Energías renovables",
+      "results_count": 10,
+      "search_time_ms": 107.8,
+      "issues": [
+        "  ⚠️ Resultado #4 contiene 'gas' (score: 0.5207)",
+        "     Título: Estudio de potencial solar..."
+      ],
+      "top_result": {
+        "id": "https://datos.madrid.es/dataset/300427-0-generacion-fotovoltaica-edificio",
+        "score": 1.4702,
+        "title": "Generación de energía solar fotovoltaica en edificios y centros municipales",
+        "description": "Distintos edificios y centros municipales disponen de instalaciones de generación de energía solar fotovoltaica, incluyendo diversas sedes de Juntas Municipales de Distrito, bibliotecas, centros cultu...",
+        "territorio": "Navarra",
+        "tema": [
+          "energia"
+        ],
+        "formato": [],
+        "publisher": "Ayto. de Madrid",
+        "url": "https://datos.gob.es/catalogo/l01280796-generacion-de-energia-solar-fotovoltaica-en-edificios-y-centros-municipales",
+        "explanation": "Alta similitud semántica con la consulta; términos de la consulta aparecen en título/descripción; territorio coincidente: n."
+      }
+    },
+    {
+      "query": "delitos por municipio",
+      "status": "PASS",
+      "description": "Seguridad: criminalidad",
+      "results_count": 5,
+      "search_time_ms": 134.64,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.comunidad.madrid/catalogo/dataset/1917185",
+        "score": 0.216,
+        "title": "Delitos cometidos por adultos por sexo y por nacionalidad",
+        "description": "En julio de 2015 entró en vigor una reforma del Código Penal que suprimió las faltas, convirtiéndolas en delitos leves.",
+        "territorio": "España",
+        "tema": [
+          "sector publico"
+        ],
+        "formato": [],
+        "publisher": "Comunidad de Madrid",
+        "url": "https://datos.gob.es/catalogo/a13002908-delitos-cometidos-por-adultos-por-sexo-y-por-nacionalidad",
+        "explanation": "Términos de la consulta aparecen en título/descripción; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "rendimiento académico escolar",
+      "status": "PASS",
+      "description": "Educación: resultados escolares",
+      "results_count": 7,
+      "search_time_ms": 111.69,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.gob.es/catalogo/EALRA0000073021",
+        "score": 0.5674,
+        "title": "Porcentaje de alumnado de primero de Bachillerato ordinario que promociona por tipo de promoción, sexo, comunidad autónoma y curso académico",
+        "description": "Se presenta en este apartado la información estadística referida a los resultados académicos del alumnado matriculado procedente de las Estadísticas de las Enseñanzas no universitarias que realiza la ...",
+        "territorio": "España",
+        "tema": [
+          "educacion"
+        ],
+        "formato": [],
+        "publisher": "Ministerio de Educación y Formación Profesional",
+        "url": "https://datos.gob.es/catalogo/e05230301-porcentaje-de-alumnado-de-primero-de-bachillerato-ordinario-que-promociona-por-tipo-de-promocion-sexo-comunidad-autonoma-y-curso-academico",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: e."
+      }
+    },
+    {
+      "query": "Turismo en Canarias",
+      "status": "PASS",
+      "description": "Turismo: territorio específico",
+      "results_count": 10,
+      "search_time_ms": 112.48,
+      "issues": [],
+      "top_result": {
+        "id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00028a_000375",
+        "score": 0.5765,
+        "title": "Turistas de 16 y más años según situación laboral y países de residencia. Islas de Canarias y periodos",
+        "description": "Perfil del turista. Turistas de 16 y más años según actividad económica y países de residencia por islas de Canarias por años y trimestres.",
+        "territorio": "Canarias",
+        "tema": [
+          "turismo"
+        ],
+        "formato": [],
+        "publisher": "ISTAC - Gobierno de Canarias",
+        "url": "https://datos.gob.es/catalogo/a05003423-turistas-de-16-y-mas-anos-segun-situacion-laboral-y-paises-de-residencia-islas-de-canarias-y-periodos",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: c; tema coincidente: turismo."
+      }
+    },
+    {
+      "query": "Agua potable",
+      "status": "PASS",
+      "description": "Recursos hídricos básico",
+      "results_count": 3,
+      "search_time_ms": 81.08,
+      "issues": [],
+      "top_result": {
+        "id": "https://intranet.caib.es/opendatacataleg/dataset/baa0e0ce-62aa-4c90-81c7-1ff45e09c6aa",
+        "score": 0.588,
+        "title": "Red Agua Residual ABAQUA",
+        "description": "Red Agua Residual ABAQUA",
+        "territorio": "España",
+        "tema": [
+          "medio ambiente"
+        ],
+        "formato": [],
+        "publisher": "Govern de les Illes Balears",
+        "url": "https://datos.gob.es/catalogo/a04003003-red-agua-residual-abaqua",
+        "explanation": "Alta similitud semántica con la consulta; territorio coincidente: e."
+      }
+    }
+  ]
+}

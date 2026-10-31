@@ -1,0 +1,39 @@
+# ============================================================================
+# Dockerfile: Frontend (Streamlit) - Buscador Semántico
+# ============================================================================
+
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    STREAMLIT_SERVER_HEADLESS=true \
+    STREAMLIT_SERVER_PORT=8501 \
+    STREAMLIT_SERVER_ADDRESS=0.0.0.0
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    streamlit \
+    requests \
+    pandas \
+    python-dotenv
+
+# Copiar todo el frontend_b_intermedio
+COPY 15_Frontends/frontend_b_intermedio/ ./
+
+# Favicon de la pestaña. Streamlit 1.66 sirve /favicon.ico y /static/favicon.png desde
+# su propio paquete, y el /media/<hash> que genera `page_icon` responde 404, así que el
+# icono de marca no llega al navegador. Se sobrescribe el del paquete.
+COPY 15_Frontends/frontend_b_intermedio/assets/favicon_64.png \
+     /usr/local/lib/python3.11/site-packages/streamlit/static/favicon.png
+
+EXPOSE 8501
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD curl -f http://localhost:8501/_stcore/health || exit 1
+
+CMD ["python", "-m", "streamlit", "run", "app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]

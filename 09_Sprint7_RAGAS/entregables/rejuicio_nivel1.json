@@ -1,0 +1,1137 @@
+{
+ "nivel1_revisadas": 225,
+ "rejuzgadas": 225,
+ "siguen_1": 31,
+ "suben_a_2": 146,
+ "bajan_a_0": 48,
+ "fallos": [
+  "medio_005: The read operation timed out"
+ ],
+ "detalle": {
+  "amb_001|https://www.juntadeandalucia.es/datosabiertos/portal/dataset/269ac196-1f77-490e-a76c-95839d1dbf99": {
+   "nivel": 2,
+   "razon": "Mide desempleo (paro) con desglose por sexo y formación; consulta ambigua, pero responde a interpretación de desempleo.",
+   "title": "Tasa de desempleo de larga duración de las personas de entre 16 y 74 años por sexo y nivel de formación (trimestral)"
+  },
+  "cult_001|https://datos.gob.es/catalogo/a11002926-bibliotecas-en-extremadura": {
+   "nivel": 2,
+   "razon": "Listado de bibliotecas en Extremadura, ámbito autonómico válido para bibliotecas públicas.",
+   "title": "Bibliotecas en Extremadura"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-servicios-de-internet-de-los-que-disponen-identificador-api-33033": {
+   "nivel": 2,
+   "razon": "Estadística de bibliotecas por tipo y servicios; permite filtrar bibliotecas públicas.",
+   "title": "Bibliotecas (unidades administrativas) por tipo de biblioteca y servicios de internet de los que disponen. (Identificador API: 33033)"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-titularidad-de-la-biblioteca-identificador-api-33020": {
+   "nivel": 2,
+   "razon": "Estadística de bibliotecas por tipo y titularidad; permite identificar bibliotecas públicas.",
+   "title": "Bibliotecas (unidades administrativas) por tipo de biblioteca y titularidad de la biblioteca. (Identificador API: 33020)"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-n-de-puntos-de-servicio-de-los-que-disponen-identificador-api-33019": {
+   "nivel": 2,
+   "razon": "Estadística de bibliotecas por tipo y puntos de servicio; incluye bibliotecas públicas.",
+   "title": "Bibliotecas (unidades administrativas) por tipo de biblioteca y nº de puntos de servicio de los que disponen. (Identificador API: 33019)"
+  },
+  "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-fondos-numero-de-volumenes-identificador-api-33037": {
+   "nivel": 2,
+   "razon": "Estadística de bibliotecas por tipo y fondos; incluye bibliotecas públicas.",
+   "title": "Bibliotecas (unidades administrativas) por tipo de biblioteca y fondos (número de volúmenes). (Identificador API: 33037)"
+  },
+  "cult_001|https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/cultura-ocio/cultura-bibliotecas": {
+   "nivel": 1,
+   "razon": "Caso b: dato global de bibliotecas, sin desglose de públicas/municipales.",
+   "title": "Bibliotecas"
+  },
+  "cult_001|https://datos.canarias.es/catalogos/estadisticas/dataset/bibliotecas-segun-volumenes-de-fondos-libros-y-folletos-publicaciones-periodicas-encuadernadas-": {
+   "nivel": 1,
+   "razon": "Caso b: dato global de bibliotecas por fondos, sin desglose de públicas.",
+   "title": "Bibliotecas según volúmenes de fondos (libros y folletos, publicaciones periódicas encuadernadas, libros electrónicos y manuscritos). Islas de Canarias. 2006-2018"
+  },
+  "cult_001|https://datos.comunidad.madrid/catalogo/dataset/701012": {
+   "nivel": 2,
+   "razon": "Centros bibliotecarios públicos de Madrid; responde a bibliotecas públicas.",
+   "title": "Centros y servicios bibliotecarios dependientes de la CM y del Ayuntamiento de Madrid. Número"
+  },
+  "cult_001|https://datos.comunidad.madrid/catalogo/dataset/701013": {
+   "nivel": 2,
+   "razon": "Fondos de centros bibliotecarios públicos de Madrid; responde a bibliotecas públicas.",
+   "title": "Centros y servicios bibliotecarios dependientes de la CM y del Ayuntamiento de Madrid. Fondos"
+  },
+  "cult_001|https://datos.comunidad.madrid/catalogo/dataset/701016": {
+   "nivel": 2,
+   "razon": "Puestos de lectura de centros bibliotecarios públicos de Madrid; responde.",
+   "title": "Centros y servicios bibliotecarios dependientes de la CM y del Ayuntamiento de Madrid. Puestos de lectura y consulta"
+  },
+  "cult_001|https://datos.comunidad.madrid/catalogo/dataset/701015": {
+   "nivel": 2,
+   "razon": "Datos de centros y servicios bibliotecarios públicos en Madrid; ámbito municipal/autonómico válido.",
+   "title": "Centros y servicios bibliotecarios dependientes de la CM y del Ayuntamiento de Madrid. Usuarios inscritos"
+  },
+  "cult_002|https://opendata.euskadi.eus/catalogo/-/estadistica/sexo-edad-compet-linguistica-nivel-de-estudios/museos-y-centros-de-arte/personas-que-asisten-habitualmente-a-museos-galerias-de-arte-y-exposiciones-segun-el-numero-de-visitas-y-valor-medio/": {
+   "nivel": 2,
+   "razon": "Mide asistencia a museos en País Vasco; territorio autonómico válido.",
+   "title": "Personas que asisten habitualmente a museos, galerías de arte y exposiciones según el numero de visitas. (% y valor medio)"
+  },
+  "cult_002|https://opendata.euskadi.eus/catalogo/-/estadistica/territorio-zona-geografica-y-dimension-municipal/museos-y-centros-de-arte/personas-que-asisten-habitualmente-a-museos-galerias-de-arte-y-exposiciones-segun-el-numero-de-visitas-y-valor-medio/": {
+   "nivel": 2,
+   "razon": "Mide asistencia a museos en País Vasco; territorio autonómico válido.",
+   "title": "Personas que asisten habitualmente a museos, galerías de arte y exposiciones según el numero de visitas. (% y valor medio)"
+  },
+  "cult_003|https://opendata.aragon.es/datos/catalogo/dataset/espectadores-por-nacionalidad-de-la-pelicula": {
+   "nivel": 2,
+   "razon": "Mide espectadores de películas, parte de la industria cinematográfica; territorio válido.",
+   "title": "Espectadores por nacionalidad de la película"
+  },
+  "cult_003|https://analisi.transparenciacatalunya.cat/api/views/y2v3-axzp": {
+   "nivel": 0,
+   "razon": "Lista de cines con programación en catalán, no mide taquilla ni industria cinematográfica.",
+   "title": "Cine en catalán"
+  },
+  "cult_003|https://opendata.aragon.es/datos/catalogo/dataset/recaudacion-por-nacionalidad-de-la-pelicula": {
+   "nivel": 2,
+   "razon": "Mide recaudación (taquilla) por nacionalidad de película; territorio válido.",
+   "title": "Recaudación por nacionalidad de la película"
+  },
+  "cult_004|https://datos.gob.es/catalogo/a14036695-festivales": {
+   "nivel": 0,
+   "razon": "Solo festivales genéricos; no especifica música ni verano.",
+   "title": "Festivales"
+  },
+  "demo_002|https://datos.gob.es/catalogo/l01281343-de-poblacion-anual": {
+   "nivel": 2,
+   "razon": "Mide distribución por edad y sexo; territorio español válido.",
+   "title": "113 Pirámide de población (grupos de edad anuales)"
+  },
+  "demo_002|https://datos.gob.es/catalogo/l01281343-piramide-de-poblacion": {
+   "nivel": 2,
+   "razon": "Mide distribución por edad y sexo; territorio español válido.",
+   "title": "102 Pirámide de población (tramos: cada 5 años)"
+  },
+  "demo_002|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/742c52df-c2e6-42a1-8b5c-9427039ee783": {
+   "nivel": 1,
+   "razon": "Tema correcto pero falta desglose por sexo (caso b).",
+   "title": "999 01 Pirámide de edades barrio Zabaleta - Ayuntamiento de Lasarte-Oria"
+  },
+  "demo_004|https://datos.gob.es/catalogo/a03002951-poblacion-asturias-migraciones-extranjeros-censo": {
+   "nivel": 2,
+   "razon": "Mide población extranjera y migraciones en Asturias; territorio autonómico válido.",
+   "title": "Población en Asturias: migraciones, población extranjera y censo"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-areas-2013": {
+   "nivel": 1,
+   "razon": "Densidad por áreas de Málaga, no por municipios pequeños. Caso b.",
+   "title": "Agenda 21 - Densidad por áreas 2013"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-barrios-2013": {
+   "nivel": 1,
+   "razon": "Densidad por barrios de Málaga, no por municipios pequeños. Caso b.",
+   "title": "Agenda 21 - Densidad por barrios 2013"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-barrios-2012": {
+   "nivel": 1,
+   "razon": "Densidad por barrios de Málaga, no por municipios pequeños. Caso b.",
+   "title": "Agenda 21 - Densidad por barrios 2012"
+  },
+  "demo_005|https://opendata.gijon.es/catalogo/distribución_poblacion": {
+   "nivel": 1,
+   "razon": "Distribución de población en Gijón por distritos/parroquias, no por municipios. Caso b.",
+   "title": "Distribución población"
+  },
+  "demo_005|https://datosabiertos.navarra.es/dataset/spasitnainfotu_pol_inddensipoburb-xml": {
+   "nivel": 0,
+   "razon": "Mide densidad urbana, no densidad de municipios pequeños/rurales.",
+   "title": "Densidad de población urbana"
+  },
+  "demo_005|https://datosabiertos.navarra.es/dataset/spasitnainfotu_pol_inddensipob-xml": {
+   "nivel": 2,
+   "razon": "Densidad de población por término municipal en Navarra; sirve para municipios pequeños.",
+   "title": "Densidad de población"
+  },
+  "demo_005|https://datosabiertos.malaga.eu/dataset/agenda-21-densidad-por-areas-2012": {
+   "nivel": 1,
+   "razon": "Densidad por áreas de Málaga, no por municipios pequeños. Caso b.",
+   "title": "Agenda 21 - Densidad por áreas 2012"
+  },
+  "dep_001|https://datos.comunidad.madrid/catalogo/dataset/1908802": {
+   "nivel": 2,
+   "razon": "Mide licencias federadas por deporte y sexo; territorio España. Responde al fenómeno.",
+   "title": "Licencias federadas por tipo de deporte. Mujeres"
+  },
+  "dep_001|https://datos.comunidad.madrid/catalogo/dataset/1908801": {
+   "nivel": 2,
+   "razon": "Mide licencias federadas por deporte y sexo; territorio España. Responde al fenómeno.",
+   "title": "Licencias federadas por tipo de deporte. Hombres"
+  },
+  "dep_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00008a_000002": {
+   "nivel": 2,
+   "razon": "Datos de licencias federadas por federación y sexo en Canarias; responde.",
+   "title": "Licencias según federaciones deportivas por sexos. Canarias por años"
+  },
+  "dep_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00008a_000001": {
+   "nivel": 2,
+   "razon": "Incluye licencias federadas por federación en Canarias; responde al fenómeno.",
+   "title": "Clubes y licencias según federaciones deportivas. Canarias por años"
+  },
+  "dep_001|https://opendata.aragon.es/datos/catalogo/dataset/vinculacion-con-federaciones-o-entidades-deportivas-personas-segun-la-disponibilidad-de-licencia-deportiva-en-vigor": {
+   "nivel": 2,
+   "razon": "Mide personas con licencia deportiva en vigor vinculadas a federaciones; Aragón válido.",
+   "title": "Vinculación con federaciones o entidades deportivas. Personas según la disponibilidad de licencia deportiva en vigor."
+  },
+  "dep_002|https://datos.madrid.es/dataset/210227-0-piscinas-publicas": {
+   "nivel": 2,
+   "razon": "Piscinas municipales en Madrid, instalaciones deportivas locales.",
+   "title": "Deportes. Piscinas municipales en la ciudad de Madrid"
+  },
+  "dep_002|https://datos.gob.es/catalogo/l01360577-piscinas-municipales-instalaciones-deportivas": {
+   "nivel": 2,
+   "razon": "Piscinas municipales, instalaciones deportivas municipales.",
+   "title": "Piscinas Municipales. Instalaciones deportivas"
+  },
+  "dep_002|https://datos.gob.es/catalogo/l01360577-gimnasios-municipales-instalaciones-deportivas": {
+   "nivel": 2,
+   "razon": "Gimnasios municipales, instalaciones deportivas municipales.",
+   "title": "Gimnasios Municipales. Instalaciones deportivas"
+  },
+  "dep_002|https://datos.gob.es/catalogo/l01360577-complejos-deportivos-instalaciones-deportivas": {
+   "nivel": 1,
+   "razon": "Tema deportivo, pero falta el desglose municipal. Caso b.",
+   "title": "Complejos deportivos. Instalaciones deportivas"
+  },
+  "dep_002|https://datos.gob.es/catalogo/l01281150-censo-de-instalaciones-deportivas": {
+   "nivel": 1,
+   "razon": "Censo global público y privado, sin desglose municipal. Caso b.",
+   "title": "Censo de instalaciones deportivas"
+  },
+  "dep_002|https://datos.gob.es/catalogo/D00000000515003": {
+   "nivel": 1,
+   "razon": "Datos por comunidad autónoma, no municipal. Caso b.",
+   "title": "Espacios deportivos convencionales por tipología según comunidad autónoma"
+  },
+  "dep_002|https://datos.gob.es/catalogo/l01360577-pabellones-deportivos-instalaciones-deportivas": {
+   "nivel": 1,
+   "razon": "Pabellones deportivos sin especificar ámbito municipal. Caso b.",
+   "title": "Pabellones deportivos. Instalaciones deportivas"
+  },
+  "dep_002|https://opendata.gijon.es/catalogo/pabellones": {
+   "nivel": 2,
+   "razon": "Pabellones en Gijón, instalaciones deportivas locales/municipales.",
+   "title": "Pabellones"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-motivos_principales_practicado_deporte_nivel_estudios_situacion_laboral": {
+   "nivel": 2,
+   "razon": "Encuesta de Hábitos Deportivos; mide práctica deportiva y desglose válido.",
+   "title": "Motivos principales por los que se ha practicado deporte por nivel de estudios y situación laboral"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-motivos_principales_practicado_deporte_nivel_estudios": {
+   "nivel": 2,
+   "razon": "Encuesta de Hábitos Deportivos; mide práctica deportiva y desglose válido.",
+   "title": "Motivos principales por los que se ha practicado deporte por nivel de estudios"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-modificacion_habitos_deportivos_periodo_confinamiento_covid_abril_mayo_nivel_estudios": {
+   "nivel": 2,
+   "razon": "Mide modificación de hábitos deportivos; tema y territorio válidos.",
+   "title": "Modificación de los hábitos deportivos despues del periodo de confinamiento por COVID-19 de abril a mayo de 2020 por nivel de estudios"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-modificacion_habitos_deportivos_periodo_confinamiento_covid_abril_mayo_sexo_edad_situacion_personal": {
+   "nivel": 2,
+   "razon": "Mide modificación de hábitos deportivos; tema y territorio válidos.",
+   "title": "Modificación de los hábitos deportivos despues del periodo de confinamiento por COVID-19 de abril a mayo de 2020 por sexo, edad y situación personal"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-modificacion_habitos_deportivos_periodo_confinamiento_covid_abril_mayo_tamano_municipio": {
+   "nivel": 2,
+   "razon": "Mide modificación de hábitos deportivos; tema y territorio válidos.",
+   "title": "Modificación de los hábitos deportivos despues del periodo de confinamiento por COVID-19 de abril a mayo de 2020 por tamaño de municipio"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-motivos_principales_practica_practica_deporte_comunidad_autonoma_tamano_municipio": {
+   "nivel": 2,
+   "razon": "Mide motivos de no práctica; parte de hábitos deportivos; territorio válido.",
+   "title": "Motivos principales por los que no practica, o no practica más deporte por comunidad autónoma y tamaño de municipio"
+  },
+  "dep_003|https://datos.gob.es/catalogo/dc-motivos_principales_practicado_deporte_tamano_municipio": {
+   "nivel": 2,
+   "razon": "Mide motivos de práctica; parte de hábitos deportivos; territorio válido.",
+   "title": "Motivos principales por los que se ha practicado deporte por tamaño de municipio"
+  },
+  "dep_004|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/827d6871-c47a-4e2e-a45d-a2bd86236dfb": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero se pide deporte base y el dato es global de deportes (caso b).",
+   "title": "Kirol arloan 2015/01/01 - 2015/12/05 aldian onartutako diru-laguntzen eta laguntzen zerrenda - Ayuntamiento de Ibarra"
+  },
+  "dep_004|https://datos.aviles.es/dataset/subvenciones-f-deportiva-municipal": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero se pide deporte base y el dato es global de deportes (caso b).",
+   "title": "Subvenciones. F. Deportiva Municipal"
+  },
+  "dep_005|https://datos.gob.es/catalogo/D00000000505007": {
+   "nivel": 0,
+   "razon": "Mide medallas obtenidas, no competiciones internacionales celebradas en España.",
+   "title": "Medallas obtenidas en competiciones internacionales por federación, indicador, medallas y periodo"
+  },
+  "econ_001|https://intranet.caib.es/opendatacataleg/dataset/5bbbab7f-b8ac-4c5a-a06a-e6a36eea562a": {
+   "nivel": 2,
+   "razon": "Mide población en riesgo de pobreza o exclusión social.",
+   "title": "Distribució de la població total i de la població en risc de pobresa o exclusió social (objectiu Europa 2030) per nacionalitat (persones de 16 i més anys). 2023. Illes Balears"
+  },
+  "econ_001|https://intranet.caib.es/opendatacataleg/dataset/01d71206-e84c-4f9f-b746-004d8ea66438": {
+   "nivel": 2,
+   "razon": "Mide población en riesgo de pobreza o exclusión social.",
+   "title": "Distribució de la població total i de la població en risc de pobresa o exclusió social (objectiu Europa 2030) per relació amb l'activitat (persones de 16 i més anys). 2023. Illes Balears"
+  },
+  "econ_001|https://opendata.euskadi.eus/catalogo/-/evolucion-situaciones-pobreza-y-precariedad-real-edad-persona-referencia-c-euskadi-poblacion-viviendas-familiares-incidencia-en/": {
+   "nivel": 2,
+   "razon": "Mide situaciones de pobreza y precariedad real.",
+   "title": "Evolución de las situaciones de pobreza y de precariedad real por edad de la persona de referencia en la C.A. de Euskadi. Población en viviendas familiares. Incidencia en %."
+  },
+  "econ_001|https://opendata.euskadi.eus/catalogo/-/distribucion-situaciones-pobreza-y-precariedad-real-edad-persona-referencia-c-euskadi-poblacion-viviendas-familiares-verticales/": {
+   "nivel": 2,
+   "razon": "Mide situaciones de pobreza y precariedad real.",
+   "title": "Distribución de las situaciones de pobreza y precariedad real por edad de la persona de referencia en la C.A. de Euskadi. Población en viviendas familiares. % verticales."
+  },
+  "econ_001|https://opendata.euskadi.eus/catalogo/-/evolucion-situaciones-pobreza-y-precariedad-real-tipo-sociodemografico-del-hogar-o-su-persona-referencia-poblacion-viviendas-familiares-incidencia-en/": {
+   "nivel": 2,
+   "razon": "Mide situaciones de pobreza y precariedad real.",
+   "title": "Evolución de las situaciones de pobreza y de precariedad real por tipo sociodemográfico del hogar o de su persona de referencia en la C.A. de Euskadi. Población en viviendas familiares. Incidencia en "
+  },
+  "econ_001|https://opendata.vlci.valencia.es/dataset/ca18278b-d040-4274-b9c7-c1a9daae54b9": {
+   "nivel": 2,
+   "razon": "Incluye índice de vulnerabilidad socioeconómica por barrios.",
+   "title": "Vulnerabilidad por barrios 2021"
+  },
+  "econ_001|https://datos.madrid.es/dataset/300577-0-iguala-vulnerabilidad": {
+   "nivel": 0,
+   "razon": "Índice de vulnerabilidad territorial, no económica ni pobreza/exclusión.",
+   "title": "IGUALA. Índice de vulnerabilidad territorial agregado del Ayuntamiento de Madrid"
+  },
+  "econ_001|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-proporcion-de-viviendas-que-disponen-de-aseo-identificador-api-178-66058": {
+   "nivel": 2,
+   "razon": "Indicador ODS de pobreza sobre acceso a servicios básicos.",
+   "title": "Agenda 2030 ODS - Proporción de viviendas que disponen de aseo (Identificador API: 178:66058)"
+  },
+  "econ_001|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-proporcion-de-viviendas-que-disponen-de-bano-ducha-identificador-api-178-66059": {
+   "nivel": 2,
+   "razon": "Indicador ODS de pobreza sobre acceso a servicios básicos.",
+   "title": "Agenda 2030 ODS - Proporción de viviendas que disponen de baño/ducha (Identificador API: 178:66059)"
+  },
+  "econ_001|https://datos.comunidad.madrid/catalogo/dataset/1932365": {
+   "nivel": 2,
+   "razon": "Mide beneficiarios de bono social, indicador de vulnerabilidad económica.",
+   "title": "Beneficiarios del bono social eléctrico por categorías"
+  },
+  "econ_002|https://datosabiertos.navarra.es/dataset/estadisticas-de-la-renta": {
+   "nivel": 2,
+   "razon": "Mide renta media por hogar en Navarra; territorio español válido.",
+   "title": "Estadísticas de la renta"
+  },
+  "econ_002|https://opendata.aragon.es/datos/catalogo/dataset/renta-anual-neta-media-del-hogar-segun-tipo-de-hogar-aragon": {
+   "nivel": 2,
+   "razon": "Mide renta anual neta media del hogar en Aragón; territorio español válido.",
+   "title": "Renta anual neta media del hogar según tipo de hogar. Aragón."
+  },
+  "econ_002|https://opendata.euskadi.eus/catalogo/-/hogares-regimen-alquiler-c-euskadi-renta-mensual-alquiler-porcentaje-ingresos-destinados-al-alquiler-ingresos-medios-del-hogar-renta-mensual-media-y-porcentaje-medios-ingresos-destinados-al-alquiler-/territorio-hist": {
+   "nivel": 0,
+   "razon": "Mide alquiler de vivienda, no renta media general de todos los hogares.",
+   "title": "Hogares en régimen de alquiler de la C.A. de Euskadi por la renta mensual de alquiler, porcentaje de ingresos destinados al alquiler, ingresos medios del hogar, renta mensual media y porcentaje medios"
+  },
+  "econ_002|https://opendata-ajuntament.barcelona.cat/data/dataset/renda-tributaria-unitat-consum-atlas-distribucio": {
+   "nivel": 2,
+   "razon": "Mide renta tributaria neta media por hogar en Barcelona; territorio español válido.",
+   "title": "Renta tributaria neta media por hogar (€) en la ciudad de Barcelona"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000012": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2018"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000013": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2019"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000039": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2020"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000044": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2021"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000049": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2022"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000054": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2023"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000001": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Islas y municipios de Canarias por años"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000011": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en secciones de Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2017"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000010": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en secciones de Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2016"
+  },
+  "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000009": {
+   "nivel": 2,
+   "razon": "Incluye renta media por hogar en secciones de Canarias; territorio español válido.",
+   "title": "Indicadores de renta media y mediana. Secciones de Canarias. Año 2015"
+  },
+  "econ_002|https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1620": {
+   "nivel": 2,
+   "razon": "Incluye renta neta media por hogar en distritos de Zaragoza; territorio español válido.",
+   "title": "Renta neta media y niveles de formación en los distritos municipales de Zaragoza"
+  },
+  "econ_002|https://opendata-ajuntament.barcelona.cat/data/dataset/atles-renda-bruta-per-llar": {
+   "nivel": 2,
+   "razon": "Mide renta bruta media por hogar en Barcelona; territorio español válido.",
+   "title": "Renda tributaria bruta media por hogar (€) en la ciudad de Barcelona  "
+  },
+  "econ_005|https://datos.gob.es/catalogo/e05250001-deuda-viva-de-las-entidades-locales": {
+   "nivel": 0,
+   "razon": "Mide deuda de entidades locales, no deuda pública autonómica.",
+   "title": "Deuda viva de las Entidades Locales"
+  },
+  "econ_005|https://datos.gob.es/catalogo/l02000003-deuda-viva-de-los-ayuntamientos-de-la-provincia-de-alicante": {
+   "nivel": 0,
+   "razon": "Mide deuda de ayuntamientos, no deuda pública autonómica.",
+   "title": "Deuda viva de los ayuntamientos de la provincia de Alicante"
+  },
+  "econ_005|https://datosabiertos.regiondemurcia.es/carm/catalogo/economia/evolucion-anual-del-endeudamiento-por-habitante-comunidad-autonoma-de-la-region-de-murcia": {
+   "nivel": 2,
+   "razon": "Mide deuda pública de la Administración Autonómica de Murcia; territorio válido.",
+   "title": "Evolución anual del endeudamiento por habitante. Comunidad Autónoma de la Región de Murcia"
+  },
+  "econ_005|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/b6c16827-bffa-4aeb-b5a6-3d1b88a9d03b": {
+   "nivel": 0,
+   "razon": "Mide deuda municipal, no deuda pública autonómica.",
+   "title": "Deuda  Municipal - Ayuntamiento de Arama"
+  },
+  "econ_005|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/7ad9ead3-78b9-4f83-929d-5ef2a399692a": {
+   "nivel": 0,
+   "razon": "Mide deuda municipal, no deuda pública autonómica.",
+   "title": "Deuda  Municipal - Ayuntamiento de Zumaia"
+  },
+  "econ_005|https://opendata.euskadi.eus/catalogo/-/estadistica/deuda-bruta-del-gobierno-como-porcentaje-del-pib/": {
+   "nivel": 2,
+   "razon": "Mide deuda del gobierno autonómico vasco como % PIB; endeudamiento.",
+   "title": "Deuda bruta del gobierno como porcentaje del PIB"
+  },
+  "econ_005|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/dd3c9d37-e017-4106-a623-832bbf148ef7": {
+   "nivel": 0,
+   "razon": "Mide deuda municipal, no deuda pública autonómica.",
+   "title": "Deuda  Municipal - Ayuntamiento de Altzo"
+  },
+  "econ_005|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/13e7faf5-8b42-46a5-b364-f2a63831facf": {
+   "nivel": 0,
+   "razon": "Mide deuda municipal, no deuda pública autonómica.",
+   "title": "Deuda  Municipal - Ayuntamiento de Errenteria"
+  },
+  "econ_005|https://datos.gob.es/catalogo/a03002951-deuda-sector-publico-principado-asturias": {
+   "nivel": 2,
+   "razon": "Mide deuda del sector público autonómico de Asturias; coincide con la consulta.",
+   "title": "Deuda del sector público autonómico del Principado de Asturias"
+  },
+  "econ_005|https://intranet.caib.es/opendatacataleg/dataset/42e84ddd-fd8a-434a-9826-374ea0cd9781": {
+   "nivel": 2,
+   "razon": "Mide deuda pública de la CA Illes Balears; endeudamiento autonómico.",
+   "title": "Deuda Pública de la CA Illes Balears por Instrumento y Organismo Calculada Según el PDE (Protocolo de Déficit Excesivo)"
+  },
+  "econ_005|https://opendata.euskadi.eus/catalogo/-/deuda-financiera-de-las-administraciones-vascas-miles-de-euros/": {
+   "nivel": 2,
+   "razon": "Mide deuda de administraciones vascas, incluye la autonómica; ámbito País Vasco válido.",
+   "title": "Deuda financiera de las Administraciones Vascas (miles de euros)."
+  },
+  "edu_001|https://datos.comunidad.madrid/catalogo/dataset/1925494": {
+   "nivel": 2,
+   "razon": "Mide estudiantes matriculados en máster universitario; responde al fenómeno.",
+   "title": "Estudiantes matriculados en estudios de máster por tipo de universidad"
+  },
+  "edu_001|https://datos.comunidad.madrid/catalogo/dataset/1925502": {
+   "nivel": 2,
+   "razon": "Mide estudiantes matriculados en máster presencial; responde al fenómeno.",
+   "title": "Estudiantes matriculados en estudios de máster presenciales por universidad"
+  },
+  "edu_001|https://datos.gob.es/catalogo/u01200001-estudiantes-matriculados-por-procedencia-universitaria-master-2020-2021": {
+   "nivel": 2,
+   "razon": "Mide estudiantes matriculados en máster; responde al fenómeno.",
+   "title": "Estudiantes matriculados por procedencia universitaria Máster 2020-2021"
+  },
+  "edu_001|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30405a_000038": {
+   "nivel": 2,
+   "razon": "Mide estudiantes matriculados en universidades de Canarias; territorio válido.",
+   "title": "Distribución por comunidad autónoma de residencia de estudiantes matriculados en universidades presenciales de Canarias según tipos de universidad, ramas de enseñanza y sexos. Canarias por años"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Master_CA": {
+   "nivel": 0,
+   "razon": "Mide créditos y rendimiento académico, no matrícula de estudiantes universitarios.",
+   "title": "Número medio y total de créditos matriculados, presentados y superados (estudiantes matriculados) por tipo de universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Rendimiento_Exito_Eval_Master_CA": {
+   "nivel": 0,
+   "razon": "Mide tasas de rendimiento, no matrícula de estudiantes universitarios.",
+   "title": "Tasa de rendimiento, éxito y evaluación (estudiantes matriculados) por tipo de universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Rendimiento_Exito_Eval_Master_Tot": {
+   "nivel": 0,
+   "razon": "Mide tasas de rendimiento, no matrícula de estudiantes universitarios.",
+   "title": "Tasa de rendimiento, éxito y evaluación (estudiantes matriculados) por tipo de universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_Tot": {
+   "nivel": 0,
+   "razon": "Mide distribución de créditos matriculados, no matrícula de estudiantes universitarios.",
+   "title": "Distribución de los créditos matriculados en primera, segunda y tercera y sucesivas matrículas (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Master_Bec_Tot": {
+   "nivel": 0,
+   "razon": "Mide beneficiarios de becas/créditos, no matrícula de estudiantes universitarios.",
+   "title": "Distribución de los créditos matriculados en primera, segunda y tercera y sucesivas matrículas (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_CA": {
+   "nivel": 0,
+   "razon": "Mide rendimiento académico y transición, no matrícula de estudiantes universitarios.",
+   "title": "Distribución de los créditos matriculados en primera, segunda y tercera y sucesivas matrículas (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Grado_NoBec_Tot": {
+   "nivel": 0,
+   "razon": "Mide créditos matriculados, no número de estudiantes universitarios.",
+   "title": "Número medio de créditos matriculados, presentados y superados (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Grado_Bec_Tot": {
+   "nivel": 0,
+   "razon": "Mide créditos matriculados, no número de estudiantes universitarios.",
+   "title": "Número medio de créditos matriculados, presentados y superados (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Master_Bec_CA": {
+   "nivel": 0,
+   "razon": "Mide distribución de créditos, no estudiantes universitarios.",
+   "title": "Distribución de los créditos matriculados en primera, segunda y tercera y sucesivas matrículas (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Master_Bec_Tot": {
+   "nivel": 0,
+   "razon": "Mide créditos matriculados, no número de estudiantes universitarios.",
+   "title": "Número medio de créditos matriculados, presentados y superados (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Master_NoBec_Tot": {
+   "nivel": 0,
+   "razon": "Mide créditos matriculados, no número de estudiantes universitarios.",
+   "title": "Número medio de créditos matriculados, presentados y superados (estudiantes matriculados) por tipo y modalidad de la universidad, ámbito de estudio y sexo"
+  },
+  "edu_002|https://intranet.caib.es/opendatacataleg/dataset/ee9adf81-701f-402d-840a-ab48e4453b01": {
+   "nivel": 2,
+   "razon": "Mide tasa de abandono escolar temprano en Illes Balears; territorio y desglose válidos.",
+   "title": "Nombre i taxa d'abandonament escolar prematur entre joves de 18 i 24 anys per període i sexe. Des de 2002 primer trimestre a 2013 quart trimestre. Illes Balears"
+  },
+  "edu_002|https://intranet.caib.es/opendatacataleg/dataset/f9de99b9-6d0e-4045-94ac-749899974141": {
+   "nivel": 2,
+   "razon": "Mide tasa de abandono escolar temprano en Illes Balears; territorio y desglose válidos.",
+   "title": "Nombre i taxa d'abandonament escolar prematur entre joves de 18 i 24 anys per període i sexe. Des del 2000 primer trimestre al 2013 quart trimestre. Illes Balears"
+  },
+  "edu_002|https://intranet.caib.es/opendatacataleg/dataset/1309e841-1d03-47dd-aff4-d05498fa4a6a": {
+   "nivel": 2,
+   "razon": "Mide tasa de abandono escolar temprano en Illes Balears; territorio y desglose válidos.",
+   "title": "Nombre i taxa d'abandó escolar (CNED-2014) prematur entre joves de 18 i 24 anys per període i sexe. Des de 2008 primer trimestre a 2026 primer trimestre. Illes Balears"
+  },
+  "edu_002|https://intranet.caib.es/opendatacataleg/dataset/3a1fc8ae-99e5-42e5-af87-ebfcd3ff17ef": {
+   "nivel": 2,
+   "razon": "Mide tasa de abandono escolar temprano en Illes Balears; territorio y desglose válidos.",
+   "title": "Nombre i taxa d'abandó escolar (CNED-2014) prematur entre joves de 18 i 24 anys per període i sexe. Des de 2002 primer trimestre a 2023 quart trimestre. Illes Balears"
+  },
+  "edu_002|https://datos.gob.es/catalogo/ea0042823-alumnos-que-abandonaron-la-eso-en-el-curso-2013-14-segun-su-transicion-posterior-en-el-sistema-educativo-por-sexo-y-ccaa-de-estudio-identificador-api-45398": {
+   "nivel": 0,
+   "razon": "Mide alumnos que abandonaron la ESO, no la tasa de abandono educativo temprano.",
+   "title": "Alumnos que abandonaron la ESO en el curso 2013-14 según su transición posterior en el Sistema Educativo por sexo y CCAA de estudio (Identificador API: 45398)"
+  },
+  "edu_002|https://datos.gob.es/catalogo/ea0042823-alumnos-que-abandonaron-la-eso-en-el-curso-2013-14-que-abandonaron-de-nuevo-el-sistema-educativo-en-el-curso-2015-16-segun-se-reincorporasen-y-el-ano-de-reincorporacion-por-sexo-identificador-api-45196": {
+   "nivel": 0,
+   "razon": "Mide reabandono del sistema educativo, no la tasa de abandono escolar temprano.",
+   "title": "Alumnos que abandonaron la ESO en el curso 2013-14 que abandonaron de nuevo el sistema educativo en el curso 2015-16 según se reincorporasen y el año de reincorporación por sexo (Identificador API: 45"
+  },
+  "edu_004|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Relacion_Becados_Grado_CA": {
+   "nivel": 2,
+   "razon": "Mide beneficiarios de becas generales de la AGE en Grado; territorio Andalucía válido.",
+   "title": "Relación entre los beneficiarios y el total de matriculados por tipo de universidad, ámbito de estudio y sexo (universidades presenciales)"
+  },
+  "edu_004|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Relacion_Becados_Master_Univ": {
+   "nivel": 2,
+   "razon": "Mide beneficiarios de becas generales de la AGE en Máster; ámbito España válido.",
+   "title": "Relación entre los beneficiarios y el total de matriculados por ámbito de estudio y sexo (universidades presenciales)"
+  },
+  "edu_005|http://datosabiertos.castillalamancha.es/node/535": {
+   "nivel": 2,
+   "razon": "Catálogo de títulos ofertados de FP en Castilla-La Mancha.",
+   "title": "Catálogo de títulos de formación profesional en Castilla-La Mancha"
+  },
+  "edu_005|https://analisi.transparenciacatalunya.cat/api/views/d46q-qgqm": {
+   "nivel": 2,
+   "razon": "Catálogo de cursos de FP ofertados en Cataluña.",
+   "title": "Catálogo de Formación Profesional- LOGSE"
+  },
+  "edu_005|https://opendata.euskadi.eus/catalogo/-/estadistica/alumnado-y-grupos-de-formacion-profesional-por-curso-modelo-linguistico-y-red-datos-de-prematricula-para-el-curso-2017-2018/": {
+   "nivel": 0,
+   "razon": "Mide alumnado y grupos de prematrícula, no oferta de plazas.",
+   "title": "Alumnado y grupos de Formación Profesional por curso, modelo lingüístico y red. Datos de prematrícula para el curso 2017-2018"
+  },
+  "empleo_001|https://datos.comunidad.madrid/catalogo/dataset/705012": {
+   "nivel": 0,
+   "razon": "No mide empleo juvenil; es asesoramiento e inscripción en Garantía Juvenil.",
+   "title": "Asesoramiento a jóvenes"
+  },
+  "empleo_001|https://datosabiertos.jcyl.es/web/jcyl/set/es/empleo/jovenes-inscritos-en-garantia-juvenil/1285050106506": {
+   "nivel": 2,
+   "razon": "Estadísticas de jóvenes en Garantía Juvenil, programa de empleo juvenil; desglose provincial y sexo.",
+   "title": "Jóvenes inscritos en garantía juvenil"
+  },
+  "empleo_001|https://www.cis.es/es/estudios/efectos-de-la-contratacion-temporal-en-el-mercado-de-trabajo-iii-empresarios-ii-": {
+   "nivel": 0,
+   "razon": "No mide empleo juvenil; trata contratación temporal y empresarios.",
+   "title": "Efectos de la contratación temporal en el mercado de trabajo (III): empresarios (II)"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918103": {
+   "nivel": 0,
+   "razon": "Mide parados EPA, no paro registrado; fenómeno distinto.",
+   "title": "Parados por grupos de edad y sexo"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/paro_por_edad_y_sexo": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios/edad/sexo, no por comunidades (b).",
+   "title": "Paro registrado en las oficinas de empleo por edad y sexo. Municipios"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/porcentaje_paro_por_sector": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por sector/municipios, no por comunidades (b).",
+   "title": "Porcentaje de paro registrado en las oficinas de empleo por sector de actividad. Municipios"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/porcentaje_paro_por_edad_y_sexo": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por edad/sexo/municipios, no por comunidades (b).",
+   "title": "Porcentaje de parados registrados en las oficinas de empleo por edad y sexo. Municipios"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/porcentaje_paro_por_nacionalidad": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por nacionalidad/municipios, no por comunidades (b).",
+   "title": "Porcentaje de paro registrado en las oficinas de empleo por nacionalidad. Municipios"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2020/": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios, no por comunidades (b).",
+   "title": "Paro por municipio durante el 2020"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2016/": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios, no por comunidades (b).",
+   "title": "Paro por municipio durante el 2016"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2015/": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios, no por comunidades (b).",
+   "title": "Paro por municipio durante el 2015"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2019/": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios, no por comunidades (b).",
+   "title": "Paro por municipio durante el 2019"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2024/": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero desglose por municipios, no por comunidades (b).",
+   "title": "Paro por municipio durante el 2024"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2014/": {
+   "nivel": 1,
+   "razon": "Mide paro, pero desglose por municipios, no por comunidades (caso b).",
+   "title": "Paro por municipio durante el 2014"
+  },
+  "empleo_002|https://opendata.euskadi.eus/catalogo/-/estadistica/paro-por-municipio-durante-el-2017/": {
+   "nivel": 1,
+   "razon": "Mide paro, pero desglose por municipios, no por comunidades (caso b).",
+   "title": "Paro por municipio durante el 2017"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/paro_por_nacionalidad_sector_y_sexo": {
+   "nivel": 1,
+   "razon": "Mide paro registrado, pero desglose por municipios/nacionalidad/sector/sexo, no por comunidades (caso b).",
+   "title": "Paro registrado en las oficinas de empleo por nacionalidad, sector de actividad y sexo. Municipios"
+  },
+  "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918112": {
+   "nivel": 0,
+   "razon": "Tasa de paro no es paro registrado; además sin desglose por comunidades.",
+   "title": "Tasa de paro por nacionalidad y sexo"
+  },
+  "empleo_003|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_contrato_universidad": {
+   "nivel": 0,
+   "razon": "Es una clasificación de tipos de contrato, no datos comparativos de contratos temporales vs indefinidos.",
+   "title": "Clasificación de tipos de contrato para trabajadores de la universidad (ISTAC: CL_TIPOS_CONTRATO_UNIVERSIDAD)"
+  },
+  "empleo_003|https://datos.comunidad.madrid/catalogo/dataset/contratos_espanyoles_por_tipo_sector_y_sexo": {
+   "nivel": 2,
+   "razon": "Contratos registrados por tipo de contrato, permite comparar temporales vs indefinidos.",
+   "title": "Contratos registrados a españoles en las oficinas de empleo por tipo de contrato, sector de actividad y sexo. Municipios"
+  },
+  "empleo_003|https://datos.comunidad.madrid/catalogo/dataset/porcentaje_afiliados_por_residencia_y_contrato": {
+   "nivel": 2,
+   "razon": "Afiliados por tipo de contrato, permite comparar temporales vs indefinidos.",
+   "title": "Porcentaje de afiliados a la Seguridad Social por lugar de residencia y tipo de contrato. Municipios"
+  },
+  "empleo_004|https://intranet.caib.es/opendatacataleg/dataset/dbc1728a-652b-450e-af59-bf9d146b7d44": {
+   "nivel": 0,
+   "razon": "Mide distribución por sexo y umbral SMI, no brecha salarial de género.",
+   "title": "Distribució de treballadors en funció del seu sexe (tots dos sexes=100) segons tipus de jornada i guany respecte al Salari Mínim Interprofessional. 2022. Illes Balears"
+  },
+  "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1932865": {
+   "nivel": 2,
+   "razon": "Ganancia media anual por sexo permite calcular brecha salarial.",
+   "title": "Ganancia media anual por trabajador por actividad, estudios y sexo"
+  },
+  "empleo_004|https://datos.gob.es/catalogo/ea0042823-encuesta-cuatrienal-de-estructura-salarial-2022-trabajadores-derechos-de-acceso-restringidos": {
+   "nivel": 2,
+   "razon": "Microdatos salariales con sexo permiten analizar brecha salarial.",
+   "title": "Encuesta Cuatrienal de Estructura Salarial (2022). Trabajadores. Derechos de acceso restringidos."
+  },
+  "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1932925": {
+   "nivel": 2,
+   "razon": "Ganancia media anual por sexo permite calcular brecha salarial.",
+   "title": "Ganancia media anual por trabajador por actividad, tipo de contrato y sexo"
+  },
+  "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1921207": {
+   "nivel": 2,
+   "razon": "Retribuciones medias por sexo permiten calcular brecha salarial.",
+   "title": "Retribuciones anuales medias por rendimientos de trabajo por grupos de cotización y sexo"
+  },
+  "empleo_004|https://datos.comunidad.madrid/catalogo/dataset/1932926": {
+   "nivel": 2,
+   "razon": "Ganancia media anual por sexo permite calcular brecha salarial.",
+   "title": "Ganancia media anual por trabajador por actividad, antigüedad y sexo"
+  },
+  "empleo_004|https://datosabiertos.navarra.es/dataset/encuesta-de-estructura-salarial": {
+   "nivel": 2,
+   "razon": "Encuesta de estructura salarial incluye brecha salarial de género.",
+   "title": "Encuesta de estructura salarial"
+  },
+  "medio_001|https://opendata.gijon.es/catalogo/calidad_aire_2023": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero no indica desglose por ciudades; caso b.",
+   "title": "Calidad de aire - Datos año 2023"
+  },
+  "medio_001|https://opendata.gijon.es/catalogo/calidad_aire_2020": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero no indica desglose por ciudades; caso b.",
+   "title": "Calidad de aire - Datos año 2020"
+  },
+  "medio_001|https://opendata.gijon.es/catalogo/calidad_aire_2021": {
+   "nivel": 1,
+   "razon": "Tema correcto, pero no indica desglose por ciudades; caso b.",
+   "title": "Calidad de aire - Datos año 2021"
+  },
+  "medio_002|https://intranet.caib.es/opendatacataleg/dataset/5894c5db-6608-4853-b904-12c3e325dc93": {
+   "nivel": 2,
+   "razon": "Mide residuos urbanos recogidos y tratados, gestión municipal.",
+   "title": "Residus urbans recollits per capita i proporció de residus urbans en relació amb el total de residus urbans generats i tractats"
+  },
+  "medio_002|https://datos.gob.es/catalogo/ea0042823-cantidad-de-residuos-urbanos-recogidos-clasificados-por-tipo-de-residuo-periodo-y-comunidades-autonomas-identificador-api-67547": {
+   "nivel": 2,
+   "razon": "Residuos urbanos recogidos por tipo y CCAA, gestión municipal.",
+   "title": "Cantidad de residuos urbanos recogidos clasificados por tipo de residuo, periodo y comunidades autónomas (Identificador API: 67547)"
+  },
+  "medio_002|urn:ine:es:TABLA:TPX:67547": {
+   "nivel": 2,
+   "razon": "Residuos urbanos recogidos por tipo y CCAA, gestión municipal.",
+   "title": "Cantidad de residuos urbanos recogidos clasificados por tipo de residuo, periodo y comunidades autónomas (Identificador API: 67547)"
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2014/": {
+   "nivel": 2,
+   "razon": "Estadística de residuos urbanos en País Vasco, gestión municipal.",
+   "title": "Estadística de Residuos Urbanos de la C.A. del País Vasco 2014."
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2019/": {
+   "nivel": 2,
+   "razon": "Estadística de residuos urbanos en País Vasco, gestión municipal.",
+   "title": "Estadística de Residuos Urbanos de la C.A. del País Vasco. 2019."
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2016/": {
+   "nivel": 2,
+   "razon": "Estadística de residuos urbanos en País Vasco, gestión municipal.",
+   "title": "Estadística de Residuos Urbanos de la C.A. del País Vasco. 2016."
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/estadistica/estadistica-de-residuos-urbanos-de-la-c-a-del-pais-vasco-2018/": {
+   "nivel": 2,
+   "razon": "Estadística de residuos urbanos en País Vasco, gestión municipal.",
+   "title": "Estadística de Residuos Urbanos de la C.A. del País Vasco. 2018."
+  },
+  "medio_002|https://opendata.euskadi.eus/catalogo/-/contenidos/estadistica/amb_res_urb_2020/es_def/index.shtml": {
+   "nivel": 2,
+   "razon": "Estadística de residuos urbanos en País Vasco, gestión municipal.",
+   "title": "Estadística de Residuos Urbanos de la C.A. del País Vasco. 2020."
+  },
+  "medio_002|https://datos.gob.es/catalogo/ea0042823-estadisticas-sobre-recogida-y-tratamiento-de-residuos-estadisticas-sobre-recogida-de-residuos-municipales-derechos-de-acceso-restringidos": {
+   "nivel": 2,
+   "razon": "Recogida y tratamiento de residuos municipales, gestión municipal.",
+   "title": "Estadísticas sobre Recogida y Tratamiento de Residuos: Estadísticas sobre Recogida de Residuos Municipales. Derechos de acceso restringidos."
+  },
+  "medio_002|https://datos.alcobendas.org/dataset/medio-ambiente-recogida-de-residuos": {
+   "nivel": 2,
+   "razon": "Recogida de residuos en Alcobendas, gestión municipal.",
+   "title": "Medio ambiente. Recogida de residuos"
+  },
+  "medio_002|https://www.opendatabizkaia.eus/es/catalogo/residuos-urbanos": {
+   "nivel": 2,
+   "razon": "Datos de recogida de residuos urbanos en Bizkaia, gestión municipal de residuos.",
+   "title": "Residuos urbanos"
+  },
+  "medio_003|https://datos.gob.es/catalogo/e05068001-proyecciones-de-emisiones-de-gases-de-efecto-invernadero-2025": {
+   "nivel": 2,
+   "razon": "Proyecciones de emisiones GEI en España; mide el fenómeno solicitado.",
+   "title": "Proyecciones de emisiones de gases de efecto invernadero 2025"
+  },
+  "medio_003|https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2022": {
+   "nivel": 2,
+   "razon": "Emisiones GEI en Comunidad de Madrid; mide el fenómeno solicitado.",
+   "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2022"
+  },
+  "medio_003|https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2023": {
+   "nivel": 2,
+   "razon": "Emisiones GEI en Comunidad de Madrid; mide el fenómeno solicitado.",
+   "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2023"
+  },
+  "medio_003|https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2018": {
+   "nivel": 2,
+   "razon": "Emisiones GEI en Comunidad de Madrid; mide el fenómeno solicitado.",
+   "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2018"
+  },
+  "medio_003|f38bfc0d-6e2c-415a-bf12-b3535fc14d65": {
+   "nivel": 2,
+   "razon": "Proyecciones de emisiones GEI en España; mide el fenómeno solicitado.",
+   "title": "Proyecciones de emisiones de gases de efecto invernadero 2025"
+  },
+  "medio_003|https://datos.comunidad.madrid/catalogo/dataset/atm_inventario_gei": {
+   "nivel": 2,
+   "razon": "Inventario de emisiones GEI de Madrid; mide el fenómeno solicitado.",
+   "title": "Inventario de emisiones de gases de efecto invernadero de la Comunidad de Madrid"
+  },
+  "medio_003|https://analisi.transparenciacatalunya.cat/api/views/hefh-b8uy": {
+   "nivel": 2,
+   "razon": "Emisiones GEI de instalaciones en Cataluña; mide el fenómeno solicitado.",
+   "title": "Emisiones de gases de efecto invernadero de las instalaciones incluidas en el régimen de comercio de derechos de emisión de acuerdo con el anexo I de la Ley 1/2005"
+  },
+  "medio_003|https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-del-pais-vasco-2021/": {
+   "nivel": 2,
+   "razon": "Inventario de emisiones GEI del País Vasco; mide el fenómeno solicitado.",
+   "title": "Inventario de emisiones de Gases de Efecto Invernadero de la C.A. del País Vasco. 2021"
+  },
+  "medio_003|https://datos.gob.es/catalogo/ea0042823-indicadores-de-emisiones-a-la-atmosfera-de-co2-por-valor-anadido-bruto-total-de-la-economia-y-sector-manufacturero-identificador-api-67269": {
+   "nivel": 2,
+   "razon": "Indicadores de emisiones de CO2; mide el fenómeno solicitado.",
+   "title": "Indicadores de emisiones a la atmósfera de CO2 por valor añadido bruto. Total de la economía y Sector manufacturero (Identificador API: 67269)"
+  },
+  "medio_003|https://datos.gob.es/catalogo/l02000008-emisiones-de-gases-de-efecto-invernadero-de-los-municipios": {
+   "nivel": 2,
+   "razon": "Emisiones GEI municipales en Barcelona; mide el fenómeno solicitado.",
+   "title": " Emisiones de gases de efecto invernadero de los municipios"
+  },
+  "medio_004|https://analisi.transparenciacatalunya.cat/api/views/gn9e-3qhr": {
+   "nivel": 2,
+   "razon": "Mide estado y volumen de agua en embalses; ámbito autonómico válido.",
+   "title": "Cantidad de agua en los embalses de las Cuencas Internas de Catalunya"
+  },
+  "san_003|https://web.larioja.org/dato-abierto/datoabierto?n=opd-315": {
+   "nivel": 2,
+   "razon": "Mide lista de espera quirúrgica en hospital español; responde a tiempos de espera.",
+   "title": "Lista de espera quirúrgica Hospital San Pedro"
+  },
+  "san_003|https://web.larioja.org/dato-abierto/datoabierto?n=opd-316": {
+   "nivel": 2,
+   "razon": "Mide lista de espera quirúrgica en hospital español; responde a tiempos de espera.",
+   "title": "Lista de espera quirúrgica Fundación Hospital Calahorra"
+  },
+  "san_003|https://web.larioja.org/dato-abierto/datoabierto?n=opd-314": {
+   "nivel": 2,
+   "razon": "Mide lista de espera quirúrgica en comunidad autónoma española; responde a tiempos de espera.",
+   "title": "Lista de espera quirúrgica Comunidad Autónoma de La Rioja"
+  },
+  "san_003|https://opendata.euskadi.eus/catalogo/-/estadistica/lista-de-espera-para-intervenciones-quirurgicas/": {
+   "nivel": 2,
+   "razon": "Título indica lista de espera para intervenciones quirúrgicas; mide el fenómeno solicitado.",
+   "title": "Lista de espera para intervenciones quirúrgicas"
+  },
+  "san_003|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00045a_000003": {
+   "nivel": 2,
+   "razon": "Incluye tasa de lista de espera según tiempo de espera quirúrgico; responde.",
+   "title": "Tasa de lista de espera en los centros hospitalarios del Servicio Canario de la Salud (SCS) según servicios quirúrgicos y tiempo de espera. Islas de canarias por periodos"
+  },
+  "san_004|https://datosabiertos.jcyl.es/web/jcyl/set/es/salud/consumo-de-productos-farmaceuticos-por-receta/1285522341029": {
+   "nivel": 2,
+   "razon": "Mide consumo e importe de medicamentos por receta en Sacyl; gasto farmacéutico público del SNS.",
+   "title": "Consumo de productos farmacéuticos por receta"
+  },
+  "san_005|https://datos.comunidad.madrid/catalogo/dataset/1924382": {
+   "nivel": 1,
+   "razon": "Solo hombres; falta desglose de mujeres (caso b).",
+   "title": "Esperanza de vida al nacer por sexo y por municipios mayores de 100.000 habitantes: Hombres"
+  },
+  "san_005|https://datos.comunidad.madrid/catalogo/dataset/1924383": {
+   "nivel": 1,
+   "razon": "Solo mujeres; falta desglose de hombres (caso b).",
+   "title": "Esperanza de vida al nacer por sexo y por municipios mayores de 100.000 habitantes: Mujeres"
+  },
+  "san_005|urn:ine:es:TABLA:T3:66:67235": {
+   "nivel": 2,
+   "razon": "Tabla de mortalidad con sexo y edad permite esperanza de vida al nacer.",
+   "title": "Tablas de mortalidad por año, provincia, sexo, edad y funciones. TM (Identificador API: 67235)"
+  },
+  "san_005|urn:ine:es:TABLA:T3:66:67234": {
+   "nivel": 2,
+   "razon": "Tabla de mortalidad con sexo y edad permite esperanza de vida al nacer.",
+   "title": "Tablas de mortalidad por año, comunidades y ciudades autónomas, sexo, edad y funciones. TM (Identificador API: 67234)"
+  },
+  "trans_001|https://datos.gob.es/catalogo/l02000008-mapa-de-los-tramos-de-aforo-con-la-informacion-asociada-a-las-estaciones-y-a-la-intensidad-media-diaria-de-transtio": {
+   "nivel": 2,
+   "razon": "Mide intensidad media diaria de tráfico en carreteras de Cataluña.",
+   "title": "Mapa de los tramos de aforo con la información asociada a las estaciones y a la intensidad media diaria de tránstio"
+  },
+  "trans_001|https://abertos.xunta.gal/catalogo/territorio-vivienda-transporte/-/dataset/0083/memoria-trafico": {
+   "nivel": 2,
+   "razon": "Mide tránsito en carreteras de Galicia; incluye datos de tráfico.",
+   "title": "Memoria de tráfico"
+  },
+  "trans_001|https://datosabiertos.jcyl.es/web/jcyl/set/es/transporte/intensidad_circulacion/1284733182199": {
+   "nivel": 2,
+   "razon": "Mide intensidades medias diarias de tráfico en carreteras de Castilla y León.",
+   "title": "Intensidades medias diarias de tráfico y velocidades. Red Regional de Carreteras"
+  },
+  "trans_001|http://datosabiertos.castillalamancha.es/node/1478": {
+   "nivel": 2,
+   "razon": "Mide parámetros de tráfico y aforo en carreteras de Castilla-La Mancha.",
+   "title": "Planes de Aforo de Tráfico en Castilla-La Mancha"
+  },
+  "trans_001|https://datosabiertos.navarra.es/dataset/tramificaci-n-de-la-red-de-tr-fico-por-estaciones-de-aforo-2006-2011": {
+   "nivel": 2,
+   "razon": "Mide intensidad media diaria de tráfico en carreteras de Navarra.",
+   "title": "Tramificación de la red de tráfico por estaciones de aforo 2006-2011"
+  },
+  "trans_002|https://melilla-datosabiertos.tao.es/dataset/2070349a-20ef-404e-9933-7bc55c248fc3": {
+   "nivel": 2,
+   "razon": "Mide pasajeros del aeropuerto de Melilla; tráfico aéreo de pasajeros.",
+   "title": "Aeropuerto de Melilla"
+  },
+  "trans_002|https://datos.comunidad.madrid/catalogo/dataset/1927020": {
+   "nivel": 2,
+   "razon": "Total de pasajeros en Madrid-Barajas; mide tráfico aéreo de pasajeros.",
+   "title": "Total pasajeros en el aeropuerto de Adolfo Suárez Madrid-Barajas por zona geográfica"
+  },
+  "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00017a_000001": {
+   "nivel": 2,
+   "razon": "Tráfico total de pasajeros en aeropuertos canarios; mide el fenómeno.",
+   "title": "Tráfico total de pasajeros en los aeropuertos de las islas de Canarias según servicios y aeropuertos de escala. Canarias por periodos de referencia"
+  },
+  "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00017a_000004": {
+   "nivel": 2,
+   "razon": "Entrada de pasajeros en aeropuertos canarios; mide tráfico aéreo.",
+   "title": "Entrada de pasajeros en los aeropuertos de las islas de Canarias según servicios y aeropuertos de escala. Canarias por periodos de referencia"
+  },
+  "trans_002|https://datos.comunidad.madrid/catalogo/dataset/1927182": {
+   "nivel": 2,
+   "razon": "Pasajeros en tránsito en Madrid-Barajas; mide tráfico aéreo.",
+   "title": "Pasajeros en tránsito de vuelos comerciales en el aeropuerto de Adolfo Suárez Madrid-Barajas por zona geográfica"
+  },
+  "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00017a_000007": {
+   "nivel": 2,
+   "razon": "Salida de pasajeros en aeropuertos canarios; mide tráfico aéreo.",
+   "title": "Salida de pasajeros en los aeropuertos de las islas de Canarias según servicios y aeropuertos de escala. Canarias por periodos de referencia"
+  },
+  "trans_002|https://datos.comunidad.madrid/catalogo/dataset/1927080": {
+   "nivel": 2,
+   "razon": "Total de pasajeros en Madrid-Barajas; mide tráfico aéreo.",
+   "title": "Total pasajeros en el resto de clases de tráfico en el aeropuerto de Adolfo Suárez Madrid-Barajas por zona geográfica"
+  },
+  "trans_002|https://datos.comunidad.madrid/catalogo/dataset/1927183": {
+   "nivel": 2,
+   "razon": "Pasajeros en tránsito en Madrid-Barajas; mide tráfico aéreo.",
+   "title": "Pasajeros en tránsito de resto de clases de tráfico en el aeropuerto de Adolfo Suárez Madrid-Barajas por zona geográfica"
+  },
+  "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/pasajeros-procedentes-aeropuertos-nacionales-motivo-viaje-pasajeros-residencia-espana-2005-2009": {
+   "nivel": 2,
+   "razon": "Pasajeros procedentes de aeropuertos nacionales; mide tráfico aéreo.",
+   "title": "Pasajeros procedentes de aeropuertos nacionales según el motivo del viaje de los pasajeros con residencia en España por islas de Canarias. 2005-2009"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919180": {
+   "nivel": 0,
+   "razon": "Mide características de redes de autobuses, no uso.",
+   "title": "Características de las redes de autobuses"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/902016": {
+   "nivel": 0,
+   "razon": "Mide infraestructura y oferta de autobuses, no uso.",
+   "title": "Infraestructura y oferta de autobuses interurbanos"
+  },
+  "trans_003|https://datos.gob.es/catalogo/l01281150-transporte-publico": {
+   "nivel": 2,
+   "razon": "Datos de transporte de personas, incluye modos urbanos.",
+   "title": "Transporte público"
+  },
+  "trans_003|https://opendata-ajuntament.barcelona.cat/data/dataset/transports": {
+   "nivel": 0,
+   "razon": "Lista modos de transporte, no mide uso.",
+   "title": "Transportes de la ciudad de Barcelona"
+  },
+  "trans_003|https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1960": {
+   "nivel": 2,
+   "razon": "Datos de uso de bus y tranvía (viajeros).",
+   "title": "Datos de Uso Bus y tranvía"
+  },
+  "trans_003|https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-transporte-publico-300m-2012": {
+   "nivel": 0,
+   "razon": "Mide proximidad al transporte público, no uso.",
+   "title": "Agenda 21 - Proximidad transporte público 300m 2012"
+  },
+  "trans_003|https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-transporte-publico-300m-2013": {
+   "nivel": 0,
+   "razon": "Mide proximidad al transporte público, no uso.",
+   "title": "Agenda 21 - Proximidad transporte público 300m 2013"
+  },
+  "trans_003|https://datos.alcobendas.org/dataset/servicios-de-autobus": {
+   "nivel": 0,
+   "razon": "Servicios de rutas de autobús, no uso.",
+   "title": "Servicios de autobús"
+  },
+  "trans_003|https://datos.alcobendas.org/dataset/rutas-de-autobus": {
+   "nivel": 0,
+   "razon": "Rutas de autobús, no uso.",
+   "title": "Rutas de autobús"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/infraestructura_transporte_publico": {
+   "nivel": 0,
+   "razon": "Infraestructura de transporte urbano, no uso.",
+   "title": "Transporte urbano público. Infraestructura. Municipios"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1908081": {
+   "nivel": 2,
+   "razon": "Ratios del Metro de Madrid miden uso de transporte público urbano en Madrid.",
+   "title": "Ratios del Metro de Madrid"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919188": {
+   "nivel": 0,
+   "razon": "Mide tarifas, no uso de transporte público.",
+   "title": "Tarifas de los títulos de transporte en las áreas metropolitanas"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/902015": {
+   "nivel": 0,
+   "razon": "Mide infraestructura, oferta y empleo, no uso.",
+   "title": "Empresa municipal de transporte de Madrid. Infraestructura, oferta y empleo"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919186": {
+   "nivel": 0,
+   "razon": "Mide servicios nocturnos de autobús, no uso.",
+   "title": "Servicios nocturnos de autobús"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/902014": {
+   "nivel": 0,
+   "razon": "Mide infraestructura, oferta y empleo, no uso.",
+   "title": "Metro de Madrid. Infraestructura, oferta y empleo"
+  },
+  "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919184": {
+   "nivel": 0,
+   "razon": "Mide velocidad comercial, no uso de transporte público.",
+   "title": "Velocidad comercial de los medios de transporte metropolitanos"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1998.-Datos-sobre-conductores-y-victimas-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 1998. Datos sobre conductores y víctimas implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1998.-Circunstancias-concurrentes-conductores-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 1998. Circunstancias concurrentes conductores implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2003.-Circunstancias-concurrentes-conductores-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 2003. Circunstancias concurrentes conductores implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2003.-Datos-sobre-conductores-y-victimas-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 2003. Datos sobre conductores y víctimas implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1999.-Circunstancias-concurrentes-conductores-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 1999. Circunstancias concurrentes conductores implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1999.-Datos-sobre-conductores-y-victimas-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 1999. Datos sobre conductores y víctimas implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2001.-Circunstancias-concurrentes-conductores-implicados/": {
+   "nivel": 2,
+   "razon": "Mide siniestralidad vial con víctimas y fallecidos; ámbito España.",
+   "title": "Accidentes con víctimas - Tablas estadísticas 2001. Circunstancias concurrentes conductores implicados"
+  },
+  "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-de-los-vehiculos-destinados-al-transporte-de-viajeros-y-de-mercancias-en-vias-interurbanas-2023/": {
+   "nivel": 0,
+   "razon": "No mide mortalidad, solo siniestralidad de vehículos de transporte.",
+   "title": "Siniestralidad de los vehículos destinados al transporte de viajeros y de mercancías en vías interurbanas 2023"
+  },
+  "trans_004|https://opendata.euskadi.eus/catalogo/-/informes-estudios/mortalidad-por-lesiones-por-trafico-en-hombres-en-euskadi-1996-2003/": {
+   "nivel": 2,
+   "razon": "Mide mortalidad por lesiones de tráfico en Euskadi; territorio autonómico válido.",
+   "title": "Mortalidad por lesiones por tráfico en hombres en Euskadi (1996-2003)"
+  },
+  "trans_005|https://datos.gob.es/catalogo/e00130502-matriculacion-de-vehiculos": {
+   "nivel": 0,
+   "razon": "Mide matriculación general de vehículos, no específicamente vehículos eléctricos ni ventas.",
+   "title": "Matriculación de vehículos"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-271-para-el-ao-2011": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP Giner de los Ríos\" para el año 2011"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-264-para-el-ao-2011": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP Luis de Góngora\" para el año 2011"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-263-para-el-ao-2011": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP El Torcal\" para el año 2011"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-262-para-el-ao-2010": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP Los Guindos\" para el año 2010"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-276-para-el-ao-2012": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP Jorge Guillén\" para el año 2012"
+  },
+  "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-271-para-el-ao-2010": {
+   "nivel": 2,
+   "razon": "Mide producción de energía fotovoltaica renovable en Málaga.",
+   "title": "Producción planta fotovoltaica \"CEIP Giner de los Ríos\" para el año 2010"
+  },
+  "medio_005|https://opendata.aragon.es/datos/catalogo/dataset/energias-renovables-en-aragon": {
+   "nivel": 0,
+   "razon": "Mide proyectos e instalaciones, no la generación de energía renovable.",
+   "title": "Energías renovables en Aragón"
+  },
+  "medio_005|https://datos.tenerife.es/datos/conjuntos-de-datos/energia-producida-y-consumida-en-plantas-fotovoltaicas-y-parques-eolicos-en-tenerife": {
+   "nivel": 2,
+   "razon": "Mide producción de energía renovable en Tenerife.",
+   "title": "Energía producida y consumida en plantas fotovoltaicas y parques eólicos en Tenerife"
+  }
+ }
+}

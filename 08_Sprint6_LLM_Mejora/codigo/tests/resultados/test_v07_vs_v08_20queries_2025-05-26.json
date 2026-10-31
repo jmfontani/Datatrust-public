@@ -1,0 +1,3626 @@
+{
+  "timestamp": "2026-05-26T22:26:17.882103",
+  "total_queries": 20,
+  "v07_url": "http://localhost:8000",
+  "v08_url": "http://localhost:8000",
+  "avg_overlap": 8.8,
+  "avg_v08_unique": 1.2,
+  "avg_rank_improvement": -0.03234126984126985,
+  "total_items_reordered": 80,
+  "by_category": {
+    "sinonimia": {
+      "avg_overlap": 7.75,
+      "avg_improvement": 0.25806451612903225,
+      "total_changes": 26
+    },
+    "conceptual": {
+      "avg_overlap": 8.75,
+      "avg_improvement": 0.11428571428571428,
+      "total_changes": 14
+    },
+    "territorial": {
+      "avg_overlap": 10.0,
+      "avg_improvement": 0.0,
+      "total_changes": 0
+    },
+    "temporal": {
+      "avg_overlap": 8.5,
+      "avg_improvement": -0.11764705882352941,
+      "total_changes": 18
+    },
+    "facetada": {
+      "avg_overlap": 9.0,
+      "avg_improvement": -0.4444444444444444,
+      "total_changes": 5
+    },
+    "metadatos": {
+      "avg_overlap": 9.0,
+      "avg_improvement": -0.3888888888888889,
+      "total_changes": 17
+    }
+  },
+  "results": [
+    {
+      "query": "paro juvenil desempleo jóvenes",
+      "query_id": "S1",
+      "categoria": "sinonimia",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Secciones de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Islas de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Secciones de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2014-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Islas de Canarias. 2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_25a34-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 25 a 34 años de edad. Media anual. Barrios de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Distritos de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Distritos de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 10
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Secciones de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Distritos de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 9
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Secciones de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 8
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Distritos de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Islas de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 7
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2016-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2016. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2016-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Islas de Canarias. 2016. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 6
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+          "title": "Población parada registrada de 16 a 24 años de edad. Media anual. Barrios de Canarias. 2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 5.5
+        }
+      ],
+      "overlap": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2019-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-distritos-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2019-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2019-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-secciones-canarias-2019-mapa-coropletas-5cuantiles"
+      ],
+      "v07_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_25a34-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2014-mapa-coropletas-5cuantiles"
+      ],
+      "v08_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-barrios-canarias-2016-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/ppar_t_16a24-islas-canarias-2016-mapa-coropletas-5cuantiles"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.75,
+      "rank_improvements": [
+        -4,
+        4,
+        0,
+        6,
+        -2,
+        -3,
+        1,
+        0
+      ],
+      "rerank_changes": 6
+    },
+    {
+      "query": "renta ingresos salarios",
+      "query_id": "S2",
+      "categoria": "sinonimia",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401137",
+          "title": "Salario medio anual de los hombres por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401136",
+          "title": "Salario medio anual total por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401140",
+          "title": "Salarios de los hombres por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401130",
+          "title": "Asalariados por tramos de salarios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401139",
+          "title": "Salarios por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1932845",
+          "title": "Ganancia media anual por trabajador por nacionadad, ocupación y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1921207",
+          "title": "Retribuciones anuales medias por rendimientos de trabajo por grupos de cotización y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1907748",
+          "title": "Salarios de los hombres por sector",
+          "publisher": "Comunidad de Madrid",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401131",
+          "title": "Hombres asalariados por tramos de salarios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401133",
+          "title": "Percepciones por persona por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401136",
+          "title": "Salario medio anual total por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401139",
+          "title": "Salarios por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1921207",
+          "title": "Retribuciones anuales medias por rendimientos de trabajo por grupos de cotización y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401137",
+          "title": "Salario medio anual de los hombres por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401140",
+          "title": "Salarios de los hombres por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 7.8
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401133",
+          "title": "Percepciones por persona por tramos de salario",
+          "publisher": "Comunidad de Madrid",
+          "rank": 6,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1932845",
+          "title": "Ganancia media anual por trabajador por nacionadad, ocupación y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 7,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1932826",
+          "title": "Ganancia media anual por trabajador por nacionalidad, estudios y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 8,
+          "score": 6.8
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1932865",
+          "title": "Ganancia media anual por trabajador por actividad, estudios y sexo",
+          "publisher": "Comunidad de Madrid",
+          "rank": 9,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/401130",
+          "title": "Asalariados por tramos de salarios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 10,
+          "score": 6.0
+        }
+      ],
+      "overlap": [
+        "https://datos.comunidad.madrid/catalogo/dataset/401140",
+        "https://datos.comunidad.madrid/catalogo/dataset/1921207",
+        "https://datos.comunidad.madrid/catalogo/dataset/401137",
+        "https://datos.comunidad.madrid/catalogo/dataset/1932845",
+        "https://datos.comunidad.madrid/catalogo/dataset/401130",
+        "https://datos.comunidad.madrid/catalogo/dataset/401139",
+        "https://datos.comunidad.madrid/catalogo/dataset/401136",
+        "https://datos.comunidad.madrid/catalogo/dataset/401133"
+      ],
+      "v07_unique": [
+        "https://datos.comunidad.madrid/catalogo/dataset/1907748",
+        "https://datos.comunidad.madrid/catalogo/dataset/401131"
+      ],
+      "v08_unique": [
+        "https://datos.comunidad.madrid/catalogo/dataset/1932826",
+        "https://datos.comunidad.madrid/catalogo/dataset/1932865"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.659999999999999,
+      "rank_improvements": [
+        -2,
+        4,
+        -3,
+        -1,
+        -6,
+        3,
+        1,
+        4
+      ],
+      "rerank_changes": 8
+    },
+    {
+      "query": "contaminación calidad aire",
+      "query_id": "S3",
+      "categoria": "sinonimia",
+      "v07_results": [
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+          "title": "Índice de calidad del aire e Indicador de sostenibilidad (*) por zonas de la C.A. de Euskadi.",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://dadesobertes.seu-e.cat/dataset/elpratdellobregat-qualitat-de-l-aire",
+          "title": "Qualitat de l'aire",
+          "publisher": "Ayto. de Burgos",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/calidad-del-aire-indicador-sostenibilidad-zonas-c-euskadi-1/",
+          "title": "Calidad del aire. Indicador de sostenibilidad (*) por zonas de la C.A. de Euskadi (%).",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/u27k-ujg3",
+          "title": "FGC - Calidad del aire por paradas",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=0475ebeb-d822-4719-af86-c1c2750cdc53",
+          "title": "Áreas de Modelos de Calidad del Aire",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/calidad_del_aire",
+          "title": "Calidad del aire",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/tasf-thgu",
+          "title": "Calidad del aire en los puntos de medida automáticos de la Red de Vigilancia y Previsión de la Contaminació Atmosférica",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2005",
+          "title": "Calidad del aire. Año 2005",
+          "publisher": "Ayto. de Gijón",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2006",
+          "title": "Calidad del aire. Año 2006",
+          "publisher": "Ayto. de Gijón",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/tasf-thgu",
+          "title": "Calidad del aire en los puntos de medida automáticos de la Red de Vigilancia y Previsión de la Contaminació Atmosférica",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+          "title": "Índice de calidad del aire e Indicador de sostenibilidad (*) por zonas de la C.A. de Euskadi.",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/calidad-del-aire-indicador-sostenibilidad-zonas-c-euskadi-1/",
+          "title": "Calidad del aire. Indicador de sostenibilidad (*) por zonas de la C.A. de Euskadi (%).",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 3,
+          "score": 8.8
+        },
+        {
+          "dataset_id": "https://dadesobertes.seu-e.cat/dataset/elpratdellobregat-qualitat-de-l-aire",
+          "title": "Qualitat de l'aire",
+          "publisher": "Ayto. de Burgos",
+          "rank": 4,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/u27k-ujg3",
+          "title": "FGC - Calidad del aire por paradas",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 5,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/calidad_del_aire",
+          "title": "Calidad del aire",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 6,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=0475ebeb-d822-4719-af86-c1c2750cdc53",
+          "title": "Áreas de Modelos de Calidad del Aire",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 7,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+          "title": "Calidad de aire - Datos año 2023",
+          "publisher": "Ayto. de Gijón",
+          "rank": 8,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 9,
+          "score": 6.8
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+          "title": "Calidad de aire - Datos año 2021",
+          "publisher": "Ayto. de Gijón",
+          "rank": 10,
+          "score": 6.5
+        }
+      ],
+      "overlap": [
+        "https://analisi.transparenciacatalunya.cat/api/views/tasf-thgu",
+        "https://analisi.transparenciacatalunya.cat/api/views/u27k-ujg3",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+        "https://opendata.euskadi.eus/catalogo/-/calidad-del-aire-indicador-sostenibilidad-zonas-c-euskadi-1/",
+        "https://www.vitoria-gasteiz.org/j34-01w/catalogo/calidad_del_aire",
+        "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=0475ebeb-d822-4719-af86-c1c2750cdc53",
+        "https://opendata.euskadi.eus/catalogo/-/indice-calidad-del-aire-e-indicador-sostenibilidad-zonas-c-euskadi/",
+        "https://dadesobertes.seu-e.cat/dataset/elpratdellobregat-qualitat-de-l-aire"
+      ],
+      "v07_unique": [
+        "https://opendata.gijon.es/catalogo/calidad_aire_2006",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2005"
+      ],
+      "v08_unique": [
+        "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2021"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 8.01,
+      "rank_improvements": [
+        6,
+        -1,
+        0,
+        0,
+        0,
+        -2,
+        -1,
+        -2
+      ],
+      "rerank_changes": 5
+    },
+    {
+      "query": "población habitantes demografía",
+      "query_id": "S4",
+      "categoria": "sinonimia",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2010-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2010. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2011-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2011. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2012-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2012. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2015-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2015. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2014-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2021-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2021. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2013-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2013. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2022-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2022. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2016. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2017-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2017. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2022-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2022. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 10.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2021-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2021. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 9.9
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2020-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 9.8
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2019-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 9.7
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2018-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2018. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 9.6
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2017-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2017. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2016. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 9.4
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2015-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2015. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 9.3
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2014-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 9.2
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2013-mapa-coropletas-5cuantiles",
+          "title": "Población. Índice de dependencia. Malla de 250m de Canarias. 01/01/2013. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 9.1
+        }
+      ],
+      "overlap": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2014-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2021-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2015-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2016-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2017-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2013-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2022-mapa-coropletas-5cuantiles"
+      ],
+      "v07_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2010-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2011-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2012-mapa-coropletas-5cuantiles"
+      ],
+      "v08_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2019-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/poblacion_indice_dependencia-malla-de-250m-canarias-01-01-2018-mapa-coropletas-5cuantiles"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 9.55,
+      "rank_improvements": [
+        -4,
+        4,
+        -4,
+        2,
+        4,
+        -3,
+        7
+      ],
+      "rerank_changes": 7
+    },
+    {
+      "query": "vulnerabilidad económica juventud",
+      "query_id": "C1",
+      "categoria": "conceptual",
+      "v07_results": [
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/adolescentes",
+          "title": "Adolescentes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/juventud-y-economia",
+          "title": "Juventud y economía",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912",
+          "title": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+          "title": "Asesoramiento a jóvenes",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+          "title": "Estudio de satisfacción con el programa de apoyo residencial para la vida autónoma de jóvenes en situación de grave vulnerabilidad social",
+          "publisher": "Ayto. de Madrid",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+          "title": "Expectativas y preocupaciones sociales de los jóvenes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por nivel de formación (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:T3:344:67990",
+          "title": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años). ECV (Identificador API: 67990)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2023. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/adolescentes",
+          "title": "Adolescentes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/juventud-y-economia",
+          "title": "Juventud y economía",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912",
+          "title": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/705012",
+          "title": "Asesoramiento a jóvenes",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+          "title": "Estudio de satisfacción con el programa de apoyo residencial para la vida autónoma de jóvenes en situación de grave vulnerabilidad social",
+          "publisher": "Ayto. de Madrid",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+          "title": "Expectativas y preocupaciones sociales de los jóvenes",
+          "publisher": "Ministerio de Transportes y Movilidad Sostenible",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por nivel de formación (personas de 16 y más años). 2024. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:T3:344:67990",
+          "title": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años). ECV (Identificador API: 67990)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4",
+          "title": "Tasa de riesgo de pobreza o exclusión social (objetivo Europa 2030) por relación con la actividad (personas de 16 y más años). 2023. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://www.cis.es/es/estudios/expectativas-y-preocupaciones-sociales-de-los-jovenes",
+        "urn:ine:es:TABLA:T3:344:67990",
+        "https://intranet.caib.es/opendatacataleg/dataset/8516c4c2-6157-4931-b416-1acf31ad08f8",
+        "https://datos.madrid.es/dataset/300613-0-estudio-jovenes-vulnerabilidad",
+        "https://intranet.caib.es/opendatacataleg/dataset/c4f5165d-12f1-4961-a20f-4e7a8dc59912",
+        "https://datos.comunidad.madrid/catalogo/dataset/705012",
+        "https://www.cis.es/es/estudios/juventud-y-economia",
+        "https://www.cis.es/es/estudios/adolescentes",
+        "https://intranet.caib.es/opendatacataleg/dataset/91cfd21f-dc69-41ac-933e-831214cb50f0",
+        "https://intranet.caib.es/opendatacataleg/dataset/0cc5f5d3-b104-4cdf-a9cf-c12d34f451f4"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "sostenibilidad urbana",
+      "query_id": "C2",
+      "categoria": "conceptual",
+      "v07_results": [
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-urbanismo/",
+          "title": "Indicadores municipales de sostenibilidad: Urbanismo",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-medioambiente-y-movilidad/",
+          "title": "Indicadores municipales de sostenibilidad: Medioambiente y Movilidad",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-suelo-urbano/",
+          "title": "Indicadores municipales de sostenibilidad: Suelo urbano (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-residencial-urbanizable/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie residencial urbanizable (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-suelo-urbano/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie ocupada por parques, jardines y zonas verdes urbanas (%/suelo urbano)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-municipal-con-uso-urbano-potencialmente-inundable/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie municipal con uso urbano potencialmente inundable (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-edificios-de-viviendas-de-2-o-mas-plantas-sin-ascensor/",
+          "title": "Indicadores municipales de sostenibilidad: Edificios de viviendas de 2 o más plantas sin ascensor (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-m-persona/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie ocupada por parques, jardines y zonas verdes urbanas (m²/persona)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-vivienda/",
+          "title": "Indicadores municipales de sostenibilidad: Vivienda",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-equipamientos-y-edificios-municipales-accesibles/",
+          "title": "Indicadores municipales de sostenibilidad: Equipamientos y edificios municipales accesibles (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-urbanismo/",
+          "title": "Indicadores municipales de sostenibilidad: Urbanismo",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-medioambiente-y-movilidad/",
+          "title": "Indicadores municipales de sostenibilidad: Medioambiente y Movilidad",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-suelo-urbano/",
+          "title": "Indicadores municipales de sostenibilidad: Suelo urbano (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-residencial-urbanizable/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie residencial urbanizable (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 4,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-suelo-urbano/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie ocupada por parques, jardines y zonas verdes urbanas (%/suelo urbano)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 7.8
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-m-persona/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie ocupada por parques, jardines y zonas verdes urbanas (m²/persona)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 6,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-municipal-con-uso-urbano-potencialmente-inundable/",
+          "title": "Indicadores municipales de sostenibilidad: Superficie municipal con uso urbano potencialmente inundable (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-vivienda/",
+          "title": "Indicadores municipales de sostenibilidad: Vivienda",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 6.8
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-edificios-de-viviendas-de-2-o-mas-plantas-sin-ascensor/",
+          "title": "Indicadores municipales de sostenibilidad: Edificios de viviendas de 2 o más plantas sin ascensor (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 9,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-equipamientos-y-edificios-municipales-accesibles/",
+          "title": "Indicadores municipales de sostenibilidad: Equipamientos y edificios municipales accesibles (%)",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 6.3
+        }
+      ],
+      "overlap": [
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-municipal-con-uso-urbano-potencialmente-inundable/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-m-persona/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-medioambiente-y-movilidad/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-edificios-de-viviendas-de-2-o-mas-plantas-sin-ascensor/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-vivienda/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-ocupada-por-parques-jardines-y-zonas-verdes-urbanas-suelo-urbano/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-superficie-residencial-urbanizable/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-suelo-urbano/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-urbanismo/",
+        "https://opendata.euskadi.eus/catalogo/-/indicadores-municipales-de-sostenibilidad-equipamientos-y-edificios-municipales-accesibles/"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.69,
+      "rank_improvements": [
+        -1,
+        2,
+        0,
+        -2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 4
+    },
+    {
+      "query": "brecha digital educación",
+      "query_id": "C3",
+      "categoria": "conceptual",
+      "v07_results": [
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/cejk-hyrb",
+          "title": "Equidad digital en los centros educativos de Catalunya",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-con-conexion-a-internet",
+          "title": "Evolución del número de centros con conexión a Internet",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos-con-conexion-a-internet",
+          "title": "Evolución del número de ordenadores usados por los alumnos con conexión a Internet",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1902398",
+          "title": "Tecnología de la información en la enseñanza no universitaria. Alumnos por ordenador",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos",
+          "title": "Evolución del número de ordenadores usados por los alumnos",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-que-tienen-pagina-web",
+          "title": "Evolución del número de centros que tienen página Web",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1902399",
+          "title": "Tecnología de la información en la enseñanza no universitaria. Profesores por ordenador",
+          "publisher": "Comunidad de Madrid",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-que-tienen-intranet",
+          "title": "Evolución del número de centros que tienen Intranet",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-total-de-ordenadores-disponibles",
+          "title": "Evolución del número total de ordenadores disponibles",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/numero-de-centros-con-conexion-a-internet-por-titularidad-del-centro",
+          "title": "Número de centros con conexión a Internet por titularidad del centro",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/cejk-hyrb",
+          "title": "Equidad digital en los centros educativos de Catalunya",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 1,
+          "score": 10
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/72e212c2-7421-410e-b985-86d11c4f606f",
+          "title": "Habilidades digitales en el uso de Internet o software por tipo de habilidad y características socioeconómicas. 2020. Illes Balears",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 2,
+          "score": 9
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-con-conexion-a-internet",
+          "title": "Evolución del número de centros con conexión a Internet",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos-con-conexion-a-internet",
+          "title": "Evolución del número de ordenadores usados por los alumnos con conexión a Internet",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 4,
+          "score": 8
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1902398",
+          "title": "Tecnología de la información en la enseñanza no universitaria. Alumnos por ordenador",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos",
+          "title": "Evolución del número de ordenadores usados por los alumnos",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 6,
+          "score": 7
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1902399",
+          "title": "Tecnología de la información en la enseñanza no universitaria. Profesores por ordenador",
+          "publisher": "Comunidad de Madrid",
+          "rank": 7,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-total-de-ordenadores-disponibles",
+          "title": "Evolución del número total de ordenadores disponibles",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 8,
+          "score": 6
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/numero-de-centros-con-conexion-a-internet-por-titularidad-del-centro",
+          "title": "Número de centros con conexión a Internet por titularidad del centro",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 9,
+          "score": 5.5
+        },
+        {
+          "dataset_id": "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-con-algun-ordenador-disponible",
+          "title": "Evolución del número de centros con algún ordenador disponible",
+          "publisher": "IAEST - Gobierno de Aragón",
+          "rank": 10,
+          "score": 5
+        }
+      ],
+      "overlap": [
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos",
+        "https://analisi.transparenciacatalunya.cat/api/views/cejk-hyrb",
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-ordenadores-usados-por-los-alumnos-con-conexion-a-internet",
+        "https://opendata.aragon.es/datos/catalogo/dataset/numero-de-centros-con-conexion-a-internet-por-titularidad-del-centro",
+        "https://datos.comunidad.madrid/catalogo/dataset/1902398",
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-total-de-ordenadores-disponibles",
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-con-conexion-a-internet",
+        "https://datos.comunidad.madrid/catalogo/dataset/1902399"
+      ],
+      "v07_unique": [
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-que-tienen-intranet",
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-que-tienen-pagina-web"
+      ],
+      "v08_unique": [
+        "https://intranet.caib.es/opendatacataleg/dataset/72e212c2-7421-410e-b985-86d11c4f606f",
+        "https://opendata.aragon.es/datos/catalogo/dataset/evolucion-del-numero-de-centros-con-algun-ordenador-disponible"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.3,
+      "rank_improvements": [
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0
+      ],
+      "rerank_changes": 6
+    },
+    {
+      "query": "equidad territorial servicios",
+      "query_id": "C4",
+      "categoria": "conceptual",
+      "v07_results": [
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/5sk6-yqrf",
+          "title": "Servicios territoriales de Interior y Seguridad Pública",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/qusy-hyb4",
+          "title": "Áreas básicas de servicios sociales",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_sociales",
+          "title": "Clasificación de servicios del Sistema Público de Servicios Sociales de Canarias (ISTAC: CL_ENCUESTAS_SERVICIOS_SOCIALES)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_servicios_destino_vehiculos",
+          "title": "Clasificación de servicios a los que se destina un vehículo (ISTAC: CL_SERVICIOS_DESTINO_VEHICULOS)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/5b4f909e-28f5-4fa9-8dda-791575eee8fe",
+          "title": "Zona Servicio de los PortsIB",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spa_puertos_estado",
+          "title": "Zonas de servicio portuarias de España",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/plan-territorial-parcial-de-eibar/",
+          "title": "Plan Territorial Parcial del Área Funcional de Bajo Deba",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_publicos",
+          "title": "Clasificación de servicios y/o funciones de la Administración Pública (ISTAC: CL_ENCUESTAS_SERVICIOS_PUBLICOS)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "http://datosabiertos.castillalamancha.es/node/400",
+          "title": "Traspaso de competencias del Estado a la Comunidad Autónoma de Castilla-La Mancha",
+          "publisher": "Junta de Castilla-La Mancha",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sociedad-bienestar/servicios_sociales/1284208630291",
+          "title": "Servicios de carácter social",
+          "publisher": "Junta de Castilla y León",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/5sk6-yqrf",
+          "title": "Servicios territoriales de Interior y Seguridad Pública",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/qusy-hyb4",
+          "title": "Áreas básicas de servicios sociales",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/sociedad-bienestar/servicios_sociales/1284208630291",
+          "title": "Servicios de carácter social",
+          "publisher": "Junta de Castilla y León",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_administraciones_territoriales",
+          "title": "Clasificación de diferentes ámbitos territoriales de las Administraciones Públicas (ISTAC: CL_ADMINISTRACIONES_TERRITORIALES)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_sociales",
+          "title": "Clasificación de servicios del Sistema Público de Servicios Sociales de Canarias (ISTAC: CL_ENCUESTAS_SERVICIOS_SOCIALES)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_publicos",
+          "title": "Clasificación de servicios y/o funciones de la Administración Pública (ISTAC: CL_ENCUESTAS_SERVICIOS_PUBLICOS)",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/plan-territorial-parcial-de-eibar/",
+          "title": "Plan Territorial Parcial del Área Funcional de Bajo Deba",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/geograficos/plan-territorial-parcial-de-alava-central/",
+          "title": "Plan Territorial Parcial de Álava Central",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 6.0
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/dkey-j2b9",
+          "title": "Cartas de servicios de la Generalitat de Catalunya",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 9,
+          "score": 5.5
+        },
+        {
+          "dataset_id": "http://datosabiertos.castillalamancha.es/node/400",
+          "title": "Traspaso de competencias del Estado a la Comunidad Autónoma de Castilla-La Mancha",
+          "publisher": "Junta de Castilla-La Mancha",
+          "rank": 10,
+          "score": 5.0
+        }
+      ],
+      "overlap": [
+        "https://analisi.transparenciacatalunya.cat/api/views/5sk6-yqrf",
+        "http://datosabiertos.castillalamancha.es/node/400",
+        "https://opendata.euskadi.eus/catalogo/-/plan-territorial-parcial-de-eibar/",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_publicos",
+        "https://datosabiertos.jcyl.es/web/jcyl/set/es/sociedad-bienestar/servicios_sociales/1284208630291",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_encuestas_servicios_sociales",
+        "https://analisi.transparenciacatalunya.cat/api/views/qusy-hyb4"
+      ],
+      "v07_unique": [
+        "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spa_puertos_estado",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_servicios_destino_vehiculos",
+        "https://intranet.caib.es/opendatacataleg/dataset/5b4f909e-28f5-4fa9-8dda-791575eee8fe"
+      ],
+      "v08_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_administraciones_territoriales",
+        "https://opendata.euskadi.eus/catalogo/-/geograficos/plan-territorial-parcial-de-alava-central/",
+        "https://analisi.transparenciacatalunya.cat/api/views/dkey-j2b9"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.25,
+      "rank_improvements": [
+        0,
+        -1,
+        0,
+        2,
+        7,
+        -2,
+        0
+      ],
+      "rerank_changes": 4
+    },
+    {
+      "query": "presupuestos municipales Arganda del Rey",
+      "query_id": "T1",
+      "categoria": "territorial",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/",
+          "title": "Presupuesto gastos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+          "title": "Presupuesto gastos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+          "title": "Presupuesto gastos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+          "title": "Presupuesto gastos 2017",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+          "title": "Presupuesto gastos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/",
+          "title": "Presupuesto ingresos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+          "title": "Presupuesto ingresos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+          "title": "Presupuesto ingresos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+          "title": "Presupuesto de gastos 2023 de la Comunidad Autónoma de la Región de Murcia",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+          "title": "Presupuesto ingresos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/",
+          "title": "Presupuesto gastos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+          "title": "Presupuesto gastos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+          "title": "Presupuesto gastos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+          "title": "Presupuesto gastos 2017",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+          "title": "Presupuesto gastos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/",
+          "title": "Presupuesto ingresos 2013",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+          "title": "Presupuesto ingresos 2015",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+          "title": "Presupuesto ingresos 2014",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+          "title": "Presupuesto de gastos 2023 de la Comunidad Autónoma de la Región de Murcia",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+          "title": "Presupuesto ingresos 2016",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2013/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2014/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2013/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2014/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2016/",
+        "https://datosabiertos.regiondemurcia.es/carm/catalogo/hacienda/presupuesto-de-gastos-2023-de-la-comunidad-autonoma-de-la-region-de-murcia",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2016/",
+        "https://datos.lorca.es/catalogo/presupuesto-ingresos-2015/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2017/",
+        "https://datos.lorca.es/catalogo/presupuesto-gastos-2015/"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "turismo Canarias 2023",
+      "query_id": "T2",
+      "categoria": "territorial",
+      "v07_results": [
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+          "title": "Alojamientos Vacacionales",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Cabildo de Tenerife",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles",
+          "title": "Hoteles",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.alcoi.org/data/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Alicante",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.terrassa.cat/dataset/allotjaments",
+          "title": "Alojamientos",
+          "publisher": "Ayto. de Castellón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+          "title": "Coyuntura Turística Hotelera (CTH)",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+          "title": "Equipamiento turístico",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+          "title": "Apartamentos Turísticos",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/e329931e-31c3-402d-8f13-5569415117da",
+          "title": "Estades Turístiques Menorca",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+          "title": "Alojamientos Vacacionales",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Cabildo de Tenerife",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles",
+          "title": "Hoteles",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.alcoi.org/data/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Alicante",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+          "title": "Hoteles",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.terrassa.cat/dataset/allotjaments",
+          "title": "Alojamientos",
+          "publisher": "Ayto. de Castellón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+          "title": "Coyuntura Turística Hotelera (CTH)",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+          "title": "Equipamiento turístico",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+          "title": "Apartamentos Turísticos",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/e329931e-31c3-402d-8f13-5569415117da",
+          "title": "Estades Turístiques Menorca",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datos.icane.es/dataset/a63effd3-2d70-40c3-9e48-d3cf0a232cb4",
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/apartamentos-turisticos",
+        "https://intranet.caib.es/opendatacataleg/dataset/e329931e-31c3-402d-8f13-5569415117da",
+        "https://opendata.terrassa.cat/dataset/allotjaments",
+        "https://www.santacruzdetenerife.es/opendata/dataset/hoteles",
+        "https://datosabiertos.ayto-arganda.es/dataset/hoteles",
+        "https://opendata.alcoi.org/data/dataset/hoteles",
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/alojamientos-vacacionales",
+        "https://datos.icane.es/dataset/92bdf873-e5da-4d4a-9b94-689b0cc3f382",
+        "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/turismo/hoteles"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "tráfico Madrid centro",
+      "query_id": "T3",
+      "categoria": "territorial",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/trafico-dgt",
+          "title": "Incidencias de tráfico",
+          "publisher": "Ayto. de León",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3",
+          "title": "Tráfico en A-3. Incidencias",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+          "title": "Aparcamientos ligados al transporte público",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+          "title": "Tráfico en A-3. Cámara  pk 24. Dirección Madrid",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+          "title": "Siniestralidad a 24h en vías interurbanas durante el ESTADO DE ALARMA por el COVID 19 Datos provisionales",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+          "title": "Estado del tráfico en Vitoria-Gasteiz, en tiempo real",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/laterals-tallats-transit-bici-bcn",
+          "title": "Laterales  de calles cerrados al tránsito en la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+          "title": "Estaciones Cercanías Madrid",
+          "publisher": "Ministerio de Cultura",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/ampliacio-voreres-bici-bcn",
+          "title": "Ampliación de aceras de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transit-relacio-trams",
+          "title": "Relación de tramos de la vía pública de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/trafico-dgt",
+          "title": "Incidencias de tráfico",
+          "publisher": "Ayto. de León",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3",
+          "title": "Tráfico en A-3. Incidencias",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+          "title": "Aparcamientos ligados al transporte público",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+          "title": "Tráfico en A-3. Cámara  pk 24. Dirección Madrid",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+          "title": "Siniestralidad a 24h en vías interurbanas durante el ESTADO DE ALARMA por el COVID 19 Datos provisionales",
+          "publisher": "DGT - Dirección General de Tráfico",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+          "title": "Estado del tráfico en Vitoria-Gasteiz, en tiempo real",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/laterals-tallats-transit-bici-bcn",
+          "title": "Laterales  de calles cerrados al tránsito en la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+          "title": "Estaciones Cercanías Madrid",
+          "publisher": "Ministerio de Cultura",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/ampliacio-voreres-bici-bcn",
+          "title": "Ampliación de aceras de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transit-relacio-trams",
+          "title": "Relación de tramos de la vía pública de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://www.vitoria-gasteiz.org/j34-01w/catalogo/estado_del_trafico_en_vitoriagasteiz_en_tiempo_rea",
+        "https://data.renfe.com/dataset/estaciones-cercanias-madrid",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/transit-relacio-trams",
+        "https://datosabiertos.ayto-arganda.es/dataset/incidencias-de-trafico-en-a-3",
+        "https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-a-24h-en-vias-interurbanas-durante-el-ESTADO-DE-ALARMA-por-el-COVID-19-Datos-provisionales/",
+        "https://datos.alcobendas.org/dataset/trafico-dgt",
+        "https://datos.comunidad.madrid/catalogo/dataset/aparcamientos_ligados_transporte_publico",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/laterals-tallats-transit-bici-bcn",
+        "https://datosabiertos.ayto-arganda.es/dataset/trafico-en-a-3-camara-pk-24",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/ampliacio-voreres-bici-bcn"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "precio vivienda Barcelona",
+      "query_id": "T4",
+      "categoria": "territorial",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+          "title": "Índice de precios de vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+          "title": "Viviendas en venta en Barcelona. Media del precio de oferta (€ / m2) de una vivienda",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+          "title": "Valor tasado de la vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+          "title": "Estimación del precio de venta. Serie anual del precio/m2 de venta de las viviendas de la ciudad de Barcelona de segunda mano por barrios. 2007-2011. Evolución anual (Base 2008 = 100). Cambio de fuente",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+          "title": "Estadística del valor tasado de la vivienda",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2006",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro; 2007",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+          "title": "Índice de Precios de Vivienda (IPV).",
+          "publisher": "Xunta de Galicia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas nuevas en venta por territorios históricos (&euro;). 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+          "title": "Índice de precios de vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+          "title": "Viviendas en venta en Barcelona. Media del precio de oferta (€ / m2) de una vivienda",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+          "title": "Valor tasado de la vivienda",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+          "title": "Estimación del precio de venta. Serie anual del precio/m2 de venta de las viviendas de la ciudad de Barcelona de segunda mano por barrios. 2007-2011. Evolución anual (Base 2008 = 100). Cambio de fuente",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+          "title": "Estadística del valor tasado de la vivienda",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro;) 2006",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/",
+          "title": "Evolución del precio por m2 útil de las viviendas en venta en la C.A. de Euskadi (&euro; 2007",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+          "title": "Índice de Precios de Vivienda (IPV).",
+          "publisher": "Xunta de Galicia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/",
+          "title": "Evolución del precio por m2 útil de las viviendas nuevas en venta por territorios históricos (&euro;). 2005",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/h2mave-anualt1b",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-nuevas-en-venta-por-territorios-historicos-euro-2005/",
+        "https://datos.icane.es/dataset/ccfc62b6-cffc-4a20-bb86-378a21395105",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2005/",
+        "https://web.larioja.org/dato-abierto/datoabierto?n=opd-129",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/habitatges-2na-ma",
+        "https://datosabiertos.navarra.es/dataset/estadistica-del-valor-tasado-de-la-vivienda",
+        "https://datos.icane.es/dataset/c5c929ba-9a6d-4ea2-a757-106b189fcc32",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2006/",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/evolucion-del-precio-por-m2-util-de-las-viviendas-en-venta-en-la-c-a-de-euskadi-euro-2007/"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "calidad del aire Madrid 2023",
+      "query_id": "TM1",
+      "categoria": "temporal",
+      "v07_results": [
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+          "title": "Calidad de aire - Datos año 2023",
+          "publisher": "Ayto. de Gijón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+          "title": "Calidad de aire - Datos año 2021",
+          "publisher": "Ayto. de Gijón",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+          "title": "Calidad de aire - Datos año 2020",
+          "publisher": "Ayto. de Gijón",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+          "title": "Calidad de aire - Datos año 2019",
+          "publisher": "Ayto. de Gijón",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+          "title": "Calidad del aire - Datos año actual (Validados)",
+          "publisher": "Ayto. de Gijón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77",
+          "title": "Zonas de calidad del aire de la información histórica de la evaluación",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+          "title": "Datos de las estaciones de medida de la calidad del aire de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+          "title": "COVID-19. Calidad del aire (datos diarios)",
+          "publisher": "Ayto. de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+          "title": "Calidad del aire, año 2023",
+          "publisher": "Ayto. de Sevilla",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+          "title": "Calidad de aire - Datos año 2022",
+          "publisher": "Ayto. de Gijón",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+          "title": "Calidad de aire - Datos año 2023",
+          "publisher": "Ayto. de Gijón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+          "title": "Calidad de aire - Datos año 2021",
+          "publisher": "Ayto. de Gijón",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+          "title": "Calidad de aire - Datos año 2020",
+          "publisher": "Ayto. de Gijón",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+          "title": "Calidad de aire - Datos año 2019",
+          "publisher": "Ayto. de Gijón",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos",
+          "title": "Calidad del aire - Datos año actual (Validados)",
+          "publisher": "Ayto. de Gijón",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77",
+          "title": "Zonas de calidad del aire de la información histórica de la evaluación",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+          "title": "Datos de las estaciones de medida de la calidad del aire de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+          "title": "COVID-19. Calidad del aire (datos diarios)",
+          "publisher": "Ayto. de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+          "title": "Calidad del aire, año 2023",
+          "publisher": "Ayto. de Sevilla",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://opendata.gijon.es/catalogo/calidad_aire_2020",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2023",
+        "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=1e2524c9-8c46-43a2-86f0-22c463762f77",
+        "https://datos.madrid.es/dataset/300439-0-covid--calidad-aire-semanal",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/qualitat-aire-detall-bcn",
+        "https://datos.aviles.es/dataset/calidad-del-aire-2023",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2022",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2021",
+        "https://opendata.gijon.es/catalogo/calidad_aire_2019",
+        "https://opendata.gijon.es/catalogo/calidad_aire_actual_validos"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "emisiones CO2 2022 2023",
+      "query_id": "TM2",
+      "categoria": "temporal",
+      "v07_results": [
+        {
+          "dataset_id": "c1f5ae00-18d5-478d-aab1-685ae5506857",
+          "title": "Emisiones nacionales de gases de efecto invernadero (GEI) (serie 1990-2024)",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "f38bfc0d-6e2c-415a-bf12-b3535fc14d65",
+          "title": "Proyecciones de emisiones de gases de efecto invernadero 2025",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "e4bdbc3c-9651-491a-b3cb-668f2a54e6fe",
+          "title": "Proyecciones de emisiones de contaminantes atmosféricos 2025",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2022",
+          "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2022",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-de-euskadi-2022/",
+          "title": "Inventario de emisiones de Gases de Efecto Invernadero de la C.A. de Euskadi. 2022",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2023",
+          "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2023",
+          "publisher": "Comunidad de Madrid",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:TPX:67269",
+          "title": "Indicadores de emisiones a la atmósfera de CO2 por valor añadido bruto. Total de la economía y Sector manufacturero (Identificador API: 67269)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_2021_2050-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 2021-2050",
+          "publisher": "Gobierno de Navarra",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-del-pais-vasco-2021/",
+          "title": "Inventario de emisiones de Gases de Efecto Invernadero de la C.A. del País Vasco. 2021",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/tablas-estadisticas-inventario-de-emisiones-de-contaminantes-a-la-atmosfera-de-la-c-a-del-pais-vasco-1990-2023/",
+          "title": "Tablas estadísticas. Inventario de emisiones de contaminantes a la atmósfera de la C.A. del País Vasco 1990-2023.",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "c1f5ae00-18d5-478d-aab1-685ae5506857",
+          "title": "Emisiones nacionales de gases de efecto invernadero (GEI) (serie 1990-2024)",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 1,
+          "score": 10
+        },
+        {
+          "dataset_id": "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2022",
+          "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2022",
+          "publisher": "Comunidad de Madrid",
+          "rank": 2,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2023",
+          "title": "Emisiones Gases Efecto Invernadero de la Comunidad de Madrid. Año 2023",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-de-euskadi-2022/",
+          "title": "Inventario de emisiones de Gases de Efecto Invernadero de la C.A. de Euskadi. 2022",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 4,
+          "score": 8
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-de-euskadi-2023/",
+          "title": "Inventario de emisiones de Gases de Efecto Invernadero de la C.A. de Euskadi. 2023",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 5,
+          "score": 8
+        },
+        {
+          "dataset_id": "urn:ine:es:TABLA:TPX:67269",
+          "title": "Indicadores de emisiones a la atmósfera de CO2 por valor añadido bruto. Total de la economía y Sector manufacturero (Identificador API: 67269)",
+          "publisher": "Ministerio de Sanidad",
+          "rank": 6,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "f38bfc0d-6e2c-415a-bf12-b3535fc14d65",
+          "title": "Proyecciones de emisiones de gases de efecto invernadero 2025",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 7,
+          "score": 5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/tablas-estadisticas-inventario-de-emisiones-de-contaminantes-a-la-atmosfera-de-la-c-a-del-pais-vasco-1990-2023/",
+          "title": "Tablas estadísticas. Inventario de emisiones de contaminantes a la atmósfera de la C.A. del País Vasco 1990-2023.",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 8,
+          "score": 4.5
+        },
+        {
+          "dataset_id": "https://opendata.euskadi.eus/catalogo/-/estadistica/tablas-estadisticas-inventario-de-emisiones-de-contaminantes-a-la-atmosfera-de-la-c-a-del-pais-vasco-1990-2022/",
+          "title": "Tablas estadísticas. Inventario de emisiones de contaminantes a la atmósfera de la C.A. del País Vasco 1990-2022.",
+          "publisher": "Gobierno Vasco (Open Data Euskadi)",
+          "rank": 9,
+          "score": 4.5
+        },
+        {
+          "dataset_id": "e4bdbc3c-9651-491a-b3cb-668f2a54e6fe",
+          "title": "Proyecciones de emisiones de contaminantes atmosféricos 2025",
+          "publisher": "MITECO - Ministerio para la Transición Ecológica",
+          "rank": 10,
+          "score": 3
+        }
+      ],
+      "overlap": [
+        "urn:ine:es:TABLA:TPX:67269",
+        "e4bdbc3c-9651-491a-b3cb-668f2a54e6fe",
+        "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2023",
+        "c1f5ae00-18d5-478d-aab1-685ae5506857",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/tablas-estadisticas-inventario-de-emisiones-de-contaminantes-a-la-atmosfera-de-la-c-a-del-pais-vasco-1990-2023/",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-de-euskadi-2022/",
+        "f38bfc0d-6e2c-415a-bf12-b3535fc14d65",
+        "https://idem.comunidad.madrid/catalogocartografia/srv/resources/datasets/spacm_crf2022"
+      ],
+      "v07_unique": [
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_2021_2050-xml",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-del-pais-vasco-2021/"
+      ],
+      "v08_unique": [
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/inventario-de-emisiones-de-gases-de-efecto-invernadero-de-la-c-a-de-euskadi-2023/",
+        "https://opendata.euskadi.eus/catalogo/-/estadistica/tablas-estadisticas-inventario-de-emisiones-de-contaminantes-a-la-atmosfera-de-la-c-a-del-pais-vasco-1990-2022/"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 6.65,
+      "rank_improvements": [
+        1,
+        -7,
+        3,
+        0,
+        2,
+        1,
+        -5,
+        2
+      ],
+      "rerank_changes": 7
+    },
+    {
+      "query": "empleo último trimestre",
+      "query_id": "TM3",
+      "categoria": "temporal",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Secciones de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2013-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2013. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2011-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2011. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2024. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2017-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2017. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2015-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2015. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_55mas-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 55 o más años de edad. Media anual. Barrios de Canarias. 2024. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2012-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2012. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2024. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_55mas-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 55 o más años de edad. Media anual. Barrios de Canarias. 2024. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 3,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Secciones de Canarias. 2020. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 4,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2019-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2019. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 5,
+          "score": 7.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2018-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2018. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 6,
+          "score": 6.8
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2017-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2017. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 7,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-islas-canarias-2017-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Islas de Canarias. 2017. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 8,
+          "score": 6.0
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2015-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2015. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 9,
+          "score": 5.8
+        },
+        {
+          "dataset_id": "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+          "title": "Población activa registrada de 35 a 44 años de edad. Media anual. Barrios de Canarias. 2014. Mapa temático de coropletas de 5 intervalos por cuantiles",
+          "publisher": "ISTAC - Gobierno de Canarias",
+          "rank": 10,
+          "score": 5.5
+        }
+      ],
+      "overlap": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-secciones-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_55mas-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2015-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2014-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2024-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2020-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2017-mapa-coropletas-5cuantiles"
+      ],
+      "v07_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2012-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2011-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2013-mapa-coropletas-5cuantiles"
+      ],
+      "v08_unique": [
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2019-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-islas-canarias-2017-mapa-coropletas-5cuantiles",
+        "https://datos.canarias.es/catalogos/estadisticas/dataset/pact_t_35a44-barrios-canarias-2018-mapa-coropletas-5cuantiles"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.159999999999999,
+      "rank_improvements": [
+        -3,
+        7,
+        -1,
+        -7,
+        5,
+        -1,
+        0
+      ],
+      "rerank_changes": 6
+    },
+    {
+      "query": "energía renovable 2023 2024",
+      "query_id": "TM4",
+      "categoria": "temporal",
+      "v07_results": [
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/e3f74a23-5689-4f94-88bf-a6250353c88b",
+          "title": "Proporción de energías renovables en la producción de energía eléctrica",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_14144_1",
+          "title": "Evolución anual de energía eléctrica a partir de las fuentes de energía renovables, cogeneración y residuos - energía vendida y potencia instalada según la comunidad autónoma.",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/dd038c11-a31c-4d54-8424-c4675e3ac74d",
+          "title": "Equipamiento energía renovable de más de 100 KW",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_3311_1",
+          "title": "Mercado minorista de electricidad 2023T4",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_3309_1",
+          "title": "Mercado minorista de electricidad 2023T2",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_3310_1",
+          "title": "Mercado minorista de electricidad 2023T3",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13614_1",
+          "title": "Mercado minorista de electricidad 2024T2",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13615_1",
+          "title": "Mercado minorista de electricidad 2024T3",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13616_1",
+          "title": "Mercado minorista de electricidad 2024T4",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13613_1",
+          "title": "Mercado minorista de electricidad 2024T1",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/e3f74a23-5689-4f94-88bf-a6250353c88b",
+          "title": "Proporción de energías renovables en la producción de energía eléctrica",
+          "publisher": "INE - Instituto Nacional de Estadística",
+          "rank": 1,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_14144_1",
+          "title": "Evolución anual de energía eléctrica a partir de las fuentes de energía renovables, cogeneración y residuos - energía vendida y potencia instalada según la comunidad autónoma.",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://intranet.caib.es/opendatacataleg/dataset/dd038c11-a31c-4d54-8424-c4675e3ac74d",
+          "title": "Equipamiento energía renovable de más de 100 KW",
+          "publisher": "Govern de les Illes Balears",
+          "rank": 3,
+          "score": 6.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.jcyl.es/web/jcyl/set/es/medio-ambiente/renovables-excluidas-fotovoltaico/1285260719958",
+          "title": "Renovables CyL: Excluido Fotovoltaico",
+          "publisher": "Junta de Castilla y León",
+          "rank": 4,
+          "score": 5.5
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13616_1",
+          "title": "Mercado minorista de electricidad 2024T4",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 5,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13615_1",
+          "title": "Mercado minorista de electricidad 2024T3",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 6,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13614_1",
+          "title": "Mercado minorista de electricidad 2024T2",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 7,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_13613_1",
+          "title": "Mercado minorista de electricidad 2024T1",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 8,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_3311_1",
+          "title": "Mercado minorista de electricidad 2023T4",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 9,
+          "score": 4.5
+        },
+        {
+          "dataset_id": "https://catalogodatos.cnmc.es/dataset/ds_3310_1",
+          "title": "Mercado minorista de electricidad 2023T3",
+          "publisher": "Ministerio de Derechos Sociales y Agenda 2030",
+          "rank": 10,
+          "score": 4.5
+        }
+      ],
+      "overlap": [
+        "https://intranet.caib.es/opendatacataleg/dataset/dd038c11-a31c-4d54-8424-c4675e3ac74d",
+        "https://intranet.caib.es/opendatacataleg/dataset/e3f74a23-5689-4f94-88bf-a6250353c88b",
+        "https://catalogodatos.cnmc.es/dataset/ds_3311_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_13614_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_14144_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_13616_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_13615_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_3310_1",
+        "https://catalogodatos.cnmc.es/dataset/ds_13613_1"
+      ],
+      "v07_unique": [
+        "https://catalogodatos.cnmc.es/dataset/ds_3309_1"
+      ],
+      "v08_unique": [
+        "https://datosabiertos.jcyl.es/web/jcyl/set/es/medio-ambiente/renovables-excluidas-fotovoltaico/1285260719958"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 5.85,
+      "rank_improvements": [
+        0,
+        0,
+        -5,
+        0,
+        0,
+        4,
+        2,
+        -4,
+        2
+      ],
+      "rerank_changes": 5
+    },
+    {
+      "query": "datasets medio ambiente Canarias",
+      "query_id": "F1",
+      "categoria": "facetada",
+      "v07_results": [
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1991_2019-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_2051_2080-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 2051-2080",
+          "publisher": "Gobierno de Navarra",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1961_1990-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmaxima_1991_2019-xml",
+          "title": "Temperatura máxima. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_2051_2080-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 2051-2080",
+          "publisher": "Gobierno de Navarra",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1991_2019-xml",
+          "title": "Temperatura mínima. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmedia_1991_2019-xml",
+          "title": "Temperatura media anual. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1991_2019-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1961_1990-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1961_1990-xml",
+          "title": "Temperatura mínima. Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1991_2019-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_2051_2080-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 2051-2080",
+          "publisher": "Gobierno de Navarra",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1961_1990-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmaxima_1991_2019-xml",
+          "title": "Temperatura máxima. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_2051_2080-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 2051-2080",
+          "publisher": "Gobierno de Navarra",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1991_2019-xml",
+          "title": "Temperatura mínima. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmedia_1991_2019-xml",
+          "title": "Temperatura media anual. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1991_2019-xml",
+          "title": "Áreas bioclimáticas de Rivas Martínez. Periodo 1991-2019",
+          "publisher": "Gobierno de Navarra",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1961_1990-xml",
+          "title": "Evapotranspiración Potencial (Thornthwaite). Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1961_1990-xml",
+          "title": "Temperatura mínima. Periodo 1961-1990",
+          "publisher": "Gobierno de Navarra",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "overlap": [
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1961_1990-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1991_2019-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmedia_1991_2019-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_1961_1990-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tmaxima_1991_2019-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_tminima_1991_2019-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_2051_2080-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_etp_2051_2080-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1991_2019-xml",
+        "https://datosabiertos.navarra.es/dataset/spasitnacclima_ras_areasbioclimaticas_1961_1990-xml"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 0.0,
+      "rank_improvements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rerank_changes": 0
+    },
+    {
+      "query": "transporte público Barcelona metro autobús",
+      "query_id": "F2",
+      "categoria": "facetada",
+      "v07_results": [
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transports",
+          "title": "Transportes de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transports-metropolitants-companyies-autocars-de-barcelona",
+          "title": "Transportes Metropolitanos y compañias de autocares  de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/lineas-de-autobuses-urbanos",
+          "title": "Líneas de autobuses urbanos",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "http://catalogo.villanuevadelaserena.es/dataset/8037be5d-d942-4432-8698-49bb231f446a",
+          "title": "Línea de autobús",
+          "publisher": "Ayto. de Almería",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/equipaments-relacionats-amb-transports",
+          "title": "Equipamientos relacionados con transportes de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/transporte/transporte-bus",
+          "title": "Líneas de autobús",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/servicios-de-autobus",
+          "title": "Servicios de autobús",
+          "publisher": "Ayto. de León",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/estacions-bus",
+          "title": "Estaciones de autobus de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/902003",
+          "title": "Billetes por modo de transporte",
+          "publisher": "Comunidad de Madrid",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1919185",
+          "title": "Intervalo medio en hora punta del transporte metropolitano",
+          "publisher": "Comunidad de Madrid",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transports",
+          "title": "Transportes de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 1,
+          "score": 10
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/transports-metropolitants-companyies-autocars-de-barcelona",
+          "title": "Transportes Metropolitanos y compañias de autocares  de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 2,
+          "score": 9
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/estacions-bus",
+          "title": "Estaciones de autobus de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 3,
+          "score": 8
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/informacio-rutes-autobus-estacio-del-nord",
+          "title": "Información de rutas de autobús de la Estación Barcelona Norte de la ciudad de  Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 4,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://opendata-ajuntament.barcelona.cat/data/dataset/equipaments-relacionats-amb-transports",
+          "title": "Equipamientos relacionados con transportes de la ciudad de Barcelona",
+          "publisher": "Ayto. de Barcelona",
+          "rank": 5,
+          "score": 6
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/lineas-de-autobuses-urbanos",
+          "title": "Líneas de autobuses urbanos",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 6,
+          "score": 2
+        },
+        {
+          "dataset_id": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/personas_usuarias_del_transporte_publico",
+          "title": "Personas usuarias del transporte público",
+          "publisher": "Ayto. de Vitoria-Gasteiz",
+          "rank": 7,
+          "score": 2
+        },
+        {
+          "dataset_id": "http://catalogo.villanuevadelaserena.es/dataset/8037be5d-d942-4432-8698-49bb231f446a",
+          "title": "Línea de autobús",
+          "publisher": "Ayto. de Almería",
+          "rank": 8,
+          "score": 1.5
+        },
+        {
+          "dataset_id": "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/transporte/transporte-bus",
+          "title": "Líneas de autobús",
+          "publisher": "Comunidad Autónoma de la Región de Murcia",
+          "rank": 9,
+          "score": 1.5
+        },
+        {
+          "dataset_id": "https://datos.alcobendas.org/dataset/servicios-de-autobus",
+          "title": "Servicios de autobús",
+          "publisher": "Ayto. de León",
+          "rank": 10,
+          "score": 1.5
+        }
+      ],
+      "overlap": [
+        "http://catalogo.villanuevadelaserena.es/dataset/8037be5d-d942-4432-8698-49bb231f446a",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/equipaments-relacionats-amb-transports",
+        "https://datosabiertos.ayto-arganda.es/dataset/lineas-de-autobuses-urbanos",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/transports-metropolitants-companyies-autocars-de-barcelona",
+        "https://datos.alcobendas.org/dataset/servicios-de-autobus",
+        "https://datosabiertos.regiondemurcia.es/ayuntamiento-de-molina-de-segura/catalogo/transporte/transporte-bus",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/transports",
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/estacions-bus"
+      ],
+      "v07_unique": [
+        "https://datos.comunidad.madrid/catalogo/dataset/1919185",
+        "https://datos.comunidad.madrid/catalogo/dataset/902003"
+      ],
+      "v08_unique": [
+        "https://opendata-ajuntament.barcelona.cat/data/dataset/informacio-rutes-autobus-estacio-del-nord",
+        "https://www.vitoria-gasteiz.org/j34-01w/catalogo/personas_usuarias_del_transporte_publico"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 4.9,
+      "rank_improvements": [
+        -4,
+        0,
+        -3,
+        0,
+        -3,
+        -3,
+        0,
+        5
+      ],
+      "rerank_changes": 5
+    },
+    {
+      "query": "padrón municipal completo",
+      "query_id": "M1",
+      "categoria": "metadatos",
+      "v07_results": [
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1742",
+          "title": "Organización Municipal",
+          "publisher": "Ayto. de Logroño",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/mejoras_municipales_urbanas",
+          "title": "Mejoras municipales urbanas",
+          "publisher": "Ayto. de Gijón",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spacoruna_RT_PGM13_G2GEST_5000",
+          "title": "Gestión del Suelo Urbanizable y Rústico del Plan Xeral de Ordenación Municipal del año 2013 a escala 1:5000 del Ayuntamiento de A Coruña",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1260",
+          "title": "Cita previa",
+          "publisher": "Ayto. de Logroño",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/tz88-gjtz",
+          "title": "Datos de la actividad administrativa de la DGOTU por municipios",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.malaga.eu/dataset/propiedades-y-centros-municipales",
+          "title": "Propiedades y centros Municipales",
+          "publisher": "Ayto. de Torrelodones",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.ponferrada.org/dataset/2757ea29-86c6-47c9-9597-587454cc0e4b",
+          "title": "Solicitudes de registro",
+          "publisher": "Ayuntamiento (L01241152)",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/normativa-municipal/",
+          "title": "Normativa Municipal",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://opendata.vlci.valencia.es/dataset/af41c920-2656-4182-a83b-e48cd7aef572",
+          "title": "División administrativa de las juntas municipales",
+          "publisher": "Junta de Gobierno del Ayuntamiento de Valencia",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.donostia.eus/datosabiertos/catalogo/mapa_delimitaciones_censales",
+          "title": "Mapa de delimitaciones censales",
+          "publisher": "Diputación de Gipuzkoa",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://www.donostia.eus/datosabiertos/catalogo/mapa_delimitaciones_censales",
+          "title": "Mapa de delimitaciones censales",
+          "publisher": "Diputación de Gipuzkoa",
+          "rank": 1,
+          "score": 9
+        },
+        {
+          "dataset_id": "https://opendata.vlci.valencia.es/dataset/af41c920-2656-4182-a83b-e48cd7aef572",
+          "title": "División administrativa de las juntas municipales",
+          "publisher": "Junta de Gobierno del Ayuntamiento de Valencia",
+          "rank": 2,
+          "score": 6
+        },
+        {
+          "dataset_id": "https://opendata.ponferrada.org/dataset/2757ea29-86c6-47c9-9597-587454cc0e4b",
+          "title": "Solicitudes de registro",
+          "publisher": "Ayuntamiento (L01241152)",
+          "rank": 3,
+          "score": 5
+        },
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1742",
+          "title": "Organización Municipal",
+          "publisher": "Ayto. de Logroño",
+          "rank": 4,
+          "score": 3
+        },
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1260",
+          "title": "Cita previa",
+          "publisher": "Ayto. de Logroño",
+          "rank": 5,
+          "score": 2
+        },
+        {
+          "dataset_id": "https://datos.lorca.es/catalogo/normativa-municipal/",
+          "title": "Normativa Municipal",
+          "publisher": "Ayto. de Salamanca",
+          "rank": 6,
+          "score": 2
+        },
+        {
+          "dataset_id": "https://opendata.gijon.es/catalogo/mejoras_municipales_urbanas",
+          "title": "Mejoras municipales urbanas",
+          "publisher": "Ayto. de Gijón",
+          "rank": 7,
+          "score": 1
+        },
+        {
+          "dataset_id": "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spacoruna_RT_PGM13_G2GEST_5000",
+          "title": "Gestión del Suelo Urbanizable y Rústico del Plan Xeral de Ordenación Municipal del año 2013 a escala 1:5000 del Ayuntamiento de A Coruña",
+          "publisher": "CNIG - Centro Nacional de Información Geográfica",
+          "rank": 8,
+          "score": 1
+        },
+        {
+          "dataset_id": "https://analisi.transparenciacatalunya.cat/api/views/tz88-gjtz",
+          "title": "Datos de la actividad administrativa de la DGOTU por municipios",
+          "publisher": "Generalitat de Catalunya",
+          "rank": 9,
+          "score": 1
+        },
+        {
+          "dataset_id": "https://datosabiertos.malaga.eu/dataset/propiedades-y-centros-municipales",
+          "title": "Propiedades y centros Municipales",
+          "publisher": "Ayto. de Torrelodones",
+          "rank": 10,
+          "score": 1
+        }
+      ],
+      "overlap": [
+        "https://www.donostia.eus/datosabiertos/catalogo/mapa_delimitaciones_censales",
+        "https://opendata.ponferrada.org/dataset/2757ea29-86c6-47c9-9597-587454cc0e4b",
+        "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1260",
+        "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/1742",
+        "https://datos.lorca.es/catalogo/normativa-municipal/",
+        "https://opendata.vlci.valencia.es/dataset/af41c920-2656-4182-a83b-e48cd7aef572",
+        "https://datosabiertos.malaga.eu/dataset/propiedades-y-centros-municipales",
+        "https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spacoruna_RT_PGM13_G2GEST_5000",
+        "https://opendata.gijon.es/catalogo/mejoras_municipales_urbanas",
+        "https://analisi.transparenciacatalunya.cat/api/views/tz88-gjtz"
+      ],
+      "v07_unique": [],
+      "v08_unique": [],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 3.1,
+      "rank_improvements": [
+        9,
+        4,
+        -1,
+        -3,
+        2,
+        7,
+        -4,
+        -5,
+        -5,
+        -4
+      ],
+      "rerank_changes": 10
+    },
+    {
+      "query": "catastro edificios",
+      "query_id": "M2",
+      "categoria": "metadatos",
+      "v07_results": [
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano",
+          "title": "Catastro Inmobiliario. Valor catastral urbano (miles euros). Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 1,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_construccion",
+          "title": "Catastro Inmobiliario. Valor catastral urbano construcción. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 2,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300378-0-edificios-ruina",
+          "title": "Relación de los edificios declarados en ruina legal y física",
+          "publisher": "Ayto. de Madrid",
+          "rank": 3,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano_por_uso",
+          "title": "Catastro Inmobiliario. Valor catastral urbano por uso (miles euros). Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/parcelas_urbanas_edificadas_por_superficie",
+          "title": "Catastro Inmobiliario. Parcelas catastrales urbanas edificadas por superficie. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/312",
+          "title": "Catastro",
+          "publisher": "Ayto. de Logroño",
+          "rank": 6,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_suelo",
+          "title": "Catastro Inmobiliario. Valor catastral urbano suelo. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 7,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/catastro-urbana-1867-fichas-catastrales",
+          "title": "Catastro Urbana 1867. Fichas Catastrales",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 8,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/catastro-rustica-1904",
+          "title": "Catastro Parcelario Rústica. 1904",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 9,
+          "score": 0.0
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/catastro-rustica-1945",
+          "title": "Catastro Rústica. 1945",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 10,
+          "score": 0.0
+        }
+      ],
+      "v08_results": [
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_construccion",
+          "title": "Catastro Inmobiliario. Valor catastral urbano construcción. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 1,
+          "score": 9.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano",
+          "title": "Catastro Inmobiliario. Valor catastral urbano (miles euros). Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 2,
+          "score": 9.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/parcelas_urbanas_edificadas_por_superficie",
+          "title": "Catastro Inmobiliario. Parcelas catastrales urbanas edificadas por superficie. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 3,
+          "score": 8.5
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano_por_uso",
+          "title": "Catastro Inmobiliario. Valor catastral urbano por uso (miles euros). Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 4,
+          "score": 8.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/1002054",
+          "title": "Valor catastral residencial por unidad urbana. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 5,
+          "score": 7.5
+        },
+        {
+          "dataset_id": "https://datos.madrid.es/dataset/300378-0-edificios-ruina",
+          "title": "Relación de los edificios declarados en ruina legal y física",
+          "publisher": "Ayto. de Madrid",
+          "rank": 6,
+          "score": 6.5
+        },
+        {
+          "dataset_id": "https://datos.icane.es/dataset/81d7d0e9-46a1-4c90-b963-2a59230cd536",
+          "title": "Catastro urbano",
+          "publisher": "Gobierno de Cantabria",
+          "rank": 7,
+          "score": 6.0
+        },
+        {
+          "dataset_id": "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/312",
+          "title": "Catastro",
+          "publisher": "Ayto. de Logroño",
+          "rank": 8,
+          "score": 5.5
+        },
+        {
+          "dataset_id": "https://datosabiertos.ayto-arganda.es/dataset/catastro-urbana-1867-fichas-catastrales",
+          "title": "Catastro Urbana 1867. Fichas Catastrales",
+          "publisher": "Ayto. de Arganda del Rey",
+          "rank": 9,
+          "score": 5.0
+        },
+        {
+          "dataset_id": "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_suelo",
+          "title": "Catastro Inmobiliario. Valor catastral urbano suelo. Municipios",
+          "publisher": "Comunidad de Madrid",
+          "rank": 10,
+          "score": 4.5
+        }
+      ],
+      "overlap": [
+        "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_suelo",
+        "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_construccion",
+        "https://datos.comunidad.madrid/catalogo/dataset/parcelas_urbanas_edificadas_por_superficie",
+        "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano",
+        "https://datos.comunidad.madrid/catalogo/dataset/valor_catastral_urbano_por_uso",
+        "https://datosabiertos.ayto-arganda.es/dataset/catastro-urbana-1867-fichas-catastrales",
+        "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/312",
+        "https://datos.madrid.es/dataset/300378-0-edificios-ruina"
+      ],
+      "v07_unique": [
+        "https://datosabiertos.ayto-arganda.es/dataset/catastro-rustica-1945",
+        "https://datosabiertos.ayto-arganda.es/dataset/catastro-rustica-1904"
+      ],
+      "v08_unique": [
+        "https://datos.icane.es/dataset/81d7d0e9-46a1-4c90-b963-2a59230cd536",
+        "https://datos.comunidad.madrid/catalogo/dataset/1002054"
+      ],
+      "avg_score_v07": 0.0,
+      "avg_score_v08": 7.0,
+      "rank_improvements": [
+        -3,
+        1,
+        2,
+        -1,
+        0,
+        -1,
+        -2,
+        -3
+      ],
+      "rerank_changes": 7
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+ "n": 40,
+ "efecto_criterio": 18,
+ "el_1_era_ruido": 20,
+ "inestable": 2,
+ "pct_efecto": 0.45,
+ "extrapolado_225": 101,
+ "filas": [
+  {
+   "clave": "dep_002|https://datos.gob.es/catalogo/l01360577-piscinas-municipales-instalaciones-deportivas",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "empleo_003|https://datos.comunidad.madrid/catalogo/dataset/porcentaje_afiliados_por_residencia_y_contrato",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "empleo_004|https://intranet.caib.es/opendatacataleg/dataset/dbc1728a-652b-450e-af59-bf9d146b7d44",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "econ_002|https://opendata.euskadi.eus/catalogo/-/hogares-regimen-alquiler-c-euskadi-renta-mensual-alquiler-porcentaje-ingresos-destinados-al-alquiler-ingresos-medios-del-hogar-renta-mensual-media-y-porcentaje-medios-ingresos-destinados-al-alquiler-/territorio-hist",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00017a_000001",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Master_CA",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1919188",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "trans_003|https://datosabiertos.malaga.eu/dataset/agenda-21-proximidad-transporte-publico-300m-2012",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000039",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "cult_004|https://datos.gob.es/catalogo/a14036695-festivales",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918103",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "cult_001|https://datos.gob.es/catalogo/ea0042823-bibliotecas-unidades-administrativas-por-tipo-de-biblioteca-y-titularidad-de-la-biblioteca-identificador-api-33020",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-2001.-Circunstancias-concurrentes-conductores-implicados/",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "trans_003|https://datos.alcobendas.org/dataset/servicios-de-autobus",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "econ_001|https://opendata.euskadi.eus/catalogo/-/evolucion-situaciones-pobreza-y-precariedad-real-edad-persona-referencia-c-euskadi-poblacion-viviendas-familiares-incidencia-en/",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Grado_Tot",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "medio_003|https://analisi.transparenciacatalunya.cat/api/views/hefh-b8uy",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "trans_003|https://datos.comunidad.madrid/catalogo/dataset/902016",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "demo_004|https://datos.gob.es/catalogo/a03002951-poblacion-asturias-migraciones-extranjeros-censo",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1998.-Datos-sobre-conductores-y-victimas-implicados/",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "demo_005|https://datosabiertos.navarra.es/dataset/spasitnainfotu_pol_inddensipoburb-xml",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_001|https://abertos.xunta.gal/catalogo/territorio-vivienda-transporte/-/dataset/0083/memoria-trafico",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Siniestralidad-de-los-vehiculos-destinados-al-transporte-de-viajeros-y-de-mercancias-en-vias-interurbanas-2023/",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "econ_005|https://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa/-/openDataSearcher/detail/detailView/b6c16827-bffa-4aeb-b5a6-3d1b88a9d03b",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_001|https://datos.gob.es/catalogo/l02000008-mapa-de-los-tramos-de-aforo-con-la-informacion-asociada-a-las-estaciones-y-a-la-intensidad-media-diaria-de-transtio",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_123_Matricula_Master_Bec_CA",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "dep_002|https://datos.madrid.es/dataset/210227-0-piscinas-publicas",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_003|https://datos.comunidad.madrid/catalogo/dataset/1908081",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_003|https://datos.alcobendas.org/dataset/rutas-de-autobus",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Creditos_Mat_Pre_Sup_Grado_NoBec_Tot",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "trans_002|https://melilla-datosabiertos.tao.es/dataset/2070349a-20ef-404e-9933-7bc55c248fc3",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "medio_005|https://datosabiertos.malaga.eu/dataset/produccion-planta-fotovoltaica-276-para-el-ao-2012",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "trans_004|https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Accidentes-con-victimas-Tablas-estadisticas-1999.-Circunstancias-concurrentes-conductores-implicados/",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 2,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "edu_001|http://datos.gob.es/recurso/sector-publico/org/Organismo/E05073401/Catalago/Rendimiento_Exito_Eval_Master_Tot",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "cult_002|https://opendata.euskadi.eus/catalogo/-/estadistica/sexo-edad-compet-linguistica-nivel-de-estudios/museos-y-centros-de-arte/personas-que-asisten-habitualmente-a-museos-galerias-de-arte-y-exposiciones-segun-el-numero-de-visitas-y-valor-medio/",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "dep_005|https://datos.gob.es/catalogo/D00000000505007",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "econ_001|https://datos.gob.es/catalogo/ea0042823-agenda-2030-ods-proporcion-de-viviendas-que-disponen-de-aseo-identificador-api-178-66058",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "econ_002|https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-e30325a_000013",
+   "original": 1,
+   "criterio_nuevo": 2,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  },
+  {
+   "clave": "cult_003|https://analisi.transparenciacatalunya.cat/api/views/y2v3-axzp",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 0,
+   "efecto_criterio": false,
+   "el_1_era_ruido": true
+  },
+  {
+   "clave": "empleo_002|https://datos.comunidad.madrid/catalogo/dataset/1918112",
+   "original": 1,
+   "criterio_nuevo": 0,
+   "control": 1,
+   "efecto_criterio": true,
+   "el_1_era_ruido": false
+  }
+ ],
+ "fallos": []
+}
