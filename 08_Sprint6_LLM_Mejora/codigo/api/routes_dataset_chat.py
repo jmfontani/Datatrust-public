@@ -21,7 +21,7 @@ router_dataset_chat = APIRouter(prefix="/dataset", tags=["dataset_chat"])
 class DatasetChatRequest(BaseModel):
     dataset_id: str
     question: str
-    model: str = "deepseek-v4.1-flash:cloud"
+    model: str = "deepseek-v4.1-flash:1017"
 
 
 class DatasetChatResponse(BaseModel):

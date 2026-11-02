@@ -195,7 +195,7 @@ def get_dataset_context(dataset_id: str) -> Optional[dict]:
 def answer_question(
     dataset_id: str,
     question: str,
-    modelo: str = "deepseek-v4.1-flash:cloud",
+    modelo: str = "deepseek-v4.1-flash:1017",
     timeout: int = 60,
     retries: int = 1
 ) -> dict:

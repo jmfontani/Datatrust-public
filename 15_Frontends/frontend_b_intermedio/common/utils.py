@@ -204,7 +204,7 @@ def get_dataset_profile_info(dataset_id: str) -> Optional[Dict]:
     return data
 
 
-def ask_dataset_question(dataset_id: str, question: str, model: str = "deepseek-v4.1-flash:cloud") -> Optional[Dict]:
+def ask_dataset_question(dataset_id: str, question: str, model: str = "deepseek-v4.1-flash:1017") -> Optional[Dict]:
     """
     Sprint 8 (#10): Pregunta al asistente sobre un dataset usando metadatos.
 
