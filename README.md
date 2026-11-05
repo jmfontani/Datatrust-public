@@ -3,6 +3,8 @@
 > TFM — Máster EOI · Buscador semántico de datasets del portal [datos.gob.es](https://datos.gob.es)
 > con re-ranking e interpretación de consultas mediante LLM, búsqueda híbrida (semántica + léxica) y PostgreSQL + pgvector.
 
+**En producción:** <https://datatrust.ejemplo.com> · interfaz pública y modo avanzado en `?mode=advanced`
+
 ![Estado](https://img.shields.io/badge/estado-operativo-success) ![Python](https://img.shields.io/badge/python-3.11+-blue) ![PostgreSQL](https://img.shields.io/badge/postgresql-15%2B-blue) ![pgvector](https://img.shields.io/badge/pgvector-0.5%2B-blue) ![Licencia](https://img.shields.io/badge/licencia-EOI-informational)
 
 ---
@@ -17,14 +19,14 @@ Aplicación que convierte **preguntas en lenguaje natural** sobre datos público
 
 | Capacidad | Descripción |
 |---|---|
-| **Búsqueda híbrida** | Combina similitud semántica (embeddings 384d) con ranking léxico (TSVECTOR) en PostgreSQL + pgvector |
+| **Búsqueda híbrida** | Combina similitud semántica (BGE-M3, 1.024 d) con ranking léxico (TSVECTOR) en PostgreSQL + pgvector, con pesos ajustables (por defecto 70/30) |
 | **Re-ranking con LLM** | Un LLM reordena el top-N de resultados según relevancia analítica y genera explicación por dataset |
 | **Interpretación de queries** | Extrae tema, territorio y año de la query; expande con sinónimos (paro → desempleo, atur, parados...) |
 | **Validación de metadatos** | Detecta inconsistencias (p. ej. `publisher="Universidad de Barcelona"` mientras el `title` menciona "UEx") |
 | **Filtros facetados** | Por tema, territorio, formato, publicador |
 | **TL;DR de datasets** | Resumen generado por LLM del propósito y contenido de cada dataset |
 | **Datasets complementarios** | Recomienda datasets relacionados por tema/geografía (modo rápido precalculado + opción LLM) |
-| **Chat sobre datasets** | Responde preguntas sobre metadatos y relaciones de un dataset concreto |
+| **Chat sobre datasets** | Responde con el esquema y una muestra del fichero real descargado (57.269 ficheros), no solo con los metadatos |
 | **Fallback léxico** | Diccionario de ~100 términos garantiza expansión instantánea (<1 ms) cuando el LLM falla |
 
 ---
@@ -36,7 +38,7 @@ Aplicación que convierte **preguntas en lenguaje natural** sobre datos público
 - Python 3.11+
 - PostgreSQL 15+ con la extensión `pgvector` 0.5+
 - 4 GB RAM mínimo · 10 GB disco (incluye los embeddings)
-- (Opcional) Clave o servidor para un LLM — por defecto usa modelos Ollama (`deepseek-v4-flash:cloud`, `deepseek-v4-pro:cloud`) o equivalentes OpenAI-compatible
+- (Opcional) Acceso a un LLM — por defecto `deepseek-v4.1-flash` vía Ollama Cloud (OpenAI-compatible), con fallback a `deepseek-v4-pro` y `glm-5.3-flash`
 
 ### 1. Clonar e instalar dependencias
 
@@ -86,10 +88,10 @@ API_PORT=8000
 # 4.1 Descargar datasets desde datos.gob.es (~528 MB, 22 min)
 python3 03_Sprint1_Ingesta/codigo/conectores/ingest_datos_gob_v2.py
 
-# 4.2 Limpiar y normalizar → 87.676 datasets limpios
+# 4.2 Limpiar y normalizar → 94.461 datasets limpios
 python3 03_Sprint1_Ingesta/codigo/limpieza/clean_datasets.py
 
-# 4.3 Generar embeddings con sentence-transformers (~129 MB, ~20 min)
+# 4.3 Generar embeddings (BGE-M3 vía Ollama; el pipeline con sentence-transformers queda como alternativa)
 python3 03_Sprint1_Ingesta/codigo/limpieza/generate_embeddings.py
 
 # 4.4 Construir índices BM25 + facetados (~7 segundos)
@@ -109,7 +111,7 @@ psql -d buscador < backup_buscador_2026XXXX.sql
 ```
 
 > 💡 **¿Por qué no se suben los datos al repo?**
-> - **Tamaño:** 134.150 datasets + 87.676 embeddings = ~1.2 GB · GitHub recomienda repos <1 GB
+> - **Tamaño:** catálogo crudo (134.150 registros) + 94.461 vectores de 1.024 d + ficheros descargados · GitHub recomienda repos <1 GB
 > - **GitHub Free:** límite estricto de 100 MB por archivo
 > - **Frescura:** los datos de `datos.gob.es` se actualizan periódicamente — regenerar garantiza actualidad
 > - **Privacidad / coste:** los datos son públicos, pero el repo es académico
@@ -146,7 +148,7 @@ Verificar que los routers LLM se cargaron (debe haber 4 líneas "cargado correct
 
 ```bash
 curl http://localhost:8000/health
-# {"status":"ok","postgresql":"connected","pgvector":true,"datasets_count":87676,...}
+# {"status":"ok","postgresql":"connected","pgvector":true,"datasets_count":94461,...}
 ```
 
 ### 6. Lanzar el frontend unificado (opcional)
@@ -174,7 +176,7 @@ streamlit run app.py --server.port 8501 -- --mode advanced
 # o visitar http://localhost:8501/?mode=advanced
 ```
 
-### Despliegue con Docker
+### Despliegue con Docker (vía usada en producción)
 
 ```bash
 cd 07_Sprint5_Integracion/codigo/docker
@@ -182,6 +184,22 @@ docker compose up -d
 ```
 
 Levanta los tres servicios: PostgreSQL+pgvector (5432), API FastAPI (8000) y frontend Streamlit (8501).
+
+Tras cambiar código del frontend o de la API hay que reconstruir: `docker compose build frontend && docker compose up -d --no-deps frontend`
+(el código va copiado dentro de la imagen, no montado por volumen).
+
+### Estado en producción
+
+| Pieza | Dónde |
+|---|---|
+| Frontend público | <https://datatrust.ejemplo.com> — Streamlit, sin SSO |
+| Frontend avanzado | <https://datatrust.ejemplo.com/?mode=advanced> — pesos del motor, filtros y diagnósticos |
+| API | `127.0.0.1:8000` (`/health`, `/openapi.json`) |
+| PostgreSQL + pgvector | `127.0.0.1:5432` (pgvector 0.5.1) |
+| Proxy TLS | nginx propio con certificado por dominio (Let's Encrypt) |
+| Contenedores | `buscador_postgres`, `buscador_api`, `buscador_frontend` (healthcheck `/_stcore/health`) |
+
+Medido el 5-nov-2026: 94.461 datasets · 94.461 con vector BGE-M3 · 87.661 con `embedding_text` · 57.269 ficheros · 5.073 perfiles LLM.
 
 ---
 
@@ -196,14 +214,18 @@ Levanta los tres servicios: PostgreSQL+pgvector (5432), API FastAPI (8000) y fro
                            │  HTTP
 ┌──────────────────────────▼───────────────────────────────────┐
 │  API FastAPI  (08_Sprint6_LLM_Mejora/codigo/api/main_v2_)   │
-│  ├── /search                    Búsqueda híbrida pura      │
-│  ├── /llm/search/fast           Búsqueda rápida sin re-ranking │
+│  ├── /search                    Búsqueda híbrida (70/30)    │
+│  ├── /llm/search/fast           ⚠️ NO USAR: sin motor híbrido │
+│  ├── /llm/explain               ⚠️ NO USAR: bug get_v07_url  │
 │  ├── /llm/enhance              Búsqueda con re-ranking LLM  │
 │  ├── /enhanced/search           Pipeline completo (pre-procesamiento + búsqueda) │
 │  ├── /enhanced/query/analyze    Interpretación de query     │
 │  ├── /complementary/tldr        TL;DR del dataset (query param: ?dataset_id=) │
 │  ├── /complementary/find        Datasets complementarios    │
-│  └── /dataset/chat              Chat sobre un dataset (POST, dataset_id en body) │
+│  ├── /dataset/chat              Chat sobre un dataset (POST, dataset_id en body) │
+│  ├── /datasets, /datasets/{id}  Fichas y metadatos          │
+│  ├── /facets/{facet_type}       Valores de facetas          │
+│  └── /enhanced/query/{analyze,expand,validate,suggest}      │
 └──────────┬─────────────────────────────────┬─────────────────┘
            │                                 │
 ┌──────────▼──────────────┐    ┌─────────────▼─────────────────┐
@@ -215,7 +237,7 @@ Levanta los tres servicios: PostgreSQL+pgvector (5432), API FastAPI (8000) y fro
 └──────────┬──────────────┘    └───────────────────────────────┘
            │
 ┌──────────▼───────────────────────────────────────────────────┐
-│  PostgreSQL 15 + pgvector (87 676 datasets · 384 dims)       │
+│  PostgreSQL 15 + pgvector (94.461 datasets · 1.024 dims)     │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -241,13 +263,13 @@ El proyecto sigue la **metodología EOI** (Design Thinking + Scrum + Data Model 
 | 00 | `00_Kickoff/` | Acuerdos de equipo, setup inicial | ✅ |
 | 01 | `01_Empatizar_Definir/` | 5 entrevistas, 3 personas, journey maps, insights | ✅ |
 | 02 | `02_Idear_Prototipar/` | DMC, wireframes, prototipos, ideas descartadas | ✅ |
-| 03 | `03_Sprint1_Ingesta/` | Ingesta de 134.150 datasets desde datos.gob.es, limpieza a 87.676 | ✅ |
-| 04 | `04_Sprint2_Embeddings/` | Embeddings 87.676×384, índices BM25 + facetados | ✅ |
+| 03 | `03_Sprint1_Ingesta/` | Ingesta de 134.150 registros desde datos.gob.es, limpieza a 94.461 datasets | ✅ |
+| 04 | `04_Sprint2_Embeddings/` | Embeddings BGE-M3 94.461×1.024 (columna `embedding_bge`), índices BM25 + facetados + HNSW | ✅ |
 | 05 | `05_Sprint3_Busqueda_UI/` | Motor de búsqueda híbrido + API REST + frontend Streamlit | ✅ |
 | 06 | `06_Nivel4_Evaluacion/` | Batería de tests · 10/12 PASS (83%) en baseline | ✅ |
 | 07 | `07_Sprint5_Integracion/` | Docker, PostgreSQL + pgvector, despliegue | ✅ |
 | 08 | `08_Sprint6_LLM_Mejora/` | Re-ranking con LLM, expansión, validación, fallback léxico | ✅ |
-| 09 | `09_Sprint7_RAGAS/` | Evaluación RAGAS: P@5=0.70, NDCG@10=0.79 | ✅ |
+| 09 | `09_Sprint7_RAGAS/` | Evaluación con ground truth v6: nDCG@10 0,5774 (214 consultas) y 0,7116 (47 humanas) | ✅ |
 | 10 | `15_Frontends/` | Frontend unificado: modo público + modo avanzado | ✅ |
 | — | `99_Compartido/` | Recursos compartidos: requirements.txt, config | ✅ |
 
@@ -259,20 +281,45 @@ La mayoría de sprints contienen `codigo/`, `docs/`, `entregables/` y un `README
 
 ### Calidad del buscador
 
-| Métrica | Valor |
-|---------|-------|
-| Datasets indexados | **87 676** |
-| Dimensiones embedding | 384 (paraphrase-multilingual-MiniLM-L12-v2) |
-| Precisión baseline @5 | 83 % (10/12) — *batería corta* |
-| Precisión extendida @5 | ~75 % — *batería ampliada, ver `06_Nivel4_Evaluacion`* |
-| **P@5 evaluación RAGAS (Sprint 7)** | **0.702** sobre 47 queries, ground truth realista |
-| **NDCG@10 evaluación RAGAS (Sprint 7)** | **0.792** |
-| **P@5 datos.gob.es (mismo test, web real)** | **0.622** |
-| Latencia búsqueda híbrida | ~30–50 ms (PostgreSQL) |
-| Latencia TL;DR / chat | ~0.5–2 s con perfil precalculado; bajo demanda con LLM |
-| Latencia complementarios | ~0.3 s modo rápido; ~3–10 s con LLM |
-| Latencia fallback léxico | **< 1 ms** |
-| Tasa de éxito expansión (con fallback) | **100 %** |
+**KPI oficial: ground truth v6 (14-oct-2026).** Es la única tabla que debe citarse en la defensa.
+
+| Métrica | Todas las consultas (214) | Solo humanas (47) |
+|---|---|---|
+| **nDCG@10** | **0,5774** · IC95 [0,5311–0,6237] | **0,7116** · IC95 [0,6311–0,7921] |
+| P@5 | 0,4318 | 0,6511 |
+| P@10 | 0,4000 | 0,5851 |
+| MRR | 0,5942 | 0,8039 |
+| Cobertura del juicio en el top-10 | 100 % | 100 % |
+
+- Las **214** = 47 humanas + 167 generadas por LLM ancladas en 40 títulos reales (12 categorías × 18; 216 generadas, 214 tras depurar).
+- **Mejora mínima detectable** (nDCG@10): 0,0463.
+- **Cambio de motor de embeddings** (MiniLM → BGE-M3): **+0,1526** [+0,1113, +0,1938].
+- El valor **0,6716** que aparece en la comparación contra el ground truth scrapeado de datos.gob.es **no es el KPI**: es una comparación entre instrumentos de medida.
+- Las baterías de `06_Nivel4_Evaluacion` (10/12 PASS) siguen siendo válidas como *smoke test*, no como métrica de calidad.
+
+#### Motor y volumen de datos
+
+| | |
+|---|---|
+| Datasets indexados | **94.461** |
+| Embeddings | **BGE-M3, 1.024 d** (columna `embedding_bge`) en el **100 %** del corpus |
+| Texto persistido para el léxico | `embedding_text` en 87.661 (92,8 %); los 6.800 restantes tienen vector real pero no texto guardado |
+| Índice HNSW | **738 MB** (queda el índice MiniLM heredado, 182 MB) |
+| Peso por defecto del ranking | 70 % semántico / 30 % léxico |
+| Contenido de ficheros | **57.269** registros en `dataset_files`: 56.170 con muestra de texto, 56.431 con esquema |
+| Perfiles LLM precalculados | **5.073** en `dataset_profiles` (5,4 % del corpus) |
+
+#### Latencia (medida sobre el servicio en producción, 5-nov-2026)
+
+| Operación | Tiempo |
+|---|---|
+| Búsqueda híbrida, extremo a extremo | **2,5–3,5 s** en caliente · **8–12 s** en frío (el SQL son ~30–50 ms; lo que tarda es el embedding de la consulta) |
+| TL;DR con perfil precalculado | instantáneo |
+| TL;DR generado bajo demanda | ~1,5 s (y se guarda) |
+| Complementarios | ~0,3 s modo rápido · 3–10 s con LLM |
+| Chat sobre dataset | 2–4 s (hasta ~9 s si necesita agregar) |
+| Re-ranking LLM completo | ~9 s |
+| Fallback léxico | **< 1 ms** |
 
 ### Mejoras LLM (Sprint 6)
 
@@ -298,11 +345,11 @@ Detalle completo en [`08_Sprint6_LLM_Mejora/docs/INDICE_CASOS_USO_LLM.md`](08_Sp
 ## 🛠️ Stack técnico
 
 - **Lenguaje:** Python 3.11+
-- **Embeddings:** `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers, 384 d, multilingüe ES/EN)
-- **Base de datos:** PostgreSQL 15 + `pgvector` 0.5.1
+- **Embeddings:** **BGE-M3** (1.024 d, multilingüe ES/EN) servido por Ollama; columna `embedding_bge`. El motor anterior (`paraphrase-multilingual-MiniLM-L12-v2`, 384 d) se conserva en `embedding` para comparar
+- **Base de datos:** PostgreSQL 15 + `pgvector` 0.5.1 (índice HNSW sobre `embedding_bge`)
 - **Backend:** FastAPI + Uvicorn
 - **Frontend:** Streamlit
-- **LLM:** configurable — por defecto `deepseek-v4-flash:cloud`; compatible con Ollama, OpenAI-compatible
+- **LLM:** configurable — por defecto `deepseek-v4.1-flash` (Ollama Cloud); fallback `deepseek-v4-pro` y `glm-5.3-flash`; compatible con cualquier endpoint OpenAI
 - **Despliegue:** Docker Compose
 - **Validación DCAT-AP-ES:** script propio en `03_Sprint1_Ingesta/codigo/validacion/`
 
@@ -332,7 +379,7 @@ python eval_nuestro_vs_dge_gt.py
 python generar_reporte_comparativo_datosgobes.py
 ```
 
-Informe resultante: `09_Sprint7_RAGAS/entregables/reporte_comparativo_datosgobes.md`.
+Informe resultante: `09_Sprint7_RAGAS/entregables/reporte_comparativo_datosgobes.md`. Las métricas oficiales se recalculan sobre `entregables/fase_h_METRICAS_v6.json` y `gt_etiquetas_v6.json` sin consultar la API.
 
 ### Probar el pre-procesador con LLM
 
@@ -371,7 +418,9 @@ curl -X POST http://localhost:8000/llm/enhance \
 | `datasets_count: 0` | Migración no ejecutada o embeddings no regenerados | `python3 07_Sprint5_Integracion/codigo/db/migrate_from_numpy.py` (requiere `embeddings.npy` y `datasets_clean.jsonl` regenerados primero) |
 | `FileNotFoundError: embeddings.npy` | Archivo no generado (no incluido en el repo) | `python3 03_Sprint1_Ingesta/codigo/limpieza/generate_embeddings.py` |
 | `FileNotFoundError: datasets_clean.jsonl` | Datos limpios no generados (no incluidos en el repo) | `python3 03_Sprint1_Ingesta/codigo/limpieza/clean_datasets.py` |
-| Frontend no muestra logo | `assets/` no se copió al desplegar | Verificar `15_Frontends/frontend_b_intermedio/legacy/assets/logo_buscador_semantico.png` |
+| Frontend no muestra logo | `assets/` no se copió al desplegar | Verificar `15_Frontends/frontend_b_intermedio/assets/logo_buscador_semantico.png` |
+| `POST /llm/explain` → `Error interno: name 'get_v07_url' is not defined` | Import perdido tras un refactor de la API (bug abierto) | No usar; para explicaciones, `/llm/enhance` |
+| `POST /llm/search/fast` responde en ~0,1 s con resultados irrelevantes | Ese endpoint no pasa por el motor híbrido | No usar en demos ni en evaluación |
 
 ---
 
@@ -388,11 +437,11 @@ python3 03_Sprint1_Ingesta/codigo/conectores/ingest_datos_gob_v2.py
 
 # 2. Limpieza y normalización (DCAT-AP, deduplicación, extracción de embedding_text)
 python3 03_Sprint1_Ingesta/codigo/limpieza/clean_datasets.py
-# → genera 03_Sprint1_Ingesta/codigo/datos/processed/datasets_clean.jsonl (87.676 datasets)
+# → genera 03_Sprint1_Ingesta/codigo/datos/processed/datasets_clean.jsonl (94.461 datasets)
 
 # 3. Generación de embeddings con sentence-transformers (~20 min en CPU)
 python3 03_Sprint1_Ingesta/codigo/limpieza/generate_embeddings.py
-# → genera 04_Sprint2_Embeddings/datos/processed/embeddings.npy (87.676 × 384)
+# → genera 04_Sprint2_Embeddings/datos/processed/embeddings.npy (94.461 × 1.024 con BGE-M3)
 
 # 4. Construcción de índices BM25 y facetados (~7 segundos)
 python3 04_Sprint2_Embeddings/codigo/indexacion/build_indices.py
@@ -426,7 +475,7 @@ python3 03_Sprint1_Ingesta/codigo/limpieza/generate_embeddings.py \
 
 ### Cambiar el modelo de embeddings
 
-El modelo por defecto es `paraphrase-multilingual-MiniLM-L12-v2` (384 d, multilingüe ES/EN). Para usar otro:
+El modelo por defecto es **BGE-M3** (1.024 d). El pipeline antiguo con `sentence-transformers` sigue disponible para generar la columna `embedding` (384 d) y poder comparar. Para cambiar de modelo:
 
 1. Editar `03_Sprint1_Ingesta/codigo/limpieza/generate_embeddings.py` línea 25:
    ```python
@@ -454,18 +503,36 @@ El modelo por defecto es `paraphrase-multilingual-MiniLM-L12-v2` (384 d, multili
 | [`03_Sprint1_Ingesta/codigo/docs/ficha_tecnica_datos_gob_es.md`](03_Sprint1_Ingesta/codigo/docs/ficha_tecnica_datos_gob_es.md) | Ficha técnica de la fuente de datos |
 | [`07_Sprint5_Integracion/codigo/docs/DESPLIEGUE.md`](07_Sprint5_Integracion/codigo/docs/DESPLIEGUE.md) | Manual de despliegue detallado |
 | [`15_Frontends/frontend_b_intermedio/legacy/README.md`](15_Frontends/frontend_b_intermedio/legacy/README.md) | Archivo de interfaces antiguas y lecciones aprendidas |
+| [`docs/DEFENSA_PREGUNTAS_RESPUESTAS.md`](docs/DEFENSA_PREGUNTAS_RESPUESTAS.md) | 60 preguntas y respuestas para la defensa (con anexos de cifras) |
+| [`docs/diagrama_datatrust.mmd`](docs/diagrama_datatrust.mmd) | Diagrama de arquitectura (pipeline offline + servicio en producción) |
+| [`08_Sprint6_LLM_Mejora/docs/DEMO-5MIN-BASURA-EN-CASA-2026-10-30.pdf`](08_Sprint6_LLM_Mejora/docs/DEMO-5MIN-BASURA-EN-CASA-2026-10-30.pdf) | Guion de la demo de 5 minutos |
+| [`docs/AUDITORIA-IMPECCABLE-DATATRUST-2026-11-04.pdf`](docs/AUDITORIA-IMPECCABLE-DATATRUST-2026-11-04.pdf) | Auditoría de interfaz (accesibilidad y contraste) y su corrección |
+
+---
+
+## ⚠️ Limitaciones conocidas
+
+| Limitación | Detalle |
+|---|---|
+| Chat sin fichero | Un dataset sin fichero descargado (unos 37.200 de 94.461) responde «No se encontró información del dataset» en lugar de inventar |
+| Chat con ventana de muestra | El chat recibe el esquema y los **primeros 4.000 caracteres** del fichero (`SAMPLE_ROWS_CHARS`). Preguntas por una anualidad o un total fuera de esa ventana devuelven «no puedo determinarlo»: es intencionado, no un fallo |
+| Perfiles LLM parciales | 5.073 de 94.461 datasets tienen TL;DR y perfil precalculados (5,4 %); el resto se genera bajo demanda pagando latencia |
+| Endpoints en cuarentena | `POST /llm/explain` (bug `get_v07_url`) y `POST /llm/search/fast` (no usa el motor híbrido) |
+| Resto del compose | `MODEL_NAME=paraphrase-multilingual-MiniLM-L12-v2` sigue declarado en el compose por compatibilidad; el motor real es BGE-M3 (`EXPERIMENTO_COLUMNA=embedding_bge`) |
+| Índice heredado | El HNSW de MiniLM (182 MB) sigue construido junto al de BGE-M3 (738 MB); se puede eliminar cuando no se compare |
+| Vocabulario del léxico | El motor léxico exige **todas** las palabras y no lematiza: con una frase natural devuelve 0 resultados. Es la razón de combinar ambos motores, no un defecto que se pueda arreglar subiendo el peso |
 
 ---
 
 ## 👥 Contexto académico
 
-TFM del **Máster EOI** (Data Science & Big Data) · Curso 2025–2026 · Defensa prevista sept. 2026.
+TFM del **Máster EOI** (Data Science & Big Data) · Curso 2025–2026 · Defensa en nov. 2026.
 
 Equipo (6 personas): Producto, Datos, NLP/ML, Backend, Frontend/UX, Storytelling.
 
 Metodología: Design Thinking + Lean Startup + Scrum + Data Model Canvas.
 
-Última actualización del README: 2026-08-11 (auditoría de coherencia + corrección de 19 discrepancias).
+Última actualización del README: **2026-11-05** (puesta al día contra la base de datos y la API en producción: 94.461 datasets, BGE-M3 1.024 d, KPI de ground truth v6, estado del despliegue y limitaciones conocidas).
 
 ---
 

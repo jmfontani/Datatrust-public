@@ -1,0 +1,33 @@
+%% DataTrust TFM EOI - arquitectura para diapositiva
+%%{init: {"flowchart": {"wrappingWidth": 300, "nodeSpacing": 45, "rankSpacing": 70, "curve": "basis"}}}%%
+flowchart LR
+  SRC["datos.gob.es<br/>CKAN y DCAT-AP<br/>134.150 registros"]
+  ING["Ingesta y limpieza<br/>dedup 34,7 %<br/>87.677 únicos"]
+  DL["Descarga de contenido<br/>31.149 datasets<br/>48 GB"]
+  DB[("PostgreSQL 15 y pgvector<br/>94.461 fichas<br/>BGE-M3 1024D · HNSW 717 MB<br/>57.269 ficheros · 5.039 perfiles")]
+  USR(["Usuario"])
+  WEB["nginx :443 y Streamlit :8501<br/>datatrust.ejemplo.com<br/>modo público y avanzado"]
+  API["API FastAPI :8000<br/>búsqueda híbrida 70/30<br/>chat y endpoints LLM"]
+  OLL["Ollama Cloud<br/>router LLM · 9 s por consulta<br/>deepseek-v4.1-flash"]
+  KPI["KPI nDCG@10<br/>0,5774 en 214 consultas<br/>0,7116 en 47 humanas<br/>GT v6 · cobertura 100 %"]
+  REV["Reversible<br/>EXPERIMENTO_MOTOR=minilm<br/>imagen previa a BGE"]
+
+  SRC --> ING
+  ING --> DL
+  ING --> DB
+  DL --> DB
+  USR --> WEB
+  WEB --> API
+  API --> DB
+  API --> OLL
+  DB -.-> KPI
+  DB -.-> REV
+
+  classDef caja fill:#ffffff,stroke:#298f9b,stroke-width:1.5px,color:#12303a,font-size:15px
+  classDef almacen fill:#eaf7ec,stroke:#2e7d32,stroke-width:2px,color:#12301a,font-size:15px
+  classDef llm fill:#f0e8fb,stroke:#6a3fb5,stroke-width:1.5px,color:#241338,font-size:15px
+  classDef metric fill:#fdf3e7,stroke:#b7791f,stroke-width:1.5px,color:#3d2a08,font-size:14px
+  class SRC,ING,DL,WEB,API caja
+  class DB almacen
+  class OLL llm
+  class KPI,REV metric

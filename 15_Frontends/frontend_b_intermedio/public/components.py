@@ -24,6 +24,9 @@ from common.utils import (
 THEME_COLORS = {
     'primary': '#080066',        # Azul oscuro corporativo (predominante)
     'primary_light': '#1F7CFF',  # Azul claro corporativo (apoyo)
+    # Parada final del degradado del header. El #1F7CFF original daba 3.23:1 con el
+    # subtítulo al 85 % de blanco; con #1A6FE8 y subtítulo blanco puro sube a 4.68:1 (AA).
+    'primary_light_header': '#1A6FE8',
     'secondary': '#64748b',      # Gris neutro para texto secundario
     'accent': '#C42A00',         # Rojo corporativo oscurecido: 5.71:1 sobre blanco (el #F53300 daba 3.92:1)
     'bg_light': '#f0ecf6',       # Fondo claro con tinte azulado (del manual)
@@ -57,7 +60,7 @@ def get_public_css() -> str:
     .public-header {{
         text-align: center;
         padding: 3rem 1rem 2rem 1rem;
-        background: linear-gradient(135deg, {THEME_COLORS['primary']} 0%, {THEME_COLORS['primary_light']} 100%);
+        background: linear-gradient(135deg, {THEME_COLORS['primary']} 0%, {THEME_COLORS['primary_light_header']} 100%);
         border-radius: 0 0 24px 24px;
         margin-bottom: 1.5rem;
     }}
@@ -72,9 +75,10 @@ def get_public_css() -> str:
 
     .public-header .subtitle {{
         font-size: 1.125rem;
-        color: rgba(255, 255, 255, 0.85);
+        /* Blanco puro: el 85 % de opacidad sobre la parada clara daba 3.23:1 */
+        color: #ffffff;
         margin-top: 0.5rem;
-        font-weight: 400;
+        font-weight: 500;
     }}
 
     /* Barra de búsqueda estilo Google */
@@ -187,7 +191,7 @@ def get_public_css() -> str:
         margin-bottom: 1rem;
     }}
 
-    .empty-state-public h3 {{
+    .empty-state-public h2, .empty-state-public h3 {{
         font-size: 1.25rem;
         font-weight: 600;
         color: {THEME_COLORS['text_primary']};
@@ -342,7 +346,7 @@ def render_public_header():
         logo_b64 = base64.b64encode(logo_path.read_bytes()).decode()
         st.markdown(f"""
     <div class="public-header">
-        <img src="data:image/png;base64,{logo_b64}" style="width: 70px; height: auto; margin-bottom: 0.75rem;" />
+        <img src="data:image/png;base64,{logo_b64}" alt="DataTrust" style="width: 70px; height: auto; margin-bottom: 0.75rem;" />
         <h1>Datatrust</h1>
         <p class="subtitle">Buscador semántico de datasets públicos</p>
     </div>
@@ -387,6 +391,16 @@ def render_search_bar_public() -> Tuple[str, int]:
     .stTextInput > div > div > input:focus {
         box-shadow: 0 1px 6px rgba(8, 0, 102, 0.28) !important;
         border-color: #1F7CFF !important;
+    }
+    /* Indicador de foco explícito (2 px) además del borde de Streamlit */
+    .stTextInput > div > div > input:focus-visible {
+        outline: 2px solid #080066 !important;
+        outline-offset: 2px !important;
+    }
+    /* El placeholder por defecto (4.44:1) se queda al límite de AA */
+    .stTextInput > div > div > input::placeholder {
+        color: #585857 !important;
+        opacity: 1 !important;
     }
     .stTextInput > label {
         display: none !important;
@@ -452,6 +466,9 @@ def render_popular_searches(on_select):
         transform: scale(1.02);
     }
     /* Botón inactivo: fondo blanco, borde gris */
+    div[data-testid="stButton"] > button {
+        min-height: 2.5rem !important;  /* 40 px: área táctil mínima */
+    }
     div[data-testid="stButton"] > button[kind="secondary"] {
         background-color: #ffffff !important;
         color: #1D1E1B !important;
@@ -851,7 +868,7 @@ def render_result_card_public(result: Dict, index: int, search_id: int = 0):
                 💡 Formatos disponibles: <strong>{formatos_texto}</strong>
             </div>"""
         else:
-            formato_info = """<div style="font-size: 0.8rem; color: #ed8936; margin-top: 0.5rem;">
+            formato_info = """<div style="font-size: 0.8rem; color: #b45309; margin-top: 0.5rem;">
                 ⚠️ Página web - busca el archivo descargable en el enlace
             </div>"""
 
@@ -936,20 +953,25 @@ def render_result_card_public(result: Dict, index: int, search_id: int = 0):
                         reason = comp.get("reason", "")
                         join_key = comp.get("join_key", "")
                         potential = comp.get("potential_analysis", "")
+                        clave_html = (
+                            f"<br><span style='color: #585857; font-size: 0.85rem;'>"
+                            f"Clave de unión: {join_key}</span>" if join_key else ""
+                        )
                         st.markdown(
                             f"<div style='color: #1D1E1B; background: #f0ecf6; padding: 0.75rem; "
                             f"border-radius: 8px; margin-bottom: 0.5rem; border-left: 3px solid #C42A00;'>"
                             f"<strong>{comp_title}</strong><br>"
                             f"<span style='color: #585857; font-size: 0.9rem;'>{reason}</span>"
+                            f"{clave_html}"
                             f"</div>",
                             unsafe_allow_html=True
                         )
                 else:
-                    st.warning("⚠️ No se encontraron datasets complementarios automáticamente.")
-                    st.markdown(
-                        "<p style='color: #585857; font-size: 0.875rem;'>"
-                        "Prueba con otro dataset o formula una pregunta directa en el chat.</p>",
-                        unsafe_allow_html=True
+                    st.info(
+                        "No hay datasets del catálogo lo bastante próximos a éste "
+                        "(similitud semántica por debajo del umbral), o la evaluación previa "
+                        "no encontró ninguna relación verificable. No se muestran vecinos "
+                        "de otro tema sólo por compartir sector o territorio."
                     )
             except Exception as e:
                 st.error(f"❌ Error cargando complementarios: {e}")
@@ -1065,7 +1087,7 @@ def render_empty_state_public():
     st.markdown(f"""
     <div class="empty-state-public">
         <div class="icon">🔍</div>
-        <h3>Busca entre {count_display} datasets públicos</h3>
+        <h2>Busca entre {count_display} datasets públicos</h2>
         <p>Escribe lo que necesitas en lenguaje natural.<br>
         Por ejemplo: "datos de tráfico en Madrid" o "estadísticas de empleo juvenil"</p>
     </div>
@@ -1077,7 +1099,7 @@ def render_no_results_public():
     st.markdown("""
     <div class="empty-state-public">
         <div class="icon">🤔</div>
-        <h3>No encontramos resultados exactos</h3>
+        <h2>No encontramos resultados exactos</h2>
         <p>Prueba con otros términos o elimina algunos filtros.<br>
         También puedes probar búsquedas más generales.</p>
     </div>
