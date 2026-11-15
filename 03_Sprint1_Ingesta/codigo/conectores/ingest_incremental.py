@@ -37,8 +37,13 @@ API_TIMEOUT = 30
 RETRIES = 3
 BACKOFF = 1.0
 RATE_LIMIT_DELAY = 0.5
-PAGE_SIZE = 100
+PAGE_SIZE = 100  # la API trunca respuestas grandes: con 200 llegaban JSON cortados
 BATCH_SIZE = 500
+TAMANOS_DE_RESPALDO = (100, 50)  # si una página falla, se reintenta más pequeña
+# Deadline duro por petición: el timeout de urlopen solo actúa por operación de
+# socket, así que un servidor que gotea bytes mantiene la conexión abierta
+# indefinidamente (una ingesta llegó a quedarse una hora colgada en la página 30).
+HARD_TIMEOUT = 60
 
 logging.basicConfig(
     level=logging.INFO,
@@ -50,15 +55,32 @@ logger = logging.getLogger(__name__)
 # ── HTTP ────────────────────────────────────────────────────────────────────
 
 
+class _DeadlineExcedido(Exception):
+    """Se lanza cuando una petición supera HARD_TIMEOUT en total."""
+
+
+def _alarma(signum, frame):  # noqa: ARG001
+    raise _DeadlineExcedido(f"petición de más de {HARD_TIMEOUT}s")
+
+
 def http_get_json(url: str, retries: int = RETRIES) -> Optional[Dict]:
+    import signal
+
     for attempt in range(retries + 1):
+        previo = None
         try:
+            if hasattr(signal, "SIGALRM"):
+                previo = signal.signal(signal.SIGALRM, _alarma)
+                signal.alarm(HARD_TIMEOUT)
             req = urllib.request.Request(
                 url,
                 headers={"Accept": "application/json", "User-Agent": "PFM-Ingesta/3.0"},
             )
             with urllib.request.urlopen(req, timeout=API_TIMEOUT) as response:
-                return json.loads(response.read().decode("utf-8"))
+                datos = json.loads(response.read().decode("utf-8"))
+            if previo is not None:
+                signal.alarm(0)
+            return datos
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 wait = BACKOFF * (2**attempt)
@@ -75,19 +97,43 @@ def http_get_json(url: str, retries: int = RETRIES) -> Optional[Dict]:
             else:
                 logger.error(f"Error en request: {e}")
                 return None
+        finally:
+            if previo is not None:
+                try:
+                    signal.alarm(0)
+                    signal.signal(signal.SIGALRM, previo)
+                except Exception:
+                    pass
     return None
 
 
-def fetch_page(page: int = 0) -> Dict[str, Any]:
-    params = {"_page": page, "_pageSize": PAGE_SIZE}
-    url = f"{API_BASE_URL}?{urlencode(params)}"
-    data = http_get_json(url)
-    if data is None:
-        return {"items": [], "has_next": False}
-    result = data.get("result", {})
-    items = result.get("items", [])
-    has_next = "next" in result
-    return {"items": items, "has_next": has_next}
+class PaginaFallida(Exception):
+    """La API no devolvió una página tras agotar los reintentos."""
+
+
+def fetch_page(page: int = 0, size: int = PAGE_SIZE) -> Dict[str, Any]:
+    """Descarga una página. Si la respuesta llega truncada (la API corta JSON
+    grandes), reintenta con tamaños menores antes de rendirse."""
+    ultimo_error = None
+    for intento, tam in enumerate([size] + [t for t in TAMANOS_DE_RESPALDO if t < size]):
+        params = {"_page": page, "_pageSize": tam}
+        url = f"{API_BASE_URL}?{urlencode(params)}"
+        try:
+            data = http_get_json(url)
+            if data is None:
+                raise PaginaFallida(f"sin respuesta (tamaño {tam})")
+            result = data.get("result", {})
+            items = result.get("items", [])
+            has_next = "next" in result
+            return {"items": items, "has_next": has_next, "page": page, "size": tam}
+        except Exception as e:  # noqa: BLE001
+            ultimo_error = e
+            if tam != size:
+                logger.warning(f"Página {page}: fallo con tamaño {tam} ({e})")
+    # Antes se devolvía una página vacía y el bucle principal la interpretaba
+    # como "fin del catálogo": la ingesta terminaba a medias con código 0 y un
+    # log que decía COMPLETADA. Mejor fallar en alto.
+    raise PaginaFallida(f"página {page} sin respuesta tras probar tamaños ({ultimo_error})")
 
 
 # ── Normalización ──────────────────────────────────────────────────────────
@@ -405,7 +451,9 @@ def get_datasets_needing_embeddings(conn) -> List[str]:
 # ── Pipeline ───────────────────────────────────────────────────────────────
 
 
-def run_incremental(dry_run: bool = False, limit: int = None):
+def run_incremental(dry_run: bool = False, limit: int = None,
+                    desde_item: int = 0, page_size: int = PAGE_SIZE,
+                    max_paginas: int = None):
     logger.info("=" * 60)
     logger.info("INGESTA INCREMENTAL datos.gob.es → PostgreSQL")
     logger.info(f"Modo: {'DRY RUN' if dry_run else 'WRITE'}")
@@ -424,13 +472,18 @@ def run_incremental(dry_run: bool = False, limit: int = None):
     total_new = 0
     total_updated = 0
     total_unchanged = 0
-    page = 0
+    page = desde_item // page_size
+    paginas_hechas = 0
     batch = []
+    if desde_item:
+        logger.info(f"Reanudando en el ítem {desde_item:,} (página {page} de {page_size})")
 
     while True:
-        data = fetch_page(page)
+        data = fetch_page(page, page_size)
         items = data["items"]
+        paginas_hechas += 1
         if not items:
+            logger.info(f"FIN DE CATÁLOGO en la página {page}")
             break
 
         for item in items:
@@ -466,6 +519,11 @@ def run_incremental(dry_run: bool = False, limit: int = None):
             break
 
         if not data["has_next"]:
+            logger.info(f"FIN DE CATÁLOGO en la página {page}")
+            break
+
+        if max_paginas and paginas_hechas >= max_paginas:
+            logger.info(f"Tope de {max_paginas} páginas alcanzado en la página {page}")
             break
 
         page += 1
@@ -497,9 +555,17 @@ def main():
     )
     parser.add_argument("--dry-run", action="store_true", help="Solo reportar, no escribir")
     parser.add_argument("--limit", type=int, default=None, help="Máximo datasets a procesar")
+    parser.add_argument("--desde-item", type=int, default=0,
+                        help="Reanudar en este ítem del catálogo (p. ej. 21600)")
+    parser.add_argument("--page-size", type=int, default=PAGE_SIZE,
+                        help=f"Ítems por página (por defecto {PAGE_SIZE})")
+    parser.add_argument("--paginas", type=int, default=None,
+                        help="Parar después de N páginas (para tandas con reintento externo)")
     args = parser.parse_args()
 
-    run_incremental(dry_run=args.dry_run, limit=args.limit)
+    run_incremental(dry_run=args.dry_run, limit=args.limit,
+                    desde_item=args.desde_item, page_size=args.page_size,
+                    max_paginas=args.paginas)
 
 
 if __name__ == "__main__":
