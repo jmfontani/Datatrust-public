@@ -1,0 +1,41 @@
+Documentación, memoria e informes — DataTrust
+==============================================
+
+Salvo que se indique lo contrario, la documentación de este repositorio —textos en Markdown,
+memoria del TFM, informes, presentaciones y diagramas (fuentes `.mmd` y `.svg`)— se distribuye
+bajo la licencia
+
+    Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/deed.es
+
+Usted es libre de compartir (copiar y redistribuir el material en cualquier medio o formato)
+y de adaptarlo (remezclar, transformar y construir a partir del material) para cualquier
+propósito, incluso comercial, bajo la única condición de **atribución**: debe citar la obra,
+indicar si se han introducido cambios y no insinuar que el licenciante respalda su uso.
+
+## Atribución sugerida
+
+    DataTrust — Buscador semántico sobre el Catálogo Nacional de Datos Abiertos.
+    Equipo 2, TFM del Máster en IA y Ciencia de Datos, EOI (2026).
+    https://github.com/jmfontani/Datatrust-public
+    Licencia: CC BY 4.0
+
+Al reutilizar un diagrama concreto, añada el nombre del fichero (por ejemplo,
+`docs/diagrama_datatrust.svg`) e indique si lo ha modificado.
+
+## Alcance
+
+CC BY 4.0 se aplica **solo** a los materiales que el equipo ha producido. Quedan fuera:
+
+- **El código fuente**, que se distribuye bajo la GNU Affero General Public License v3.0 o
+  posterior — véase el fichero [`LICENSE`](LICENSE).
+- **El material de terceros** (artículos citados, material docente de EOI, logotipos,
+  conjuntos de datos del catálogo, pesos de modelos), que conserva la licencia de su origen —
+  véase [`TERCEROS.md`](TERCEROS.md).
+- **Las figuras, tablas o extractos reproducidos** de publicaciones ajenas dentro de un
+  documento: mantienen la licencia de su origen aunque el documento que las contiene esté
+  bajo CC BY 4.0.
+
+CC BY 4.0 no es una licencia de software y no se aplica a los programas de este repositorio;
+tampoco concede derechos sobre las marcas, nombres comerciales o logotipos de EOI, Red.es o
+datos.gob.es.

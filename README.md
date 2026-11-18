@@ -5,7 +5,7 @@
 
 **En producción:** <https://datatrust.ejemplo.com> · interfaz pública y modo avanzado en `?mode=advanced`
 
-![Estado](https://img.shields.io/badge/estado-operativo-success) ![Python](https://img.shields.io/badge/python-3.11+-blue) ![PostgreSQL](https://img.shields.io/badge/postgresql-15%2B-blue) ![pgvector](https://img.shields.io/badge/pgvector-0.5%2B-blue) ![Licencia](https://img.shields.io/badge/licencia-EOI-informational)
+![Estado](https://img.shields.io/badge/estado-operativo-success) ![Python](https://img.shields.io/badge/python-3.11+-blue) ![PostgreSQL](https://img.shields.io/badge/postgresql-15%2B-blue) ![pgvector](https://img.shields.io/badge/pgvector-0.5%2B-blue) ![Licencia](https://img.shields.io/badge/c%C3%B3digo-AGPL--3.0-blue) ![Docs](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)
 
 ---
 
@@ -532,13 +532,31 @@ Equipo (6 personas): Producto, Datos, NLP/ML, Backend, Frontend/UX, Storytelling
 
 Metodología: Design Thinking + Lean Startup + Scrum + Data Model Canvas.
 
-Última actualización del README: **2026-11-05** (puesta al día contra la base de datos y la API en producción: 94.461 datasets, BGE-M3 1.024 d, KPI de ground truth v6, estado del despliegue y limitaciones conocidas).
+Última actualización del README: **2026-11-18** (licencias: AGPL-3.0-or-later para el código y CC BY 4.0 para la documentación). La puesta al día contra producción —94.461 datasets, BGE-M3 1.024 d, KPI de ground truth v6, estado del despliegue y limitaciones conocidas— es del 2026-11-05.
 
 ---
 
 ## 📄 Licencia
 
-Material académico EOI. Los datos pertenecen a sus respectivos publicadores en [datos.gob.es](https://datos.gob.es).
+DataTrust se publica con **dos licencias, según el tipo de material**:
+
+| Material | Licencia |
+|---|---|
+| **Código fuente** — `*.py`, `*.sh`, `Dockerfile*`, `docker-compose*.yml`, `*.sql`, configuración | [GNU Affero General Public License v3.0 o posterior](LICENSE) |
+| **Documentación, memoria del TFM, informes, presentaciones y diagramas** — `*.md`, `*.docx`, `*.pptx`, `*.mmd`, `*.svg`, PDFs y figuras propias | [Creative Commons Atribución 4.0 Internacional](LICENSE-docs) |
+| **Material de terceros** — artículos citados, material docente de EOI, logotipos, datos del catálogo, pesos de modelos | La de su origen: véase [TERCEROS.md](TERCEROS.md) |
+
+La AGPL es una licencia *copyleft* reforzada: quien despliegue una versión modificada de DataTrust y la ofrezca como servicio en red debe poner su código a disposición de los usuarios de ese servicio (sección 13). Es la licencia que corresponde a un producto pensado para prestarse como servicio de datos públicos.
+
+Atribución sugerida al reutilizar la documentación:
+
+```
+DataTrust — Buscador semántico sobre el Catálogo Nacional de Datos Abiertos.
+Equipo 2, TFM del Máster en IA y Ciencia de Datos, EOI (2026).
+https://github.com/jmfontani/Datatrust-public · Licencia CC BY 4.0
+```
+
+Los datos del Catálogo Nacional de Datos Abiertos **no son del equipo**: pertenecen a sus respectivos publicadores y se rigen por la licencia de cada conjunto en [datos.gob.es](https://datos.gob.es).
 
 ---
 
